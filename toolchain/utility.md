@@ -10,6 +10,7 @@
 - Teleport Ultra
 - Snipaste
 - PotPlayer
+- Tesseract OCR识别引擎
 
 ## Windows相关
 
