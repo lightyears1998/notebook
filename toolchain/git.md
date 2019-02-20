@@ -2,7 +2,7 @@
 
 常用设定
 
-```
+```shell
 git config --global "core.ignorecase" false
 git config --global "core.autocrlf" false
 git config --global "commit.gpgsign" true
