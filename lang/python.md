@@ -74,6 +74,17 @@ a, b, c = 2, 3, "5"
 - 不能与数字直接相加
 - 与整数的乘法，如`str * 3`会复制字符串
 
+字符串内部以Unicode表示，可以通过`encode()`方法转变为`bytes`类型
+
+`bytes`类型表示的方式是`b'str'`
+
+```py
+'ABC'   # string
+b'ABC'  # bytes
+```
+
+`encode()`, `decode()` `'utf-8', 'ascii'`
+
 #### `format()`
 
 ```py
@@ -269,7 +280,7 @@ def fun(arg1, arg2):
 参数类型限定
 
 ```python
-def fun(arg: int):
+def fun(arg: int) -> None:  # 函数返回类型
     # 函数体
 ```
 
@@ -316,10 +327,13 @@ shout("spam")
 
 ### Modules 模块
 
+`import`用于引入一个指定的符号，以便该符号能在后文中使用。
+
 ```python
 import random
 from math import pi
 from math import sqrt as rt
+
 ```
 
 ## Chapter 5 异常
@@ -534,6 +548,8 @@ class Cat:
     self.color = color
     self.legs  = legs
 ```
+
+- `dir(obj)` 列举对象的属性和方法
 
 ### 构造器`__init__`
 

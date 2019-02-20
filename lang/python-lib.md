@@ -2,7 +2,9 @@
 
 - 运行模块 `python -m <module>`
 
-## Pip
+## 环境
+
+### Pip
 
 第三方包被安装在Python的`site-packages`目录下。
 
@@ -13,9 +15,22 @@ pip install [--upgrade] <package-name>
 
 ```
 
-## Virtualenv
+### Virtualenv
 
 - 在指定位置创建虚拟环境 `virtualenv "venv"` 默认启用`--no-site-packages`参数
+
+## 网页处理
+
+### 使用urllib中的request
+
+```py
+from urllib import request
+
+url = 'http://www.baidu.com'
+with request.urlopen(url) as f:
+    print(f.read())
+
+```
 
 ## tesserocr
 
