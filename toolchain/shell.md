@@ -6,9 +6,8 @@
 
 ## Powershell
 
-- `Start-Process powershell -verb runAs "<cmd>" -argumentlist "<args1> <args2>"`
+- `help <Command-Name>`
+- `Start-Process powershell -Verb RunAs "<cmd>" -argumentlist "Arg1", "Arg2"`
 
-环境变量
-
-- `ls env:`, `$env:Name`
-- `$env:name="Value"`
+- 执行权限 `Set-ExecutionPolicy [Unrestricted]`
+- 环境变量 `ls env:`, `$env:Name`, `$env:name="Value"`
