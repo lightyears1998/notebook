@@ -1,3 +1,3 @@
-# notebook
+# Notebook
 
-存放笔记的位置。
+笔记本。
