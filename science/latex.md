@@ -1,18 +1,15 @@
 # LaTeX笔记
 
+Continue <https://liam.page/2014/09/08/latex-introduction/>
+
 ## Chapter 1 概述
 
-LaTeX3正在开发中
+- 源文件后缀名`.tex`
+- LaTeX3正在开发中，LaTeX2e是LaTeX2的改进版。
 
-LaTeX2e是LaTeX2的改进版
+- Tex 排版引擎，实现断行、分页等功能的程序；同时也是引擎所使用的标记语言的名称
+- LaTex 基于Tex的排版系统，将LaTex新定义的命令翻译为Tex命令
+- XeTex or XeLatex 支持Unicode字符的引擎
 
-### 编辑器
-
-- [Share LaTeX](https://cn.sharelatex.com/) 线上编辑器
-- Visual Studio Code (LaTeX Workshop)
-- CTEX 中科院推荐，基于MikTex
-- Atom
-
-## 资源
-
-<http://en.wikibooks.org/wiki/LaTeX>
+- **发行版** Tex Live ~~CTex套装（陈旧，现阶段技术的发展已经解决了CTex简化中文处理的初衷）~~
+- **排版工具** XeLaTeX
