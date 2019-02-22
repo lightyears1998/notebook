@@ -1,3 +1,11 @@
-# notebook
+# Notebook
 
 存放笔记的位置。
+
+## Hacks
+
+1. Scan through target.
+2. Learn / Reload skills.
+3. Build.
+4. Refer to related project.
+5. Summary.
