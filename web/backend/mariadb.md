@@ -2,26 +2,20 @@
 
 ## Chapter 0 概念
 
-row, record, table, database
-
-DBMS Database Management System
-DBA
-
-redundance 冗余
-integrity 完整性
-
-Normal Formate 范式
-
-- 1NF 第一范式 每个字段的原子性
-- 2NF 第二范式 每列与主键相关，即其他字段依赖于主键
-- 3NF 第三范式 每列与主键**直接相关**
-
-SQL
-
-1. DML *Data Manipulation Language* 数据操作语言 插入、删除和修改数据库中的数据
-2. DDL *Data Definiton Language* 数据定义语言 建立数据库，定义字段等
-3. DQL *Data Query Language* 数据查询语言 查询数据等
-4. DCL *Data Control Language* 数据控制语言 控制数据库组件的存取权限等
+- row, record, table, database
+- DBMS Database Management System
+- DBA Database Administrator
+- redundance 冗余
+- integrity 完整性
+- Normal Formate 范式
+  - 1NF 第一范式 每个字段的原子性
+  - 2NF 第二范式 每列与主键相关，即其他字段依赖于主键
+  - 3NF 第三范式 每列与主键**直接相关**
+- SQL
+  1. DML *Data Manipulation Language* 数据操作语言 插入、删除和修改数据库中的数据
+  2. DDL *Data Definiton Language* 数据定义语言 建立数据库，定义字段等
+  3. DQL *Data Query Language* 数据查询语言 查询数据等
+  4. DCL *Data Control Language* 数据控制语言 控制数据库组件的存取权限等
 
 系统数据库、用户数据库
 
@@ -30,7 +24,10 @@ SQL
 - mysql
 - test..
 
-默认字符集是latin1（西欧语言），默认字符集是latin1_swedish_ci；可更改为utf8, utf8_general_ci。
+默认设定
+
+- 字符集latin1（西欧语言）
+- 比较是latin1_swedish_ci；可更改为utf8, utf8_general_ci。
 
 ### 安装
 
@@ -43,6 +40,7 @@ sudo systemctl status mariadb
 sudo systemctl enable mariadb
 sudo mysql_secure_installation
 mysqladmin -u root -p version
+
 ```
 
 ## Chapter 1 命令行指令
@@ -59,6 +57,7 @@ SET NAMES gbk;
 SET character_set_client=gbk;
 SET character_set_results=gbk;
 SET character_set_connection=gbk;
+
 ```
 
 修改默认编码 `/etc/my.cnf`
