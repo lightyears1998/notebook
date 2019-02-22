@@ -12,6 +12,15 @@
 - PotPlayer
 - Tesseract OCR识别引擎
 
+## 数据源
+
+### AI生成
+
+- [MakeGirlsMoe](https://make.girls.moe/)
+
+- [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/)
+- [ThisCatDoesNotExist](https://thiscatdoesnotexist.com/)
+
 ## Windows相关
 
 - NSSM - the Non-Sucking Service Manager
