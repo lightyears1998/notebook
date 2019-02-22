@@ -465,9 +465,7 @@ m_button.SetFont(this->GetFont());
 
 应用程序只能有一个主框架窗口；对于多文档程序，文档窗口是主框架窗口的子窗口。
 
-#### 窗口样式
-
-以`WS_`开头定义的常量
+以`WS_`开头定义的常量为**窗口样式**常量。
 
 ### Section 2 文档和文档模板
 
@@ -481,8 +479,6 @@ pDocTemplate = new CSingleDocTemplate(
     RUNTIME_CLASS(CMainFrame),       // 主框架窗口类
     RUNTIME_CLASS(CMyView));         // 试图类
 ```
-
-### 文档序列化 CArchieve类
 
 ### Section 3 视图
 
@@ -522,9 +518,3 @@ MFC中的CDC类对绘图设备环境进行封装，提供画点、线、多边�
 ### Section 2 文本
 
 ### Section 3 打印
-
-### 处理键盘输入
-
-基于对话框的工程默认不能处理键盘输入
-
-<https://blog.csdn.net/wwkaven/article/details/39935915>

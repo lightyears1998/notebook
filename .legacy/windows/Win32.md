@@ -163,21 +163,21 @@ The terminology for this distinction can be confusing:
 
 ### winuser.h
 
-#### LoadIcon
+#### `LoadIcon`
 
 `LoadIcon(HINSTANCE hInstance, LPCSTR lpIconName)`
 
 - *hInstance* 加载标准图标时必须为`NULl`
 - *lpIconName* 图标名称
 
-### LoadCursor
+#### `LoadCursor`
 
 `LoadCurcosr(HINSTANCE hInstance, LPSTR lpCursorName)`
 
 - *hInstance* 加载标准Cursor时需要为空
 - *lpCursorName* Cursor名称
 
-### GetMessage
+#### `GetMessage`
 
 从当前Thread线程的消息队列中获取一个消息
 
@@ -189,11 +189,11 @@ while (GetMessage(&msg, NULL, 0, 0)) {
 return msg.wParam;
 ```
 
-### `GetSystemMetrics()`
+#### `GetSystemMetrics()`
 
 获取系统设定相关数值
 
-### [MessageBox](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-messagebox)
+#### [`MessageBox()`](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-messagebox)
 
 `MessageBox(HWND hParent, LPCSTR lpText, LPCSTR lpCaption, UINT uType)`
 

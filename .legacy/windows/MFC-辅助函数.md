@@ -20,3 +20,7 @@
 窗口相关
 
 - `ScreenToClient(&pt)` 窗口坐标到客户区域坐标的转变
+
+基于对话框的程序
+
+- 处理键盘输入<https://blog.csdn.net/wwkaven/article/details/39935915>
