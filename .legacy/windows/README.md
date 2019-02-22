@@ -7,4 +7,4 @@
 ## [Windows桌面编程概述](https://docs.microsoft.com/zh-cn/windows/desktop/choose-your-technology)
 
 - .NET / XAML
-- [C++ and Win32]((https://docs.microsoft.com/zh-cn/cpp/windows/overview-of-windows-programming-in-cpp))
+- [C++ and Win32](https://docs.microsoft.com/zh-cn/cpp/windows/overview-of-windows-programming-in-cpp)
