@@ -23,6 +23,8 @@ pip install [--upgrade] <package-name>
 
 ### 使用urllib中的request
 
+- [Python Docs](https://docs.python.org/3/library/urllib.html)
+
 ```py
 from urllib import request
 

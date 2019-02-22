@@ -94,6 +94,10 @@ msg = "Numbers: {0}, {1}, {2}".format(nums[0], nums[1], nums[2])
 msg = "({x}, {y})".format(x=5, y=2)
 ```
 
+#### 转换
+
+`float()`, `int()`
+
 #### 字符串工具函数
 
 - `分隔符.join([字符串列表])` 形如PHP中的`implode()`，利用分割符合并字符串
@@ -216,6 +220,16 @@ ages.get("Hurry", 34)      # 返回34
 ```
 
 只有不变的（immutable）对象才能作为Dictionary的键，否则抛出KeyError。
+
+```py
+d: dict = {}
+
+# 添加键值
+d[k1] = v1
+d.update({k2: v2})
+
+# d == { k1: v1, k2: v2 }
+```
 
 ## Chapter 3 控制语句
 
@@ -698,8 +712,8 @@ pattern = r'regular_expression'
 
 基本工具
 
-1. `re.match(pattern, string)` 从开始匹配字符串，返回可供操作的对象
-2. `re.serach(pattern, string)` 从任意位置开始匹配字符串
+1. `re.match(pattern, string)` 从字符串的开始尝试匹配模式，成功时返回`match`对象
+2. `re.serach(pattern, string)` 扫描整个字符串，并返回第一个成功的匹配
 3. `re.findall(pattern, string)` 返回所有匹配的子串
 
 match示例
