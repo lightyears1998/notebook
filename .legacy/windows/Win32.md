@@ -30,14 +30,14 @@
 
 ### HANDLE句柄
 
-- *INVALID_HANDLE_VALUE*
-- `GetStdHandle()` `STD_INPUT_HANDLE`, `STD_OUTPUT_HANDLE`
-
-### WINAPI
-
-__stdcall参数的传递顺序，从右到左压入堆栈，并且在函数返回前清空堆栈
+- `GetStdHandle()`, `STD_INPUT_HANDLE`, `STD_OUTPUT_HANDLE`
+- `INVALID_HANDLE_VALUE`
 
 **HWND**形似指针，但不是指针
+
+### WINAPI宏
+
+`__stdcall`参数的传递顺序，从右到左压入堆栈，并且在函数返回前清空堆栈
 
 ## Chapter 2 基本概念
 
@@ -48,9 +48,11 @@ __stdcall参数的传递顺序，从右到左压入堆栈，并且在函数返�
 - 具有绘制自己的方法
 - 能够处理来自用户或操作系统的输入
 
+桌面是一个窗口，一个按钮也是一个窗口。
+
 ### 应用程序入口WinMain
 
-签名如下
+WinMain
 
 ```cpp
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, int nCmdShow);
@@ -66,18 +68,18 @@ int WINAPI wWimMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
 若出现未加载符号的提示，在调试选项中选择加载符号即可。
 
-- *hInstance* 指向实例的指针，操作系统用此区分加载到内存中的应用程序
-- *hPrevInstance* 无意义，总是0；源自16位Windows操作系统
-- *pCmdLine* 命令行参数
-- *nCmdShow* 最小化、最大化或正常显示
+- *hInstance* 指向实例的指针，操作系统用此区分加载到内存中的应用程序。
+- *hPrevInstance* 无意义，总是0；源自16位Windows操作系统。
+- *pCmdLine* 命令行参数。
+- *nCmdShow* 最小化、最大化或正常显示。
 
-操作系统不会使用WinMain的返回值
+操作系统不会使用WinMain的返回值。
 
 ### 窗口类WNDCLASS
 
-每个窗口都需要与一个窗口类相关联；窗口类并非C++中的“类”，而是操作系统使用的一种数据结构
+每个窗口都需要与一个窗口类相关联；窗口类并非C++中的“类”，而是操作系统使用的一种数据结构。
 
-可以将窗口类的多数字段留空以保持默认选项，但必须填写3个字段
+可以将窗口类的多数字段留空以保持默认选项，但必须填写3个字段。
 
 1. `lpfnWndProc` 窗口过程函数
 2. `hInstance` 应用程序实例句柄
@@ -121,23 +123,23 @@ The terminology for this distinction can be confusing:
 
 ### 绘制窗口
 
-`WM_PAINT`消息通知窗口更新区域
+`WM_PAINT`消息通知窗口更新区域。
 
-使用`BeginPaint(hwnd, &ps)`填充PAINTSTRUCT并获得hdc句柄，使用`EndPaint()`结束绘制
+使用`BeginPaint(hwnd, &ps)`填充PAINTSTRUCT并获得hdc句柄，使用`EndPaint()`结束绘制。
 
 ### 关闭窗口
 
-接受到`WM_CLOSE`消息后可以选择提示用户是否真的关闭窗口，如果窗口过程返回0，操作系统不会关闭窗口
+接受到`WM_CLOSE`消息后可以选择提示用户是否真的关闭窗口，如果窗口过程返回0，操作系统不会关闭窗口。
 
-使用`DestroyWindow()`来关闭窗口
+使用`DestroyWindow()`来关闭窗口。
 
-`WM_DESTROY`在窗口被销毁之后，其他析构开始（如，子窗口的销毁）之前调用，此时通常选择`PostQuitMessage()`来退出消息循环
+`WM_DESTROY`在窗口被销毁之后，其他析构开始（如，子窗口的销毁）之前调用，此时通常选择`PostQuitMessage()`来退出消息循环。
 
 ### 应用程序状态
 
 `WM_NCCREATE`以及`WM_CREATE`在窗口创建之前调用，可用于初始化UI。
 
-具体参考　<https://docs.microsoft.com/en-us/windows/desktop/learnwin32/managing-application-state->
+具体参考 <https://docs.microsoft.com/en-us/windows/desktop/learnwin32/managing-application-state->
 
 ## Chapter 3 创建窗口的基本过程
 
@@ -148,11 +150,11 @@ The terminology for this distinction can be confusing:
 5. 取出消息 翻译消息 分发消息
 6. 销毁窗口
 
-## Chpater X 重要API
+## Chpater 4 以头文件分类的重要API
 
 ### windows.h
 
-同时引入了
+引入此文件即可引入
 
 - `windef.h` 基本类型定义
 - `winbase.h` 内核函数
