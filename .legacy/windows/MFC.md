@@ -1,14 +1,25 @@
 # Micrsoft Foundation Class
 
+API
+
+<https://docs.microsoft.com/zh-cn/cpp/mfc/reference/mfc-classes>
+
+手册
+
+- [Microsft基础类：MFC和ATL](https://docs.microsoft.com/zh-cn/cpp/mfc/mfc-and-atl)
+- [创建MFC应用程序的一般工作流程](https://docs.microsoft.com/zh-cn/cpp/mfc/sequence-of-operations-for-building-mfc-applications)
+
+指南
+
+- [黑马程序员MFC教程](https://www.bilibili.com/video/av20005978/)
+
+## Chapter 1 相关基本概念
+
 采用C++编写，对Win32和COM API提供面向对象的包装器，早期名称Application Frameworks(AFX)。
 
 MFC头文件`\atlmfc\include`，实现文件`\atlmfc\mfc\src`，根目录类似于`C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726`
 
 MFC不适用于Windows RT（以Win8为代表的Metro UI）
-
-源文件的后缀名为`cpp`
-
-## Chapter 1 相关基本概念
 
 - *Win32* includes *Win95* and *WinNT*
 - *WinRT*
@@ -70,7 +81,7 @@ MFC库会根据设置[自动链接](https://docs.microsoft.com/zh-cn/cpp/mfc/mfc
 
 关于多线程的[一点注释](https://docs.microsoft.com/zh-cn/cpp/mfc/initinstance-member-function)
 
-## 特殊的CWinApp服务
+### 特殊的CWinApp服务
 
 - 注册文件关联
 - GDI+
@@ -116,18 +127,23 @@ MFC库会根据设置[自动链接](https://docs.microsoft.com/zh-cn/cpp/mfc/mfc
 ### 消息映射
 
 1. 在处理该消息的类中使用消息宏`DECLARE_MESSAGE_MAP`声明对消息映射的支持，并在该宏之前声明消息处理函数
+
     ```cpp
     protected:
         afx_msg void OnPaint();
         DECALARE_MESSAGE_MAP()
     ```
+
 2. 使用`BEGIN_MESSAGE_MAP`和`END_MESSAGE_MAP`在类声明之后的地方定义该类支持的消息映射入口点。其中`BEGIN_MESSAGE_MAP`的第一个参数用于指定支持消息映射的用户派生类，第二个参数指定派生类的基类。
+
     ```cpp
     BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
         ON_WM_PAINT()
     END_MESSAGE_MAP()
     ```
+
 3. 声明函数原型和定义消息处理函数
+
     ```cpp
     // 省略函数原型声明
     void CMainFrame::OnPaint()
@@ -233,9 +249,11 @@ public:
 方法
 
 - CWnd.`GetDlgItem(nId)` 通过控件id获取控件的类对象指针
+
     ```mfc
     CButton * pBtn = (CButton *) GetDlgItem(IDC_BUTTON1);
     ```
+
 - `GetWindowsText(nId)`
 - `EnableWindow(BOOL)` 是否启用窗口
 - `Invalidate()` 使窗口无效，系统将重绘窗口
@@ -505,81 +523,8 @@ MFC中的CDC类对绘图设备环境进行封装，提供画点、线、多边�
 
 ### Section 3 打印
 
-## 常用工具类
-
-### 一般辨识
-
-- Visual Studio 类视图
-- 以`Ex`是拓展函数
-- 以`AFX`开头的是全局函数；一个例子是`MessageBox()`是CWnd的方法，而`AfxMessageBox()`
-
-### 宏
-
-- `HIBYTE()`, `LOBYTE()` 16位数值中的高位和低位
-- `TEXT()` UNICODE字符支持
-- `MAKEWORD()` 将两个16数值合成32位数值
-
-TCHAR 自适应编码转换字符
-
-wchar_t配套方法`wcslen()`
-
-### 工具类
-
-#### CString
-
-有`CStringA`的变体
-
-方法
-
-- `CString(char *)` 由`char *`构造对象
-- `Format()` 与printf()类似的格式化字符串的方法；由字符串转换成数值可以使用`atoi()`
-- `GetBuffer()` 返回`char *`，此方法作为`std::string`与`CString`转换的桥梁
-
-#### CPoint, CSize, CRect
-
-#### CPaintDC
-
-#### CFile
-
-有`CStdioFile`的子类支持文件输出
-
-创建文件的模式 `CFile::modeXXX`
-
-使用`Write()`正确地输出`CString`的方法 `Write(str.GetBuffer(), sizeof(TCHAR) * str.GetLength());`
-
-#### CStdioFile
-
-本质上是对C的函数`fopen()`对应结构的封装，封装了`WriteString()`和`ReadString()`方法，注意两个版本的`ReadString()`对换行符的不同处理；
-
-#### CImageList
-
-1. 创建图片集合
-
-```cpp
-CImageList list;
-list.Create(...);  // 创建（开辟空间）
-list.Add(...);  // 添加具体的图像，可以是HICON
-```
-
 ### 处理键盘输入
 
 基于对话框的工程默认不能处理键盘输入
 
-参考
-
-- <https://blog.csdn.net/wwkaven/article/details/39935915>
-
-## 参考资料
-
-### API索引
-
-<https://docs.microsoft.com/zh-cn/cpp/mfc/reference/mfc-classes>
-
-### 手册
-
-- [Microsft基础类：MFC和ATL](https://docs.microsoft.com/zh-cn/cpp/mfc/mfc-and-atl)
-- [创建MFC应用程序的一般工作流程](https://docs.microsoft.com/zh-cn/cpp/mfc/sequence-of-operations-for-building-mfc-applications)
-
-## 指南
-
-- [黑马程序员MFC教程](https://www.bilibili.com/video/av20005978/)
+<https://blog.csdn.net/wwkaven/article/details/39935915>
