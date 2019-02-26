@@ -726,6 +726,8 @@ pp = &p;    // 不允许
 
 `double * ptr =  (double *)calloc(n, sizeof(double));` 返回值与 *malloc()* 相似。
 
+`realloc(ptr, n * sizeof(double))` 可用于重新分配内存空间，ptr指向的空间需由`malloc`或`calloc`或者`realloc`分配，且不需要**也不能**调用`free`
+
 ### 类型限定词
 
 #### volatile
