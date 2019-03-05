@@ -7,3 +7,4 @@
 - FireFtp
 - Lastpass
 - SQLite Manager
+- **VisBug** 样式实时预览开发工具
