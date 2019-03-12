@@ -1,20 +1,22 @@
 # Groovy笔记
 
+Apache基金会下Java平台的脚本语言。
+
 ## 基础语法
 
 - 分号可以省略
 - 括号在不产生歧义时可以省略
+- Groovy没有Java中的`Primitive type`，所有原始类型都使用对应包装类
 
-Groovy没有Primitive type，所有类都使用包装类
-
-Groovy自动引入如下包：
+默认可用的包和类型
 
 1. java.lang, java.util, java.io, java.net
 2. groovy.lang, groovy.util
-
-java.math.BigInteger和Java.math.BigDecimal在没有引入语句时也可使用
+3. java.math.BigInteger, Java.math.BigDecimal
 
 ## 基本数据类型
+
+原始类型全部使用对应包装器
 
 ```groovy
 assert 3.class == Integer
@@ -94,9 +96,6 @@ assert doubles = [2, 4, 6, 8, 10]
 
 ## POGOs
 
-只包含属性和getters，setters的类：Plain Old Java Objects(POJOs)
-类似的，Groovy中称为Plain Old Groovy Objects
-
 ```groovy
 import groovy.transform.Canonical
 
@@ -137,6 +136,8 @@ assert e1.toString() = ...
 assert e1 == e2
 ```
 
-## 源
+---
 
-- 电子工业出版社 2017 《巧用Gradle构建Android应用 Gradle Receipe for Android》 Ken Kousen，李建 简单地介绍了必要的groovy知识
+## 安装
+
+在Windows平台上访问[官网下载](https://groovy.apache.org/download.html)页面。
