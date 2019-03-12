@@ -16,3 +16,4 @@
 
 1. Hot
 2. Neat
+3. Universal first, plaform specific later
