@@ -2,10 +2,7 @@
 
 ## Assets
 
-AssetsManager `getAssets()`
-
-- `list()`
-- `oepn()`
+详见resource-management.md中的Assets一节。
 
 ## SharedPreferences
 

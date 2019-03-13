@@ -11,14 +11,6 @@ HTTP1.1 持久性连接 8个请求方法
 - TRACE 回显服务器收到的请求，用于测试或诊断
 - CONNECT 预留给能将连接该为管道方式的代理服务器
 
-## 响应状态
-
-1. 1xx 指示信息
-2. 2xx 成功信息
-3. 3xx 重定向信息
-4. 4xx 客户端错误
-5. 5xx 服务器端错误
-
 ## HttpClient
 
 Apache提供的HttpClient，Android 6.0中[取消支持](https://developer.android.com/about/versions/marshmallow/android-6.0-changes?hl=zh-cn#behavior-apache-http-client)。
