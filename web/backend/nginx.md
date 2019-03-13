@@ -16,6 +16,24 @@ location ~ \.php$ {
 }
 ```
 
+## 反向代理
+
+```conf
+server {
+    servername host.name;
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+}
+```
+
+---
+
+## Windows
+
+- 可以使用`winsw`或者`nssm`将`nginx.exe`包装成服务
+
 Windows上的路径使用正斜杠为宜
 
 ```conf
@@ -24,7 +42,3 @@ location / {
     index  index.html index.htm index.php;
 }
 ```
-
-### Windows配置
-
-- 可以使用`winsw`或者`nssm`将`nginx.exe`包装成服务

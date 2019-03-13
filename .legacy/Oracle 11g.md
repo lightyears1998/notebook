@@ -1,6 +1,6 @@
 # Oracle 11g
 
-- **发行年份** 2007
+- **[发行时间](https://en.wikipedia.org/wiki/Oracle_Database#Releases_and_versions)** 2007-2013
 - [下载地址](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/112010-win64soft-094461.html)
 - 典型安装目录 `C:\\app\\username\\product\\11.2.0\\dbhome_1`
 

@@ -16,4 +16,4 @@
 
 1. Hot
 2. Neat
-3. Universal first, plaform specific later, links last
+3. Universal first, plaform specific later (eg. installation), links last, separated by `---`

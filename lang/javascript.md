@@ -825,19 +825,19 @@ obj instanceof Number;  // true
 
 1. 遍历对象自身的属性（而不是继承的属性），可枚举属性`Object.keys()`，还包括不可枚举属性的`Object.getOwnPropertyNames()`
 2. 对象属性模型相关方法
-  1. `Object.getOwnPropertyDescriptor()` 获取某个属性的描述对象
-  2. `Object.defineProperty()` 通过描述对象定义属性
-  3. `Object.defineProperties()` 通过描述对象定义多个属性
+    1. `Object.getOwnPropertyDescriptor()` 获取某个属性的描述对象
+    2. `Object.defineProperty()` 通过描述对象定义属性
+    3. `Object.defineProperties()` 通过描述对象定义多个属性
 3. 控制对象状态的方法
-  1. `Object.preventExtensions()` 防止对象被拓展
-  2. `Object.isExtensible()` 判断对象是否可拓展
-  3. `Object.seal()` 禁止对象配置
-  4. `Object.isSealed()` 判断对象是否可配置
-  5. `Object.freeze()` 冻结对象
-  6. `Object.isFrozen()` 判断对象是否被冻结
+    1. `Object.preventExtensions()` 防止对象被拓展
+    2. `Object.isExtensible()` 判断对象是否可拓展
+    3. `Object.seal()` 禁止对象配置
+    4. `Object.isSealed()` 判断对象是否可配置
+    5. `Object.freeze()` 冻结对象
+    6. `Object.isFrozen()` 判断对象是否被冻结
 4. 原型链相关方法
-  1. `Object.create()` 可以指定原型对象和属性，返回新的对象
-  2. `Object.getPrototypeOf()` 获取对象的prototype对象
+   1. `Object.create()` 可以指定原型对象和属性，返回新的对象
+   2. `Object.getPrototypeOf()` 获取对象的prototype对象
 
 #### Object的实例方法
 
@@ -891,7 +891,7 @@ var o = Object.defineProperty({}, 'p', {
 
 `Array`既是原生对象，又是构造函数。
 
-#### 构造函数
+### Array的构造函数
 
 不同参数时行为不同。
 
@@ -911,7 +911,7 @@ typeof arr;  // object
 Array.isArray();
 ```
 
-#### 实例方法
+#### Array的实例方法
 
 1. `valueOf()`, `toString()` `valueOf()`返回数组本身，`toString()`返回数组的字符串形式。
 2. `push()`, `pop()` 添加或弹出数组中的最后一个元素；对空数组使用`pop()`将不报错而返回`undefined`
@@ -931,8 +931,9 @@ Array.isArray();
     });  // [3, 2, 1]
 
     ```
+
 10. `map()` 将数组的每一个成员依次传入参数函数，并将执行的结果合并成一个数组返回。`forEach()`类似于`map()`但是不获取返回值，仅仅用于操纵数据。这两种方法都会跳过数组中的空位，但不会跳过`undefined`和`null`。
-    
+
     ```js
     var out = [];
 
@@ -949,6 +950,7 @@ Array.isArray();
     }, /* 可绑定函数中的this变量 */)
 
     ```
+
 12. `some()`, `every()` 对数组中的每个元素执行函数，若某些/每个元素的执行结果为`true`，则返回`true`。
 13. `reduce()`, `reduceRight()` 对数组中的每个元素执行函数，`reduceRight()`从右往左执行，函数接受四个参数
 
@@ -1052,14 +1054,14 @@ var reg2 = new RegExp('reg', 'igm');  // 对象形式
 
 ```
 
-#### 实例属性
+#### RegExp的实例属性
 
 1. 只读
     - 与修饰符相关的`RegExp.prototype.ignoreCase`, `global`, `multiline`。
     - 返回正则表达式的字符串形式 `RegExp.prototype.source`。
 2. 可写 下一次搜索时开始的位置，`RegExp.prototype.lastIndex`，只在进行连续搜索时有意义。
 
-#### 实例方法
+#### RegExp的实例方法
 
 1. `test` 当前模式是否能匹配参数字符串。
 2. `exec` 返回匹配字符串。

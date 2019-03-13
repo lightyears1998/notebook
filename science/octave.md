@@ -129,6 +129,8 @@ plot(t, nw, '+', 'MarkerSize', 12);
 plot([25:1:55], fun(P, [25:1:55]), 'LineWidth', 5);
 ```
 
+---
+
 ## 资源
 
 ### 教程

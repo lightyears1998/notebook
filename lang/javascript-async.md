@@ -59,3 +59,23 @@ functionHasReturned = true;
 ### 用回调储存取缔异步递归
 
 避免使用“异步递归”
+
+## Promise技术
+
+```js
+const promise = new Promise((resolve, reject) => {
+  // 业务逻辑
+
+  if (/* 异步操作成功 */) {
+    resolve(value);
+  } else {
+    reject(error);
+  }
+});
+```
+
+resolve使Promise状态变为resolved。
+
+promise.then(resolvedCallback, rejectedCallback);
+
+resolvedCallback和rejectedCallback接受Promise对象传出的值作为参数。

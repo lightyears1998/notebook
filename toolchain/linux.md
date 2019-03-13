@@ -86,6 +86,14 @@
 - `date`
 - `bc`
 
+后台运行命令
+
+- `Ctrl + Z`
+- `(cmd &)`
+- `bg [%jobnumber]`
+- `fg [%jobnumber]`
+- `nohup`
+
 #### Manual
 
 - `man -f command` `whatis command` 列出command的手册
