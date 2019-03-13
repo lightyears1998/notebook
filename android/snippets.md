@@ -1,10 +1,8 @@
 # Snippets 代码片段
 
+一般
+
 - `System.out.println()` 在Logcat中的级别为`Info`，tag为`System.out`
-
-- `getResources().getAssets().open({"filename"});`
-
-- Color.RED
 
 ## 异步装载器Loader
 
