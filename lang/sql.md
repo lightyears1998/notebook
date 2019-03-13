@@ -1,3 +1,3 @@
 # Structured Query Language
 
-[](/web/backend/mariadb.md)
+[参阅](/web/backend/mariadb.md)

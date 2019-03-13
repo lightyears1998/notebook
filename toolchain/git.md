@@ -1,5 +1,7 @@
 # Git
 
+在Windows环境下可与Kleopatra配合使用。
+
 常用设定
 
 ```shell

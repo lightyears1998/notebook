@@ -2,7 +2,7 @@
 
 - 运行模块 `python -m <module>`
 
-## 环境
+## 环境相关
 
 ### Pip
 
@@ -19,7 +19,7 @@ pip install [--upgrade] <package-name>
 
 - 在指定位置创建虚拟环境 `virtualenv "venv"` 默认启用`--no-site-packages`参数
 
-## 网页处理
+## 网页处理相关
 
 ### 使用urllib中的request
 
@@ -34,7 +34,7 @@ with request.urlopen(url) as f:
 
 ```
 
-## tesserocr
+## 字符识别相关 Tesserocr
 
 OCR识别引擎Tesseract的Python接口
 

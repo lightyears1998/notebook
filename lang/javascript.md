@@ -1,11 +1,5 @@
 # JavaScript笔记
 
-## 链接
-
-- [ECMAScript文档](https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
-- [Mozilla JavaSript参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Wangdoc.com](https://wangdoc.com/javascript/)
-
 ## Chapter 0 概述
 
 ECMAScript是JavaSrcipt的语言标准，JavaSript是ECMAScript的一种实现。
@@ -1138,3 +1132,9 @@ ctx = canvas.getContext('2d');
 ### URLSearchParams
 
 构造、解析和处理URL的查询字符串。
+
+---
+
+- [ECMAScript文档](https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
+- [Mozilla JavaSript参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Wangdoc.com](https://wangdoc.com/javascript/)

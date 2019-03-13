@@ -3,6 +3,7 @@
 ## 浏览器扩展
 
 - Adblock Plus
+- Omega Switchy
 - Anki助手
 - FireFtp
 - Lastpass

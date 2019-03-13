@@ -2,8 +2,6 @@
 
 ## Chpater 0 概述
 
-> 从减少程序开发人员的工作上来说，Python似乎做到了这一点。
-
 某种程度上可视为改良的LISP。
 
 ## Chapter 1 基本概念
@@ -897,6 +895,8 @@ UTC时间 2018-10-15 11:37:59.348705
 - SciPy 拓展Numpy
 - Panda3D / pygame 3D/2D游戏开发
 
-## 链接
+---
+
+入门教程
 
 - SoloLearn Python <https://www.sololearn.com/Play/Python>

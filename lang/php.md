@@ -679,7 +679,3 @@ while ($row = $result->fetch_row())
 CRUD：Create, retrieve, update, delete
 
 ## Chapter 15 Composer 项目依赖管理
-
-## 源
-
-- 清华大学出版社 2017 《PHP+MySQL网站开发从零开始学》 樊爱宛，黄凯 如果熟悉C语言学习PHP会很方便，很喜欢这本书的风格
