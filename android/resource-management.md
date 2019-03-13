@@ -25,6 +25,8 @@
 
 - `getResources().getAssets().open({"filename"});`
 
+AssetsManager引用项目内的Asset，路径不需要以`/`开头。
+
 ## 字符串
 
 支持替代值 `getString(int, Object...)`或其他格式化语句

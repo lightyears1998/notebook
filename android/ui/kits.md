@@ -1,8 +1,4 @@
-# UI Kits UI工具
-
-## AssetManager
-
-路径不需要以"/"开头
+# UI Kits 用户交互工具
 
 ## Toast
 

@@ -1,10 +1,8 @@
 # Adapter笔记
 
-适配器，适配器控件与数据之间的桥梁
+适配器，适配器控件与数据之间的桥梁。
 
-MVC：Model（数据源）， View（视图）， Control（适配器）
-
-## 常见Adapter
+## 常用Adapter
 
 ### ArrayAdapter
 
