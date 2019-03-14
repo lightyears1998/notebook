@@ -4,6 +4,8 @@
 
 ## Hacks
 
+Always be ready for a hack.
+
 1. Scan through target.
 2. Learn / Reload skills.
 3. Conquer.
