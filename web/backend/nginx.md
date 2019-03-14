@@ -32,9 +32,11 @@ server {
 
 ## Windows
 
-- 可以使用`winsw`或者`nssm`将`nginx.exe`包装成服务
+- 访问官网获取预编译的可执行文件。
+- 可以使用`winsw`或者`nssm`将`nginx.exe`包装成服务。
+- 需要注意在高级安全Windows防火墙中允许`nginx.exe`的通信。
 
-Windows上的路径使用正斜杠为宜
+Windows上的路径使用正斜杠为宜。
 
 ```conf
 location / {
