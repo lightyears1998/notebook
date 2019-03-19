@@ -799,4 +799,4 @@ stdin, stdout, stderr
 
 ---
 
-- [Cppreference](http://en.cppreference.com/w/)
+- [CPP Reference](http://en.cppreference.com/w/)
