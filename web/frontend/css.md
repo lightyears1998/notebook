@@ -197,3 +197,21 @@ margin, boarder, padding
 1. `repeat(5, 20%)`展开为`20% 20% 20% 20% 20%`
 
 这个参数顺序挺满足英语简单部分前置的风格的。
+
+## Flex布局
+
+```raw
++----------------------------> 主轴方向 flex-flow
+|       justify-content 主轴上元素的留白策略
+|
+|
+|       align-content 单行无效，
+|                     多个伸缩行之间的留白策略
+|
+|
+|  align-items
+|  交叉轴上元素的留白策略
+|
+v
+交叉轴方向 flex-wrap
+```
