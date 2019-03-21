@@ -92,10 +92,24 @@ type Vertex struct {
 ## 函数
 
 ```go
-
+func add(x int, y int) int {
+    return x + y
+}
 ```
 
 函数的返回值可被命名。无参的`return`将返回已命名的返回值。
+
+```go
+func split(sum int) (x, y int) {
+	x = sum * 4 / 9
+	y = sum - x
+	return
+}
+
+func main() {
+	fmt.Println(split(17))  // 7 10
+}
+```
 
 ---
 
