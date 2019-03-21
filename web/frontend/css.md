@@ -113,6 +113,10 @@ selector {
 - 可移植网络图形格式 PNG 数百外色 透明 无动画 无损 交错
 - webp
 
+## 中文字体
+
+使用[Font.css](https://github.com/zenozeng/fonts.css)。
+
 ## 盒 border
 
 - border-width
