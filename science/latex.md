@@ -54,4 +54,4 @@ Hello, world~
 
 ## 安装
 
-在Windows上使用Tex Live。
+在Windows上使用Tex Live，使用XeLaTex进行编译。
