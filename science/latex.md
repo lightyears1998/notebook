@@ -13,3 +13,9 @@ Continue <https://liam.page/2014/09/08/latex-introduction/>
 
 - **发行版** Tex Live ~~CTex套装（陈旧，现阶段技术的发展已经解决了CTex简化中文处理的初衷）~~
 - **排版工具** XeLaTeX
+
+---
+
+## 安装
+
+在Windows上使用Tex Live。
