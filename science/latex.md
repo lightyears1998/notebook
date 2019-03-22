@@ -21,6 +21,34 @@ Tex
 - **宏集** CTex宏集，集成诸多中文排版工具的宏包集合
 - **排版工具** XeLaTeX
 
+## Chapger 2 一般结构
+
+```latex
+\documentclass{article}
+% 这里是导言区
+\begin{document}
+Hello, world~
+\end{document}
+```
+
+使用CTex宏包以支持中英混排。
+
+```latex
+\documentclass[UTF8]{ctexart}
+\title{你好，世界}
+\author{lightyears1998}
+\date{\today}
+\begin{document}
+\maketitle
+这是我的第一篇LaTex。
+\end{document}
+```
+
+### 文章结构
+
+- 目录 `\tableofcontents`
+- `\section{TEXT}`, `\subsection{TEXT}`, `\subsubsection{TEXT}`
+- `\paragraph{TEXT}`, `\subparagraph{TEXT}`
 
 ---
 
