@@ -12,3 +12,9 @@
 
 - [索引页面](https://www.oracle.com/technetwork/cn/database/features/oci/index-090820-zhs.html)
 - [程序员指南](https://docs.oracle.com/cd/B28359_01/appdev.111/b28390/toc.htm)
+
+## 局域网网络连接
+
+使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
+
+目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
