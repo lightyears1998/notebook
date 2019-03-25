@@ -2,8 +2,8 @@
 
 ## 基本知识
 
-- Android应用运行在自己的安全沙箱内。（每个应用是操作系统的不同用户，每个应用在其自己的Linux进程内运行，每个进程具有自己的虚拟机）*最小权限原则*
-- 默认情况下，同一个应用程序的所有应用程序组件都运行在相同的进程和线程中。
+- *最小权限原则* Android应用运行在自己的安全沙箱内。（每个应用是操作系统的不同用户，每个应用在其自己的Linux进程内运行，每个进程具有自己的虚拟机
+- *进程资源共享* 默认情况下，同一个应用程序的所有应用程序组件都运行在相同的进程和线程中。
 
 ### 体系结构
 
@@ -28,6 +28,8 @@
 
 ## 应用程序清单 AndroidManifest.xml
 
+以下XML清单使用`android`命名空间。
+
 ```xml
 <manifest package="com.example.app">
     <uses-permission />
@@ -48,10 +50,10 @@
 </manifest>
 ```
 
-常用权限
+### 权限申请
 
-- 网络 `<uses-permission android:name="android.permission.INTERNET" />`
-- 储存 `<uses-permission android:name="android.permssion.MOUNT_UNMOUNT_FILESYSTEMS" />`, `<uses-permission android:name="android.permssion.READ_EXTERNAL_STORAGE" />`, `<uses-permission android:name="android.permssion.WRITE_EXTERNAL_STORAGE" />`
+- 网络 `<uses-permission name="android.permission.INTERNET" />`
+- 储存 `<uses-permission name="android.permssion.MOUNT_UNMOUNT_FILESYSTEMS" />`, `<uses-permission name="android.permssion.READ_EXTERNAL_STORAGE" />`, `<uses-permission name="android.permssion.WRITE_EXTERNAL_STORAGE" />`
 
 ---
 

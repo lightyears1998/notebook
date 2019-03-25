@@ -8,8 +8,8 @@
 
 ## 资源组织
 
-- *文字* strings.xml `getResources().getText(R.string.name);` `android:text:@string/hello_world`
-- *图片* drawable/ `R.drawable.icon` `android:background:@drawable/icon`
+- *文字* strings.xml `getResources().getText(R.string.name);` `android:text="@string/hello_world"`
+- *图片* drawable/ `R.drawable.icon` `android:background="@drawable/icon"`
 - *颜色* colors.xml `getResources().getColor(R.color.red);`
 - *布局* `R.layout.main`
 - *边距* dimens.xml
@@ -18,8 +18,8 @@
 
 ## 度量单位
 
-1. dp, Divice independent pixel，基于MDPI，一个dp即一个MDPI屏幕上的一个像素
-2. sp，字体尺寸
+1. dp Divice independent pixel，基于MDPI，一个dp即一个MDPI屏幕上的一个像素
+2. sp 字体尺寸
 
 ## Assets
 
