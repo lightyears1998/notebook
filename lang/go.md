@@ -101,13 +101,13 @@ func add(x int, y int) int {
 
 ```go
 func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
+    x = sum * 4 / 9
+    y = sum - x
+    return
 }
 
 func main() {
-	fmt.Println(split(17))  // 7 10
+    fmt.Println(split(17))  // 7 10
 }
 ```
 
@@ -121,4 +121,8 @@ func main() {
 
 ## 安装
 
-待安装
+## 包管理
+
+```sh
+go get <url>  # 远程包导入
+```
