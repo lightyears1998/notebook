@@ -91,6 +91,9 @@ int kmp(string str, string tmp)
         if (j == 0 || str[i] == str[j]) { ++i, ++j; }
         else j = next[j];
     }
+    if (j > tmp[0]) { // 匹配成功
+        return i - tmp[0];
+    }
     return 0;
 }
 
