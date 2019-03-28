@@ -53,7 +53,12 @@
 1. 链式表示 链队列
 2. 顺序表示 循环队列
 
-### 实际问题
+栈
+
+1. 顺序栈
+2. 链栈
+
+### 典型问题
 
 1. 带优先级的括号匹配
 2. 背包问题
@@ -61,3 +66,62 @@
     1. 后缀表达式
     2. 前缀表达式
     3. 中缀表达式
+
+## Chapter 3 串
+
+空串`"\0"`、空格串`" "`。
+
+定长顺序储存表示（下标0储存字符串长度）、堆分配储存表示（结构体字段储存字符串长度）和块链储存表示（类似链表）。
+
+### 模式匹配算法
+
+1. 朴素的暴风算法 Brute-Force
+2. KMP算法
+
+关键：寻找最大的n，使得长度为n的字符串前缀和后缀相同。
+
+```cpp
+// 字符串采用定长顺序表示
+
+// 返回主串str中第一个与模式串匹配的下标位置；如无匹配，返回0
+int kmp(string str, string tmp)
+{
+    int i = 1, j = 1;
+    while (i <= str[0] && j <= tmp[0]) {
+        if (j == 0 || str[i] == str[j]) { ++i, ++j; }
+        else j = next[j];
+    }
+    return 0;
+}
+
+// 计算next数组
+// next[j] == 0表示下一次匹配应该从主串的第i+1位与模式串的第1位开始
+// next[j] != 0表示下一次匹配应该从主串的第i位与模式串的第next[j]位开始
+void next(string tmp)
+{
+    int i = 1, j = 0; next[1] = 0;
+    while (i < tmp[0]) {
+        if (j == 0 || tmp[i] == tmp[j]) { ++i, ++j, next[i] = j; }
+        else j = next[j];
+    }
+}
+
+// 修正的next算法
+// 解决形如此类的next问题
+// j        | 1 2 3 4 5
+// template | a a a a b
+// next     | 0 1 2 3 4
+// next-fix | 0 0 0 0 4
+void next(string tmp)
+{
+    int i = 1, j = 0; next[1] = 0;
+    while (i < tmp[0]) {
+        if (j == 0 || tmp[i] == tmp[j]) {
+            ++i, ++j;
+            if (tmp[i] != tmp[j]) next[i] = j;
+            else next[i] = next[j];
+        }
+        else j = next[j];
+    }
+}
+```
