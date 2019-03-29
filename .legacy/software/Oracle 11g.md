@@ -18,3 +18,15 @@
 使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
 
 目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
+
+---
+
+## 安装
+
+- [Express版本](https://www.oracle.com/technetwork/cn/database/database-technologies/express-edition/overview/index.html)
+
+### 在Windows上安装
+
+### 在Linux上安装
+
+参照[官方文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)
