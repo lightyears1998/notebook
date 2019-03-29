@@ -30,3 +30,6 @@
 ### 在Linux上安装
 
 参照[官方文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)
+
+> 虽然Oracle 11g Express，以现在的Windows风格的审美来看，并不美观，但运行在Cent OS上还是十分搭配的。这难道是成熟的商业软件的力量？
+> 2019.03.29

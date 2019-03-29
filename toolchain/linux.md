@@ -115,6 +115,10 @@
 - `$` normal user
 - `#` Root user；`#`比`$`更接近0
 
+#### 创建Swap文件
+
+<https://linuxize.com/post/create-a-linux-swap-file/>
+
 #### 编辑器
 
 `vi`, `nano`, `vim`
