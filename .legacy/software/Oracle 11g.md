@@ -27,11 +27,16 @@
 
 ### 在Windows上安装
 
+- 默认应用程序端口 `8080`
+- 默认TNS监听端口 `1521`
+
 - 典型安装目录 `C:\\app\\username\\product\\11.2.0\\dbhome_1`
 
 ### 在Linux上安装
 
-参照[官方文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)
+- 典型安装目录 `/u01/app/oracle/product/11.2.0/xe`
+
+可参照[官方文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)进行安装。
 
 > 虽然Oracle 11g Express，以现在的Windows风格的审美来看，并不美观，但运行在Cent OS上还是十分搭配的。这难道是成熟的商业软件的力量？
 > 2019.03.29
