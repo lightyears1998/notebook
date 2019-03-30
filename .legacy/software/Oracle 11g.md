@@ -1,8 +1,10 @@
 # Oracle 11g
 
 - **[发行时间](https://en.wikipedia.org/wiki/Oracle_Database#Releases_and_versions)** 2007-2013
-- [下载地址](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/112010-win64soft-094461.html)
-- 典型安装目录 `C:\\app\\username\\product\\11.2.0\\dbhome_1`
+- **获取途径**
+    - Express版本 <https://www.oracle.com/technetwork/cn/database/database-technologies/express-edition/overview/index.html>
+    - Enterprise版本 <https://www.oracle.com/technetwork/database/enterprise-edition/downloads/112010-win64soft-094461.html>
+    - 这些链接可能在不久后失效
 
 ## OCI / OCCI Oracle C++ Call Interface
 
@@ -23,9 +25,9 @@
 
 ## 安装
 
-- [Express版本](https://www.oracle.com/technetwork/cn/database/database-technologies/express-edition/overview/index.html)
-
 ### 在Windows上安装
+
+- 典型安装目录 `C:\\app\\username\\product\\11.2.0\\dbhome_1`
 
 ### 在Linux上安装
 
