@@ -19,6 +19,14 @@
 
 目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
 
+## SID名称
+
+```sql
+select instance from v$thread;
+```
+
+Express版本的默认SID是`xe`，企业版的默认SID是`orcl`。
+
 ---
 
 ## 安装
@@ -29,7 +37,15 @@
 
 ### 在Linux上安装
 
-参照[官方文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)
+参照[官方安装文档](https://docs.oracle.com/cd/E17781_01/install.112/e18802/toc.htm)
 
 > 虽然Oracle 11g Express，以现在的Windows风格的审美来看，并不美观，但运行在Cent OS上还是十分搭配的。这难道是成熟的商业软件的力量？
 > 2019.03.29
+
+SQLPlus
+
+```sh
+cd /u01/app/oracle/product/11.2.0/xe/bin
+. ./oracle.sh  # 如有必要，设置Oracle环境变量
+sqlplus
+```
