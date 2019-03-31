@@ -5,6 +5,10 @@
 - Msys2, MinGW, MinGW-w64
 - Nodejs
 
+## 模糊测试基础设施
+
+- Google ClusterFuzz bug自动发现程序
+
 ## 一般软件
 
 - Firefox, Chrome
@@ -20,6 +24,10 @@
 - PotPlayer
 - Tesseract OCR识别引擎
 
+## 云端游戏
+
+- 未来的[Google Stadia](https://stadia.dev/)
+
 ## 数据源
 
 ### 一般
@@ -31,6 +39,11 @@
 - [MakeGirlsMoe](https://make.girls.moe/)
 - [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/)
 - [ThisCatDoesNotExist](https://thiscatdoesnotexist.com/)
+
+## 地图
+
+- [OpenStreetMap](https://www.openstreetmap.org/) 在中国访问不理想
+- [Bing地图]
 
 ## Windows相关
 
