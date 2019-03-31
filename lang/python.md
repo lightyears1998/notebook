@@ -83,6 +83,13 @@ b'ABC'  # bytes
 
 `encode()`, `decode()` `'utf-8', 'ascii'`
 
+通过`bytes('字符串', '编码名称')`可查看对应字符串在对应字符集编码下的字节编码。
+
+```python3
+>>> bytes('我歌唱每一条河', 'gbk')
+b'\xce\xd2\xb8\xe8\xb3\xaa\xc3\xbf\xd2\xbb\xcc\xf5\xba\xd3'
+```
+
 #### `format()`
 
 ```py
