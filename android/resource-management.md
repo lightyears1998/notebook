@@ -2,9 +2,8 @@
 
 ## 文件组织
 
-- *res/* 自动生成对应的Resource ID
-- *assets/* AssetManager
-- *raw/* 生成id的二进制流
+- *res/* 自动生成对应的Resource ID。
+- *assets/* 通过AssetManager取得。
 
 ## 资源组织
 
