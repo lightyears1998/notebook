@@ -8,9 +8,9 @@
 ### 体系结构
 
 1. 应用层 Applications
-2. 应用框架层 Application Framework(Activity Manager, ...)
-3. 库文件与Android运行时 Libraries and Android Runtime(SQLite, Dalvik Virtual Machine, ...)
-4. Linux内核 Linux Kernel(drivers, ...)
+2. 应用框架层 Application Framework (Activity Manager, ...)
+3. 库文件与Android运行时 Libraries and Android Runtime (SQLite, Dalvik Virtual Machine, ...)
+4. Linux内核 Linux Kernel (drivers, ...)
 
 ### 基本组件
 
