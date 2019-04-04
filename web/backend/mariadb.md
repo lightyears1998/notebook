@@ -18,10 +18,10 @@
 
 ### 运算符
 
-- `=`* 赋值 / 等于（关系比较符）
-- `<>`, `!=`（非标准） 不等于
+- `=` 关系比较相等
+- `<>`, `!=` 不等于
 
-注意判定等于的关系运算符“身兼数职”。
+注意关系比较相等是一个`=`。
 
 ### 数据类型
 
@@ -30,18 +30,24 @@
 - CHAR(M), VARCHAR(M), TINYTEXT, TEXT
 - DATE, DATETIME, TIME, TIMESTAMP, YEAR
 
-`NOW()`的类型是`DATETIME`
-
-`CURRENT_TIMESTAMP`
-
 如果不指定CHAR的宽度，默认值是灾难性的1。
+
+### 常用函数的类型
+
+- `NOW()`, `DATETIME`
+- `CURRENT_TIMESTAMP`, `TIMESTAMP`
 
 ## 用户管理
 
 - 创建用户 `CREATE USER 'user' IDENTIFIED BY 'password';`
-- 赋予权限 `GRANT ALL PRIVILEGES ON dbname.* TO uesr;`
+- 赋予权限 `GRANT ALL PRIVILEGES ON dbname.* TO uesr;`, `GRANT SELCET, INSERT, UPDATE, DELETE, GRANT OPTION on dbname TO user;`
+
+`GRANT OPTION`使得获取的权限可以传递。
 
 ## DDL
+
+- 单行注释 `//`
+- 多行注释 `/* ... */`
 
 ### 操作数据库
 
@@ -52,9 +58,7 @@
 
 ### 操作数据表
 
-“//”用于单行注释，“/* ... */”用于多行注释
-
-创建表，注意CREATE TABLE命令的最后一个参数（即最后一行）不要附加逗号
+#### 创建表
 
 ```sql
 CREATE TABLE [IF NOT EXISTS] 'tbname' (
@@ -64,6 +68,8 @@ CREATE TABLE [IF NOT EXISTS] 'tbname' (
 ) [COMMENT='这里前面有等号'] [CHARSET=...];
 ```
 
+注意CREATE TABLE命令的最后一个参数（即最后一行）不要附加逗号。
+
 `SHOW CREATE TABLE 表名[\G]` 查看创建表的语句
 
 对于多字段主键，可以先定义完字段，再定义主键`PRIMARY KEY(id, name)`
@@ -72,7 +78,7 @@ CREATE TABLE [IF NOT EXISTS] 'tbname' (
 
 `ALTER TABLE DROP FOREIGN KEY 外键约束名称`
 
-表的维护
+#### 维护表
 
 - `SHOW TABLES`
 - `DESCRIBE 表名` `DESC 表名` 查看表的定义（表中定义的字段），不能查看数据库的“定义”
