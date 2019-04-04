@@ -84,6 +84,13 @@
 
 ## 结构化查询语言SQL
 
+四大分类
+
+1. DDL *Data Definiton Language* 数据定义语言
+2. DML *Data Manipulation Language* 数据操作语言
+3. DQL *Data Query Language* 数据查询语言
+4. DCL *Data Control Language* 数据控制语言
+
 九个动词
 
 1. 数据定义 `CREATE`, `DROP`, `ALTER`

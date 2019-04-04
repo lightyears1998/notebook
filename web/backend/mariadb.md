@@ -1,81 +1,29 @@
 # MariaDB笔记
 
-## Chapter 0 概念
+## 默认设定
 
-- row, record, table, database
-- DBMS Database Management System
-- DBA Database Administrator
-- redundance 冗余
-- integrity 完整性
-- Normal Formate 范式
-  - 1NF 第一范式 每个字段的原子性
-  - 2NF 第二范式 每列与主键相关，即其他字段依赖于主键
-  - 3NF 第三范式 每列与主键**直接相关**
-- SQL
-  1. DML *Data Manipulation Language* 数据操作语言 插入、删除和修改数据库中的数据
-  2. DDL *Data Definiton Language* 数据定义语言 建立数据库，定义字段等
-  3. DQL *Data Query Language* 数据查询语言 查询数据等
-  4. DCL *Data Control Language* 数据控制语言 控制数据库组件的存取权限等
-
-系统数据库、用户数据库
+默认系统数据库和用户数据库
 
 - information_schema
 - performance_schema
 - mysql
 - test..
 
-默认设定
+默认字符集
 
 - 字符集latin1（西欧语言）
 - 比较是latin1_swedish_ci；可更改为utf8, utf8_general_ci。
 
-### 安装
+## 数据类型和运算符
 
-#### 在CentOS7上安装
+### 运算符
 
-```sh
-yum install mariadb-server
-sudo systemctl start mariadb
-sudo systemctl status mariadb
-sudo systemctl enable mariadb
-sudo mysql_secure_installation
-mysqladmin -u root -p version
+- `=`* 赋值 / 等于（关系比较符）
+- `<>`, `!=`（非标准） 不等于
 
-```
+注意判定等于的关系运算符“身兼数职”。
 
-## Chapter 1 命令行指令
-
-`mysql -u root -p`
-
-`SELECT VERSION(), USER()` 查看版本和登陆用户名
-
-编码问题临时解决
-
-```shell
-SET NAMES gbk;
-# 相当于下面三条语句
-SET character_set_client=gbk;
-SET character_set_results=gbk;
-SET character_set_connection=gbk;
-
-```
-
-修改默认编码 `/etc/my.cnf`
-
-`HELP contents`
-
-`SHOW ENGINES`
-
-`SHOW VARIABLES LIKE 'storage_engine'`
-
-数据表的行数由最小的行数决定
-
-## Chapter 2 数据类型和运算符
-
-- *`=`* 赋值 / 等于（关系比较符）
-- *`<>`* *`!=`*（非标准） 不等于
-
-数值数据类型
+### 数据类型
 
 - [TINY | SMALL | MEDIUM ]INT[(M)] 有符号，分别占用1、2、3和4字节储存，其中M表示显示宽度，与实际占用的空间大小无关
 - FLOAT(M), DOUBLE(M, D), DECIMAL(M, D)
@@ -88,21 +36,12 @@ SET character_set_connection=gbk;
 
 如果不指定CHAR的宽度，默认值是灾难性的1。
 
-## Chpater 3 用户管理
+## 用户管理
 
-创建用户
+- 创建用户 `CREATE USER 'user' IDENTIFIED BY 'password';`
+- 赋予权限 `GRANT ALL PRIVILEGES ON dbname.* TO uesr;`
 
-```sql
-CREATE USER 'user' IDENTIFIED BY 'password';
-```
-
-管理权限
-
-```sql
-GRANT ALL PRIVILEGES ON dbname.* TO uesr;
-```
-
-## Chapter 4 DDL
+## DDL
 
 ### 操作数据库
 
@@ -165,7 +104,7 @@ InnoDB支持外键，MyISAM不支持外键；外键关联的表要求都是InnoD
 
 UNSIGNED也是一种约束
 
-## Chpater 5 DML
+## DML
 
 ### 表的储存引擎
 
@@ -367,7 +306,7 @@ JOIN result AS R ON S.studentNo = R.studentNo;
 
 LEFT OUTTER JOIN返回结果包含左表的所有行
 
-## Chapter 7 函数
+## 函数
 
 聚合函数
 
@@ -419,7 +358,7 @@ ROLLBACK;
 
 MySQL设置自动提交 `SET autocommit = 0 | 1;`
 
-## Chpater 9 视图
+## 视图
 
 - 创建视图 `CREATE VIEW 视图名（形如view_xxx或v_xxx）AS <SELECT 语句>`
 - 删除视图 `DROP VIEW [IF EXISTS] 视图名`
@@ -427,7 +366,7 @@ MySQL设置自动提交 `SET autocommit = 0 | 1;`
 
 视图可以嵌套另一个视图，对视图数据的添加修改和查询直接影响表中的数据。
 
-## Chapter 10 索引
+## 索引
 
 - 普通索引 允许重复和空值
 - 唯一索引 不允许重复，允许空值
@@ -442,7 +381,7 @@ MySQL设置自动提交 `SET autocommit = 0 | 1;`
 - 删除索引 `DROP INDEX 表名.索引名`
 - 查看索引 `SHOW INDEX FROM 表名`
 
-## Chapter 11 备份
+## 数据备份
 
 备份
 
@@ -460,7 +399,43 @@ INTO OUTFILE 'filename' [OPTIONS]
 - `mysql -u -p [dbname] < filename.sql`
 - 登陆MySQL后，`source filename`
 
-## 源
+---
 
-- [Example](https://github.com/lightyears1998/quiet-space/tree/master/playground/mysql)
-- 中国水利水电出版社 2017 《MySQL数据库开发实战》 课工场
+## 安装
+
+### 在CentOS7上安装
+
+```sh
+yum install mariadb-server
+sudo systemctl start mariadb
+sudo systemctl status mariadb
+sudo systemctl enable mariadb
+sudo mysql_secure_installation
+mysqladmin -u root -p version
+```
+
+## 管理
+
+### 配置文件
+
+`/etc/my.cnf`
+
+此文件中可以修改默认编码。
+
+### 命令行工具
+
+`mysql -u root -p`
+
+- 显示帮助目录 `HELP contents`
+- 查看版本和登陆用户名`SELECT VERSION(), USER()`
+- 编码问题临时解决
+
+    ```shell
+    SET NAMES gbk;
+    # 相当于下面三条语句
+    SET character_set_client=gbk;
+    SET character_set_results=gbk;
+    SET character_set_connection=gbk;
+    ```
+
+- 查看支持的引擎 `SHOW ENGINES`, `SHOW VARIABLES LIKE 'storage_engine'`
