@@ -23,12 +23,21 @@
 
 注意关系比较相等是一个`=`。
 
-### 数据类型
+### [数据类型](https://mariadb.com/kb/en/library/data-types/)
 
-- [TINY | SMALL | MEDIUM ]INT[(M)] 有符号，分别占用1、2、3和4字节储存，其中M表示显示宽度，与实际占用的空间大小无关
-- FLOAT(M), DOUBLE(M, D), DECIMAL(M, D)
-- CHAR(M), VARCHAR(M), TINYTEXT, TEXT
-- DATE, DATETIME, TIME, TIMESTAMP, YEAR
+#### 数值类型数据
+
+- `[TINY | SMALL | MEDIUM]INT[(M)]` 分别占用1、2、3和4字节储存，其中M表示显示宽度，与实际占用的空间大小无关。
+  - INT [SIGNED | UNSIGNED | ZEROFILL] 默认为有符号，如果是`ZEROFILL`，等价于`UNSIGNED ZEROFILL`。
+  - `ZEROFILL`使得数值在显示时未达到`M`的指定位数会在前部填充零；当超过指定的显示宽度时，会按照原样输出（即不会截断）。
+
+- [`DECIMAL(M, D)`](https://mariadb.com/kb/en/library/decimal/) 定点数，M为总位数，D为小数位数。
+- `FLOAT[(M, D)]`, `DOUBLE[(M, D)]` 单精度浮点数和双精度浮点数。
+
+#### 非数值类型数据
+
+- `CHAR(M)`, `VARCHAR(M)`, `TINYTEXT`, `TEXT`
+- `DATE`, `DATETIME`, `TIME`, `TIMESTAMP`, `YEAR`
 
 如果不指定CHAR的宽度，默认值是灾难性的1。
 
@@ -409,6 +418,8 @@ INTO OUTFILE 'filename' [OPTIONS]
 
 ## 安装
 
+在Linux发行版上可以使用[配置工具](https://downloads.mariadb.org/mariadb/repositories/)。
+
 ### 在CentOS7上安装
 
 ```sh
@@ -445,3 +456,9 @@ mysqladmin -u root -p version
     ```
 
 - 查看支持的引擎 `SHOW ENGINES`, `SHOW VARIABLES LIKE 'storage_engine'`
+
+---
+
+## 文档链接
+
+- [MariaDB Server文档](https://mariadb.com/kb/en/library/documentation/)
