@@ -4,7 +4,10 @@
 
 ### 发行版
 
+常见[发行版目录](https://en.wikipedia.org/wiki/Linux_distribution)。
+
 - *Arch*
+- *Arch*的分支*Manjaro*
 - *CentOS*
 
 ### 硬件基础
