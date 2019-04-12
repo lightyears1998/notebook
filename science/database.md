@@ -177,6 +177,52 @@ FROM <表名或视图名>, [<表名或视图名>, ...]
 [ORDER BY <列名或表达式名> [ASC | DESC]]
 ```
 
+#### Having子句
+
+先对查询的结果无条件进行分组，然后按`HAVING`子句中的条件对每个分组进行检查，从而筛除掉不符合`HAVING`子句条件的分组。
+
+#### 关于SELECT DISTINCT的去重
+
+SELECT DISTINCT去除逻辑上的重复行。即信息与其他行相同的行。
+
+具体来说：
+
+```text
+MariaDB [test]> SELECT * FROM sc;
++------+-------+
+| sno  | grade |
++------+-------+
+|    1 |   100 |
+|    1 |    50 |
+| NULL |  NULL |
+| NULL |  NULL |
+|   12 |   100 |
++------+-------+
+5 rows in set (0.01 sec)
+
+MariaDB [test]> SELECT DISTINCT * FROM sc;
++------+-------+
+| sno  | grade |
++------+-------+
+|    1 |   100 |
+|    1 |    50 |
+| NULL |  NULL |
+|   12 |   100 |
++------+-------+
+4 rows in set (0.01 sec)
+
+MariaDB [test]> SELECT DISTINCT sno FROM sc;
++------+
+| sno  |
++------+
+|    1 |
+| NULL |
+|   12 |
++------+
+3 rows in set (0.01 sec)
+
+```
+
 ### 条件表达式
 
 1. `NOT`
@@ -188,3 +234,14 @@ FROM <表名或视图名>, [<表名或视图名>, ...]
 ### 辅助函数
 
 - `LOWER()`
+- `TO_CHAR(数值, '格式字符串')`
+
+    [格式字符串][]形如`FM999.00`。FM为去除前导和后导零。
+
+[格式字符串]: https://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm
+
+### 聚集函数
+
+在有`GROUP BY`字句时对分组起作用，无`GROUP BY`子句时将查询结果作为一组对全组起作用。
+常出现于`HAVING`和`SELECT`子句中对分组中来对分组进行条件约束的筛选或输出结果。
+注意聚集函数不能在`WHERE`子句中使用。
