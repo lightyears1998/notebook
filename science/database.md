@@ -223,13 +223,65 @@ MariaDB [test]> SELECT DISTINCT sno FROM sc;
 
 ```
 
+#### UNION子句
+
+UNION用于连接两个SELECT的查询结果，注意UNION合并表之后表中没有重复的行。（可以看成是先使用UNION ALL合并表，然后将表中的冗余项目去除。）
+
+使用UNION ALL来避免去重。
+
+#### 子查询
+
+有相关子查询和不相关子查询之分。子查询若从主查询处取得参数，从而与主查询相关，则为“相关子查询”。
+
+使用`=`连接的子表只能是单值。
+
+#### GROUP BY [列名列表]
+
+按列名列表依次分组，细化聚集函数的作用对象。
+
+一个分组永远只有一个输出，无论“看上去它应该是多行输出”。
+
+注意ORDER BY子句对GROUP BY子句是没有影响的，因为GROUP BY子句先于ORDER BY作用，而ORDER BY只能调整输出结果的次序。
+
+#### 外连接和内连接
+
+外连接
+
+```sql
+SELECT ...
+FROM 左表名 [LEFT | RIGHT | FULL] OUTER JOIN 右表名 ON (连接条件);
+```
+
+内连接使用`WHRER`子句来实现。
+
 ### 条件表达式
+
+通常在`WHRER`子句中出现。
 
 1. `NOT`
 2. `IS NULL`
 3. `BETWEEN ... AND ...`
 4. 字符串 `LIKE "字符串"` 任意长度通配符`%` 单字符通配符`_` 转义序列 `LIKE <"待转义的字符串"> [ESCAPE <"转义序列">]`
 5. 正则表达式匹配 `regexp_like("正则表达式")`
+
+在使用复合的条件连接时，注意使用括号来阐明运算符的优先级。
+
+#### 带ANY(SOME)/ALL谓词的子查询
+
+需要配合比较运算符使用。
+
+- `ANY (SOME) 集合`
+- `ALL 集合`
+
+#### 带EXISTS谓词的子查询
+
+EXISTS即存在量词∃。
+
+带有EXISTS的子查询不返回数据，只返回逻辑真假，因此SELECT子句通常使用通配符*。当子查询的结果不为空时返回`true`。
+
+使用EXISTS来实现全称量词∀。
+`∀x P ⇒ ¬(∃x ¬P)`
+可以通过使用数量相等来避免全称量词的使用。
 
 ### 辅助函数
 
@@ -245,3 +297,13 @@ MariaDB [test]> SELECT DISTINCT sno FROM sc;
 在有`GROUP BY`字句时对分组起作用，无`GROUP BY`子句时将查询结果作为一组对全组起作用。
 常出现于`HAVING`和`SELECT`子句中对分组中来对分组进行条件约束的筛选或输出结果。
 注意聚集函数不能在`WHERE`子句中使用。
+
+除COUNT以外的聚集函数都自动过滤掉`NULL`值。
+
+使用不同的参数时，`COUNT`统计的结果不同。
+
+- `COUNT(*)` 总是返回表的行数。
+- `COUNT(NULL)` 总是返回0。
+- `COUNT(0)`, `COUNT(false)`, `COUNT(任意非NULL常量)` 返回表的行数。
+- `COUNT("列名")` `COUNT`对列中的每一行将值代入，如果非NULL则增加1，NULL则和不变。
+- 实际上，上述结论是`COUNT`计数原理的统一。
