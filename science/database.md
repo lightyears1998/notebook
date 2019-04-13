@@ -167,6 +167,20 @@
 
 4. 视图
 
+    将子查询的作为一个视图保存在数据字典中。
+
+    ```sql
+    CREATE VIEW 视图名
+    [列名, ...]
+    AS <子查询>
+    [WITH CHECK OPTION]
+    ```
+
+    在可更新的视图中，若使用`WITH CHECK OPTION`，则不能通过视图来插入/修改定义视图的子查询的`WHERE`子句中过滤掉的字段，
+    即只能插入/修改/删除已经存在或可以存在于视图中的数据。
+
+    [WITH CHECK OPTION](http://www.oracletutorial.com/oracle-view/oracle-with-check-option/)
+
 ### 数据查询
 
 ```sql
@@ -223,12 +237,6 @@ MariaDB [test]> SELECT DISTINCT sno FROM sc;
 
 ```
 
-#### UNION子句
-
-UNION用于连接两个SELECT的查询结果，注意UNION合并表之后表中没有重复的行。（可以看成是先使用UNION ALL合并表，然后将表中的冗余项目去除。）
-
-使用UNION ALL来避免去重。
-
 #### 子查询
 
 有相关子查询和不相关子查询之分。子查询若从主查询处取得参数，从而与主查询相关，则为“相关子查询”。
@@ -253,6 +261,36 @@ FROM 左表名 [LEFT | RIGHT | FULL] OUTER JOIN 右表名 ON (连接条件);
 ```
 
 内连接使用`WHRER`子句来实现。
+
+#### 集合运算
+
+集合的交并差。
+
+- `INTERSECT` 交
+- `UNION` 并
+- `EXCEPT`, Oracle `MINUS` 差
+
+#### UNION子句
+
+UNION用于连接两个SELECT的查询结果，注意UNION合并表之后表中没有重复的行。（可以看成是先使用UNION ALL合并表，然后将表中的冗余项目去除。）
+
+使用UNION ALL来避免去重。
+
+注意UNION在去重上的默认行为与SELECT相反。
+
+### 数据更新
+
+```sql
+UPDATE 表名 SET 列名=值
+WHERE 条件子句;
+```
+
+### 数据删除
+
+```sql
+DELETE FROM 表名
+WHERE 条件子句;
+```
 
 ### 条件表达式
 
@@ -280,8 +318,11 @@ EXISTS即存在量词∃。
 带有EXISTS的子查询不返回数据，只返回逻辑真假，因此SELECT子句通常使用通配符*。当子查询的结果不为空时返回`true`。
 
 使用EXISTS来实现全称量词∀。
-`∀x P ⇒ ¬(∃x ¬P)`
+`∀x: P ⇔ ¬(∃x: ¬P)`
 可以通过使用数量相等来避免全称量词的使用。
+
+使用EXISTS来实现逻辑蕴含→。
+`∀x: (P→Q) ⇔ ∀x: (¬P∨Q) ⇔ ¬(∃x: P∨¬Q)`
 
 ### 辅助函数
 
@@ -307,3 +348,7 @@ EXISTS即存在量词∃。
 - `COUNT(0)`, `COUNT(false)`, `COUNT(任意非NULL常量)` 返回表的行数。
 - `COUNT("列名")` `COUNT`对列中的每一行将值代入，如果非NULL则增加1，NULL则和不变。
 - 实际上，上述结论是`COUNT`计数原理的统一。
+
+## 数据安全性
+
+通过权限和角色来保证数据的安全性。

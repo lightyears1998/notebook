@@ -15,12 +15,6 @@
 - [索引页面](https://www.oracle.com/technetwork/cn/database/features/oci/index-090820-zhs.html)
 - [程序员指南](https://docs.oracle.com/cd/B28359_01/appdev.111/b28390/toc.htm)
 
-## 局域网网络连接
-
-使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
-
-目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
-
 ## SID名称
 
 ```sql
@@ -56,3 +50,15 @@ cd /u01/app/oracle/product/11.2.0/xe/bin
 . ./oracle.sh  # 如有必要，设置Oracle环境变量
 sqlplus
 ```
+
+### 版本与兼容性问题
+
+Instant Client的版本一般是向下兼容的，所以不需要为了连接Oracle 11g而使用版本11.2的Instant Client，使用现代的版本以配合现代的编译环境。
+
+如果现在现代环境中使用旧版本的Instant Client，比如在VS2017中使用Instant Client 11.2，则需要注意：在调试时可能出现`MSVCR100.dll`缺失等由于VS1017无法安装v100平台工具集而无法正确解决的问题。（可以通过Dirty hack，在生成目录中放入`MSVCR100.dll`以使得程序不报错。）
+
+## Windows上的局域网网络连接
+
+使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
+
+目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
