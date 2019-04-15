@@ -1,6 +1,6 @@
 # Docker笔记
 
-容器。
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/toolchain/docker.md)
 
 ## 基本概念
 
@@ -15,12 +15,12 @@
 - `docker container ls`是`docker ps`的同义词
 - `docker kill` 终止运行中的容器
 - `docker container stop`是`docker kill`的同义词
-- `docker container rm <Name-of-container>` 移除容器
+- `docker container rm <container-name>` 移除容器
 
 镜像仓库相关
 
-- `docker search <name>` 搜索镜像
-- `docker pull <name>` 拉取镜像
+- `docker search <image-name>` 搜索镜像
+- `docker pull <iamge-name>` 拉取镜像
 
 ### 测试Docker是否正常安装
 
