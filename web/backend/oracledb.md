@@ -2,6 +2,14 @@
 
 ## 常识
 
+### SID名称
+
+```sql
+select instance from v$thread;
+```
+
+Express版本的默认SID是`xe`，企业版的默认SID是`orcl`。
+
 ## 数据安全性
 
 通过创建角色来管理权限。

@@ -15,14 +15,6 @@
 - [索引页面](https://www.oracle.com/technetwork/cn/database/features/oci/index-090820-zhs.html)
 - [程序员指南](https://docs.oracle.com/cd/B28359_01/appdev.111/b28390/toc.htm)
 
-## SID名称
-
-```sql
-select instance from v$thread;
-```
-
-Express版本的默认SID是`xe`，企业版的默认SID是`orcl`。
-
 ---
 
 ## 安装
