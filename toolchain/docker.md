@@ -17,6 +17,11 @@
 - `docker container stop`是`docker kill`的同义词
 - `docker container rm <Name-of-container>` 移除容器
 
+镜像仓库相关
+
+- `docker search <name>` 搜索镜像
+- `docker pull <name>` 拉取镜像
+
 ### 测试Docker是否正常安装
 
 - `docker run hello-world`
