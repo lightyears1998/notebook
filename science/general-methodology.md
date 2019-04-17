@@ -157,3 +157,5 @@
 1. 滞后 Delay
 2. 不稳定 Unstable
 3. 失稳 Hunting
+
+## 人工神经网络 Artificial Neural Network, ANN
