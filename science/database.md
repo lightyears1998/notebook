@@ -352,3 +352,40 @@ EXISTS即存在量词∃。
 ## 数据安全性
 
 通过权限和角色来保证数据的安全性。
+
+## 约束
+
+```sql
+CONSTRAINT <约束名称> <约束条件>
+```
+
+常用约束
+
+```sql
+CHECK "Column" IN ('OptionA', 'OptionB');
+CHECK <表达式A> OR <表达式B>;
+```
+
+## 触发器
+
+由事件驱动的特殊过程，基于一个表创建，但是可以操作多个表。
+
+缺点在于平台迁移难度大，并存在后端资源的占用。
+
+```sql
+CREATE TRIGGER <触发器名>
+[BEFORE | AFTER] <触发事件> ON <表名>
+REFENCING [NEW | OLD] ROW AS <变量名>
+```
+
+// 待补充
+// AFTER触发器、BEFORE触发器
+
+### 触发器被触发的顺序
+
+1. 语句级 BEFORE INSERT
+2. 行级 BEFORE INSERT
+3. 行级 AFTER INSERT
+4. 行级 AFTER INSERT
+
+在BEFORE INSERT中操作NEW ROW，会实际上改变插入数据库中的数据。
