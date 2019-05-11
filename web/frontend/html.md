@@ -10,6 +10,14 @@
 
 - [CSS禅意花园](http://csszengarden.com/)
 
+## 视口
+
+<https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag>
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+```
+
 ## 标签（元素）
 
 **空标签** / **自包含标签** Html5允许没有结束标签的标签
@@ -45,6 +53,7 @@
 ## 嵌入层叠样式表CSS
 
 1. 内嵌样式
+
     ```html
     <head>
     <style>
@@ -55,7 +64,9 @@
     </style>
     </head>
     ```
+
 2. 外部链接
+
     ```html
     <link rel="stylesheet" href="linked.css" type="text/css" />
     ```
