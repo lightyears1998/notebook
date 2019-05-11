@@ -54,3 +54,27 @@ Instant Client的版本一般是向下兼容的，所以不需要为了连接Ora
 使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
 
 目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
+
+## 故障解决
+
+### Linux ORA-27101
+
+原因不明，症状如下：
+
+```txt
+ERROR:
+ORA-01034: ORACLE not available
+ORA-27101: shared memory realm does not exist
+Linux-x86_64 Error: 2: No such file or directory
+Process ID: 0
+Session ID: 0 Serial number: 0
+````
+
+解决方法为重启，原因不明：
+
+```sh
+source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
+/etc/init.d/oracle-xe disable
+/etc/init.d/oracle-xe enable
+/etc/init.d/oracle-xe start
+```
