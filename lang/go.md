@@ -126,3 +126,7 @@ func main() {
 ```sh
 go get <url>  # 远程包导入
 ```
+
+## Linux
+
+<https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-centos-7>
