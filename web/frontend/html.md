@@ -1,26 +1,26 @@
 # HTML: Hyper Text Markup Language 笔记
 
-参考资料
-
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [W3C语法验证器](https://validator.w3.org)
-- [HTML5 标准](http://www.w3.org/TR/html)
-
-资源
-
-- [CSS禅意花园](http://csszengarden.com/)
-
 ## 视口
 
-<https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag>
+固定移动设备的缩放比例。
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 ```
 
+<https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag>
+
 ## 标签（元素）
 
-**空标签** / **自包含标签** Html5允许没有结束标签的标签
+规范
+
+```html
+<p>This is a paragragh.</p>
+```
+
+HTML5允许没有结束标签的标签，这样的标签称为“空标签”或“自包含标签”。
+
+常用标签
 
 - 锚anchor `<a href="..."> </a>`
 - 注释 `<!-- 注释 -->`
@@ -28,16 +28,21 @@
 - 段落 `<p>`
 - 折行 `<br>`
 - 水平线 `<hr>`
+- 块级元素`<div>`，内联显示元素`<span>`
 
-块级元素`div`，内联显示元素`span`
+语义标签
 
-### 含有语义的标签
-
-- 文本格式化标签 b, big, em(emphasis), i, small, strong, sub, sup, ins, del
-- 计算机相关标签 code, kbd(keyboard document), samp(sample), tt(teletype text), var, pre
+- 文本格式化 b, big, em(emphasis), i, small, strong, sub, sup, ins, del
+- 计算机 code, kbd(keyboard document), samp(sample), tt(teletype text), var, pre
 - 引用标签 abbr, acronym, address, bdo(bi-direction override), blockquote, q(quote), cite, dfn(define)
 
-### 标签属性
+### 属性
+
+```html
+<p style="font-family:arial; color:red; font-size:20px;">
+    This is A paragraph.
+</p>
+```
 
 - title
 - href
@@ -47,8 +52,6 @@
 - alt 替换文本
 - background 背景图像
 - align （弃用）对齐图像等 bottom middle top left right
-
-`<p style="font-family:arial; color:red; font-size:20px;">A paragraph.</p>`
 
 ## 嵌入层叠样式表CSS
 
@@ -208,3 +211,17 @@ botton, textarea, select
 fieldset, legend
 
 tabindex, accesskey
+
+---
+
+## 参考链接
+
+文档和规范
+
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [W3C语法验证器](https://validator.w3.org)
+- [HTML5 标准](http://www.w3.org/TR/html)
+
+资源
+
+- [CSS禅意花园](http://csszengarden.com/)
