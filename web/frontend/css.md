@@ -1,8 +1,6 @@
 # Cascading Style Sheet笔记
 
-## 基本概念
-
-### 样式
+## 在HTML中使用
 
 - 外部样式 `<link rel="stylesheet" href="stylesheet.css">`
 - 嵌入式样式 `<style></style>`

@@ -36,6 +36,13 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 - 计算机 code, kbd(keyboard document), samp(sample), tt(teletype text), var, pre
 - 引用标签 abbr, acronym, address, bdo(bi-direction override), blockquote, q(quote), cite, dfn(define)
 
+语义化Div
+
+- header
+- nav
+- main
+- footer
+
 ### 属性
 
 ```html
@@ -53,34 +60,15 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 - background 背景图像
 - align （弃用）对齐图像等 bottom middle top left right
 
-## 嵌入层叠样式表CSS
+## 使用层叠样式表CSS
 
-1. 内嵌样式
+详见[css.md](css.md)
 
-    ```html
-    <head>
-    <style>
-    body {
-        background-color: #CCFFFF;
-        color: #000033;
-    }
-    </style>
-    </head>
-    ```
-
-2. 外部链接
-
-    ```html
-    <link rel="stylesheet" href="linked.css" type="text/css" />
-    ```
-
-## 嵌入JavaScript
-
-- 可以省略`<script>`标签中的`type="text/javascript"`属性，因为JavaScript已成为默认的脚本语言
+## 使用JavaScript
 
 ```html
 <script type="text/javascript">
-...
+    // Script goes here.
 </script>
 ```
 
@@ -88,16 +76,14 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 <script type="text/javascript" src="..." charset="utf8"></script>
 ```
 
-## 特殊字符
+可以省略`type="text/javascript"`属性，因为JavaScript已成为默认浏览器脚本语言。
+
+## 转义字符
 
 - " `&quot;`
 - & `&amp`
 - Empty space `&nbsp`
 - `&#数字`
-
-## 结构元素
-
-div, header, nav, main, footer
 
 ## 超链接
 
@@ -117,58 +103,9 @@ name / id: label (href="#label")
 
 ## 图像
 
-图标
+站点图标
 
 `<link rel="icon" href="favicon.ico" type="image/x-icon">`
-
-figure
-
-```html
-<figure>
-<img />
-<figcaption>图注</figcaption>
-</figure>
-```
-
-柱状图 meter
-
-进度条 progress
-
-### 图像映射
-
-```html
-<img
-src="/i/eg_planets.jpg"
-border="0" usemap="#planetmap"
-alt="Planets" />
-
-<map name="planetmap" id="planetmap">
-
-<area
-shape="circle"
-coords="180,139,14"
-href ="/example/html/venus.html"
-target ="_blank"
-alt="Venus" />
-
-<area
-shape="circle"
-coords="129,161,10"
-href ="/example/html/mercur.html"
-target ="_blank"
-alt="Mercury" />
-
-<area
-shape="rect"
-coords="0,0,110,260"
-href ="/example/html/sun.html"
-target ="_blank"
-alt="Sun" />
-
-</map>
-```
-
-ismap属性 `<img src="" ismap />`
 
 ## 音频和视频
 
@@ -208,9 +145,8 @@ botton, textarea, select
 </select>
 ```
 
-fieldset, legend
-
-tabindex, accesskey
+- tabindex
+- accesskey
 
 ---
 
