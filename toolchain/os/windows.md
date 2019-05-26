@@ -1,5 +1,9 @@
 # Windows
 
+## 拓展显示器
+
+- [spacedeck](http://spacedesk.com/) 将Android手机屏幕作为Windows的拓展显示器。
+
 ## 连接到使用Windows的远程计算机
 
 - 远程桌面连接
