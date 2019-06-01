@@ -138,6 +138,10 @@ go get -flags <package>  # 远程包导入
 
 HTTP代理
 
+```bash
+http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt  
+```
+
 ```cmd
 set http_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
