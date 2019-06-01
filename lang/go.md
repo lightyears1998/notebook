@@ -147,11 +147,14 @@ set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 
 ```sh
 go get -u github.com/mdempsky/gocode
+go get -u github.com/uudashr/gopkgs/cmd/gopkgs
 go get -u github.com/ramya-rao-a/go-outline
 go get -u github.com/acroca/go-symbols
 go get -u golang.org/x/tools/cmd/guru
 go get -u golang.org/x/tools/cmd/gorename
+go get -u github.com/go-delve/delve/cmd/dlv
 go get -u github.com/stamblerre/gocode
+go get -u github.com/rogpeppe/godef
 go get -u github.com/sqs/goreturns
 go get -u golang.org/x/lint/golint
 ```
