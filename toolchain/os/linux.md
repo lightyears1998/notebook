@@ -139,3 +139,12 @@
 - `etc/motd`
 
 ## Chapter 3 用户与用户组
+
+### 网络代理
+
+`~/.bash_profile`、`/etc/profile`或`/etc/profile.d/*.sh`
+
+```sh
+export http_proxy=127.0.0.1:1080
+export https_proxy=127.0.0.1:1080
+```
