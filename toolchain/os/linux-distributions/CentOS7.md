@@ -1,5 +1,11 @@
 # CentOS相关
 
+## DeltaRPM
+
+```sh
+yum install deltarpm
+```
+
 ## 获得最新版本的Git
 
 <https://stackoverflow.com/a/27674776/8762529>
