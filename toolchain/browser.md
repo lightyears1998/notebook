@@ -2,10 +2,12 @@
 
 ## 浏览器扩展
 
+核心浏览器拓展
+
 - Adblock Plus
 - Omega Switchy
-- Anki助手
-- FireFtp
 - Lastpass
-- SQLite Manager
+
+UI设计工具
+
 - **VisBug** 样式实时预览开发工具

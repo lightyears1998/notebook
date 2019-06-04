@@ -1,16 +1,6 @@
 # Cascading Style Sheet笔记
 
-- [Mozilla CSS参考](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-颜色选择工具
-
-1. [Colors on the Web](http://www.colorsontheweb.com/Color-Tools/Color-Wizard) 众多颜色工具
-2. [Paletton.com](http://paletton.com) 在色环上选择并且提供颜色使用示例
-3. [Adobe Color CC](https://color.adobe.com) 强大的色环工具，并且提供从图像中自动提取色彩的工具
-
-## 基本概念
-
-### 样式
+## 在HTML中使用
 
 - 外部样式 `<link rel="stylesheet" href="stylesheet.css">`
 - 嵌入式样式 `<style></style>`
@@ -221,3 +211,15 @@ margin, boarder, padding
 v
 交叉轴方向 flex-wrap
 ```
+
+## 参考链接
+
+文档和规范
+
+- [Mozilla CSS参考](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+颜色选择工具
+
+1. [Colors on the Web](http://www.colorsontheweb.com/Color-Tools/Color-Wizard) 众多颜色工具
+2. [Paletton.com](http://paletton.com) 在色环上选择并且提供颜色使用示例
+3. [Adobe Color CC](https://color.adobe.com) 强大的色环工具，并且提供从图像中自动提取色彩的工具

@@ -54,3 +54,70 @@ Instant Client的版本一般是向下兼容的，所以不需要为了连接Ora
 使用Net Configuration Assistant重新配置网络就能让局域网络能够连接，原因不明。
 
 目测是将`listener.ora`中的`localhost`换成了局域网络中设备的标志名`computer-name.lan`。
+
+## 故障解决
+
+在Linux上进行操作前需要配置环境变量。
+
+```sh
+source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
+```
+
+### Linux ORA-27101
+
+原因不明，症状如下：
+
+```txt
+ERROR:
+ORA-01034: ORACLE not available
+ORA-27101: shared memory realm does not exist
+Linux-x86_64 Error: 2: No such file or directory
+Process ID: 0
+Session ID: 0 Serial number: 0
+````
+
+解决方法为重启，原因不明：
+
+```sh
+/etc/init.d/oracle-xe disable
+/etc/init.d/oracle-xe enable
+/etc/init.d/oracle-xe start
+```
+
+### Linux ORA-12541: No Listener
+
+曾因为修改了Hostname而触发此问题。
+
+可以先重新配置`listener.ora`，然后重新启动监听器。
+
+```sh
+lsnrctl status
+```
+
+```conf
+# listener.ora Network Configuration File:
+
+SID_LIST_LISTENER =
+  (SID_LIST =
+    (SID_DESC =
+      (SID_NAME = PLSExtProc)
+      (ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe)
+      (PROGRAM = extproc)
+    )
+  )
+
+LISTENER =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC_FOR_XE))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))  # 可以将此处的HOST配置成0.0.0.0
+    )
+  )
+
+DEFAULT_SERVICE_LISTENER = (XE)
+```
+
+```sh
+lsnrctl start
+lsnrctl status
+```

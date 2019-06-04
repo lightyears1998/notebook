@@ -119,10 +119,46 @@ func main() {
 
 ---
 
-## 安装
+## 安装Go的运行环境
 
-## 包管理
+## 在Linux上安装Go
+
+<https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-centos-7>
+
+## 包管理`go get`
 
 ```sh
-go get <url>  # 远程包导入
+go get -flags <package>  # 远程包导入
+```
+
+- `<package>`可以是url，也可以是`all`。
+- `-fix`
+- `-u` update
+- `-v` verbose
+
+HTTP代理
+
+```bash
+http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt  
+```
+
+```cmd
+set http_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
+set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
+```
+
+## 安装常用的工具
+
+```sh
+go get -u github.com/mdempsky/gocode
+go get -u github.com/uudashr/gopkgs/cmd/gopkgs
+go get -u github.com/ramya-rao-a/go-outline
+go get -u github.com/acroca/go-symbols
+go get -u golang.org/x/tools/cmd/guru
+go get -u golang.org/x/tools/cmd/gorename
+go get -u github.com/go-delve/delve/cmd/dlv
+go get -u github.com/stamblerre/gocode
+go get -u github.com/rogpeppe/godef
+go get -u github.com/sqs/goreturns
+go get -u golang.org/x/lint/golint
 ```

@@ -2,6 +2,19 @@
 
 ## 常识
 
+### 单引号与双引号
+
+- **双引号** 建立对象时，将对象名、字段名等加双引号，Oracle将严格区分大小写，否则都默认为大写。
+- **单引号** 字符串；两个单引号表示跳脱，用于表示一个单引号字符。
+
+在单引号字符比较多的情况下可以使用Literal Quoting，形如`q'['泛人类史'大纲]'`。
+
+```sql
+-- 注意到IDENTIFIED BY字句的参数"password"必须使用双引号或不使用引号（即使不使用双引号也是大小写敏感的），
+-- 而使用单引号则会报错。
+CREATE USER "username" IDENTIFIED BY "password";
+```
+
 ### SID名称
 
 ```sql
@@ -9,6 +22,18 @@ select instance from v$thread;
 ```
 
 Express版本的默认SID是`xe`，企业版的默认SID是`orcl`。
+
+### Oracle National Language Support
+
+```sql
+SELECT * FROM nls_database_parameters ORDER BY PARAMETER;
+```
+
+此查询会给出数据库字符集等信息。
+
+### 字符集
+
+NVARCHAR2(10)与VARCHAR2(10 CHAR)的储存能力是相同的。
 
 ## 数据安全性
 

@@ -19,13 +19,14 @@ for (var i = 1; i <= 3; ++i) {
 ```
 
 ```js
-for (var i = 1; i <= 3; ++i) {
+for (let i = 1; i <= 3; ++i) {
   setTimeout(function () {
     console.log(i);
   }, 0);
 }
 
 // 1; 2; 3;
+// 使用let每次都会绑定新的值。
 ```
 
 ## 异步函数
@@ -39,7 +40,7 @@ for (var i = 1; i <= 3; ++i) {
 
 ### 异步函数测试
 
-异步函数永远可以通过以下测试
+异步函数永远可以通过以下测试：
 
 ```js
 var functionHasReturned = false;
@@ -53,8 +54,6 @@ functionHasReturned = true;
 ### 间或异步函数
 
 函数有些时候是异步的，但其他时候却不然。
-
-### 缓存型异步函数
 
 ### 用回调储存取缔异步递归
 
@@ -74,8 +73,8 @@ const promise = new Promise((resolve, reject) => {
 });
 ```
 
-resolve使Promise状态变为resolved。
+`resolve`使`Promise`状态变为`resolved`。
 
-promise.then(resolvedCallback, rejectedCallback);
+`promise.then(resolvedCallback, rejectedCallback);`
 
-resolvedCallback和rejectedCallback接受Promise对象传出的值作为参数。
+`resolvedCallback`和`rejectedCallback`接受`Promise`对象传出的值作为参数。

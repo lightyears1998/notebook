@@ -1,21 +1,14 @@
-# Notebook
+# 笔记本
 
-笔记本。
+正在使用这本笔记本的我，有着成为全栈工程师的梦想。我所以为的全栈工程师，就是能够胜任设计、开发和维护环节中的任意工作的技术人员。
 
-## Hacks
+## 笔记原则
 
-Always be ready for a hack.
+1. 仅笔记重要的部分
+2. 整洁
+3. 通用 > 专用
 
-1. Scan through target.
-2. Learn / Reload skills.
-3. Conquer.
-4. Refer to related project.
-5. Summary.
+## 经验
 
-如果需要在上古环境中工作，最好先弄清楚上古的术语，旧版本软件与现代软件的兼容性。
-
-## Principle for Notes
-
-1. Hot
-2. Neat
-3. Universal first, plaform specific later (eg. installation), links last, separated by `---`
+1. 时刻准备着迎接挑战。
+2. 每日保温技能。
