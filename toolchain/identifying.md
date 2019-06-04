@@ -38,8 +38,11 @@ Windows的OpenSSH版本太旧。<https://github.com/PowerShell/Win32-OpenSSH/iss
 
 原因：GPG-Agent不明确应在哪个TTY要求用户输入密码。
 
-解决方案
+解决方案（参考<https://gpgtools.tenderapp.com/kb/faq/enter-passphrase-with-pinentry-in-terminal-via-ssh-connection>）
 
 ```sh
-todo
+export GPG_TTY=$(tty)
+if [[ -n "$SSH_CONNECTION" ]] ;then
+    export PINENTRY_USER_DATA="USE_CURSES=1"
+fi
 ```
