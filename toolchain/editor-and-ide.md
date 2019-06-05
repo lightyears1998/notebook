@@ -7,9 +7,11 @@
 ## VS Code
 
 - VS Live Share
+- Remote Development
 - Code Runner
 - Markdownlint
-- HTML Snipests
+- C/C++
+- Python
 
 ## Visual Studio
 
