@@ -11,7 +11,7 @@
 
 ## 一般软件
 
-- Firefox, Chrome
+- Firefox Developer Edition, Chrome
 - [Rufus](https://rufus.akeo.ie/)
 - Calibre
 - DiskGenius
@@ -28,23 +28,8 @@
 
 - 未来的[Google Stadia](https://stadia.dev/)
 
-## 数据源
+---
 
-### 一般
-
-- [快代理](https://www.kuaidaili.com/)
-
-### AI生成
-
-- [MakeGirlsMoe](https://make.girls.moe/)
-- [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/)
-- [ThisCatDoesNotExist](https://thiscatdoesnotexist.com/)
-
-## 地图
-
-- [OpenStreetMap](https://www.openstreetmap.org/) 在中国访问不理想
-- [Bing地图]
-
-## Windows相关
+## Windows平台相关
 
 - **NSSM**, *the Non-Sucking Service Manager* Windows服务注册工具

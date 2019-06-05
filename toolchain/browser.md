@@ -2,9 +2,9 @@
 
 ## 浏览器扩展
 
-核心浏览器拓展
+核心拓展
 
-- Adblock Plus
+- uBlock Origin
 - Omega Switchy
 - Lastpass
 
