@@ -1,37 +1,21 @@
 # Resource Management 资源管理笔记
 
-## 文件组织
+## `res/`
 
-- *res/* 自动生成对应的Resource ID。
-- *assets/* 通过AssetManager取得。
+- 在`res/`目录下存放资源文件，应用程序可通过`R`类自动为资源生成的Resource ID访问，如`R.id.text_view`。
+- 在Android Studio中添加资源文件：`New > Android Resource File`。
 
-## 资源组织
+### 布局 `res/layout/*.xml`
 
-- *文字* strings.xml `getResources().getText(R.string.name);` `android:text="@string/hello_world"`
-- *图片* drawable/ `R.drawable.icon` `android:background="@drawable/icon"`
-- *颜色* colors.xml `getResources().getColor(R.color.red);`
-- *布局* `R.layout.main`
-- *边距* dimens.xml
-- *控件* `findViewById(R.id.text_view);`
-- *属性* `?attr/...`
+eg. `R.layout.main`, `R.id.text_view`
 
-## 度量单位
+### 图片 `res/drawable/*`
 
-1. dp Divice independent pixel，基于MDPI，一个dp即一个MDPI屏幕上的一个像素
-2. sp 字体尺寸
+eg. `R.drawable.icon` `android:background="@drawable/icon"`
 
-## Assets
+### 文字 `res/values/strings.xml`
 
-- `getResources().getAssets().open({"filename"});`
-
-AssetsManager引用项目内的Asset，路径不需要以`/`开头。
-
-`getAssets()`
-
-- `list()`
-- `oepn()`
-
-## 字符串
+`getResources().getText(R.string.name);` `android:text="@string/hello_world"`
 
 支持替代值 `getString(int, Object...)`或其他格式化语句
 
@@ -44,19 +28,9 @@ AssetsManager引用项目内的Asset，路径不需要以`/`开头。
 </resources>
 ```
 
-## 数组
+### 颜色 `res/values/colors.xml`
 
-```xml
-<resources>
-    <string-array name="sample">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-    </string-array>
-</resources>
-```
-
-## 颜色
+`getResources().getColor(R.color.red);`
 
 通常使用`AARRGGBB`格式
 
@@ -69,7 +43,19 @@ AssetsManager引用项目内的Asset，路径不需要以`/`开头。
 </resources>
 ```
 
-## 尺寸
+### 数组 `res/values/array.xml`
+
+```xml
+<resources>
+    <string-array name="sample">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+</resources>
+```
+
+### 尺寸 `dimens.xml`
 
 `getDimensions()`
 
@@ -79,7 +65,7 @@ AssetsManager引用项目内的Asset，路径不需要以`/`开头。
 <resources>
 ```
 
-## ID
+### ID
 
 ```xml
 <resources>
@@ -87,7 +73,7 @@ AssetsManager引用项目内的Asset，路径不需要以`/`开头。
 </resources>
 ```
 
-## 菜单
+### 菜单
 
 ```xml
 <resources>
@@ -97,3 +83,16 @@ AssetsManager引用项目内的Asset，路径不需要以`/`开头。
     <menu>
 </resources>
 ```
+
+## `assets/`
+
+应用程序中通过AssetManager取得资源。
+
+`getResources().getAssets().open({"filename"});`
+
+AssetsManager引用项目内的Asset，路径不需要以`/`开头。
+
+`getAssets()`
+
+- `list()`
+- `oepn()`
