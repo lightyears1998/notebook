@@ -1,8 +1,10 @@
 # Android笔记
 
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/android)
+
 ## 基本知识
 
-- *最小权限原则* Android应用运行在自己的安全沙箱内。（每个应用是操作系统的不同用户，每个应用在其自己的Linux进程内运行，每个进程具有自己的虚拟机
+- *最小权限原则* Android应用运行在自己的安全沙箱内。（每个应用是操作系统的不同用户，每个应用在其自己的Linux进程内运行，每个进程具有自己的虚拟机。）
 - *进程资源共享* 默认情况下，同一个应用程序的所有应用程序组件都运行在相同的进程和线程中。
 
 ### 体系结构
@@ -26,9 +28,20 @@
 
 详见[resource-management.md](resource-management.md)
 
-## 应用程序清单 AndroidManifest.xml
+## 应用程序清单 `AndroidManifest.xml`
 
-以下XML清单使用`android`命名空间。
+XML头部具有版本和编码声明`<?xml version="1.0" encoding="utf-8"?>`。
+
+XML使用Android命名空间：
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.qfstudio.primum">
+    ...
+</manifest>
+```
+
+一个典型的应用程序清单：
 
 ```xml
 <manifest package="com.example.app">
@@ -50,7 +63,9 @@
 </manifest>
 ```
 
-### 权限申请
+注意权限声明的位置与`Application`标签同级。
+
+### 应用程序权限
 
 - 网络 `<uses-permission name="android.permission.INTERNET" />`
 - 储存 `<uses-permission name="android.permssion.MOUNT_UNMOUNT_FILESYSTEMS" />`, `<uses-permission name="android.permssion.READ_EXTERNAL_STORAGE" />`, `<uses-permission name="android.permssion.WRITE_EXTERNAL_STORAGE" />`
