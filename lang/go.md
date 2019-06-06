@@ -1,4 +1,6 @@
-# GoLang
+# GoLang笔记
+
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
 
 ## 基本结构
 
@@ -12,13 +14,23 @@ func main() {
 }
 ```
 
+## 代码组织
+
+所有的Go代码被组织在一个工作空间`GOPATH`中。
+
+```txt
+GOPATH/
+    bin/
+    pkg/
+    src/
+```
+
 ## package
 
 每个程序从`main`包开始运行。
 
 ```go
 // 分组导入语句
-
 import (
     "fmt"
     "math"
@@ -46,6 +58,7 @@ import (
 1. `case`无需为常量，取值不必为整数。`switch`是书写多条`if`语句的清晰方式。
 2. 无需提供`break`语句，除非以`fallthrough`语句结尾，否则分支会自动终止。
 3. 从上而下顺次执行，直到匹配成功为止。
+4. 无条件的`switch`相当于`switch true`，能将一连串的if-else-then写得更简洁。
 
 ### `defer`
 
@@ -103,6 +116,10 @@ p1 := &Vertex{1, 2}  // 隐式指针类型
 1. 常量使用`const`声明，不能使用简洁赋值语句来声明常量。
 2. 常量由上下文来决定具体类型。（数值常量总是高精度的值。）
 
+## 基本数据类型
+
+与C语言不同，Go在不同数据类型的项之间赋值需要显式类型转换，即使不会发生截断。
+
 ## 函数
 
 ```go
@@ -125,6 +142,8 @@ func main() {
 }
 ```
 
+函数可以返回任意数量的参数。
+
 ## 数组
 
 `n[T]`表示n个`T`类型的元素的数组。
@@ -145,6 +164,57 @@ a[1:4]  // 左闭右开区间[1, 4)
 // 切片文法
 []bool {true, false, true}  // 先创建数组，再创建引用数组的切片
 ```
+
+切片`s`拥有长度`len(s)`和容量`cap(s)`。长度是切片所包含的元素的个数；容量是从切片的第一个元素开始，到底层数组末尾的元素个数。
+
+切片的零值是`nil`。`nil`切片的长度和容量都为0，并且没有底层数组。
+
+```go
+// 切片可以用`make()`创建，这也是创建动态数组的方式。
+a := make([]int, 5)  // len(a) = 5
+
+b := make([]int, 5, 6)  // len(b) = 5, cap(b) = 6
+```
+
+```go
+// 使用append()向切片追加元素
+func append(s []T, vs ...T) []T
+```
+
+当切片的底层数组不足以容纳所有给定的值时，Go为会切片分配一个更大的数组，返回的切片会指向这个新分配的数组。
+
+for循环的range形式可以用于遍历切片或映射。每次迭代都会返回两个值。第一个值为当前元素的下标，第二个值为该下标所对应元素的一份副本。可以将下标或值赋予`_`来忽略它。
+
+```go
+pow := []int {1, 2, 4, 8, 16}
+for i, v range pow {
+    fmt.Printf("2**%d == %d", i, v)
+}
+```
+
+## 映射
+
+映射将键映射到值。
+
+```go
+m map[string]Vertex := make(map[string]Vertex)
+
+var m = map[string]Vertex{
+    "Bell Labs": Vertex{
+        40.68433, -74.39967,
+    },
+    "Google": Vertex{
+        37.42202, -122.08408,
+    },
+}
+```
+
+- 修改映射 `m[key] = elem`
+- 获取元素 `elem = m[key]`
+- 删除元素 `delete(m, key)`
+- 检测某个键是否存在 `elem, ok := m[key]`
+  - 若`key`在映射中，`ok`为 `true`；否则，`ok`为`false`。
+  - 若`key`不在映射中，那么`elem`是该映射元素类型的零值。
 
 ---
 
