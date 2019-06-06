@@ -1,6 +1,6 @@
-# Windows编程概述
+# Windows编程笔记
 
-参见[code-sandbox](https://github.com/lightyears1998/code-sandbox/tree/master/archive/windows/mfc)。
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/tree/master/archive/windows/mfc)
 
 ## API参考
 

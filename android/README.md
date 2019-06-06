@@ -36,4 +36,3 @@
 
 - [API Reference](https://developer.android.com/reference)
 - [Manifest API Level](https://developer.android.com/guide/topics/manifest/uses-sdk-element)
-
