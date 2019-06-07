@@ -63,15 +63,12 @@ Instant Client的版本一般是向下兼容的，所以不需要为了连接Ora
 source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 ```
 
-### 重启后Listener不能正确连接
+### TNS Could not establish connection.
 
-重启Oracle可以解决问题。
+通常在重启等系统状态改变之后出现，尝试启动监听器并等待一段时间。
 
 ```sh
-/etc/init.d/oracle-xe stop
-/etc/init.d/oracle-xe disable
-/etc/init.d/oracle-xe enable
-/etc/init.d/oracle-xe start
+lsnrctl start
 ```
 
 ### Linux ORA-27101
