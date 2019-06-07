@@ -63,6 +63,17 @@ Instant Client的版本一般是向下兼容的，所以不需要为了连接Ora
 source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 ```
 
+### 重启后Listener不能正确连接
+
+重启Oracle可以解决问题。
+
+```sh
+/etc/init.d/oracle-xe stop
+/etc/init.d/oracle-xe disable
+/etc/init.d/oracle-xe enable
+/etc/init.d/oracle-xe start
+```
+
 ### Linux ORA-27101
 
 原因不明，症状如下：
@@ -82,6 +93,8 @@ Session ID: 0 Serial number: 0
 /etc/init.d/oracle-xe disable
 /etc/init.d/oracle-xe enable
 /etc/init.d/oracle-xe start
+lsnrctl start
+lsnrctl status
 ```
 
 ### Linux ORA-12541: No Listener
@@ -95,6 +108,7 @@ lsnrctl status
 ```
 
 ```conf
+# /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
 # listener.ora Network Configuration File:
 
 SID_LIST_LISTENER =
