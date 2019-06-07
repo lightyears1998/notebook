@@ -1,6 +1,6 @@
 # Snippets 代码片段
 
-一般
+## 通用代码
 
 - `System.out.println()` 在Logcat中的级别为`Info`，tag为`System.out`
 

@@ -1,11 +1,13 @@
 # 算法
 
-## 基础知识
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/algorithm)
 
-- **一般思路** 枚举 折半 搜索 模拟 打表 公式 二分 尺取 构造 离散化 染色
+## 通用思路
+
+- **思路** 枚举 折半 搜索 模拟 打表 公式 二分 尺取 构造 离散化 染色
 - **测试顺序** 变量边界 逻辑边界 乱序 极限 特殊
 - **特殊处理**
-  - 对环的处理 模 复制连接
+  - 对环的处理 取模 复制拼接
 
 ## 通用
 
