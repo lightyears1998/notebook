@@ -2,6 +2,10 @@
 
 [![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
 
+如何[组织Go语言代码](https://golang.org/doc/code.html)。
+
+1. 包名与导入名称一致，可执行的代码使用包名`main`
+
 ## 基本结构
 
 ```go

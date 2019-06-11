@@ -63,6 +63,20 @@ Instant Client的版本一般是向下兼容的，所以不需要为了连接Ora
 source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 ```
 
+### 重启后监听器没有随系统启动导致连接失败
+
+通常在重启等系统状态改变之后出现，尝试启动监听器并等待一段时间。
+
+```sh
+lsnrctl start
+```
+
+可以使用crontab自动化重启监听器的过程。
+
+```crontab
+@reboot source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh && lsnrctl start
+```
+
 ### Linux ORA-27101
 
 原因不明，症状如下：
@@ -82,6 +96,8 @@ Session ID: 0 Serial number: 0
 /etc/init.d/oracle-xe disable
 /etc/init.d/oracle-xe enable
 /etc/init.d/oracle-xe start
+lsnrctl start
+lsnrctl status
 ```
 
 ### Linux ORA-12541: No Listener
@@ -95,6 +111,7 @@ lsnrctl status
 ```
 
 ```conf
+# /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
 # listener.ora Network Configuration File:
 
 SID_LIST_LISTENER =
