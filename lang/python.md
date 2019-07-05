@@ -1,55 +1,52 @@
 # Python笔记
 
-## Chpater 0 概述
+## 基本概念
 
-某种程度上可视为改良的LISP。
+- Python 2与Python 3的语法不兼容。
+- 在官方解释器`CPython`之外存在其他Python解释器，具有相当程度的性能优势，如`PyPy`。
+- 在Python中，数字类型是不可变的对象，因此数字类型没有自增和自减操作符。
+- Python的表达式子可以并且应该省略分号；如果在一行中存在多个语句，则最后一个语句之前的分号是必须的。
 
-## Chapter 1 基本概念
-
-目前主流的Python版本有Python2和Python3，语法不兼容。
-
-Python脚本文件`.py`通过Python解释器`python`边解释边运行。
-
-在官方解释器*CPython*之外存在其他Python解释器，具有相当程度的性能优势，如*PyPy*。
-
-在Python中，数字类型是不可变的对象，因此数字类型没有自增和自减操作符。
-
-Python的表达式子可以省略分号；如果在一行中存在多个语句，则最后一个语句之前的分号是必须的。
-
-## Chapter 2 数据类型与变量
+## 变量与“常量”
 
 变量不需要声明类型，标志符使用字母数字和下划线。
 
-变量就是变量，没有所谓类型。变量“类型”指变量所指向的内存中的对象的类型。
+变量就是变量，没有所谓类型。变量“类型”是指变量所指向的内存中的对象的类型。
 
-六种基本数据类型
+Python中没有显式声明“常量”的方式。
 
-- *Number* 包括`int`, `float`, `bool`以及`complex`
-- *String* 使用成对出现的单引号或双引号创建
-- *Tuple* 使用小括号`()`创建
-- *List* 使用中括号`[]`创建
-- *Dictionary* 使用花括号`{}`配合冒号作为分隔符创建
-- *Set* 使用花括号`{}`或者`set()`创建，必须用`set()`创建空集合，因为花括号默认用于创建Dictionary
-
-前三种数据类型：*Number*，*String*，*Tuple*是不可变类型（immutable）；后三种：*List*，*Dictionary*，*Set*是可变类型（mutable）。
-
-可以采用多变量赋值语法
+多变量赋值语法：
 
 ```python
 a, b, c = 2, 3, "5"
 ```
 
-使用`type()`查看变量类型。
-
 变量定义之后可以删除定义，`del name_of_variable`。
 
-### None 无类型
+## 数据类型
 
-未定义返回类型的函数返回`None`
+六种基本数据类型：
 
-`None`可被转换成布尔类型值的`False`
+- `Number` 包括`int`, `float`, `bool`以及`complex`。
+- `String` 由成对出现的单引号或双引号创建。
+- `Tuple` 由小括号`()`创建。
+- `List` 由中括号`[]`创建。
+- `Dictionary` 由花括号`{key: value}`创建。
+- `Set` 使用花括号`{value}`或者`set()`创建，必须用`set()`创建空集合，因为花括号默认用于创建Dictionary。
 
-### Number 数字
+前三种数据类型：`Number`、`String`和`Tuple`是不可变类型（immutable）；后三种：`List`、`Dictionary`和`Set`是可变类型（mutable）。
+
+使用`type()`查看变量的类型。
+
+### `None` 无类型
+
+未定义返回类型的函数返回`None`。
+
+`None`可被转换成布尔类型值的`False`。
+
+### `Number` 数字
+
+其他类型转换到`Number`类型：
 
 - `True`, `False`在参与数字运算时分别转化为1和0
 - 转换 `int()`, `bin()`
@@ -903,7 +900,3 @@ UTC时间 2018-10-15 11:37:59.348705
 - Panda3D / pygame 3D/2D游戏开发
 
 ---
-
-入门教程
-
-- SoloLearn Python <https://www.sololearn.com/Play/Python>
