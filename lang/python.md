@@ -1,4 +1,4 @@
-# Python笔记
+# Python 3笔记
 
 ## 基本概念
 
@@ -9,85 +9,112 @@
 
 ## 变量与“常量”
 
-变量不需要声明类型，标志符使用字母数字和下划线。
+- 变量不需要声明类型。“变量就是变量，没有所谓类型”。变量“类型”是指变量所指向的内存中的对象的类型。
+- 没有显式声明“常量”的方式。
+- 通过赋值来声明变量，支持多变量赋值语法：
+  
+  ```python
+  a, b, c = 2, 3, "5"
+  ```
 
-变量就是变量，没有所谓类型。变量“类型”是指变量所指向的内存中的对象的类型。
-
-Python中没有显式声明“常量”的方式。
-
-多变量赋值语法：
-
-```python
-a, b, c = 2, 3, "5"
-```
-
-变量定义之后可以删除定义，`del name_of_variable`。
+- 删除变量 `del variable_name`。
 
 ## 数据类型
 
-六种基本数据类型：
+六类基本数据类型：
 
-- `Number` 包括`int`, `float`, `bool`以及`complex`。
-- `String` 由成对出现的单引号或双引号创建。
-- `Tuple` 由小括号`()`创建。
-- `List` 由中括号`[]`创建。
-- `Dictionary` 由花括号`{key: value}`创建。
-- `Set` 使用花括号`{value}`或者`set()`创建，必须用`set()`创建空集合，因为花括号默认用于创建Dictionary。
+| 类型 | 备注 |
+| --- | --- |
+| 数值类型 `int`, `float`, `bool`, `complex` | |
+| 字符串 `String` | 由成对出现的单引号或双引号创建。 |
+| 元组`Tuple` | 由小括号`()`创建。 |
+| 列表`List` | 由中括号`[]`创建。 |
+| 字典`Dictionary` | 由花括号`{key: value}`创建。 |
+| 集合`Set` | 使用花括号`{value}`或者`set()`创建，必须用`set()`创建空集合，因为花括号默认用于创建`Dictionary`。 |
 
-前三种数据类型：`Number`、`String`和`Tuple`是不可变类型（immutable）；后三种：`List`、`Dictionary`和`Set`是可变类型（mutable）。
+- 不可变类型 *Immutable*： `Number`, `String`, `Tuple`
+- 可变类型 *Mutable*：`List`, `Dictionary`, `Set`
 
-使用`type()`查看变量的类型。
+工具方法：
 
-### `None` 无类型
+- `type(variable)` 查看variable的类型。
+
+### None 无类型
 
 未定义返回类型的函数返回`None`。
 
 `None`可被转换成布尔类型值的`False`。
 
-### `Number` 数字
+```python
+if None:
+  # won't execute
+```
 
-其他类型转换到`Number`类型：
+### Number 数值类型
 
-- `True`, `False`在参与数字运算时分别转化为1和0
-- 转换 `int()`, `bin()`
-- 布尔表达式 `and(&&)`, `not(!)`, `or(||)` and的优先级高于or，与C++保持一致。
-- 四则运算
+包括`int`, `float`, `bool`和`complex`四类数值类型。
+
+#### 其他类型转换到数值类型
+
+- `True`, `False`在参与数字运算时分别转化为1和0。
+- `int()` 转换为整数类型。
+- `float()` 转换为浮点数类型。
+
+#### 四则运算
+
 - 浮点除法 `/` 整除 `//`
-- 取模 浮点取模 `%`
+- 取模、浮点取模 `%`
 - 乘方 `**`
 
-工具函数
+```python
+>>> bin(7)
+'0b111'
+```
+
+#### 数值类型的工具函数
+
+转换为字符串：
+
+- `str()`
+- `bin()` 将整数转换为二进制字符串。
+
+数值计算：
 
 - `min()`, `max()`
 - `abs()`
-- `sum([list])` 只适用于列表List
+- `sum(列表)` 对list对象元素求和。
 
 ### String 字符串
 
-用`''`或`""`来声明，单引号与双引号作为定界符需要成对出现，两者无区别。
+用成对`''`或`""`来声明，单引号与双引号无区别。字符串内部以Unicode表示。
 
-- 不能与数字直接相加
-- 与整数的乘法，如`str * 3`会复制字符串
+参与数值运算：
 
-字符串内部以Unicode表示，可以通过`encode()`方法转变为`bytes`类型
+- 不能与数字直接相加。
+- 与整数的乘法，如`str * 3`会复制字符串。
+- str之间相加合并字符串，不能相减。
 
-`bytes`类型表示的方式是`b'str'`
+#### bytes
 
 ```py
 'ABC'   # string
 b'ABC'  # bytes
-```
 
-`encode()`, `decode()` `'utf-8', 'ascii'`
-
-通过`bytes('字符串', '编码名称')`可查看对应字符串在对应字符集编码下的字节编码。
-
-```python3
 >>> bytes('我歌唱每一条河', 'gbk')
 b'\xce\xd2\xb8\xe8\xb3\xaa\xc3\xbf\xd2\xbb\xcc\xf5\xba\xd3'
 ```
 
-#### `format()`
+构造函数：
+
+- 字面值 `b'ABC'`
+- `bytes('字符串', '编码名称')`
+
+工具函数：
+
+- `str.encode([encoding='gbk'])` 将str编码为bytes。
+- `bytes.decode([encoding='ascii'])` 将bytes解码为str。
+
+#### `format()` 格式化字符串
 
 ```py
 nums = [4, 5, 6]
@@ -96,21 +123,20 @@ msg = "Numbers: {0}, {1}, {2}".format(nums[0], nums[1], nums[2])
 msg = "({x}, {y})".format(x=5, y=2)
 ```
 
-#### 转换
+#### 字符串类型的工具函数
 
-`float()`, `int()`
+下列工具函数都是异地的。
 
-#### 字符串工具函数
-
-- `分隔符.join([字符串列表])` 形如PHP中的`implode()`，利用分割符合并字符串
-- `startswith()`, `endswith()` 返回真与假
-- `replace('what', 'with')` 将字符串中的所有`what`替换为`with`
-- `upper()`, `lower()` 字符串全文大小写转换
-- `split('separator')` 分割字符串为列表
+- `分隔符.join([字符串列表])` 形如PHP中的`implode()`，利用分割符合并字符串。
+- `str.startswith()`, `str.endswith()` 返回真与假。
+- `str.replace('what', 'with')` 将字符串中的所有`what`替换为`with`。
+- `str.upper()`, `str.lower()` 字符串全文大小写转换。
+- `str.split('separator')` 分割字符串为列表。
 
 ### Tuple 元组
 
-元组与list行为类似，但是immutable对象。使用小括号而不是方括号。也可以不使用小括号，直接使用逗号分隔元素即可。
+- 元组与list行为类似，但它是immutable对象。使用小括号而不是方括号。
+- 也可以不使用小括号，直接使用逗号分隔元素即可。
 
 ```py
 # list
@@ -124,7 +150,7 @@ tuple = ("one", "two")
 tuple = "one", "two"
 ```
 
-Tuple Unpacking
+### 元组解构 Tuple unpacking
 
 ```py
 numbers = (1, 2, 3)
@@ -132,6 +158,8 @@ a, b, c = numbers
 
 # a = 1, b = 2, c = 3
 ```
+
+使用`*`表达式来获取解构元组中未分配的部分：
 
 ```py
 numbers = [1, 2, 3, 4, 5]
@@ -148,12 +176,15 @@ List使用方括号`[]`定义，下标从0开始。
 ['1', '2', '3', ]  # List中只有3个元素
 ```
 
-List间加法乘法操作有效。
+参与四则运算：
 
-#### 列表工具函数
+- list之间可以相加，但不能相减。
+- list与数值间的乘法：`[1, 2, 3]*2`返回`[1, 2, 3, 1, 2, 3]`。列表与小于等于0的数相乘返回空列表。
 
-- `in` 操作符判断元素是否在List内
-- `len()` 返回List的长度
+#### 列表类型的工具函数
+
+- `in` 操作符判断元素是否在List内。
+- `len(list)` 返回List的长度。
 
 #### 方法
 
