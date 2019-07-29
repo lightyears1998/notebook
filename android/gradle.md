@@ -6,7 +6,7 @@
 
 顶层配置文件，可以定义`buildscript`等。
 
-```xml
+```groovy
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -47,7 +47,7 @@ task clean(type: Delete) {
 - versionCode 用于代表版本信息的整数
 - versionName 用于代表版本信息的字符串
 
-```xml
+```groovy
 apply plugin: 'com.android.application'
 
 android {

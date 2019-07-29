@@ -1,10 +1,14 @@
-# Ocatave笔记
+# Octave笔记
 
-## Chapter 0 概述
+## 概述
 
-与Matlab语法兼容开源科学计算与数值分析工具。
+与Matlab语法兼容的开源科学计算与数值分析工具。
 
-## Chpater 1 基本概念
+具有CLI和GUI版本。
+
+[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/algorithm)
+
+## 基本概念
 
 - 三角函数使用弧度制
 - 自然对数是 *log* 而不是 *ln*
@@ -138,6 +142,6 @@ plot([25:1:55], fun(P, [25:1:55]), 'LineWidth', 5);
 - 入门教程 <http://coer.zju.edu.cn/liu/octave-tutorial-cn.pdf>
 - 在线网站 <https://octave-online.net/>
 
-### Playground示例
+## Playground
 
-- 大一下学期的物理实验 <https://github.com/lightyears1998/a-gzhu-coder/tree/master/period/freshman/%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C>
+- [大一下学期的物理实验](https://github.com/lightyears1998/a-gzhu-coder/tree/master/period/freshman/%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C)
