@@ -8,7 +8,7 @@
 
 ## 资源
 
-### 一般
+### 网络代理
 
 - [快代理](https://www.kuaidaili.com/)
 
@@ -18,11 +18,43 @@
 - [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/)
 - [ThisCatDoesNotExist](https://thiscatdoesnotexist.com/)
 
-## 地图
+### 地图
 
 - [OpenStreetMap](https://www.openstreetmap.org/) 在中国访问不理想
 - [Bing地图]
 
-## 社区和博客
+## 程序运行环境
 
-- [简明现代魔法](http://www.nowamagic.net/academy/)
+- Msys2, MinGW, MinGW-w64
+- Nodejs
+
+## 模糊测试基础设施
+
+- Google ClusterFuzz Bug自动发现程序
+
+## 实用工具
+
+- 浏览器 Firefox Developer Edition, Chrome
+- USB启动盘制作 [Rufus](https://rufus.akeo.ie/)
+- 电子书管理 Calibre
+- 磁盘管理 DiskGenius
+- 音乐管理 MusicBee
+- 文件复制 FastCopy
+- FTP工具 FileZilla
+- 网页缓存工具 Teleport Ultra
+- 截图工具 Snipaste
+- 视频播放器 PotPlayer
+
+## OCR
+
+- Tesseract OCR文字识别引擎
+
+## 游戏
+
+- [Google Stadia云端游戏](https://stadia.dev/)
+
+---
+
+## Windows平台相关
+
+- **NSSM**, *the Non-Sucking Service Manager* Windows服务注册工具

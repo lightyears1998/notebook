@@ -4,8 +4,8 @@
 
 ## 基本概念
 
-1. **镜像** *Image* 通过运行Image来启动Container
-2. **容器** *Container* Image的运行时实体
+1. **镜像** *Image* 通过运行Image来启动Container。
+2. **容器** *Container* Image的运行时实体。
 
 ## 常用操作
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 安装
+## 安装docker
 
 ```sh
 yum install docker

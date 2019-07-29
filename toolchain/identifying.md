@@ -1,25 +1,27 @@
-# 身份识别
+# 身份识别相关笔记
 
 ## GPG - GnuPG
 
-### 全部密钥对的导入和导出
+### 密钥对导入导出
 
-```sh
-scp -r ~/.gnupg user@remotehost:~/
-```
+1. 将全部密钥对导出到远程机器
 
-### 单密钥对的导出和导入
+    ```sh
+    scp -r ~/.gnupg user@remotehost:~/
+    ```
 
-```sh
-gpg --list-key
-gpg --output mykey_pub.gpg --armor --export 26D4F2F9
-gpg --output mykey_sec.gpg --armor --export-secret-key 26D4F2F9
+2. 单密钥对的导出
 
-scp mykey_pub.gpg mykey_sec.gpg user@remotehost:~/
+    ```sh
+    gpg --list-key
+    gpg --output mykey_pub.gpg --armor --export 26D4F2F9
+    gpg --output mykey_sec.gpg --armor --export-secret-key 26D4F2F9
 
-gpg --import mykey_pub.gpg
-gpg --allow-secret-key-import --import mykey_sec.gpg
-```
+    scp mykey_pub.gpg mykey_sec.gpg user@remotehost:~/
+
+    gpg --import mykey_pub.gpg
+    gpg --allow-secret-key-import --import mykey_sec.gpg
+    ```
 
 ## SSH
 
@@ -34,11 +36,11 @@ gpg --allow-secret-key-import --import mykey_sec.gpg
 
 Windows的OpenSSH版本太旧。<https://github.com/PowerShell/Win32-OpenSSH/issues/1263>
 
-### SSH连接：GPG-Agent不提示输入代码
+### SSH连接：GPG-Agent不提示输入密码
 
 原因：GPG-Agent不明确应在哪个TTY要求用户输入密码。
 
-解决方案（参考<https://gpgtools.tenderapp.com/kb/faq/enter-passphrase-with-pinentry-in-terminal-via-ssh-connection>）
+解决方案：<https://gpgtools.tenderapp.com/kb/faq/enter-passphrase-with-pinentry-in-terminal-via-ssh-connection>
 
 ```sh
 export GPG_TTY=$(tty)

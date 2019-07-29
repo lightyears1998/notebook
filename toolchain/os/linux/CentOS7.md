@@ -1,6 +1,6 @@
 # CentOS相关
 
-## DeltaRPM
+## 利用DeltaRPM减少下载体积
 
 ```sh
 yum install deltarpm

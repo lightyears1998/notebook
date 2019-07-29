@@ -7,7 +7,8 @@
 - uBlock Origin
 - Omega Switchy
 - Lastpass
+- Tampermonkey
 
-UI设计工具
+开发/设计工具
 
-- **VisBug** 样式实时预览开发工具
+- VisBug 样式实时预览开发工具

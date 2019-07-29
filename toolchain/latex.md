@@ -1,32 +1,13 @@
 # LaTeX笔记
 
-Continue <https://liam.page/2014/09/08/latex-introduction/>
-
-## Chapter 1 概述
-
-Tex
-
-- 源文件后缀名`.tex`
-- LaTeX3正在开发中，LaTeX2e是LaTeX2的改进版。
-
-*Tex*系列名词
-
-- Tex 排版引擎，实现断行、分页等功能的程序；同时也是引擎所使用的标记语言的名称
-- LaTex 基于Tex的排版系统，将LaTex新定义的命令翻译为Tex命令
-- XeTex or XeLatex 支持Unicode字符的引擎
-
-工具
-
-- **发行版** Tex Live ~~CTex套装（陈旧，现阶段技术的发展已经解决了CTex简化中文处理的初衷）~~
-- **宏集** CTex宏集，集成诸多中文排版工具的宏包集合
-- **排版工具** XeLaTeX
-
-## Chapger 2 一般结构
+## 一般结构
 
 ```latex
 \documentclass{article}
 % 这里是导言区
+
 \begin{document}
+% 正文区域
 Hello, world~
 \end{document}
 ```
@@ -44,14 +25,68 @@ Hello, world~
 \end{document}
 ```
 
-### 文章结构
+## 文章结构
 
 - 目录 `\tableofcontents`
-- `\section{TEXT}`, `\subsection{TEXT}`, `\subsubsection{TEXT}`
-- `\paragraph{TEXT}`, `\subparagraph{TEXT}`
+- 小节 `\section{TEXT}`, `\subsection{TEXT}`, `\subsubsection{TEXT}`
+- 带标题的段落 `\paragraph{TEXT}`, `\subparagraph{TEXT}`
+
+## 多行标题
+
+```latex
+\title{
+  第一行标题 \\
+  第二行标题 \\
+  \large 小标题
+}
+```
+
+## 多位作者
+
+```latex
+\author{
+  作者A \and 作者B
+}
+```
+
+## 超链接
+
+```latex
+\usepackage{hyperref}
+
+\url{uri://example}
+```
+
+## 插入图像
+
+```latex
+\usepackage{graphicx}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{图像的路径}
+  \caption{题注}
+\end{figure}
+```
+
+## 有序列表
+
+```latex
+\begin{enumerate}
+  \item 列表项3
+  \item 列表项3
+  \item 列表项3
+\end{enumerate}
+```
 
 ---
 
 ## 安装
 
-在Windows上使用Tex Live，使用XeLaTex进行编译。
+Tex Live是跨平台的Tex发行包。
+
+使用TeXWorks Editor进行编辑，一般使用XeLatex进行编译。
+
+## 链接
+
+- LaTeX简介 <https://liam.page/2014/09/08/latex-introduction/>
