@@ -20,7 +20,6 @@
 - *Service* 服务后台长时间运行的操作，不提供用户界面
 - *ContentProvider* 内容提供程序
 - *BoardcastReceiver* 广播接收器
-- *Intent* 消息传递者
 
 详见[components](components)
 
