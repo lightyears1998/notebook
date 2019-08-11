@@ -145,7 +145,7 @@ Java中的`finalize()`方法会在对象被回收之前调用。
 
 - 引用计数与堆栈或静态储存区追溯
 - “停止-赋值”、“标记-清理”
-- JIT, lazy evalution
+- JIT(Just in time), lazy evalution
 
 ### 方法
 
