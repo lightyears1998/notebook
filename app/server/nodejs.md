@@ -8,6 +8,11 @@
 
 ## 安装
 
+### 多版本Node
+
+- Mac/Linux [nvm](https://github.com/nvm-sh/nvm)
+- Windows [nvm-windows](https://github.com/coreybutler/nvm-windows)
+
 ### Windows
 
 访问官网获得最新发行版本。
