@@ -12,3 +12,7 @@
 - DBA Database Administrator
 - Redundance 冗余
 - Integrity 完整性
+
+## Quotes
+
+> 绝大多数程序员认为这很搞笑，仅当这出现在别人的程序中时。

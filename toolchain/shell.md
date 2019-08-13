@@ -3,6 +3,7 @@
 ## Bash
 
 - `which`, `whereis`
+- 文件结束 `Ctrl + D`
 
 ### Bash脚本
 
@@ -26,6 +27,14 @@
     ```sh
     curl -s -o /dev/null "http://509.qfstudio.net/?rx=$RX_BYTES&tx=$TX_BYTES&key=$KEY"
     ```
+
+## CMD
+
+- 文件结束 `Ctrl + Z`
+- 重定向
+  - `命令 < 输入流 > 输出流`
+  - `命令 >> 输出流` 往现有文件末尾追加数据。
+  - `前一个命令 | 后一个命令` 将前一个命令的输出作为后一个命令的输入。
 
 ## Powershell
 
