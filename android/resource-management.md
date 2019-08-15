@@ -7,7 +7,7 @@
 
 ### 布局 `res/layout/*.xml`
 
-eg. `R.layout.main`, `R.id.text_view`
+eg. `R.layout.main`, `R.id.textView`
 
 ### 图片 `res/drawable/*`
 
