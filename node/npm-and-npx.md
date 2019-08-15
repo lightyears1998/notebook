@@ -38,3 +38,19 @@ Node Project Manager & Npm package runner
 在Linux上执行`npm install npm@latest -g`。
 
 在Windows不能直接执行上述命令，而需要[`npm-windows-upgrade`](https://www.npmjs.com/package/npm-windows-upgrade)工具。
+
+## 镜像
+
+参考淘宝NPM镜像使用CNPM。
+
+临时使用
+
+```sh
+npm install <package-name> --registry https://registry.npm.taobao.org
+```
+
+持久使用（不推荐，应使用CNPM）
+
+```sh
+npm config set registry https://registry.npm.taobao.org
+```
