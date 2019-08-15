@@ -1,8 +1,6 @@
-# 软件包管理
+# NPM
 
-## NPM
-
-### NPM的基本使用
+## 基本使用
 
 - 列出配置 `npm config list`
 
@@ -18,14 +16,14 @@
 - 修正安全问题 `npm audit`
 - 搜索包 `npm search`
 
-### 在工作目录中使用NPM
+## 在工作目录中使用NPM
 
 - `npm init`，使用`-y`快速生成。
 - 开发时依赖`devDependency` `--save-dev`
 - 对于私有软件可在`package.json`声明`private: true`。
 - 在`package.json`中，包版本号前的`^`表示指主版本号相符的最新包，即下一个主版本前的最新包。
 
-### 维护NPM
+## 维护NPM
 
 - 清理缓存 `npm cache clean`
 
