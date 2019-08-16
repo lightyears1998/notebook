@@ -1,64 +1,53 @@
 # JavaScript笔记
 
-## Chapter 0 概述
+## 概述
 
-ECMAScript是JavaSrcipt的语言标准，JavaSript是ECMAScript的一种实现。
-
-JavaScript算是一种嵌入式语言，本身没有IO函数，需要宿主来提供。最典型的宿主是浏览器和服务器端的Node项目。
-
-JavaScript不是纯粹的面向对象语言，也支持其他编程范式，例如函数式编程。
-
-JavaScript的核心语法部分十分精简，只包含基本的语法构造和标准库，更多地依赖于宿主环境提供的API；以浏览器环境为例子，提供的API主要有三大类
-
-1. 浏览器控制类
-2. DOM类
-3. Web类
-
-> 摘自Wangdoc.com <https://wangdoc.com/javascript/basic/index.html>
+- ECMAScript是JavaScript的语言标准，JavaScript是ECMAScript的一种实现。
+- JavaScript算是一种嵌入式语言，本身没有IO函数，需要宿主来提供。最典型的宿主是浏览器和服务器端的Node项目。
+- JavaScript不是纯粹的面向对象语言，也支持其他编程范式，例如函数式编程。
+- JavaScript的核心语法部分十分精简，只包含基本的语法构造和标准库，更多地依赖于宿主环境提供的API。
 
 ### 重要的编程风格
 
 1. Javascript中区块起首的大括号紧跟在关键字后面，避免[难以察觉的错误](https://wangdoc.com/javascript/features/style.html#区块)。
 2. 尽量使用严格相等运算符`===`，以避免[自动类型转换带来的不确定性](https://wangdoc.com/javascript/features/style.html#相等和严格相等)。
 3. `switch... case`结构可以用面向对象结构替代。
-4. 严格模式，在产生任何实际运行效果的语句前添加`'use strict'`字符串
 
-`switch case`的面向对象风格替代
+    ```js
+    function doActions(action) {
+        var actions = {
+            'one': function () {
+                return 1;
+            },
+            'two': function () {
+                return 2;
+            },
+            'run': function () {
+                return 'run';
+            }
+        };
 
-```js
-function doActions(action) {
-    var actions = {
-        'one': function () {
-            return 1;
-        },
-        'two': function () {
-            return 2;
-        },
-        'run': function () {
-            return 'run';
+        if (typeof actions[action] !== 'function') {
+            throw new Error('Invalid action.');
         }
-    };
 
-    if (typeof actions[action] !== 'function') {
-        throw new Error('Invalid action.');
+        return actions[action]();
     }
+    ```
 
-    return actions[action]();
-}
+4. 严格模式，在产生任何实际运行效果的语句前添加`'use strict'`字符串。
 
-```
-
-## Chpater 1 开发环境
+## 开发环境
 
 ### 控制台与console对象
 
-向控制台输出信息，自动在连续两个参数产生的输出间添加空格，并在每次输出的结尾添加换行符
+向控制台输出信息，自动在连续两个参数产生的输出间添加空格，并在每次输出的结尾添加换行符。
 
 1. `console.log()`, `console.debug()`, `console.info()`
 2. `console.warn()`
 3. `console.error()`
 
-支持格式字符串，如`%s`, `%d`或`%i`, `%f`, 对象的链接`%o`。在浏览器上还支持CSS格式字符串`%c`（用于对输出内容进行渲染）。
+支持格式字符串，如`%s`, `%d`或`%i`, `%f`, 对象的链接`%o`。
 
 可以按自己的需要覆盖console的方法，如为console的输出添加时间字符串。
 
@@ -71,7 +60,7 @@ function doActions(action) {
 });
 ```
 
-`console.table`可以将符合类型的数据转换为表格显示
+`console.table`可以将符合类型的数据转换为表格显示。
 
 ```js
 console.table(
@@ -82,26 +71,21 @@ console.table(
 );
 ```
 
-`console.dir()`用于对对象进行审察，格式比直接使用console.log()美观。
+- `console.dir()`用于对对象进行审察，格式比直接使用`console.log()`美观。
+- `console.count('tag')`用于计数，输出它被调用了多少次。
+- `console.time('tag')`和`console.timeEnd('tag')`用于计算操作花费的时间。
+- `console.group()`, `console.groupEnd()`和`console.groupCollapsed()`用于对大量信息进行分组。
+- `console.trace()`用于显示调用栈。
+- `console.clear()`用于清空输出。
 
-`console.count('tag')`用于计数，输出它被调用了多少次。
-
-`console.time('tag')`和`console.timeEnd('tag')`用于计算操作花费的时间。
-
-`console.group()`, `console.groupEnd()`和`console.groupCollapsed()`用于对大量信息进行分组。
-
-`console.trace()`用于显示调用栈。
-
-`console.clear()`用于清空输出。
-
-## Chapter 2 基础语法
+## 基础语法
 
 语句以分号结尾；表达式不需要以分号结尾。没有内容的语句是空语句。
 
 ### 标识符
 
-1. 第一个字符可以是任意Unicode字母，以及美元符号`$`和下划线`_`
-2. 第二个字符以及其后字符还可以是数字
+1. 第一个字符可以是任意Unicode字母，以及美元符号`$`和下划线`_`。
+2. 第二个字符以及其后字符还可以是数字。
 
 ### 注释
 
@@ -110,16 +94,16 @@ console.table(
 
 #### `<!-- -->`形式的注释
 
-*最好还是不要用这样奇怪的东西*。
+> 不要使用。
 
 ```js
 x = 1; <!-- x = 2;
 --> x = 3;
 ```
 
-注意只有`x = 1;` 会被执行，其他代码（包括`x = 3;`）都被注释掉了
+注意只有`x = 1;` 会被执行，其他代码（包括`x = 3;`）都被注释掉了。
 
-注意只有在行首的`-->`才会被当成单行注释，否则会被认为是正常的运算
+注意只有在行首的`-->`才会被当成单行注释，否则会被认为是正常的运算。
 
 ### 变量
 
@@ -131,10 +115,12 @@ x = 1; <!-- x = 2;
 var a = 1 + 3;
 ```
 
-- 变量具有动态类型
-- **变量提升** 所有的变量声明的语句，都会被提升到代码的头部，并先执行
+- 变量具有动态类型。
+- **变量提升** 所有使用`var`声明变量的语句都会被提升到代码的头部，并先执行。
 
-### 区块 Block
+### 区块
+
+对于`var`声明的变量来说，区块（Block）不构成单独的作用域（Scope）。
 
 ```js
 {
@@ -143,17 +129,16 @@ var a = 1 + 3;
 a;  // 1
 ```
 
-对于var声明的变量来说，区块不构成单独的作用域（Scope）
-
 ### 控制语句
 
-`if`, `switch`, `while`, `do... while`, `for`结构与C++保持一致
+- `if`, `switch`, `while`, `do... while`, `for`结构与C++保持一致。
+- 可以像在Java语言中那样结合标签使用`break`和`continue`。
 
-可以像在Java语言中那样结合标签使用`break`和`continue`
+注意：
 
-注意`switch`表达式的匹配采用严格相等运算符`===`
+- `switch`表达式的匹配采用严格相等运算符`===`。
 
-## Chapter 3 数据类型
+## 数据类型
 
 JavaScript中定义了7种数据类型
 
@@ -1144,11 +1129,3 @@ ctx = canvas.getContext('2d');
 ### URLSearchParams
 
 构造、解析和处理URL的查询字符串。
-
-## Chapter 11 模块化
-
----
-
-- [ECMAScript文档](https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
-- [Mozilla JavaSript参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Wangdoc.com](https://wangdoc.com/javascript/)

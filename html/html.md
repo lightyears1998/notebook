@@ -1,14 +1,24 @@
 # HTML: Hyper Text Markup Language 笔记
 
+## 基础结构
+
+```html
+<!DOCTYPE html>
+<html>
+<head></head>
+<body></body>
+</html>
+```
+
 ## 视口
 
-固定移动设备的缩放比例。
+固定设备（多为移动设备）的缩放比例。
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 ```
 
-<https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag>
+参考：[MDN视口](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)
 
 ## 标签（元素）
 
@@ -20,7 +30,7 @@
 
 HTML5允许没有结束标签的标签，这样的标签称为“空标签”或“自包含标签”。
 
-常用标签
+常用标签：
 
 - 锚anchor `<a href="..."> </a>`
 - 注释 `<!-- 注释 -->`
@@ -30,18 +40,19 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 - 水平线 `<hr>`
 - 块级元素`<div>`，内联显示元素`<span>`
 
-语义标签
+语义标签：
 
 - 文本格式化 b, big, em(emphasis), i, small, strong, sub, sup, ins, del
 - 计算机 code, kbd(keyboard document), samp(sample), tt(teletype text), var, pre
 - 引用标签 abbr, acronym, address, bdo(bi-direction override), blockquote, q(quote), cite, dfn(define)
 
-语义化Div
+语义化Div：
 
 - header
 - nav
 - main
 - footer
+- video, article, section
 
 ### 属性
 
@@ -54,11 +65,10 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 - title
 - href
 - src
-- style 用样式定义颜色，背景色，字体等，而不是用标签
-- width  && height
+- style
+- width && height
 - alt 替换文本
 - background 背景图像
-- align （弃用）对齐图像等 bottom middle top left right
 
 ## 使用层叠样式表CSS
 
@@ -87,10 +97,15 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 
 ## 超链接
 
-target: _blank（新页面打开） _top（跳出框架）
-name / id: label (href="#label")
+结合Anchor标签使用`href`属性。
 
-发送邮件
+- `target`属性
+  - 新页面打开`_blank`
+  - 跳出框架`_top`
+- 哑链接`href="#"`
+- 页面内链接 `id="label"` `href="#label"`
+
+### 发送邮件
 
 ```html
 <a href="mailto:someone@microsoft.com?cc=someoneelse@microsoft.com&bcc=andsomeoneelse2@microsoft.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
@@ -98,8 +113,8 @@ name / id: label (href="#label")
 
 ## 列表
 
-- 列表 ol, ul, dl(description list)
-- 列表项目 li
+- 列表 `ol`(ordered list), `ul`(unordered list), `dl`(description list)
+- 列表项目 `li`(list item)
 
 ## 图像
 
@@ -125,18 +140,27 @@ name / id: label (href="#label")
 
 ## 表单
 
-text, checkbox, radio, hidden, password, submit, reset
-
 ```html
 <form action="service.php">
-<input type="text" name="email" id="email">
-<input type="submit"> <input type="reset">
+    <input type="text" name="email" id="email">
+    <input type="submit">
+    <input type="reset">
 </form>
 ```
 
 如果忽略action属性，表单提交到当前url。表单中的各项内容是根据name属性来区分的。
 
-botton, textarea, select
+### input
+
+- type属性：text, checkbox, radio, hidden, password, submit, reset
+- placeholder属性：显示文本替代符
+- required属性
+
+### button, textarea, select
+
+```html
+<button type="submit">Button Text</button>
+```
 
 ```html
 <select>
@@ -145,8 +169,28 @@ botton, textarea, select
 </select>
 ```
 
-- tabindex
-- accesskey
+### 选择按钮
+
+使用`checked`属性来指定默认选中。
+
+#### radio
+
+可以使用label标签来包装radio。label标签的`for`属性常设为radio的`id`属性。单选按钮组的radio的`name`属性应相同。
+
+```html
+<label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+<label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+```
+
+#### checkbox
+
+可以使用label标签来包装radio。label标签的`for`属性常设为checkbox的`id`属性。
+
+```html
+<label><input type="checkbox" name="personality"> Loving</label>
+<label><input type="checkbox" name="personality"> Lazy</label>
+<label><input type="checkbox" name="personality"> Energetic</label><br>
+```
 
 ---
 
