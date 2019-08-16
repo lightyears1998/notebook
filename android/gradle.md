@@ -77,9 +77,9 @@ dependencies {
 
 ```
 
-### 依赖的等价配置
+### 等价语法
 
 以下语句等价：
 
-1. `implementation group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'`
+1. `implementation group: 'org.apache.httpcomponents', name: 'httpclient-android', version: '4.3.5.1'`
 2. `implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'`
