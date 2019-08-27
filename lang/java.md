@@ -1,46 +1,47 @@
 # Java笔记
 
-## Chpater 0 概述
+## 基本概念
 
-诞生于1990年，源自甲骨文的跨平台解决方案。
+- Java使用引用来操作对象。Java使用垃圾回收器来监视使用`new`创建的所有对象，辨明不再需要的对象，随后释放这些对象的内存空间。
+- Java类中的数据成员称为“字段”，成员函数称为“方法”。
 
-## Chapter 1 基本概念
+## 代码组织
 
-源文件的拓展名是`.java`，需要使用Java编译器*Java Complier*`javac`编译成字节码`.class`，然后载入Java虚拟机*Java Virtual Machine*`java`运行。
+- 每个`.java`文件是一个编译单元；一个编译单元中可以有多个类，但最多只有一个public类。当编译单元中存在public类时，编译单元的文件名需与public类类名保持一致；否则，文件名与编译单元内任意类名相同即可。
+- 使用命令行编译时，只需要指定编译入口类，编译器会自动编译所需的类。
 
-Java使用引用来操作对象。Java使用垃圾回收器来监视使用`new`创建的所有对象，辨明不再需要的对象，随后释放这些对象的内存空间。
+## 数据类型
 
-Java类中的数据成员称为“字段”，成员函数称为“方法”。
-
-## Chapter 2 数据类型
-
-> 一切都是对象
-
-boolean(Boolean), char(Character), byte(Byte), short(Short), int(Integer), long(Long), float(Float), double(Double), void(Void)
-
-BigInteger, BigDecimal
+- boolean(Boolean), char(Character)
+- byte(Byte), short(Short), int(Integer), long(Long)
+  - `Type.MAX_VALUE`, `Type.MIN_VALUE`
+- float(Float), double(Double), void(Void)
+- BigInteger, BigDecimal
+- 不会自动地将数值转换为Boolean值。
 
 ### 包装器方法
 
 - Integer等 `toString()`, `toBinaryString()`
 - Character `isLowerCase()`
 
-### 字面值
+### 字面值书写
 
-指数计数法与C++形式相同
+- 整数计数法与C++形式相同，支持十进制、八进制和十六进制。
+- 指数计数法与C++形式相同。
 
 ### 赋值
 
-对基本类型的赋值是按值传递，对对象“赋值”时传递的是引用。
+- 对基本类型的赋值是按值传递，对对象“赋值”时传递的是引用。
+- **别名现象** 按值传递，导致传递的是引用而不是复制对象。
 
 ### 数组
+
+不允许指定数组的大小，因为Java只持有引用。
 
 ```java
 int[] arr = {... };  // 推荐，花括号初始化等价于使用new
 int arr[] = {... };  // 符合C/C++习惯
 ```
-
-不允许指定数组的大小，因为我们只持有引用。
 
 ```java
 int[] arr = new int[元素个数];
@@ -84,7 +85,7 @@ public class ShowCurrency {
 }
 ```
 
-## Chapter 3 流程控制
+## 流程控制
 
 Java中`if-else`, `while`, `do-while`, `for`, `switch`形式上与C++保持一致。
 
@@ -112,15 +113,22 @@ outer-iteration {
 
 合理利用可以减少flag的传递。
 
-## Chapter 4 类
+### `foreach`
+
+```java
+for (Type value : values) {
+    // 循环体
+}
+```
+
+## 类
 
 ### 初始化
 
-Java为类的基本数据成员提供默认的初始化，Java保证必要的初始化必须进行。
+- **静态初始化** Java为类的基本数据成员提供默认的初始化，Java保证必要的初始化必须进行。
+- **指定初始化** 在声明类成员处赋值。
 
-- **指定初始化** 在声明类成员处赋值
-
-对静态初始化的组织
+可以使用`static`块组织静态初始化的代码：
 
 ```java
 static int i;
@@ -175,7 +183,7 @@ void func(Object... objs) {
 
 由于可变参数列表可以接受0个参数，Java中存在自动装箱机制，因此重载方法接受基本数据类型时可能遇到因为0个参数而无法判定调用哪个重载方法的问题。
 
-## Chapter 5 常用类
+## 常用类
 
 ### java.util.Arrays
 
@@ -188,22 +196,25 @@ Random rand = new Random(47);
 rand.nextInt(100);  // [0, 100) 左闭右开
 ```
 
-## Chapter 6 访问权限控制
+## 访问权限控制
 
 - Java没有条件编译，但可以通过import发行包和调试包来实现类似的功能
 
 ### 访问权限修饰词
 
-- 包访问权限
-- *public* 接口访问权限
-- *protected* 继承访问权限
-- *private* 封闭的访问权限
+- `public` **接口访问权限**
+- 无修饰词为**包访问权限**
+- `protected` **继承访问权限**
+- `private` **封闭的访问权限**
 
-## Chapter 7 复用类
+## 复用类（组合、继承与代理）
 
-组合、继承与代理
+### `final`关键字
 
-### `final`关键子
+### 继承
+
+- 先构建基类部分，再构建子类部分。
+- 在子类的构造器中初始化子类的代码之前，使用`super()`调用基类的构造器。
 
 ### final数据
 
@@ -219,7 +230,7 @@ rand.nextInt(100);  // [0, 100) 左闭右开
 
 - 禁止继承
 
-## Chapter 8 多态
+## 多态
 
 ## 常见问题处理方式
 
