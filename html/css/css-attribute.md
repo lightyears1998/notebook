@@ -30,9 +30,12 @@
 - font-size
 - font-family `sans-serif` `monospace` 多个字体之间使用逗号隔开。
 - font-weight `bold` tag: `<strong>`
-
-- text-decoration `underline` tag: `u`
+- text-transform `uppercase`, `lowercase`, `capitalize`等。
+- text-decoration
+  - `underline` tag: `<u>`
+  - `line-through` tag: `<s>`（删除线）
 - text-align `justify`, `left`, `right`, `center`
+- line-height 行高
 
 ## 渐变
 

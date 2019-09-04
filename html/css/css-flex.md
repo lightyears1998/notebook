@@ -1,6 +1,6 @@
 # Flex布局
 
-```raw
+```plain
 +----------------------------> 主轴方向 flex-flow
 |       justify-content 主轴上元素的留白策略
 |
