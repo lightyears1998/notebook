@@ -79,9 +79,17 @@
     set VARNAME=value;%VARNAME%
     ```
 
+- 寻找命令所在位置 `where <command>`
+
 ## Powershell
 
 - 以管理员身份运行 `Start-Process powershell -Verb RunAs "<cmd>" -argumentlist "Arg1", "Arg2"`
 
 - 设置代码执行权限 `Set-ExecutionPolicy [Unrestricted]`
 - 存取环境变量 `ls env:`, `$env:Name`, `$env:name="Value"`
+
+- 获取命令信息 `Get-Command <command>`
+
+```ps1
+# 注释
+```

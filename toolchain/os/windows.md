@@ -1,5 +1,17 @@
 # Windows操作系统笔记
 
+## 软件包管理
+
+[Chocolatey](https://chocolatey.org/)
+
+```ps1
+# 以管理员身份运行
+choco install <package-name>
+choco upgrade <package-name>
+```
+
+图形界面：`choco install chocolateygui`
+
 ## 拓展显示器
 
 - [spacedeck](http://spacedesk.com/) 将Android手机屏幕作为Windows的拓展显示器。
