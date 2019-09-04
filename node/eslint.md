@@ -48,6 +48,9 @@ rules:
     - error
   no-multi-spaces:
     - error
+    - {
+      ignoreEOLComments: true
+    }
   no-return-await:
     - error
   wrap-iife:

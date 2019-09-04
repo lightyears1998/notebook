@@ -12,12 +12,36 @@
 
 ## 数据类型
 
+Java类中的数据成员称为“字段”，成员函数称为“方法”。
+
+## Compile
+
+- 可以使用source开关来指定目标JRE版本：`-source 1.4`
+
+## `package`
+
+Java使用包来组织类。
+
+运行有包名的主类时必须使用完全限定名称。
+
+```sh
+javac package/name/*.java
+java package.name.MainClass
+```
+
+## Chapter 2 数据类型
+
+基本数据类型与它对应的包装：
+
 - boolean(Boolean), char(Character)
 - byte(Byte), short(Short), int(Integer), long(Long)
   - `Type.MAX_VALUE`, `Type.MIN_VALUE`
+  - `Type(Type num)`, `Type.typeValue()`
 - float(Float), double(Double), void(Void)
 - BigInteger, BigDecimal
 - 不会自动地将数值转换为Boolean值。
+
+处理较大数据时使用的：BigInteger, BigDecimal
 
 ### 包装器方法
 
@@ -57,7 +81,18 @@ Integer[] arr = {
 };
 ```
 
-每种类型的数组的固有对象是`length`。
+每种类型的数组的固有对象是`length`，代表数组的长度。
+
+对于高维数组，形式如下：
+
+```java
+int dimTwo[][] = new int[3][4];
+
+int dimTwo[][] = new int[3][];
+dimTwo[0] = new int[1];
+dimTwo[1] = new int[2];
+dimTwo[3] = new int[3];
+```
 
 ### 枚举Enum
 
@@ -137,6 +172,8 @@ static {
 }
 ```
 
+类中的静态成员也称为“类变量”。
+
 ### 构造器
 
 基本内容与C++保持一致。
@@ -183,6 +220,10 @@ void func(Object... objs) {
 
 由于可变参数列表可以接受0个参数，Java中存在自动装箱机制，因此重载方法接受基本数据类型时可能遇到因为0个参数而无法判定调用哪个重载方法的问题。
 
+### `instanceof`操作符
+
+左边的类是否为右边的类或子类创建的对象。
+
 ## 常用类
 
 ### java.util.Arrays
@@ -209,9 +250,63 @@ rand.nextInt(100);  // [0, 100) 左闭右开
 
 ## 复用类（组合、继承与代理）
 
-### `final`关键字
+### 接口 `interface`
+
+```java
+interface SomeInterface {
+    // interface body
+}
+```
+
+接口中的方法一定是`public abstract`。
+
+- 若一个接口被`public`修饰，那么它可以被任何一个类实现。
+- 若一个接口没有被`public`修饰，那么它可以被同一包内的类实现。
 
 ### 继承
+
+```java
+class Apple extends Fruit {
+    // class definition
+}
+
+class Apple implements Etable {
+    // class definition
+}
+```
+
+类的继承对父类成员的访问权限符合访问权限限制，即：
+
+1. 当子类和父类在同一个包中时，子类自然地继承父类中不是private的成员。
+2. 当子类和父类在不同包中时，子类只能继承父类中public和protected的成员。
+
+在继承中使用同名的变量时，父类同名变量隐藏，可以使用`super.var`访问。
+
+在继承中使用同名的方法时，方法可以隐藏或重写。
+
+对于重写，方法的类型与父类方法类型一致或者是父类方法类型的子类型。
+
+使用`@Override`注记来指明对方法的重写。
+
+重写父类方法时，不能降低父类方法的访问权限，这是从继承的角度看子类也是一种基类的限制。
+
+### `abstract`关键字
+
+```java
+abstract class SomethingAbstract {
+    abstract abstractMethod();
+
+    nonAbstractMethod() {
+        // function body.
+    }
+}
+```
+
+- abstract类可以有抽象方法和非抽象方法。
+- abstract类不能使用`new`来创建对象。
+- 不能同时使用abstract和final来修饰同一个类。
+
+### `final`关键字
 
 - 先构建基类部分，再构建子类部分。
 - 在子类的构造器中初始化子类的代码之前，使用`super()`调用基类的构造器。
@@ -232,6 +327,8 @@ rand.nextInt(100);  // [0, 100) 左闭右开
 
 ## 多态
 
+Java中的多态性是“同名不同参，同名不同义”。
+
 ## 常见问题处理方式
 
 ### 数字格式
@@ -244,3 +341,17 @@ rand.nextInt(100);  // [0, 100) 左闭右开
 NumberFormat formatter = new DecimalFormat(",###");
 formatter.format(number)
 ```
+
+## 输入输出工具
+
+### `java.util.Scanner`
+
+```java
+Scanner sc = new Scanner(System.in);
+sc.hasNext(); // ...
+sc.NextInt(); // ...
+```
+
+### `System.out.printf(format-string, var-list)`
+
+类C语言的`printf`方法。

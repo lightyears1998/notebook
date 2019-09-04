@@ -73,6 +73,13 @@
   - `命令 < 输入流 > 输出流`
   - `命令 >> 输出流` 往现有文件末尾追加数据。
   - `前一个命令 | 后一个命令` 将前一个命令的输出作为后一个命令的输入。
+- 环境变量的设置
+
+    ```cmd
+    set VARNAME=value;%VARNAME%
+    ```
+
+- 寻找命令所在位置 `where <command>`
 
 ## Powershell
 
@@ -80,3 +87,9 @@
 
 - 设置代码执行权限 `Set-ExecutionPolicy [Unrestricted]`
 - 存取环境变量 `ls env:`, `$env:Name`, `$env:name="Value"`
+
+- 获取命令信息 `Get-Command <command>`
+
+```ps1
+# 注释
+```
