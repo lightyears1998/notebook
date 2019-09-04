@@ -1,5 +1,7 @@
 # NPM
 
+在包管理上使用[yarn](yarn.md)代替npm。
+
 ## 基本使用
 
 - 列出配置 `npm config list`
