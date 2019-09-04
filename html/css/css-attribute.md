@@ -39,4 +39,4 @@
 
 ## 渐变
 
-- background-image: linear-gradient(to bottom, #FFFFFF, #00FF00);
+- background-image: `linear-gradient(to bottom, #FFFFFF, #00FF00)`
