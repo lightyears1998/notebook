@@ -5,9 +5,7 @@ npm install eslint --save-dev
 eslint --init  # 自定义配置
 ```
 
-## 个人配置
-
-.eslintrc.yml
+## 一般用途`.eslintrc.yml`
 
 ```yml
 env:
