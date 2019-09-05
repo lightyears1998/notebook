@@ -90,3 +90,15 @@ Tex Live是跨平台的Tex发行包。
 ## 链接
 
 - LaTeX简介 <https://liam.page/2014/09/08/latex-introduction/>
+
+---
+
+## Tex发行版：TexLive
+
+### 1. 处理发行版问题
+
+[在旧发行版上安装旧版软件包](https://tex.stackexchange.com/questions/25089/how-to-install-a-package-from-an-older-version-of-texlive)：
+
+```sh
+tlmgr option repository ftp://tug.org/historic/systems/texlive/2010/tlnet-final
+```
