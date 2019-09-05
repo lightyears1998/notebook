@@ -104,5 +104,6 @@ Tex Live是跨平台的Tex发行包。
 [在旧发行版上安装旧版软件包](https://tex.stackexchange.com/questions/25089/how-to-install-a-package-from-an-older-version-of-texlive)：
 
 ```sh
+# 存在风险，操作前需要备份。
 tlmgr option repository ftp://tug.org/historic/systems/texlive/2010/tlnet-final
 ```
