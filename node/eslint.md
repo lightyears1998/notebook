@@ -7,6 +7,8 @@ eslint --init  # 自定义配置
 
 ## 个人配置
 
+.eslintrc.yml
+
 ```yml
 env:
   browser: true
@@ -157,7 +159,7 @@ rules:
     - error
 ```
 
-## VS Code拓展
+## VS Code拓展全局设置
 
 ```json
 {
