@@ -32,6 +32,10 @@
 
 - Google ClusterFuzz Bug自动发现程序
 
+## 静态站点生成
+
+- [Hugo](https://gohugo.io)
+
 ## 实用工具
 
 - 浏览器 Firefox Developer Edition, Chrome

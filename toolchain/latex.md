@@ -69,6 +69,10 @@ Hello, world~
 \end{figure}
 ```
 
+## 绘制矢量图形
+
+考虑[pgf-tikz](https://github.com/pgf-tikz/pgf)
+
 ## 有序列表
 
 ```latex

@@ -637,7 +637,7 @@ JavaScript的对象基于原型链
 ### 构造函数
 
 ```js
-var CheseBoard = function () {
+var ChessBoard = function () {
   this.length = 8;
 };
 ```
