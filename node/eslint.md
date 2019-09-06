@@ -22,140 +22,140 @@ parserOptions:
   ecmaVersion: 2018
 rules:
   brace-style:
-    - error
+    - warn
     - 1tbs
   curly:
-    - error
+    - warn
     - all
   dot-location:
-    - error
+    - warn
     - object
   dot-notation:
-    - error
+    - warn
   eqeqeq:
-    - error
+    - warn
     - smart
   indent:
-    - error
+    - warn
     - 2
   linebreak-style:
-    - error
+    - warn
     - unix
   no-trailing-spaces:
-    - error
+    - warn
   no-else-return:
-    - error
+    - warn
   no-implicit-coercion:
-    - error
+    - warn
   no-multi-spaces:
-    - error
+    - warn
     - {
       ignoreEOLComments: true
     }
   no-return-await:
-    - error
+    - warn
   wrap-iife:
-    - error
+    - warn
     - inside
   quotes:
-    - error
+    - warn
     - single
   semi:
-    - error
+    - warn
     - never
   yoda:
-    - error
+    - warn
     - never
   block-spacing:
-    - error
+    - warn
     - always
   camelcase:
-    - error
+    - warn
     - {
       properties: always,
       ignoreDestructuring: false,
       allow: []
     }
   comma-dangle:
-    - error
+    - warn
     - never
   comma-spacing:
-    - error
+    - warn
     - {
       before: false,
       after: true
     }
   comma-style:
-    - error
+    - warn
     - last
   eol-last:
-    - error
+    - warn
     - always
   func-call-spacing:
-    - error
+    - warn
     - never
   jsx-quotes:
-    - error
+    - warn
     - prefer-double
   key-spacing:
-    - error
+    - warn
     - {
       beforeColon: false,
       afterColon: true,
       align: value
     }
   keyword-spacing:
-    - error
+    - warn
     - {
       before: true,
       after: true
     }
   new-parens:
-    - error
+    - warn
     - always
   no-lonely-if:
-    - error
+    - warn
   multiline-comment-style:
-    - error
+    - warn
     - starred-block
   no-whitespace-before-property:
-    - error
+    - warn
   object-curly-spacing:
-    - error
+    - warn
     - always
   array-bracket-spacing:
-    - error
+    - warn
     - never
   space-before-blocks:
-    - error
+    - warn
     - always
   space-before-function-paren:
-    - error
+    - warn
     - {
       anonymous: always,
       named: never,
       asyncArrow: always
     }
   space-in-parens:
-    - error
+    - warn
     - never
   spaced-comment:
-    - error
+    - warn
     - always
   switch-colon-spacing:
-    - error
+    - warn
     - {
       before: false,
       after: true
     }
   template-tag-spacing:
-    - error
+    - warn
     - never
   unicode-bom:
-    - error
+    - warn
     - never
   wrap-regex:
-    - error
+    - warn
 ```
 
 ## VS Code拓展全局设置
