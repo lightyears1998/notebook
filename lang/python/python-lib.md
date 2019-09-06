@@ -67,3 +67,11 @@ Windows:
 
 1. 安装Tesseract，并将`path/to/tesseract`添加到`Path`变量，并设置`TESSDATA_PREFIX`环境变量为`path/to/tesseract/tessdata`（否则调用API时将报错“Invalid tessdata path”）。
 2. Windows下通过`pip`安装涉及编译过程，较为困难；通过预编译的`.whl`文件安装较为简单。
+
+## 关系运算包Pandas
+
+<https://pandas.pydata.org/>
+
+## 爬虫控制Selenium
+
+<https://morvanzhou.github.io/tutorials/data-manipulation/scraping/5-01-selenium/>

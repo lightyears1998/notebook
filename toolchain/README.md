@@ -11,6 +11,7 @@
 ### 网络代理
 
 - [快代理](https://www.kuaidaili.com/)
+- [0xHJK/Proxies](https://github.com/0xHJK/Proxies)
 
 ### AI生成
 
