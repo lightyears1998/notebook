@@ -24,6 +24,16 @@
 - VS Live Share
 - Remote Development
 - Code Runner
+
+    配置：
+
+    ```json
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt",
+    }
+    ```
+
 - Markdownlint
 
 语言相关：
