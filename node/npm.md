@@ -2,6 +2,11 @@
 
 在包管理上使用[yarn](yarn.md)代替npm。
 
+- `@somescope/somepackage`中的`@`符号是[作用域限定符号](https://docs.npmjs.com/misc/scope)。
+- `major.minor.patch`
+  - `^` `major`相同而`minor.patch`最新的版本。
+  - `~` `major.minor`相同而`patch`最新的版本。
+
 ## 基本使用
 
 - 列出配置 `npm config list`
