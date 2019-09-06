@@ -33,15 +33,15 @@ java package.name.MainClass
 
 基本数据类型与它对应的包装：
 
-- boolean(Boolean), char(Character)
-- byte(Byte), short(Short), int(Integer), long(Long)
+- `boolean`(`Boolean`), `char`(`Character`)
+- `byte`(`Byte`), `short`(`Short`), `int`(`Integer`), long(`Long`)
   - `Type.MAX_VALUE`, `Type.MIN_VALUE`
   - `Type(Type num)`, `Type.typeValue()`
-- float(Float), double(Double), void(Void)
-- BigInteger, BigDecimal
-- 不会自动地将数值转换为Boolean值。
+- `float`(`Float`), `double`(`Double`), `void`(`Void`)
+- `BigInteger`, `BigDecimal`
+- 不会自动地将数值转换为`Boolean`值。
 
-处理较大数据时使用的：BigInteger, BigDecimal
+处理较大数据时使用的：`BigInteger`, `BigDecimal`
 
 ### 包装器方法
 
@@ -226,15 +226,15 @@ void func(Object... objs) {
 
 ## 常用类
 
-### java.util.Arrays
+### `java.util.Arrays`
 
 - `Arrays.toString()` 打印数组
 
-### java.util.Random
+### `java.util.Random`
 
 ```java
 Random rand = new Random(47);
-rand.nextInt(100);  // [0, 100) 左闭右开
+rand.nextInt(100);  // 生成[0, 100)区间内的随机数
 ```
 
 ## 访问权限控制
