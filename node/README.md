@@ -1,7 +1,4 @@
 # Node.js工作流
 
-全局工具：
-
-```sh
-yarn global add eslint
-```
+1. 使用yarn代替npm。
+2. 项目级别安装优于全局级别安装。

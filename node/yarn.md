@@ -4,5 +4,5 @@
 yarn global add <package>
 
 yarn install
-yarn add <package>
+yarn add [--dev] <package>
 ```
