@@ -51,6 +51,7 @@
 
 ## OCR
 
+- 中文自然语言处理 mayabot/mynlp
 - Tesseract OCR文字识别引擎
 
 ## 游戏
