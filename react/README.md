@@ -132,3 +132,39 @@ const MakeSound = (props) => {
 ## 渲染数组元素
 
 存放JSX的数组会被一个一个罗列并渲染。
+
+```js
+const users = [
+  { name: "Jackson", age: 22 },
+  { name: "Tomas", age: 24 },
+  { name: "Jelly", age: 25 }
+];
+
+class UserList extends Component {
+  render() {
+    return (
+      <div> {
+        users.map((user) => {
+          return (
+            <div key={user.name}>
+              <p>姓名：{user.name}</p>
+              <p>年龄：{user.age}</p>
+            </div>
+          );
+        })
+      }
+      </div>
+    );
+  }
+}
+```
+
+为了使用Virtual-DOM的优化机制，每个列表项应该有一个全局唯一的`key`HTML属性。
+
+---
+
+## 使用`create-react-app`快速新建单页面项目
+
+```sh
+npx create-react-app <app-name>
+```
