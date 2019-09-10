@@ -7,17 +7,16 @@
 ```sh
 yarn global add gulp-cli
 yarn add --dev gulp
-```
-
-gulpfile.js
-
-```sh
 npx -p touch nodetouch gulpfile.js
 gulp --help
-```
 
-gulpfile.babel.js
+# For gulpfile.ts
+yarn add --dev typescript ts-node
 
-```sh
+# For gulpfiel.babel.js
 yarn add --dev @babel/register
 ```
+
+## 配置
+
+1. 不`export`的task视为private task，不会直接被调用。
