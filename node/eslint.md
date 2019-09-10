@@ -59,7 +59,7 @@ rules:
     - inside
   quotes:
     - warn
-    - single
+    - double
   semi:
     - warn
     - always
