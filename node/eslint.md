@@ -15,11 +15,17 @@ env:
   node: true
 extends:
   - 'eslint:recommended'
+  # 'react-app'
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 parserOptions:
   ecmaVersion: 2018
+```
+
+## Style规则
+
+```yml
 rules:
   brace-style:
     - warn
