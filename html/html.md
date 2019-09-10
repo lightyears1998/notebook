@@ -72,7 +72,7 @@ HTML5允许没有结束标签的标签，这样的标签称为“空标签”或
 
 ## 使用层叠样式表CSS
 
-详见[css.md](css.md)
+详见[css.md](css)
 
 ## 使用JavaScript
 
