@@ -29,7 +29,7 @@ rules:
     - all
   dot-location:
     - warn
-    - object
+    - property
   dot-notation:
     - warn
   eqeqeq:
