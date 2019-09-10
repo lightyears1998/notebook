@@ -19,13 +19,18 @@
 
 ## VS Code
 
+settings.json
+
+```json
+"files.insertFinalNewline": true,
+"files.trimTrailingWhitespace": true
+```
+
 核心拓展：
 
 - VS Live Share
 - Remote Development
 - Code Runner
-
-    配置：
 
     ```json
     "code-runner.runInTerminal": true,
