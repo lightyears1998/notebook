@@ -9,10 +9,3 @@
 
 1. 以生产力为标尺，保持实用。
 2. 篇幅适中，保持整洁。
-
----
-
-笔记本的[静态站点][site]由[Mkdocs][]工具在Travis CI上生成。
-
-[site]: https://lightyears1998.github.io/notebook-pages/
-[mkdocs]: https://github.com/lightyears1998/notebook-pages
