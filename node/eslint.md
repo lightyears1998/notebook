@@ -44,25 +44,25 @@ rules:
   no-trailing-spaces:
     - warn
   no-else-return:
-    - warn
+    - error
   no-implicit-coercion:
-    - warn
+    - error
   no-multi-spaces:
     - warn
     - {
       ignoreEOLComments: true
     }
   no-return-await:
-    - warn
+    - error
   wrap-iife:
-    - warn
+    - error
     - inside
   quotes:
     - warn
     - single
   semi:
     - warn
-    - never
+    - always
   yoda:
     - warn
     - never
