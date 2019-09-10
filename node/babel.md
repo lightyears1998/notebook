@@ -6,7 +6,7 @@
 ## 安装
 
 ```sh
-npm install --save-dev @babel/core @babel/cli
+yarn add --dev @babel/core @babel/cli
 ```
 
 package.json
@@ -23,7 +23,7 @@ package.json
 [Docs](https://babeljs.io/docs/en/babel-preset-env)
 
 ```sh
-npm install --save-dev @babel/preset-env
+yarn add --dev @babel/preset-env
 ```
 
 .babelrc

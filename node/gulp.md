@@ -5,8 +5,8 @@
 ## 安装
 
 ```sh
-npm install --global gulp-cli
-npm install --save-dev gulp
+yarn global add gulp-cli
+yarn add --dev gulp
 ```
 
 gulpfile.js
@@ -19,5 +19,5 @@ gulp --help
 gulpfile.babel.js
 
 ```sh
-npm install --save-dev @babel/register
+yarn add --dev @babel/register
 ```
