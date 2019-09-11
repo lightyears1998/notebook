@@ -161,6 +161,34 @@ class UserList extends Component {
 
 为了使用Virtual-DOM的优化机制，每个列表项应该有一个全局唯一的`key`HTML属性。
 
+## 处理用户输入
+
+- **受控组件** 所有的状态都由state控制。
+
+## 信息传递
+
+- 由上层组件来管理信息。
+- 借助下层组件的`props`属性来组织重新渲染。
+
+不推荐的写法：（其实影响也不大。）
+
+```js
+this.state.comments.push(comment);
+this.setState({
+  comments: this.state.comments
+});
+```
+
+推荐的写法：
+
+```js
+const comments = this.state.comments.slice();
+comments.push(comment);
+this.setState({
+  comments: comments
+});
+```
+
 ---
 
 ## 使用`create-react-app`快速新建单页面项目
