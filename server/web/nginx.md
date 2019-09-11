@@ -20,7 +20,7 @@ location ~ \.php$ {
 
 ```conf
 server {
-    servername host.name;
+    server_name host.name;
 
     location / {
         proxy_pass http://localhost:3000;
