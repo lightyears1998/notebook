@@ -18,3 +18,9 @@ git config --global "commit.gpgsign" true
 git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 git config --global "user.signingkey" "26D4F2F9"
 ```
+
+## 操作
+
+```sh
+git pull --force <repo> <remote-branch>:<local-branch>  # 拉取并覆盖本地更改
+```
