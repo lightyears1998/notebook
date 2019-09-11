@@ -23,7 +23,11 @@ settings.json
 
 ```json
 "files.insertFinalNewline": true,
-"files.trimTrailingWhitespace": true
+"files.autoSave": "onFocusChange",
+"files.trimTrailingWhitespace": true,
+"git.confirmSync": false,
+"git.autofetch": true,
+"git.enableSmartCommit": true,
 ```
 
 核心拓展：
