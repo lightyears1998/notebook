@@ -189,6 +189,31 @@ this.setState({
 });
 ```
 
+## 挂载组件的生命周期
+
+```js
+constructor()
+componentWillMount()
+render()
+// <= 构造DOM元素并插入页面
+componentDidMount()
+componentWillUnmound()
+```
+
+## 更新阶段的生命周期
+
+```js
+shouldComponentUpdate(nextProps, nextState)  // 如果返回false就不会继续渲染
+```
+
+深入了解需要参考官网文档。
+
+## 使用`ref`获取DOM元素的引用
+
+```js
+<Input ref={(input) => this.input = input} />
+```
+
 ---
 
 ## 使用`create-react-app`快速新建单页面项目
