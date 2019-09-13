@@ -1,6 +1,6 @@
 # C++笔记
 
-基础部分参见[C语言笔记](C-basic.md)
+基础部分参见[C语言笔记](c-basic.md)
 
 ## Chapter 1 数据类型
 
