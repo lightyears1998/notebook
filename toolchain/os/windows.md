@@ -12,6 +12,10 @@ choco upgrade <package-name>
 
 图形界面：`choco install chocolateygui`
 
+## 磁盘空间管理
+
+- [WinDirStat](https://windirstat.net/)
+
 ## 拓展显示器
 
 - [spacedeck](http://spacedesk.com/) 将Android手机屏幕作为Windows的拓展显示器。
