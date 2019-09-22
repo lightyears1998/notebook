@@ -53,14 +53,12 @@ host    all             all             ::1/128                 md5
 
 ### 允许远程连接
 
-编辑`postgresql.conf`（`/var/lib/pgsql/data/postgresql.conf`）
+编辑`pg_hba.conf`（`/var/lib/pgsql/data/pg_hba.conf`）中的地址字段，如果要允许所有IP访问，可将Address设置为`0.0.0.0/0`。
 
-```txt
-listen_addresses = '*'
-```
+编辑`postgresql.conf`（`/var/lib/pgsql/data/postgresql.conf`），设置`listen_addresses = '*'`
 
-注意为`postgres`用户设置密码。
+如有必要，为`postgres`用户设置密码。
 
 ## 客户端
 
-- pgAdmin4
+- pgAdmin4 跨平台图形界面客户端。
