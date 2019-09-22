@@ -25,6 +25,9 @@ settings.json
 "files.insertFinalNewline": true,
 "files.autoSave": "onFocusChange",
 "files.trimTrailingWhitespace": true,
+"files.exclude": {
+    "node_modules": true
+},
 "git.confirmSync": false,
 "git.autofetch": true,
 "git.enableSmartCommit": true,
