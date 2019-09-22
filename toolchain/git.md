@@ -23,4 +23,5 @@ git config --global "user.signingkey" "26D4F2F9"
 
 ```sh
 git pull --force <repo> <remote-branch>:<local-branch>  # 拉取并覆盖本地更改
+git push <remote-name> --delete <remote-branch> # 删除远程分支
 ```
