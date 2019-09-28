@@ -9,3 +9,8 @@
 yarn add --dev eslint
 yarn add --dev babel-cli
 ```
+
+## 常用软件包
+
+1. watch
+2. cross-env
