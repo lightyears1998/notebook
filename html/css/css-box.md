@@ -23,3 +23,15 @@ margin, boarder, padding
 - float: left | right 元素浮动到容器的左侧|右侧
 - clear: left | right | both 清除浮动
 - overflow
+
+## `position: relative`
+
+使用`position: relative`并定义`left`, `right`, `top`, `bottom`等属性，
+可以使元素move *away* from正常的文档流中应当在的位置。
+
+```css
+h2 {
+    position: relative;
+    top: 10px;
+} /* 将h2从原本文档流中的盒模型的top位置移远10px。注意视觉上h2是向着bottom移动。 */
+```
