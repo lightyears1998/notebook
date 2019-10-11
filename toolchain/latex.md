@@ -91,6 +91,13 @@ Tex Live是跨平台的Tex发行包。
 
 使用TeXWorks Editor进行编辑，一般使用XeLatex进行编译。
 
+## 中文支持
+
+全中文的文档应当使用CTex的文档类`ctexart`等，
+需要在英文的文档类中使用中文支持的情况下可以使用`\usepackage{ctex}`。
+
+`xeCJK`是为Tex添加中文支持的轮子，日常一般使用高层的`ctex`宏包。
+
 ## 链接
 
 - LaTeX简介 <https://liam.page/2014/09/08/latex-introduction/>
