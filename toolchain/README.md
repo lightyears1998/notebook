@@ -41,6 +41,10 @@
 
 - [Hugo](https://gohugo.io)
 
+## 编辑器
+
+- Markdown编辑器 Typora
+
 ## 实用工具
 
 - 浏览器 Firefox Developer Edition, Chrome
@@ -68,3 +72,4 @@
 ## Windows平台相关
 
 - **NSSM**, *the Non-Sucking Service Manager* Windows服务注册工具
+- Windows文件管理 WinDirStat
