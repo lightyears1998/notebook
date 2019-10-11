@@ -1,8 +1,6 @@
 # C#笔记
 
-## Chpater 0 概述
-
-C#由微软推出，Java语言的竞争者；是ECMA和ISO的标准语言。
+## 
 
 ## Chapter 1 基本概念
 

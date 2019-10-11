@@ -1,4 +1,4 @@
-# Editor and IDE 编辑器和集成开发环境
+# 编辑器和集成开发环境
 
 ## Notepad++
 

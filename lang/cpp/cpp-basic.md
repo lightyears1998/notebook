@@ -1,30 +1,41 @@
 # C++笔记：基础
 
-基础部分参见[C语言笔记](c-basic.md)
+C语言笔记不再单独列出。
 
-## Chapter 1 数据类型
+## 命名规范
 
-在 `limits.h` 和 `float.h` 头文件中定义了有关整型和浮点型数大小限制的信息。
+## 字面值
 
-### 转义序列
+### 字符转义序列
 
-- `\ooo`
-- `\xhhh`
-- Unicode `\u00000000`
+- 八进制字符 `\ooo`
+- 十六进制字符 `\xhhh`
+- Unicode字符 `\u00000000`
 
 ### wchar_t、char16_t和char32_t
 
-宽字符常量和宽字符串L前缀
-
 ```cpp
 wchar_t bob = L'P';
-wcout << L"tall" << endl;
+wcout << L"tall" << endl;  // 宽字符常量和宽字符串L前缀
 
 char16_t ch1 = u'q';
 char32_t ch2 = U'\U0000222B';
 ```
 
-在MSVC编译器里，`wchar_t`是UTF-16LE字符（Windows平台原生字符），`char16_t`是UTF-16字符，`char32_t`是UTF-32字符。
+注：
+
+- 在MSVC编译器里，`wchar_t`是UTF-16LE字符（Windows平台原生字符），`char16_t`是UTF-16字符，`char32_t`是UTF-32字符。
+
+### 原始字符串
+
+默认定界符 `R"(... )"`
+
+自定义定界符可在默认定界符之间加入除空格、括号、斜杠、控制字符（制表符等）之外的任意字符。
+例如 `R"delimiter(... )delimiter"`
+
+## 基本数据类型
+
+- 在 `climits` 和 `cfloat` 头文件中定义了有关整型和浮点型数大小限制的信息。
 
 ### 强制类型转换
 
@@ -33,21 +44,13 @@ char32_t ch2 = U'\U0000222B';
 type(name)
 
 static_cast<type>(name)
-
 ```
 
-### 复合类型
+## 复合数据类型
 
 列表初始化数组时可以省略等号，可不在大括号内包含任何东西即可将所有元素置零。
 
-#### 原始字符串
-
-默认定界符 `R"(... )"`
-
-自定义定界符可在默认定界符之间加入除空格、括号、斜杠、控制字符（制表符等）之外的任意字符。
-例如 `R"delimiter(... )delimiter"`
-
-#### 位字段
+### 位字段
 
 ```cpp
 struct torgle_register
@@ -57,10 +60,9 @@ struct torgle_register
     bool goodIn    : 4;
     bool goodTorgle: 4;
 };
-
 ```
 
-#### 共用体/联合
+### Union 共用体/联合
 
 匿名共用体：
 
@@ -77,7 +79,7 @@ struct widget
 }
 ```
 
-#### 枚举
+### 枚举
 
 枚举类型可用于创建符号常量（新的类型名和枚举量），可用枚举来定义switch语句中的符号常量。
 
@@ -96,7 +98,11 @@ spectrum band = green;
 
 枚举的取值范围的计算：开区间，(min(比最小枚举值小的最大的2的幂次, -1), 比最大枚举值大的最小的2的幂次)
 
-#### 指针
+---
+
+## Chapter 1 数据类型
+
+### 指针
 
 注意区分
 

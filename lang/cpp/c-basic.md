@@ -2,11 +2,11 @@
 
 ## 命名规范
 
-| 风格 | 内容 |
+| 风格 | 范围 |
 | --- | --- |
 | PascalCase | 全局变量、函数、类 |
-| camelCase | |
-| snake_case | 局部变量 |
+| camelCase | 局部变量 |
+| snake_case | |
 
 ## 字面值
 
