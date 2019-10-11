@@ -33,4 +33,3 @@
 | atol, atof等                          | 返回long、float类型                                          |
 | strtol, strtoul, strtod               | 可以报告第一个不是数字的字符的位置                           |
 | ftoa, itoa等                          | 不是标准函数                                                 |
-
