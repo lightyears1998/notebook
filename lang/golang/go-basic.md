@@ -1,4 +1,4 @@
-# GoLang笔记
+# Go语言笔记：基础
 
 [![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
 
