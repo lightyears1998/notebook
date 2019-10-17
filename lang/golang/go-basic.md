@@ -1,34 +1,5 @@
 # Go语言笔记：基础
 
-[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
-
-如何[组织Go语言代码](https://golang.org/doc/code.html)。
-
-1. 包名与导入名称一致，可执行的代码使用包名`main`
-
-## 基本结构
-
-```go
-package math
-
-import "fmt"
-
-func main() {
-    fmt.Println("...")
-}
-```
-
-## 代码组织
-
-所有的Go代码被组织在一个工作空间`GOPATH`中。
-
-```txt
-GOPATH/
-    bin/
-    pkg/
-    src/
-```
-
 ## package
 
 每个程序从`main`包开始运行。
@@ -42,33 +13,6 @@ import (
 ```
 
 如果标识符以大写开头，即为导出。在包外只能引用已经导出的名字。
-
-## 控制语句
-
-### `for`
-
-只使用`for`循环。C语言中的`while`在Go中为`for`。
-
-`for`语句的三部分由`;`隔开，花括号是必须的。
-
-无限循环可简写为`for { /* statements */ }`
-
-### `if`
-
-可在`if`的条件表达式前执行一个简单语句（就像`for`语句中的第一部分），简单语句中声明的变量的作用域在`if-else`语句块中可用。
-
-### `switch`
-
-1. `case`无需为常量，取值不必为整数。`switch`是书写多条`if`语句的清晰方式。
-2. 无需提供`break`语句，除非以`fallthrough`语句结尾，否则分支会自动终止。
-3. 从上而下顺次执行，直到匹配成功为止。
-4. 无条件的`switch`相当于`switch true`，能将一连串的if-else-then写得更简洁。
-
-### `defer`
-
-`defer`语句使后面的函数推迟到外层函数结束后调用；但函数的参数会被立即求值。
-
-注意如果存在多条`defer`语句，则后面的`defer`语句会先执行。（后进先出顺序）
 
 ## 指针
 
@@ -220,54 +164,4 @@ var m = map[string]Vertex{
   - 若`key`在映射中，`ok`为 `true`；否则，`ok`为`false`。
   - 若`key`不在映射中，那么`elem`是该映射元素类型的零值。
 
----
 
-## 指南
-
-- [A Tour of Go](https://tour.go-zh.org/)
-
----
-
-## 安装Go的运行环境
-
-## 在Linux上安装Go
-
-<https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-centos-7>
-
-## 包管理`go get`
-
-```sh
-go get -flags <package>  # 远程包导入
-```
-
-- `<package>`可以是url，也可以是`all`。
-- `-fix`
-- `-u` update
-- `-v` verbose
-
-HTTP代理
-
-```bash
-http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt  
-```
-
-```cmd
-set http_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
-set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
-```
-
-## 安装常用的工具
-
-```sh
-go get -u github.com/mdempsky/gocode
-go get -u github.com/uudashr/gopkgs/cmd/gopkgs
-go get -u github.com/ramya-rao-a/go-outline
-go get -u github.com/acroca/go-symbols
-go get -u golang.org/x/tools/cmd/guru
-go get -u golang.org/x/tools/cmd/gorename
-go get -u github.com/go-delve/delve/cmd/dlv
-go get -u github.com/stamblerre/gocode
-go get -u github.com/rogpeppe/godef
-go get -u github.com/sqs/goreturns
-go get -u golang.org/x/lint/golint
-```
