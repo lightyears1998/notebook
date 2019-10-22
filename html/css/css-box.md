@@ -35,3 +35,19 @@ h2 {
     top: 10px;
 } /* 将h2从原本文档流中的盒模型的top位置移远10px。注意视觉上h2是向着bottom移动。 */
 ```
+
+## `position: absolute` 相对于父元素的定位
+
+left, top, right, bottom的含义同上。
+
+## `positiom: fixed` 相对于浏览器窗口的绝对定位
+
+left, top, right, bottom的含义同上。
+
+## float属性
+
+从正常的流中取出，并且向父容器的`left`或者`right`移动。
+
+## 居中
+
+水平居中 `margin: auto`。
