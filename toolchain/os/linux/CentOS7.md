@@ -1,5 +1,7 @@
 # CentOS相关
 
+software collection包有许多软件。
+
 ## 利用DeltaRPM减少下载体积
 
 ```sh
