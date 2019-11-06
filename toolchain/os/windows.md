@@ -1,5 +1,9 @@
 # Windows操作系统笔记
 
+## 輸入法繁簡切換
+
+默認：Ctrl + Shift + F
+
 ## 软件包管理
 
 [Chocolatey](https://chocolatey.org/)
