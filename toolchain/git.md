@@ -8,7 +8,35 @@
 git config --global "user.name" "lightyears1998"
 git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
-git config --global "core.autocrlf" false
+```
+
+换行符：
+
+不推荐使用`core.autocrlf`方式。
+
+```sh
+git config --global "core.autocrlf" true # Windows
+git config --global "core.autocrlf" input # Linux, MacOS
+git add --renormalize
+```
+
+推荐使用[`.gitattributes`](https://help.github.com/cn/github/using-git/configuring-git-to-handle-line-endings)
+
+```txt
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
 ```
 
 ## GPG相关
