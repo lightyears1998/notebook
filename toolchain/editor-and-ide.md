@@ -33,6 +33,10 @@ settings.json
 "git.enableSmartCommit": true,
 ```
 
+颜色主题：
+
+- Chinolor Theme 使用中国传统配色方案，不太亮又不太暗。
+
 核心拓展：
 
 - VS Live Share
