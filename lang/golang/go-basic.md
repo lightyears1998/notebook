@@ -1,5 +1,17 @@
 # Go语言笔记：基础
 
+## TODO
+
+golang.org
+play.golang.org
+go tour
+
+os.Args
+
+strings.Join()
+
+Map不排序，防止依赖某种序列。
+
 ## package
 
 每个程序从`main`包开始运行。
@@ -163,5 +175,3 @@ var m = map[string]Vertex{
 - 检测某个键是否存在 `elem, ok := m[key]`
   - 若`key`在映射中，`ok`为 `true`；否则，`ok`为`false`。
   - 若`key`不在映射中，那么`elem`是该映射元素类型的零值。
-
-
