@@ -1,5 +1,17 @@
 # Windows操作系统笔记
 
+## MSYS2
+
+一般选择安装`mingw-w64-x86_64-toolchain`，而不是`gcc`，从而可以将`C:\msys64\mingw64\bin`加入PATH。
+从而避免将`C:\msys64\usr\bin`加入PATH，以免导入不需要的UNIX工具。
+
+```sh
+pacman -Sy
+pacman -Syu # 更新所有包
+pacman -Ss gcc # 搜索
+pacman -S <package-name>
+```
+
 ## 輸入法繁簡切換
 
 默認：Ctrl + Shift + F
