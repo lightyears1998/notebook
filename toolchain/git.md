@@ -57,6 +57,11 @@ git pull <repo> <from-remote-branch>:<to-local-branch>
 ```sh
 git pull --force <repo> <some-remote-branch>:<to-local-branch>  # 拉取并覆盖本地更改
 git push <remote-name> --delete <remote-branch> # 删除远程分支
+
+# 从远程分支处继续工作
+git checkout -b <repo>/<remote-branch>
+git branch -m <new-name>
+git push --set-upstream <repo> <remote-branch>
 ```
 
 ## 标签
