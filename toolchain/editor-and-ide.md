@@ -40,7 +40,7 @@ settings.json
 核心拓展：
 
 - VS Live Share
-- Visual Studio Intelicode
+- Visual Studio Intellicode
 - Remote Development
 - Code Runner
 
