@@ -22,6 +22,7 @@
 settings.json
 
 ```json
+"editor.fontFamily": "'Source Code Pro', 'Source Han Serif', Consolas, 'Courier New', monospace"
 "files.insertFinalNewline": true,
 "files.autoSave": "onFocusChange",
 "files.trimTrailingWhitespace": true,
