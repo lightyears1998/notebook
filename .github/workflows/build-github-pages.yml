@@ -1,0 +1,29 @@
+name: Build Github Pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install mkdocs
+      run: |
+        pip install pygments
+        pip install mkdocs mkdocs-material
+        pip install mkdocs-minify-plugin
+    - name: Build site
+      run: mkdocs build
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@2.0.0
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: site

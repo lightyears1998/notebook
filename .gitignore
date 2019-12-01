@@ -1,1 +1,5 @@
+# IDE
 .vscode
+
+# Mkdocs构建结果
+site

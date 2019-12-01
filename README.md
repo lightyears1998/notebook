@@ -9,3 +9,7 @@
 
 1. 以生产力为标尺，保持实用。
 2. 篇幅适中，保持整洁。
+
+---
+
+- [线上浏览](https://lightyears1998.github.io/notebook/)
