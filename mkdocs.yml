@@ -8,6 +8,7 @@ repo_url: 'https://github.com/lightyears1998/notebook'
 
 theme:
   name: 'material'
+  language: zh
 
 plugins:
   - search
