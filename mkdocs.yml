@@ -9,6 +9,9 @@ repo_url: 'https://github.com/lightyears1998/notebook'
 theme:
   name: 'material'
   language: zh
+  font:
+    text: Source Han Serif
+    code: Source Code Pro
 
 plugins:
   - search
