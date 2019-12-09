@@ -16,6 +16,10 @@ pacman -S <package-name>
 
 默認：Ctrl + Shift + F
 
+## 编辑器
+
+- HxD 文件的二进制编辑
+
 ## 软件包管理
 
 [Chocolatey](https://chocolatey.org/)
