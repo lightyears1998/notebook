@@ -4,7 +4,7 @@
 yarn global add <package>
 
 yarn install
-yarn add [--dev] <package>
+yarn add [--dev] <package> [--registry https://r.npm.taobao.org]
 ```
 
 ---
