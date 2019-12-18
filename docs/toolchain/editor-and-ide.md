@@ -15,14 +15,14 @@
 
 ## iteliJ-like IDE
 
-1. 改善字体：更换成Source Code Pro会好一些；Source Han Serif虽然美观，但衬线反而使得字体难以阅读，使用Source Han Sans更合适。
+1. 改善字体：更换成Source Code Pro会好一些；中文使用衬线字体Source Han Serif。
 
 ## VS Code
 
 settings.json
 
 ```json
-"editor.fontFamily": "'Source Code Pro', 'Source Han Sans', Consolas, 'Courier New', monospace"
+"editor.fontFamily": "'Source Code Pro', 'Source Han Serif', Consolas, 'Courier New', monospace"
 "files.insertFinalNewline": true,
 "files.autoSave": "onFocusChange",
 "files.trimTrailingWhitespace": true,
