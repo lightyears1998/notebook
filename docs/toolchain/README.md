@@ -44,6 +44,7 @@
 ## 编辑器
 
 - Shutter 截图工具
+- manuskript 写作者手稿创作工具
 - Markdown编辑器 Typora
 
 ## 实用工具
