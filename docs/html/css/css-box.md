@@ -36,17 +36,55 @@ h2 {
 } /* 将h2从原本文档流中的盒模型的top位置移远10px。注意视觉上h2是向着bottom移动。 */
 ```
 
-## `position: absolute` 相对于父元素的定位
+## `position: absolute` 绝对定位
 
-left, top, right, bottom的含义同上。
+相对于父元素的定位，left, top, right, bottom的含义同上。
 
-## `positiom: fixed` 相对于浏览器窗口的绝对定位
+## `positiom: fixed`
 
-left, top, right, bottom的含义同上。
+相对于浏览器窗口的绝对定位，left, top, right, bottom的含义同上。
 
 ## float属性
 
 从正常的流中取出，并且向父容器的`left`或者`right`移动。
+
+```html
+<!-- 显示两栏布局 -->
+<head>
+  <style>
+    #left {
+      float: left;
+      width: 50%;
+    }
+    #right {
+      float: right;
+      width: 40%;
+    }
+    aside, section {
+      padding: 2px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome!</h1>
+  </header>
+  <section id="left">
+    <h2>Content</h2>
+    <p>Good stuff</p>
+  </section>
+  <aside id="right">
+    <h2>Sidebar</h2>
+    <p>Links</p>
+  </aside>
+</body>
+
+```
+
+## z-index
+
+指定元素堆叠顺序，值较大的在上层。
 
 ## 居中
 
