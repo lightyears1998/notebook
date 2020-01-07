@@ -43,6 +43,7 @@
 
 ## 编辑器
 
+- Shutter 截图工具
 - Markdown编辑器 Typora
 
 ## 实用工具
