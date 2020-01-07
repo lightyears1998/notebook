@@ -9,3 +9,9 @@
 
 1. 以生产力为标尺，保持实用。
 2. 篇幅适中，保持整洁。
+
+## 同行参考
+
+- [Dangosky](https://notes.dangosky.com/)
+- [WinnerWinter](http://notebook.winnerwinter.com/)
+- [Lxy417165709](https://github.com/Lxy417165709/Notes)
