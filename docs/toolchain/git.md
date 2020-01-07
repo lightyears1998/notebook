@@ -1,8 +1,14 @@
 # Git
 
-在Windows环境下可与Kleopatra配合使用。
+- 在Windows环境下可与Kleopatra配合使用以取得GPG支持。
 
-常用设定：
+## 起飞操作
+
+1. `git init`
+2. gitignore
+3. gitattributes
+
+## 常用设定
 
 ```sh
 git config --global "user.name" "lightyears1998"
@@ -10,7 +16,7 @@ git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
 ```
 
-换行符：
+### 对换行符的处理
 
 不推荐使用`core.autocrlf`方式。
 
