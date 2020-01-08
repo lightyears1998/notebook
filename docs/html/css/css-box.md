@@ -20,7 +20,7 @@ margin, boarder, padding
 
 ## 浮动
 
-- float: left | right 元素浮动到容器的左侧|右侧
+- float: left | right 元素浮动到其容器的左侧|右侧
 - clear: left | right | both 清除浮动
 - overflow
 
