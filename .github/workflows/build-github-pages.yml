@@ -14,19 +14,19 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-    - name: Set up cache
+    - name: Set up Cache
       uses: actions/cache@v1
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('.github/workflows/**.yml') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-    - name: Install mkdocs
+    - name: Install MkDocs
       run: |
         pip install pygments
         pip install mkdocs mkdocs-material
         pip install mkdocs-minify-plugin
-    - name: Build site
+    - name: Build Site
       run: mkdocs build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@2.0.0
