@@ -1,4 +1,4 @@
-# Gradle笔记
+# Gradle Build Script笔记
 
 基于Ant和Maven的项目自动化构建工具，使用Groovy语言来声明项目设置。
 

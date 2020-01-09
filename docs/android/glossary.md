@@ -1,4 +1,4 @@
-# 词汇表
+# Android词汇表
 
 - **MVC** Model, View, Control
 - **DSL** Domain Specific Language
