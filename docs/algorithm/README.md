@@ -1,6 +1,6 @@
 # 算法
 
-[![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/algorithm)
+[![code-sandbox](https://img.shields.io/badge/repo-algorithm--code-informational)](https://github.com/lightyears1998/algorithm-code)
 
 ## 一般思路
 
