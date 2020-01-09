@@ -1,5 +1,7 @@
 # 数论
 
+[![代码实现](https://img.shields.io/badge/repo-number--theory-informational)](https://github.com/lightyears1998/algorithm-code/tree/master/general/number-theory)
+
 ## 常识
 
 1. GCD & LCM

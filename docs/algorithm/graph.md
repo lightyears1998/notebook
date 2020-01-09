@@ -1,5 +1,7 @@
 # 图论
 
+[![代码实现](https://img.shields.io/badge/repo-graph-informational)](https://github.com/lightyears1998/algorithm-code/tree/master/general/graph)
+
 ## 概念
 
 - 稠密图：**边数**接近或等于完全图，反之为稀疏图。
