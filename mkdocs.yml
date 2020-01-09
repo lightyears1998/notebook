@@ -10,7 +10,7 @@ theme:
   name: 'material'
   language: zh
   font:
-    text: Source Han Serif
+    text: Noto Serif SC
     code: Source Code Pro
 
 plugins:
