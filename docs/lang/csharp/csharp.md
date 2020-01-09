@@ -1,7 +1,5 @@
 # C#笔记
 
-## 
-
 ## Chapter 1 基本概念
 
 ### Hello, World程序
