@@ -26,12 +26,12 @@
 将节点的性质拆开维护。
 
 ```cpp
-init(); 清空树
-assgin(&r, father, value); 以父节点和值初始化节点
-rotate(x, kind); 对节点x进行左旋或者右旋
-splay(x, goal); 将节点x旋转到goal节点下方，处理根节点的变化
-insert(value); 插入值为value的元素
-prev(x); nxt(x); 前驱后驱节点
+init();  // 清空树
+assgin(&r, father, value);  // 以父节点和值初始化节点
+rotate(x, kind);  // 对节点x进行左旋或者右旋
+splay(x, goal);  // 将节点x旋转到goal节点下方，处理根节点的变化
+insert(value);  // 插入值为value的元素
+prev(x); nxt(x);  // 前驱后驱节点
 
 ```
 

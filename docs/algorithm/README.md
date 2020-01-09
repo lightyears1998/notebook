@@ -1,4 +1,4 @@
-# 算法
+# 算法索引
 
 [![代码实现](https://img.shields.io/badge/repo-algorithm--code-informational)](https://github.com/lightyears1998/algorithm-code/tree/master/general)
 
