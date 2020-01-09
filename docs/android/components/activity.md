@@ -1,4 +1,4 @@
-# Activity笔记
+# Activity
 
 ## 生命周期
 
