@@ -1,4 +1,4 @@
-site_name: Notebook Pages
+site_name: 'Notebook Pages'
 site_description: 'lightyears1998的个人笔记本'
 site_author: 'lightyears1998'
 site_url: 'https://lightyears1998.github.io/notebook/'
@@ -8,10 +8,10 @@ repo_url: 'https://github.com/lightyears1998/notebook'
 
 theme:
   name: 'material'
-  language: zh
+  language: 'zh'
   font:
-    text: Noto Serif SC
-    code: Source Code Pro
+    text: 'Noto Serif SC'
+    code: 'Source Code Pro'
 
 plugins:
   - search
