@@ -1,24 +1,10 @@
-# React.js
-
-```js
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-```
-
-## JSX
-
-- 使用`{ }`插入JS表达式。
-  - 表达式返回`null`时不插入。
-  - 可以将JSX元素作为变量传递。
-- 使用`htmlFor`来指明html的`for`属性；使用`className`来指明html的`class`属性。
-
-## React Component
+# React Component
 
 - 自定义的组件名以大写开头。
 - 有且只有一个最外层元素。
 - 组件可以相互嵌套。
 
-### 事件监听
+## 事件监听
 
 <https://reactjs.org/docs/events.html#supported-events>
 
@@ -212,12 +198,4 @@ shouldComponentUpdate(nextProps, nextState)  // 如果返回false就不会继续
 
 ```js
 <Input ref={(input) => this.input = input} />
-```
-
----
-
-## 使用`create-react-app`快速新建单页面项目
-
-```sh
-npx create-react-app <app-name>
 ```
