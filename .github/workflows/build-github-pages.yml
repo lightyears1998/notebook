@@ -23,9 +23,8 @@ jobs:
           ${{ runner.os }}-pip-
     - name: Install MkDocs
       run: |
-        pip install pygments
         pip install mkdocs mkdocs-material
-        pip install mkdocs-minify-plugin
+        pip install pygments mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin
     - name: Build Site
       run: mkdocs build
     - name: Deploy to GitHub Pages
