@@ -26,8 +26,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.highlight:
-      guess_lang: true
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
