@@ -1,11 +1,10 @@
 # VS Code
 
-settings.json
+## `settings.json`
 
 ```json
 "editor.fontFamily": "'Source Code Pro', 'Source Han Serif', Consolas, 'Courier New', monospace"
 "files.insertFinalNewline": true,
-"files.autoSave": "onFocusChange",
 "files.trimTrailingWhitespace": true,
 "files.exclude": {
     "node_modules": true
@@ -15,16 +14,16 @@ settings.json
 "git.enableSmartCommit": true,
 ```
 
-颜色主题：
+## 颜色主题
 
-- Chinolor Theme 使用中国传统配色方案，不太亮又不太暗。
+* **Chinolor Theme** 使用中国传统配色方案，不太亮又不太暗。
 
-核心拓展：
+## 拓展
 
-- VS Live Share
-- Visual Studio Intellicode
-- Remote Development
-- Code Runner
+* **VS Live Share**
+* **Visual Studio Intellicode**
+* **Remote Development Pack**
+* **Code Runner**
 
     ```json
     "code-runner.runInTerminal": true,
@@ -33,10 +32,10 @@ settings.json
     }
     ```
 
-- Markdownlint
+与特定上下文结合使用的拓展工具：
 
-语言相关：
-
-- C/C++
-- Go
-- Python
+* **Markdown** Markdownlint
+* **C/C++**
+* **Go** Go pack
+* **Python**
+* **Java** Java Development Pack
