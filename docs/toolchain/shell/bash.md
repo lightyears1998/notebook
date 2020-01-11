@@ -1,9 +1,17 @@
 # Bash
 
-## 指令
+终端前的符号表示用户的权限等级：
 
-- `which`, `whereis`
-- 文件结束 `Ctrl + D`
+- `$` normal user
+- `#` Root user：`#`比`$`更接近0。
+
+## 指令格式
+
+`command [-options] parameter1 parameter2...`
+
+- 命令区分大小写。
+- 跨行输入命令则需要按下 `\ + Enter`。
+- 文件末尾；输入结束使用`Ctrl + D`。
 
 ## 脚本
 

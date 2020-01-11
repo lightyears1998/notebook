@@ -3,15 +3,18 @@
 ## `settings.json`
 
 ```json
-"editor.fontFamily": "'Source Code Pro', 'Source Han Serif', Consolas, 'Courier New', monospace"
-"files.insertFinalNewline": true,
-"files.trimTrailingWhitespace": true,
-"files.exclude": {
-    "node_modules": true
-},
-"git.confirmSync": false,
-"git.autofetch": true,
-"git.enableSmartCommit": true,
+{
+    "editor.fontFamily": "'Source Code Pro', 'Source Han Serif', Consolas, 'Courier New', monospace"
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "node_modules": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+}
 ```
 
 ## 颜色主题
