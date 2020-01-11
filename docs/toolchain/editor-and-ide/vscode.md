@@ -25,12 +25,12 @@
 * **Remote Development Pack**
 * **Code Runner**
 
-  ```json
-  "code-runner.runInTerminal": true,
-  "code-runner.executorMap": {
+```json
+"code-runner.runInTerminal": true,
+"code-runner.executorMap": {
     "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt",
-  }
-  ```
+}
+```
 
 与特定上下文结合使用的拓展工具：
 
