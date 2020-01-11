@@ -1,14 +1,16 @@
 # 浏览器
 
+Firefox, Firefox Developer Edition, Chrome
+
 ## 浏览器扩展
 
-核心拓展
+核心拓展：
 
 - uBlock Origin
 - Omega Switchy
 - Lastpass
 - Tampermonkey
 
-开发/设计工具
+开发/设计工具：
 
 - VisBug 样式实时预览开发工具
