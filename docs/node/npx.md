@@ -1,6 +1,6 @@
 # NPX
 
-Execute NPM Package Binaries
+NPX = Execute NPM Package Binaries.
 
 ```sh
 npx [options] <command>[@version] [command-arg]...

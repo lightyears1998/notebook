@@ -21,10 +21,11 @@
 - 重启X Windows `Ctrl + Alt + Backspace`
 - 切换Terminal `Ctrl + Alt + [F1~F7]`
 
-## 程序前后台切换
+## 进程调度
 
-- `Ctrl + Z`
-- `(commands &)`
+- `Ctrl + Z` 暂停前台任务
+- `(commands &)` 在后台运行
+- `jobs`
 - `bg [%jobnumber]`
 - `fg [%jobnumber]`
 - `nohup`

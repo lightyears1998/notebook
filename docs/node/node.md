@@ -1,33 +1,12 @@
 # Node.js
 
-## 工具
-
-- [**Bundle Sophia**](https://bundlephobia.com/) NPM耗费计算工具
-
----
-
 ## 安装
 
-### 多版本Node
+推荐使用Nvm管理Node环境。
 
 - Mac/Linux [nvm](https://github.com/nvm-sh/nvm)
 - Windows [nvm-windows](https://github.com/coreybutler/nvm-windows)
 
-### Windows
+## 工具
 
-访问官网获得最新发行版本。
-
-### CentOS
-
-### 从源代码编译
-
-```sh
-wget https://nodejs.org/dist/v10.15.3/node-v10.15.3.tar.gz  # 源代码
-tar zxvf node-v10.15.3.tar.gz
-make
-make install
-```
-
-### 使用包管理器安装
-
-[NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions)
+- [**Bundle Sophia**](https://bundlephobia.com/) NPM耗费计算工具

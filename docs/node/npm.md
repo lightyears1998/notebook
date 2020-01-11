@@ -44,7 +44,7 @@
 
 在Windows不能直接执行上述命令，而需要[`npm-windows-upgrade`](https://www.npmjs.com/package/npm-windows-upgrade)工具。
 
-## 镜像
+## 中国镜像
 
 参考淘宝NPM镜像使用CNPM。
 

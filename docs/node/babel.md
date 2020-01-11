@@ -1,9 +1,6 @@
-# Babel：JavaScript编译器
+# Babel
 
-- [Docs](https://babeljs.io/docs/en/)
-- [Code-Sandbox](https://github.com/lightyears1998/code-sandbox/tree/master/node/babel)
-
-## 安装
+JavaScript编译器。
 
 ```sh
 yarn add --dev @babel/core @babel/cli
@@ -18,7 +15,7 @@ package.json
 },
 ```
 
-## 环境预设
+## 使用preset-env
 
 [Docs](https://babeljs.io/docs/en/babel-preset-env)
 
@@ -39,3 +36,7 @@ yarn add --dev @babel/preset-env
   ]
 }
 ```
+
+---
+
+- [Docs](https://babeljs.io/docs/en/)

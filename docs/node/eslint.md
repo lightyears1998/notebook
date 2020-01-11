@@ -1,5 +1,7 @@
 # ESlint
 
+JavaScript / TypeScript的格式化工具。
+
 ```sh
 npm install eslint --save-dev
 eslint --init  # 自定义配置
@@ -23,7 +25,7 @@ parserOptions:
   ecmaVersion: 2018
 ```
 
-## Style规则
+## 风格化
 
 ```yml
 rules:
