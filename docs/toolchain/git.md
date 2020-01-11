@@ -5,8 +5,8 @@
 ## 起飞操作
 
 1. `git init`
-2. gitignore
-3. gitattributes
+2. gitattributes
+3. gitignore
 
 ## 常用设定
 
