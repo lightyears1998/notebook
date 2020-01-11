@@ -16,7 +16,7 @@
 
 ## 颜色主题
 
-* **Chinolor Theme** 使用中国传统配色方案，不太亮又不太暗。
+* **Chinolor Theme** 使用中国传统颜色的配色方案。
 
 ## 拓展
 
@@ -25,12 +25,12 @@
 * **Remote Development Pack**
 * **Code Runner**
 
-    ```json
-    "code-runner.runInTerminal": true,
-    "code-runner.executorMap": {
-        "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt",
-    }
-    ```
+  ```json
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac -encoding utf8 $fileName && java $fileNameWithoutExt",
+  }
+  ```
 
 与特定上下文结合使用的拓展工具：
 
