@@ -62,4 +62,4 @@ GRANT 角色名 TO 用户名;
 
 ### ODBC *Open DataBase Connection* 跨平台跨数据库通用方法
 
-此方法通用性较高。
+此方法通用性较高，网络上存有较多文档。

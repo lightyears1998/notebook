@@ -1,5 +1,7 @@
 # MariaDB笔记
 
+兼容MySQL语法的数据库软件。
+
 ## 默认设定
 
 默认系统数据库和用户数据库
@@ -280,7 +282,7 @@ HAVING COUNT(*) > 2;
 ```sql
 SELECT student.studentName, result.subjectNo, result.studentResult
 FROM student, result
-WHERE student.studentNo = result.studentNo;  
+WHERE student.studentNo = result.studentNo;
 ```
 
 使用`[INNER] JOIN ... ON ..`的内连接
@@ -458,7 +460,5 @@ mysqladmin -u root -p version
 - 查看支持的引擎 `SHOW ENGINES`, `SHOW VARIABLES LIKE 'storage_engine'`
 
 ---
-
-## 文档链接
 
 - [MariaDB Server文档](https://mariadb.com/kb/en/library/documentation/)
