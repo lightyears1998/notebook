@@ -214,7 +214,8 @@ ages.get("Hurry")          # 返回None
 ages.get("Hurry", 34)      # 返回34
 ```
 
-只有不变的（immutable）对象才能作为Dictionary的键，否则抛出KeyError。
+- 只有不变的（immutable）对象才能作为Dictionary的键，否则抛出KeyError。
+- 空字典被视为`False`。
 
 ```py
 d: dict = {}
