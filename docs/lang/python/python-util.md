@@ -4,7 +4,7 @@
 
 ```py
 with open(filename) as f:
-  text = f.read()
+    text = f.read()
 ```
 
 ## `range()`
@@ -12,6 +12,25 @@ with open(filename) as f:
 - `range(n)` 生成`[0, n)`的列表
 - `range(i, j)` 生成`[i, j)`的列表
 - `range(i, j, k)` 生成`[i, j)`的等差列表，公差为k
+
+## 谓词`all()`, `any()`
+
+```py
+nums = [55, 44, 33, 22, 11]
+
+if all([i > 5 for i in nums]):
+    print("All larger than 5")
+
+if any([i % 2 == 0 for i in nums]):
+    print("At least one is even")
+```
+
+## 遍历`enumerate()` 按键值对的方式遍历列表，返回元组
+
+```py
+for v in enumerate(nums):
+    print(v)
+```
 
 ## `itertools`
 
@@ -140,10 +159,10 @@ pattern = r"pam"
 
 match = re.search(pattern, "eggspamsausage")
 if match:
-   print(match.group())
-   print(match.start())
-   print(match.end())
-   print(match.span())
+    print(match.group())
+    print(match.start())
+    print(match.end())
+    print(match.span())
 
 """
 >>>

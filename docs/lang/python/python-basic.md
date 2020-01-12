@@ -25,7 +25,7 @@ shout("spam")
 
 ## 数据类型
 
-六类基本数据类型：
+### 六类基本数据类型
 
 | 类型 | 备注 |
 | --- | --- |
@@ -43,52 +43,51 @@ shout("spam")
 
 使用工具方法`type(variable)`查看variable的类型。
 
-### None 无类型
+### `None` 无类型
 
 未定义返回类型的函数返回`None`。
 
-`None`可被转换成布尔类型值的`False`。
-
 ```python
+# `None`可被转换成布尔类型值的`False`。
 if None:
   # won't execute
 ```
 
-### Number 数值类型
+### 数值类型
 
 包括`int`, `float`, `bool`和`complex`四类数值类型。
 
-#### 其他类型转换到数值类型
+可进行四则运算：
+
+- 浮点除法 `/` 整除 `//`
+- 取模、浮点取模 `%`
+- 乘方 `**`
+
+数值运算工具：
+
+- `min()`, `max()`
+- `abs()`
+- `sum(列表)` 对list对象元素求和。
+
+#### 数值类型的类型转换
+
+从其他类型转换到数值类型：
 
 - `True`, `False`在参与数字运算时分别转化为1和0。
 - `int()` 转换为整数类型。
 - `float()` 转换为浮点数类型。
 
-#### 四则运算
+将数值类型转换为字符串：
 
-- 浮点除法 `/` 整除 `//`
-- 取模、浮点取模 `%`
-- 乘方 `**`
+- `str()`
+- `bin()` 将整数转换为二进制字符串。
 
 ```python
 >>> bin(7)
 '0b111'
 ```
 
-#### 数值类型的工具函数
-
-转换为字符串：
-
-- `str()`
-- `bin()` 将整数转换为二进制字符串。
-
-数值计算：
-
-- `min()`, `max()`
-- `abs()`
-- `sum(列表)` 对list对象元素求和。
-
-### String 字符串
+### `String` 字符串
 
 用成对`''`或`""`来声明，单引号与双引号无区别。字符串内部以Unicode表示。
 
@@ -98,7 +97,24 @@ if None:
 - 与整数的乘法，如`str * 3`会复制字符串。
 - str之间相加合并字符串，不能相减。
 
-#### bytes
+工具函数（由于String是不可变对象，以下工具函数都是异地的）：
+
+- `分隔符.join([字符串列表])` 形如PHP中的`implode()`，利用分割符合并字符串。
+- `str.startswith()`, `str.endswith()` 返回真与假。
+- `str.replace('what', 'with')` 将字符串中的所有`what`替换为`with`。
+- `str.upper()`, `str.lower()` 字符串全文大小写转换。
+- `str.split('separator')` 分割字符串为列表。
+
+#### 使用`format()`格式化字符串
+
+```py
+nums = [4, 5, 6]
+msg = "Numbers: {0}, {1}, {2}".format(nums[0], nums[1], nums[2])
+
+msg = "({x}, {y})".format(x=5, y=2)
+```
+
+### `bytes`
 
 ```py
 'ABC'   # string
@@ -118,26 +134,7 @@ b'\xce\xd2\xb8\xe8\xb3\xaa\xc3\xbf\xd2\xbb\xcc\xf5\xba\xd3'
 - `str.encode([encoding='gbk'])` 将str编码为bytes。
 - `bytes.decode([encoding='ascii'])` 将bytes解码为str。
 
-#### `format()` 格式化字符串
-
-```py
-nums = [4, 5, 6]
-msg = "Numbers: {0}, {1}, {2}".format(nums[0], nums[1], nums[2])
-
-msg = "({x}, {y})".format(x=5, y=2)
-```
-
-#### 字符串类型的工具函数
-
-下列工具函数都是异地的。
-
-- `分隔符.join([字符串列表])` 形如PHP中的`implode()`，利用分割符合并字符串。
-- `str.startswith()`, `str.endswith()` 返回真与假。
-- `str.replace('what', 'with')` 将字符串中的所有`what`替换为`with`。
-- `str.upper()`, `str.lower()` 字符串全文大小写转换。
-- `str.split('separator')` 分割字符串为列表。
-
-### Tuple 元组
+### `Tuple` 元组
 
 - 元组与list行为类似，但它是immutable对象。使用小括号而不是方括号。
 - 也可以不使用小括号，直接使用逗号分隔元素即可。
@@ -154,25 +151,7 @@ tuple = ("one", "two")
 tuple = "one", "two"
 ```
 
-### 元组解构 Tuple unpacking
-
-```py
-numbers = (1, 2, 3)
-a, b, c = numbers
-
-# a = 1, b = 2, c = 3
-```
-
-使用`*`表达式来获取解构元组中未分配的部分：
-
-```py
-numbers = [1, 2, 3, 4, 5]
-a, *b, c = numbers
-
-# a = 1, b = [2, 3, 4], c = 5
-```
-
-### List 列表
+### `List` 列表
 
 List使用方括号`[]`定义，下标从0开始。
 
@@ -185,25 +164,25 @@ List使用方括号`[]`定义，下标从0开始。
 - list之间可以相加，但不能相减。
 - list与数值间的乘法：`[1, 2, 3]*2`返回`[1, 2, 3, 1, 2, 3]`。列表与小于等于0的数相乘返回空列表。
 
-#### 列表类型的工具函数
-
-- `in` 操作符判断元素是否在List内。
-- `len(list)` 返回List的长度。
-
-#### 方法
+方法：
 
 - `append()`
 - `insert()` 原位置元素后移
 - `index()` 返回值的第一个索引位置，不存在时抛出`ValueError`
 
-#### Slicing 切片
+工具函数：
 
-注意到，Tuple及字符串也有类似方法
+- `in` 操作符判断元素是否在List内。
+- `len(list)` 返回List的长度。
 
-- `[bgn:end:step]` 以步长step包含元素`[bgn, end)`，三个参数都不是必要的
+### `Slicing` 切片方法
+
+适用于List、Tuple及字符串。
+
+- `[bgn:end:step]` 以步长step包含元素`[bgn, end)`，三个参数都不是必要的。
 - 注意bgn可以大于end（所以上面那个区间的写法是错的😅），生成的方向总是从bgn到end，且不包含end
 - 如果索引index为负数，它是指从后往前数第index个字符；`[2:-2]`生成`[2, 倒数第二个字符)`
-- `[::-1]` 反转数组，如果步长为负数，那么List会反向生成
+- 若步长为负数，那么List会反向生成。`[::-1]`可反转数组。
 
 #### Comprehensions 列表解析器
 
@@ -216,32 +195,11 @@ evens = [i**2 for i in range(10) if i**2 % 2 == 0 ]  # [0, 4, 16, 36, 64]
 
 滥用列表解析器可能产生MemoryError，可使用generator缓解。
 
-#### 其他谓词
-
-- `all()`, `any()`
-
-  ```py
-  nums = [55, 44, 33, 22, 11]
-
-  if all([i > 5 for i in nums]):
-  print("All larger than 5")
-
-  if any([i % 2 == 0 for i in nums]):
-  print("At least one is even")
-  ```
-
-- `enumerate()` 按键值对的方式遍历列表，返回元组
-
-  ```py
-  for v in enumerate(nums):
-   print(v)
-  ```
-
 ### Set 集合
 
-- 使用`set()`接受一个列表作为参数构建集合
-- `add()` 添加元素
-- 合并`|`, 同时存在`&`, 不同时存在`^`, 差（第一个集合中包含而第二个集合中不包含）`-`
+- 使用`set()`接受一个列表作为参数构建集合。
+- 使用`add()` 添加元素。
+- 集合间运算：合并`|`, 同时存在`&`, 不同时存在`^`, 差（第一个集合中包含而第二个集合中不包含）`-`。
 
 ### Dictionary 字典
 
