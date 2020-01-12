@@ -1,12 +1,6 @@
-# Python标准库
+# 操作系统与文件
 
-## 通用操作系统服务
-
-### [argparse](https://docs.python.org/3/library/argparse.html) 命令行参数、参数和子命令解析
-  
-## 文件与目录访问
-
-### [pathlib](https://docs.python.org/3/library/pathlib.html)
+## [pathlib](https://docs.python.org/3/library/pathlib.html)
 
 `os`和`os.path`模块的面向对象封装。
 
