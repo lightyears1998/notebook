@@ -52,9 +52,9 @@ my_func(2, 3, 4, 5, 6, a=7, b=8)
 
 ### Generator生成器
 
-属于iteralbe，但不能随机存取
+属于iterable，但不能随机存取。
 
-使用`yield`关键字从生成器函数中返回值
+使用`yield`关键字从生成器函数中返回值。
 
 ```py
 def countdown():
@@ -69,7 +69,7 @@ for v in countdown():
 
 ### Decorator 装饰器
 
-不修改原始函数而拓展其功能的方法
+不修改原始函数而拓展其功能的方法。
 
 ```py
 def decor(func):
@@ -80,7 +80,7 @@ def decor(func):
   return wrap
 ```
 
-使用`@`注记可以使函数包含在decorator中
+使用`@`注记可以使对应名字的装饰器作用于被修饰的函数。
 
 ```py
 @decor
@@ -121,18 +121,18 @@ class Cat:
 
 ### 静态方法与非静态方法
 
-非静态方法的一个参数总是`self`，没有`self`作为参数的方法是静态方法
+非静态方法的一个参数总是`self`，没有`self`作为参数的方法是静态方法。
 
 ```py
 Obj().method()  # 非静态方法
 Obj.smethod()   # 静态方法
 ```
 
-与工厂方法统一，静态方法可以使用`@staticmethod`修饰符
+与工厂方法统一，静态方法可以使用`@staticmethod`修饰符。
 
-### 类方法（工厂方法）
+### 类方法
 
-类方法使用`@classmethod`修饰器，并接受`cls`作为第一个参数，返回类的一个实例
+类方法使用`@classmethod`修饰器，并接受`cls`作为第一个参数，返回类的一个实例。
 
 ```py
 class Square:
@@ -164,15 +164,15 @@ class Dog(Animal):
 
 ### `super`
 
-使用`super`关键字调用同名的基类方法
+使用`super`关键字调用同名的基类方法。
 
 ### 魔术方法
 
-方法名由两个下划线包围的方法称为魔术方法，如`__init__`和`__add__`
+方法名由两个下划线包围的方法称为魔术方法，如`__init__`和`__add__`。
 
 ### 操作符重载
 
-使用魔术方法来重载操作符
+使用魔术方法来重载操作符。
 
 - __sub__ for -
 - __mul__ for *
