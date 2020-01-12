@@ -4,6 +4,8 @@ Apache基金会下Java平台的脚本语言。
 
 ## 语法特色
 
+文档：[与Java的不同](https://groovy-lang.org/differences.html)
+
 - 分号可以省略
 - 括号在不产生歧义时可以省略，如`print 1 + 10`
 - Groovy没有Java中的`Primitive type`，所有原始类型都使用对应包装类
