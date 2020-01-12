@@ -1,43 +1,9 @@
 # HTML基本操作
 
-HTML = Hyper Text Markup Language.
-
-## 结构
-
-```html
-<!DOCTYPE html>
-<html>
-<head></head>
-<body></body>
-</html>
-```
-
 ## 视口
-
-固定设备（多为移动设备）的缩放比例。
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-```
-
-参考：[MDN视口](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)
-
-## 标签（元素）
-
-规范
-
-```html
-<p>This is a paragragh.</p>
-```
-
-HTML5允许没有结束标签的标签，这样的标签称为“空标签”或“自包含标签”。
-
-### 属性
-
-```html
-<p style="font-family:arial; color:red; font-size:20px;">
-    This is A paragraph.
-</p>
 ```
 
 ## 使用层叠样式表CSS
