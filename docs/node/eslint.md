@@ -9,7 +9,7 @@ eslint --init  # 自定义配置
 
 ## 一般用途`.eslintrc.yml`
 
-```yml
+```yaml
 env:
   browser: true
   commonjs: true
@@ -27,7 +27,7 @@ parserOptions:
 
 ## 风格化
 
-```yml
+```yaml
 rules:
   brace-style:
     - warn

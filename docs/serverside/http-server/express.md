@@ -1,8 +1,6 @@
 # Express
 
-`app.use()`
-
-use 对特定路径使用中间件
+`app.use()` 对特定路径使用中间件
 
 ```js
 app.use('path', (req, res, next) = > {
@@ -11,6 +9,8 @@ app.use('path', (req, res, next) = > {
 ```
 
 ## bodyParser
+
+用于解析Body部分的结构化数据，如JSON等。
 
 ```js
 const bodyParser = require('body-parser');

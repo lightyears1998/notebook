@@ -9,7 +9,7 @@
 - information_schema
 - performance_schema
 - mysql
-- test..
+- test
 
 默认字符集
 

@@ -1,77 +1,45 @@
-# 通用工具链
+# 通用工具
 
-## 信息传递
+## 实用工具
 
-1. 文本文件传递 Private Bin <https://privatebin.net>
-2. 大文件传递 Firefox Send <https://send.firefox.com>
-3. JavaScript代码 JS Bin <https://jsbin.com>
+- 电子书管理 Calibre
+- 音乐管理 MusicBee
+- FTP工具 FileZilla
+- 截图工具 Snipaste、Shutter
 
-## 协作
+## 文本工具
 
-1. API管理 yAPI <https://github.com/YMFE/yapi>
+- manuskript 写作者手稿创作工具
+- Markdown编辑器 Typora
 
-## 资源
+OCR：
 
-### 网络代理
+- Tesseract OCR文字识别引擎
+
+## 网络代理
 
 - [快代理](https://www.kuaidaili.com/)
 - [0xHJK/Proxies](https://github.com/0xHJK/Proxies)
 
-### AI生成
+## AI生成
 
 - [MakeGirlsMoe](https://make.girls.moe/)
 - [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/)
 - [ThisCatDoesNotExist](https://thiscatdoesnotexist.com/)
 
-### 地图
+## 地图服务
 
-- [OpenStreetMap](https://www.openstreetmap.org/) 在中国访问不理想
+- [OpenStreetMap](https://www.openstreetmap.org/) 在中国的访问速度不理想。
 - [Bing地图]
-
-## 程序运行环境
-
-- Msys2, MinGW, MinGW-w64
-- Nodejs
-
-## 模糊测试基础设施
-
-- Google ClusterFuzz Bug自动发现程序
-
-## 静态站点生成
-
-- [Hugo](https://gohugo.io)
-
-## 编辑器
-
-- Shutter 截图工具
-- manuskript 写作者手稿创作工具
-- Markdown编辑器 Typora
-
-## 实用工具
-
-- 浏览器 Firefox Developer Edition, Chrome
-- USB启动盘制作 [Rufus](https://rufus.akeo.ie/)
-- 电子书管理 Calibre
-- 磁盘管理 DiskGenius
-- 音乐管理 MusicBee
-- 文件复制 FastCopy
-- FTP工具 FileZilla
-- 网页缓存工具 Teleport Ultra
-- 截图工具 Snipaste
-- 视频播放器 PotPlayer
-
-## OCR
-
-- 中文自然语言处理 mayabot/mynlp
-- Tesseract OCR文字识别引擎
-
-## 游戏
-
-- [Google Stadia云端游戏](https://stadia.dev/)
 
 ---
 
-## Windows平台相关
+## 信息传递
 
-- **NSSM**, *the Non-Sucking Service Manager* Windows服务注册工具
-- Windows文件管理 WinDirStat
+- 文本文件传递 Private Bin <https://privatebin.net>
+- 大文件传递 Firefox Send <https://send.firefox.com>
+- JavaScript代码传递 JS Bin <https://jsbin.com>
+
+## 软件开发协作
+
+- HTTP API管理 yAPI <https://github.com/YMFE/yapi>

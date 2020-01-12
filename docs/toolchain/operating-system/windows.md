@@ -24,13 +24,21 @@ choco upgrade <software-name>
 
 ## 常用软件
 
-1. [HxD](https://mh-nexus.de/en/hxd/) 文件二进制编辑工具
-2. [WinDirStat](https://windirstat.net/) 磁盘空间管理工具
-3. [spacedeck](http://spacedesk.com/) 将Android手机屏幕作为Windows的拓展显示器。
+- [HxD](https://mh-nexus.de/en/hxd/) 文件二进制编辑工具
+-
+  - [WinDirStat](https://windirstat.net/) 磁盘空间管理工具。
+  - DiskGenius 磁盘管理工具
+  - FastCopy 文件快速复制
+
+- [spacedeck](http://spacedesk.com/) 将Android手机屏幕作为Windows的拓展显示器。
+- NSSM, *the Non-Sucking Service Manager* Windows服务注册工具
+- [Rufus](https://rufus.ie/) USB启动盘制作工具
+- Teleport Ultra 网页缓存工具
+- PotPlayer 视频播放器
 
 程序员环境：
 
-1. MSYS2
+- MSYS2
 
     一般选择安装`mingw-w64-x86_64-toolchain`，而不是`gcc`，从而可以将`C:\msys64\mingw64\bin`加入PATH。
     从而避免将`C:\msys64\usr\bin`加入PATH，以免导入不需要的UNIX工具。

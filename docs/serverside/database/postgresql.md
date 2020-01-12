@@ -32,7 +32,7 @@ psql -U username -d dbname -h localhost -p 5432
 
 ---
 
-## 在CentOS上安装
+## 安装
 
 ```sh
 yum install postgresql-server postgresql-contrib

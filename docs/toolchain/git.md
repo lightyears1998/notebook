@@ -16,9 +16,17 @@ git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
 ```
 
+GPG相关的设定：
+
+```sh
+git config --global "commit.gpgsign" true
+git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+git config --global "user.signingkey" "26D4F2F9"
+```
+
 ### 对换行符的处理
 
-不推荐使用`core.autocrlf`方式。
+使用`core.autocrlf`方式（不推荐）：
 
 ```sh
 git config --global "core.autocrlf" true # Windows
@@ -26,7 +34,7 @@ git config --global "core.autocrlf" input # Linux, MacOS
 git add --renormalize
 ```
 
-推荐使用[`.gitattributes`](https://help.github.com/cn/github/using-git/configuring-git-to-handle-line-endings)
+使用[`.gitattributes`](https://help.github.com/cn/github/using-git/configuring-git-to-handle-line-endings)（推荐）：
 
 ```txt
 # Set the default behavior, in case people don't have core.autocrlf set.
@@ -45,15 +53,9 @@ git add --renormalize
 *.jpg binary
 ```
 
-## GPG相关
+## 常用指令
 
-```sh
-git config --global "commit.gpgsign" true
-git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
-git config --global "user.signingkey" "26D4F2F9"
-```
-
-## 操作
+### 分支操作
 
 ```sh
 git push <repo> <from-local-branch>:<to-remote-branch>
@@ -70,7 +72,7 @@ git branch -m <new-name>
 git push --set-upstream <repo> <remote-branch>
 ```
 
-## 标签
+### 打标签
 
 ```sh
 git tag
