@@ -1,9 +1,9 @@
-# 脚注
+# HTML资源和服务
 
 ## CDN
 
 - JavaScript CDN [JsDelivr](https://www.jsdelivr.com/)
 
-## ShrotURL
+## 短链接服务
 
 - <https://shorturl.at>
