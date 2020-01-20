@@ -1,5 +1,9 @@
 # Visual Studio
 
+## Build Tools
+
+安装Visual Studio Build Tools从而无需安装IDE而获得CLI工具。
+
 ## C++
 
 基本概念：

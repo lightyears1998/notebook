@@ -4,7 +4,11 @@
 yarn global add <package>
 
 yarn install
+yarn install --check-files  # 在手动删除Node Modules中的模块后重新安装。
 yarn add [--dev] <package> [--registry https://r.npm.taobao.org]
+
+yarn outdated
+yarn upgrade
 ```
 
 ---
