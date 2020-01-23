@@ -14,4 +14,10 @@ ELECTRON_MIRROR="https://cdn.npm.taobao.org/dist/electron/"
 
 ## 新建Electron项目
 
+没有统一的开发流程，可以自行定制。
+
 使用[Electron Forge](https://github.com/electron-userland/electron-forge)有效减少配置时间，这个模板提供TypeScript和Webpack集成。
+
+## 参考资源
+
+<https://electronjs.org/community>
