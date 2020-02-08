@@ -1,8 +1,19 @@
 # HTTP请求
 
-- 使用`requests`。
+使用`requests`。
 
 ## requests
+
+```py
+import requests
+
+with requests.get(url) as response:
+    response.encoding = 'gb2312' # 如有必要
+    with open("../out/response.html", "w", encoding="utf8") as f:
+        f.write(response.text)
+    tree = etree.fromstring(response.text, etree.HTMLParser())
+    print(tree.xpath('//*'))
+```
 
 ## 使用urllib中的request
 
