@@ -28,6 +28,37 @@ server {
 }
 ```
 
+## 压缩
+
+```conf
+# Compression
+gzip            on;
+gzip_proxied    expired no-cache no-store private auth;
+gzip_types      text/plain text/css application/xml application/javascript;
+```
+
+## 缓存
+
+设置了哈希文件名时，可以设置`expire max;`。
+
+```conf
+# Cache
+## Cache for Image
+location ~ \.(gif|jpg|jpeg|png|bmp|ico)$ {
+    expires 30d;
+}
+
+## Cache for styles and fonts
+location ~ \.(css|woff2)$ {
+    expires 30d;
+}
+
+## Cache for scripts
+location ~ \.(js)$ {
+    expires 30d;
+}
+```
+
 ---
 
 ## Windows
