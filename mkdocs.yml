@@ -10,7 +10,7 @@ theme:
   name: 'material'
   language: 'zh'
   font:
-    text: 'Noto Serif SC'
+    text: 'Noto Sans SC'
     code: 'Source Code Pro'
 
 markdown_extensions:
