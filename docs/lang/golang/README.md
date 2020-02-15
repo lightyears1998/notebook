@@ -39,8 +39,6 @@ func main() {
 }
 ```
 
-
-
 ## 命令行工具 `go`
 
 ### 包管理工具 `go get`
@@ -57,7 +55,7 @@ go get -flags <package>  # 远程包导入
 HTTP代理
 
 ```bash
-http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt  
+http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt
 ```
 
 ```cmd
@@ -80,4 +78,3 @@ go get -u github.com/rogpeppe/godef
 go get -u github.com/sqs/goreturns
 go get -u golang.org/x/lint/golint
 ```
-
