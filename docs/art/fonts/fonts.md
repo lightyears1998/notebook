@@ -35,9 +35,13 @@
 
 ## 注
 
-- Windows系统中预装的衬线字体有：宋体，新宋体，楷体，仿宋。
-- Windows系统中预装的非衬线字体有：黑体。
+- Windows系统中预装的衬线字体有：中易宋体，新宋体，中易楷体，中易仿宋。
+- Windows系统中预装的非衬线字体有：中易黑体。
 - Windows系统中预装的字体多为商用字体，如需商用需要购买许可。
+- Windows中文系统的默认字体是宋体（XP时代）、等线（Windows 8和Windows Mobile时代）、微软雅黑（Windows7之后）。
+
+    在Windows Terminal中，以Consolas为主字体和日语脚本的Yu Gothic UI为后备字体渲染文字，导致部分简中字体缺字。
+
 - Noto系列是Google方面对思源字体系列Source Han的变体，在两者皆可的情况下应该使用Source Han系列。
 
     Source Han系列在Github上发布，将泛中日韩字符所有字形变化统一到一个字体名称“思源黑体/宋体”中，
