@@ -8,6 +8,8 @@
 2. gitattributes `* text=auto`
 3. gitignore 可使用<https://www.gitignore.io>创建
 
+- commit的comment第一行为标题，采用行首单词首字母大写的格式。
+
 ## 常用设定
 
 ```sh
