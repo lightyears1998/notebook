@@ -1,5 +1,7 @@
 # Windows操作系统笔记
 
+- 用户主目录的`AppData`下的`Local`包含各应用程序的临时文件（`Local\Programs`可存放可执行程序），`LocalLow`包含应用运行在保护模式下的临时数据（不常用），`Roaming`包含可漫游到其他机器数据，如应用程序配置等。
+
 ## 快捷键
 
 - `Win`: `+Space`, `+ArrowKey`, `+NumberRow`, `+Ctrl+ArrowKey`
