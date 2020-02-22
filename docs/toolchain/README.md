@@ -7,11 +7,12 @@
 - FTP工具 FileZilla
 - 截图工具 Snipaste、Shutter
 
-## 文本工具
+## 文本和图形编辑工具
 
 - manuskript 写作者手稿创作工具
 - Markdown编辑器 Typora
 - PlantUML UML绘制
+- Pencil 产品原型工具
 
 OCR：
 
