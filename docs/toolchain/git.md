@@ -16,6 +16,8 @@
 git config --global "user.name" "lightyears1998"
 git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
+
+git config --unset key.name
 ```
 
 GPG相关的设定：
@@ -53,6 +55,15 @@ git add --renormalize
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.jpg binary
+```
+
+### 网络代理
+
+Git会无视系统代理设定，需要单独设置。
+
+```sh
+git config --global http.proxy "socks5://127.0.0.1:1080"
+git config --global https.proxy "socks5://127.0.0.1:1080"
 ```
 
 ## 常用指令
