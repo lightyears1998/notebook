@@ -18,3 +18,8 @@ yarn upgrade
 - 根据[官网](https://yarnpkg.com/en/docs/install)上的指引进行安装；
 - 在Windows上可以使用`choco`；
 - 小心不要在Linux上使用包管理器安装错误的包。
+
+```sh
+yarn config set proxy http://host:port
+yarn config set https-proxy http://host:port
+```
