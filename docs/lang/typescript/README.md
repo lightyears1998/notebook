@@ -11,3 +11,26 @@ yarn global add typescript
 ```sh
 tsc filename.ts
 ```
+
+## 配置
+
+tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "outDir": "lib",
+        "inlineSourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
+```
