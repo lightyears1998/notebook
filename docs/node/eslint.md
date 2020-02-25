@@ -3,8 +3,10 @@
 JavaScript / TypeScript的格式化工具。
 
 ```sh
-npm install eslint --save-dev
+yarn global add eslint
 eslint --init  # 自定义配置
+
+eslint src --ext .ts --fix
 ```
 
 ## `.eslintrc.yml`
