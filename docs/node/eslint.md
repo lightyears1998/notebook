@@ -3,7 +3,12 @@
 JavaScript / TypeScript的格式化工具。
 
 ```sh
-yarn global add eslint
+yarn add eslint --dev
+yarn add @typescript-eslint/parser --dev
+yarn add @typescript-eslint/eslint-plugin --dev
+
+yarn add eslint-plugin-import --dev
+
 eslint --init  # 自定义配置
 
 eslint src --ext .ts --fix
