@@ -2,6 +2,15 @@
 
 - 用户主目录的`AppData`下的`Local`包含各应用程序的临时文件（`Local\Programs`可存放可执行程序），`LocalLow`包含应用运行在保护模式下的临时数据（不常用），`Roaming`包含可漫游到其他机器数据，如应用程序配置等。
 
+## Hyper V选项
+
+```cmd
+REM 在具有管理员权限的命令提示符中
+bcdedit /copy {current} /d "Windows 10 no Hyper-V"
+bcdedit /set {上一个命令输出的GUID} hypervisorlaunchtype Off
+bcdedit
+```
+
 ## 常量
 
 ```cmd

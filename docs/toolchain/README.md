@@ -7,6 +7,10 @@
 - FTP工具 FileZilla
 - 截图工具 Snipaste、Shutter
 
+## 浏览
+
+- 开发文档 Zeal, DevDocs
+
 ## 文本和图形编辑工具
 
 - manuskript 写作者手稿创作工具
