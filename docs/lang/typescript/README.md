@@ -26,6 +26,7 @@ tsconfig.json
         "resolveJsonModule": true,
         "outDir": "lib",
         "inlineSourceMap": true,
+        "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true
     },
