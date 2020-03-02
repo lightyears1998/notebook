@@ -11,6 +11,10 @@ bcdedit /set {上一个命令输出的GUID} hypervisorlaunchtype Off
 bcdedit
 ```
 
+## UWP选项
+
+- loopback exempt <https://stackoverflow.com/questions/33259763/uwp-enable-local-network-loopback> or fiddler
+
 ## 常量
 
 ```cmd
