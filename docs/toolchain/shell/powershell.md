@@ -22,3 +22,9 @@ echo $env:Name
 echo ${env:Name}
 echo "The value of 'Name' is '$env:Name'."
 ```
+
+## 常量
+
+```ps1
+$env:HTTP_PROXY = 'http://host:port'
+```
