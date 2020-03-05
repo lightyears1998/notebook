@@ -8,3 +8,9 @@ Blessed的文档在README文件中，阅读体验不佳。可参考[独立文档
 - [基本机制](https://github.com/chjj/blessed/blob/master/README.md#mechanics)
   - 支持Tags、支持颜色。
   - 支持Contents。
+
+## 常用搭配
+
+- neo-blessed -> blessed <https://github.com/embarklabs/neo-blessed>
+- term.js
+- node-pty -> pty.js（仅支持至v8） <https://github.com/Microsoft/node-pty>
