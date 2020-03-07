@@ -44,7 +44,7 @@
 
 在Windows不能直接执行上述命令，而需要[`npm-windows-upgrade`](https://www.npmjs.com/package/npm-windows-upgrade)工具。
 
-## 中国镜像
+## 镜像与代理
 
 参考淘宝NPM镜像使用CNPM。
 
@@ -58,4 +58,9 @@ npm install <package-name> --registry https://registry.npm.taobao.org
 
 ```sh
 npm config set registry https://registry.npm.taobao.org
+```
+
+```sh
+npm config set proxy http://user:pass@host:port
+npm config set https-proxy http://user:pass@host:port
 ```
