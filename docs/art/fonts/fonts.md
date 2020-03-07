@@ -52,3 +52,7 @@
     如果使用Google Fonts服务，则应使用“Noto”作为字体名称。
 
 - 文泉驿系列最为为Linux系列设计，现为多数Linux发行版采用为中文字体。
+
+---
+
+- [再也不用找字体了！15款最新免费可商用字体，一次性打包送送送！](https://mp.weixin.qq.com/s/Nhu8r62lpKse6AY7d2_fWA) by 秋叶PPT
