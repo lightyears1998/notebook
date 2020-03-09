@@ -1,11 +1,26 @@
 # CentOS笔记
 
-## 常用软件
-
-1. 利用DeltaRPM减少下载体积
+## 基本软件
 
 ```sh
-yum install deltarpm
+yum install deltarpm # 利用DeltaRPM减少下载体积
+```
+
+## 包管理器YUM
+
+> 除了包管理器YUM，还有值得注意的[Software Collection](#Software%20Collection)。
+
+在`/etc/yum.repos.d`中管理源，基本的源有CentOS、EPEL和IUS源。
+通常没有后缀的软件包是EPEL包，后缀为`u`的是IUS包。
+
+自定义源统一定义在[`3rdparty.repo`](https://github.com/lightyears1998/code-sandbox/blob/master/toolchain/operating-system/linux/distributions/CentOS/3rdparty.repo)以便管理。
+
+```sh
+yum update
+yum list [package-name]
+yum search
+yum install [package-name]
+yum erase [package-name]
 ```
 
 ## Software Collection
@@ -18,11 +33,11 @@ yum install deltarpm
 [文档]: https://www.softwarecollections.org/en/docs/
 [目录]: https://www.softwarecollections.org/en/scls/
 
-### 常用软件
+### 常用的Software Collection软件包
 
 1. devtoolset-* 包含gcc、g++等。
 
-### 常用指令
+### 常用的Software Collction指令
 
 ```sh
 scl --list # 列出已安装的所有软件
