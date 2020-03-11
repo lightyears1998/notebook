@@ -27,7 +27,34 @@
 
 1. 密钥对的生成 `ssh-keygen`
 2. 默认位置 `~/.ssh/`
-3. 使用密钥对登陆，将公钥复制到服务器上即可。
+3. 使用密钥对登陆。
+
+    允许用户使用密钥对登录。
+
+    ```conf
+    # /etc/ssh/sshd_config
+    RSAAuthentication yes
+    PubkeyAuthentication yes
+    AuthorizedKeysFile .ssh/authorized_keys
+    ```
+
+    将公钥复制到服务器上。
+
+    ```sh
+    ssh-copy-id user@host
+
+    # 亦可手动将公钥复制到`~/.ssh/authorized_keys`。
+    scp ~/.ssh/id_rsa.pub user@host:~/.ssh/uploaded_key.pub
+    ssh user@host
+    cat ~/.ssh/uploaded_key.pub >> ~/.ssh/authorized_keys
+    ```
+
+    确保目录权限正确
+
+    ```sh
+    chmod 700 ~/.ssh
+    chmod 600 ~/.ssh/authorized_keys
+    ```
 
 ---
 
