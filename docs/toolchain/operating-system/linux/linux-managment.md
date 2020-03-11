@@ -23,9 +23,20 @@ systemctl mask
 journalctl -u [service-name]
 ```
 
-## Postfix
+## Mailing
 
-<https://wiki.archlinux.org/index.php/Postfix_(简体中文)>
+以下设置可以连接到第三方服务器。编辑`/etc/mail.rc`，并授予需要发送邮件的用户以读权限。
+
+```conf
+# Connect to Aliyun Enterprise Mailing System.
+set nss-config-dir=/etc/pki/nssdb/
+set ssl-verify=ignore
+set smtp=smtps://smtp.qiye.aliyun.com:465
+set from=user@host
+set smtp-auth-user=user@host
+set smtp-auth-password=password
+set smtp-auth=login
+```
 
 ## Crontab
 
