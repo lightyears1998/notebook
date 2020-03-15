@@ -26,7 +26,7 @@ yarn config set https-proxy http://host:port
 
 ## Per-Repo设置
 
-如果要在`.yarnrc`中设置`registry`，最好也设置`npmrc`；因为yarn可能会遵照npm的一些全局设置。
+如果要在`.yarnrc`中设置`registry`，最好也设置`.npmrc`；因为yarn可能会遵照npm的一些全局设置。
 
 ```conf
 # .npmrc
