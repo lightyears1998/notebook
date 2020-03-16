@@ -30,7 +30,9 @@ yarn config set https-proxy http://host:port
 
 ```conf
 # .npmrc
+package-lock=false
 registry=https://registry.npm.taobao.org
+
 
 # .yarnrc
 registry "https://registry.npm.taobao.org"
