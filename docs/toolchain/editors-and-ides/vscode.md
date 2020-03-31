@@ -20,6 +20,7 @@
 ## 颜色主题
 
 * **Chinolor Theme** 使用中国传统颜色的配色方案。
+* **Better Solarized** 配置zsh的`ys`主题很好看。
 
 ## 拓展
 
