@@ -1,8 +1,13 @@
 # Ubuntu
 
+- 务必使用LTS版本。（还是LTS最不折腾了。）
+- 系统安装时推荐进行最小安装，并在安装时一并安装上第三方驱动。
+
 ```
-# 必备软件
 sudo apt install gnome-tweaks
+sudo snap install --classic code
+sudo snap install --classic code-insider
+sudo snap install libreoffice
 ```
 
 ## apt
@@ -13,6 +18,15 @@ sudo apt install gnome-tweaks
 - 镜像 <https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/>
 - 发行版版本 `lsb_release -a` `uname -r` `do-release-upgrade`
 - `apt update`, `apt upgrade`, `apt search`, `apt list upgradable`
+
+## snap
+
+Perhaps snap is the future?
+
+```sh
+sudo snap set system proxy.http "http://host:port"
+sudo snap set system proxy.https $HTTPS_PROXY
+```
 
 ## 中文输入法
 
