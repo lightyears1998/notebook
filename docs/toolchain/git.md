@@ -17,6 +17,9 @@ git config --global "user.name" "lightyears1998"
 git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
 
+# Windows上无需此项，会自动使用Windows Credential Manager。
+git config --global credential.helper <manager> # 见后文“保存凭证”小节
+
 git config --unset key.name
 ```
 
@@ -27,6 +30,19 @@ git config --global "commit.gpgsign" true
 git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 git config --global "user.signingkey" "26D4F2F9"
 ```
+
+### 保存凭证
+
+1. 在Ubuntu上使用[libsecret](https://wiki.gnome.org/Projects/Libsecret)取代libgnome-keyring（注意不是取代gnome-keyring）。
+
+   ```sh
+    # 参考 https://askubuntu.com/a/959662
+
+    sudo apt-get install libsecret-1-0 libsecret-1-dev libglib2.0-dev
+    sudo make --directory=/usr/share/doc/git/contrib/credential/libsecret
+    git config --global credential.helper \
+        /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+   ```
 
 ### 对换行符的处理
 
@@ -59,12 +75,14 @@ git add --renormalize
 
 ### 网络代理
 
-Git会无视系统代理设定，需要单独设置。
+Git会无视系统代理设定，需要单独设置。推荐使用HTTPS代理而不是SSH代理。
 
 ```sh
 git config --global http.proxy "socks5://127.0.0.1:1080"
 git config --global https.proxy "http://127.0.0.1:1080"
 ```
+
+SHH代理可参见。
 
 ## 常用指令
 
