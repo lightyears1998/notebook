@@ -3,8 +3,10 @@
 - 务必使用LTS版本。（还是LTS最不折腾了。）
 - 系统安装时推荐进行最小安装，并在安装时一并安装上第三方驱动。
 
-```
+```sh
 sudo apt install gnome-tweaks
+sudo apt install kleopatra
+
 sudo snap install --classic code
 sudo snap install --classic code-insider
 sudo snap install libreoffice
