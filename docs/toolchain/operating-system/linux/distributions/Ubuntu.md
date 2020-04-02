@@ -1,5 +1,10 @@
 # Ubuntu
 
+```
+# 必备软件
+sudo apt install gnome-tweaks
+```
+
 ## apt
 
 > The `apt` command is meant to be pleasant for end users and does not need
