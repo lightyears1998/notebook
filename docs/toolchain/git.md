@@ -17,7 +17,7 @@ git config --global "user.name" "lightyears1998"
 git config --global "user.email" "lightyears1998@hotmail.com"
 git config --global "core.ignorecase" false
 
-# Windows上无需此项，会自动使用Windows Credential Manager。
+# Windows上无需此项，Git for Windows会自动使用Windows Credential Manager。
 git config --global credential.helper <manager> # 见后文“保存凭证”小节
 
 git config --unset key.name
@@ -27,13 +27,15 @@ GPG相关的设定：
 
 ```sh
 git config --global "commit.gpgsign" true
-git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 git config --global "user.signingkey" "26D4F2F9"
+
+# For Windows kleopatra
+git config --global "gpg.program" "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 ```
 
 ### 保存凭证
 
-1. 在Ubuntu上使用[libsecret](https://wiki.gnome.org/Projects/Libsecret)取代libgnome-keyring（注意不是取代gnome-keyring）。
+1. 使用[libsecret](https://wiki.gnome.org/Projects/Libsecret)取代libgnome-keyring（注意不是取代gnome-keyring）。
 
    ```sh
     # 参考 https://askubuntu.com/a/959662
@@ -109,4 +111,10 @@ git push --set-upstream <repo> <remote-branch>
 git tag
 git tag -a "标签信息" [-m "message"] [commit-sha1]
 git push <remote> --tags
+```
+
+### 检查签名
+
+```sh
+git log --show-signature -1
 ```
