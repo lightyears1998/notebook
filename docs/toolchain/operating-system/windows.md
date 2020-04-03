@@ -2,6 +2,13 @@
 
 - 用户主目录的`AppData`下的`Local`包含各应用程序的临时文件（`Local\Programs`可存放可执行程序），`LocalLow`包含应用运行在保护模式下的临时数据（不常用），`Roaming`包含可漫游到其他机器数据，如应用程序配置等。
 
+## 输入法选项
+
+- 在Windows微软拼音输入法中启用小鹤双拼
+  1. 在注册表编辑器中定位到`\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS`项；
+  2. 添加字符串项`UserDefinedDoublePinyinScheme0`，值`小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`；
+  3. 在输入法设置中启用小鹤双拼。
+
 ## Hyper V选项
 
 ```cmd
