@@ -28,3 +28,9 @@ echo "The value of 'Name' is '$env:Name'."
 ```ps1
 $env:HTTP_PROXY = 'http://host:port'
 ```
+
+---
+
+## 第三方库
+
+- `Invoke-Environment` <https://github.com/majkinetor/posh/blob/master/MM_Admin/Invoke-Environment.ps1>

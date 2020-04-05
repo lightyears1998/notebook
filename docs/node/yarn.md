@@ -23,3 +23,19 @@ yarn upgrade
 yarn config set proxy http://host:port
 yarn config set https-proxy http://host:port
 ```
+
+## Per-Repo设置
+
+如果要在`.yarnrc`中设置`registry`，最好也设置`.npmrc`；因为yarn可能会遵照npm的一些全局设置。
+
+```conf
+# .npmrc
+package-lock=false
+registry=https://registry.npm.taobao.org
+
+
+# .yarnrc
+registry "https://registry.npm.taobao.org"
+```
+
+可以用`yarn config list`来检查这些设置是否生效。

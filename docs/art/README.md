@@ -3,6 +3,7 @@
 ## 工具软件
 
 - **RawTherapee** lightroom替代，编辑相机在RAW模式下拍摄的软件
+- **[Excalidraw](https://github.com/excalidraw/excalidraw)** 模拟手绘效果
 - **Krita** 数位板绘图
 - **Inkscape** 矢量图形绘制工具
 - **GIMP** 图片编辑
