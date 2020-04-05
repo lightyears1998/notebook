@@ -9,6 +9,11 @@
   2. 添加字符串项`UserDefinedDoublePinyinScheme0`，值`小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`；
   3. 在输入法设置中启用小鹤双拼。
 
+## C++ Build Tools
+
+- 最简单的做法是使用Build Tool for Visual Studio，即便不安装IDE也可以进行编译。
+- 还可以直接使用Windows SDK。
+
 ## Hyper V选项
 
 ```cmd
