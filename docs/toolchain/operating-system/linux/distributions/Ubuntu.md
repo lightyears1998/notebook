@@ -21,6 +21,14 @@ sudo snap install libreoffice
 - 发行版版本 `lsb_release -a` `uname -r` `do-release-upgrade`
 - `apt update`, `apt upgrade`, `apt search`, `apt list upgradable`
 
+- `apt install <package> --reinstall`
+- `apt remove "packagename-*"`
+
+```conf
+# /etc/apt/apt.conf
+Acquire::http::Proxy "http://user:pass@host:port";
+```
+
 ## snap
 
 Perhaps snap is the future?
