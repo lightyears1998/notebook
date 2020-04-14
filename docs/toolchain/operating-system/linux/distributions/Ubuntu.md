@@ -30,6 +30,10 @@ sudo snap set system proxy.http "http://host:port"
 sudo snap set system proxy.https $HTTPS_PROXY
 ```
 
+## 中文字体
+
+- ttf-wps-fonts <https://github.com/IamDH4/ttf-wps-fonts>
+
 ## 中文输入法
 
 保持使用Ibus为宜。
