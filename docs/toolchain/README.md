@@ -1,5 +1,9 @@
 # 通用工具
 
+## 翻译
+
+- 值得关注的翻译/语料工具[DeepL](https://www.deepl.com/)
+
 ## 实用工具
 
 - 电子书管理 Calibre
