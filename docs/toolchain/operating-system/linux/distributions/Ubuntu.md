@@ -21,6 +21,14 @@ sudo snap install libreoffice
 - 发行版版本 `lsb_release -a` `uname -r` `do-release-upgrade`
 - `apt update`, `apt upgrade`, `apt search`, `apt list upgradable`
 
+- `apt install <package> --reinstall`
+- `apt remove "packagename-*"`
+
+```conf
+# /etc/apt/apt.conf
+Acquire::http::Proxy "http://user:pass@host:port";
+```
+
 ## snap
 
 Perhaps snap is the future?
@@ -29,6 +37,10 @@ Perhaps snap is the future?
 sudo snap set system proxy.http "http://host:port"
 sudo snap set system proxy.https $HTTPS_PROXY
 ```
+
+## 中文字体
+
+- ttf-wps-fonts <https://github.com/IamDH4/ttf-wps-fonts>
 
 ## 中文输入法
 
