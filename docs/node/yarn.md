@@ -4,7 +4,10 @@
 yarn global add <package>
 
 yarn install
-yarn install --check-files  # 在手动删除Node Modules中的模块后重新安装。
+yarn install --check-files
+# 有时候`--check-files`不管用；
+# 需要手动删除`node_modules`后再运行yarn install。
+
 yarn add [--dev] <package> [--registry https://r.npm.taobao.org]
 
 yarn outdated
