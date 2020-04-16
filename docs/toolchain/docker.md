@@ -16,6 +16,7 @@
 - `docker kill` 终止运行中的容器
 - `docker container stop`是`docker kill`的同义词
 - `docker container rm <container-name>` 移除容器
+- `docker exec -ti <container-name> bash` Shell
 
 镜像仓库相关
 

@@ -16,6 +16,27 @@ location ~ \.php$ {
 }
 ```
 
+```conf
+server {
+    listen       80;
+    server_name  ttrss.qfstudio.net;
+
+    root /home/tt-rss;
+    access_log  /var/log/nginx/ttrss.access.log  main;
+
+    location / {
+        index  index.html index.htm index.php;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass   127.0.0.1:9000;
+        fastcgi_index  index.php;
+        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        include        fastcgi_params;
+    }
+}
+```
+
 ## 反向代理
 
 ```conf
