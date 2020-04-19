@@ -17,10 +17,12 @@ yum install deltarpm # 利用DeltaRPM减少下载体积
 
 ```sh
 yum update
-yum list [package-name]
+yum list [package-name] [installed | available | all]
 yum search
 yum install [package-name]
 yum erase [package-name]
+
+yum autoremove
 ```
 
 ## Software Collection
