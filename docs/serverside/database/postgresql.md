@@ -15,6 +15,11 @@ psql                  # 进入控制台
 exit # 退出postgres身份
 ```
 
+```sh
+# 验证密码设置
+psql --host=localhost --dbname=DBNAME --username USERNAME --password
+```
+
 ## 登陆
 
 ```sh
