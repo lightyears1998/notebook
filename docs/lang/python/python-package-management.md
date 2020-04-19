@@ -9,7 +9,7 @@
 pip install [--upgrade] <package-name>
 ```
 
-## `pienv`
+## `pipenv`
 
 ```sh
 pip install pipenv
@@ -31,7 +31,7 @@ pipenv install
 pipenv sync
 ```
 
-Pipfile
+### Pipfile
 
 ```conf
 [[source]]

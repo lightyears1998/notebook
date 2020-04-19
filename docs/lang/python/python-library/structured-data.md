@@ -101,3 +101,9 @@ b'<html><body>TEXT<br/></body></html>'
 >>> etree.tostring(html)
 b'<html><body>TEXT<br/>TAIL</body></html>'
 ```
+
+---
+
+## 参阅
+
+- [YamlConfigLoader](https://github.com/lightyears1998/code-sandbox/blob/master/lang/python/strutured_data/yaml_config_loader.py)

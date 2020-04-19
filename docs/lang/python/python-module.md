@@ -252,18 +252,3 @@ print(pizza.pineapple_allowed)
 pizza.pineapple_allowed = True
 print(pizza.pineapple_allowed)
 ```
-
-## 包装
-
-```python
-SoloLearn/
-   LICENSE.txt
-   README.txt
-   setup.py
-   sololearn/
-      __init__.py
-      sololearn.py
-      sololearn2.py
-```
-
-还有py2exe这样的神奇的存在。
