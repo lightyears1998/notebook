@@ -51,3 +51,9 @@ sudo snap set system proxy.https $HTTPS_PROXY
 sudo apt install ibus-rime
 ibus-setup
 ```
+
+## util
+
+```sh
+apt install screenfetch
+```
