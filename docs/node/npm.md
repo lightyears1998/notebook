@@ -7,6 +7,8 @@
   - `^` `major`相同而`minor.patch`最新的版本。
   - `~` `major.minor`相同而`patch`最新的版本。
 
+实践上倾向于不使用范围版本，以便冻结依赖；并在开发过程中使用`upgrade`和`outdated`工具升级依赖。
+
 ## 基本使用
 
 - 列出配置 `npm config list`
@@ -48,13 +50,13 @@
 
 参考淘宝NPM镜像使用CNPM。
 
-临时使用
+临时使用：
 
 ```sh
 npm install <package-name> --registry https://registry.npm.taobao.org
 ```
 
-持久使用（不推荐，应使用CNPM）
+持久使用（不推荐，应使用CNPM；或使用逐项目设置；参见[yarn](yarn.md)）：
 
 ```sh
 npm config set registry https://registry.npm.taobao.org
