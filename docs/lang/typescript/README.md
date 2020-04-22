@@ -1,6 +1,6 @@
-# TypeScript笔记
+# TypeScript常识
 
-## 安装
+## 安装编译器`tsc`
 
 ```sh
 yarn global add typescript

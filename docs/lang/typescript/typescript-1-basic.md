@@ -1,4 +1,4 @@
-# TypeScript笔记：基础
+# TypeScript基础
 
 ## 基本数据类型的类型注记
 
