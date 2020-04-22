@@ -1,6 +1,6 @@
 # 编程语言常识
 
-> Practice to be a hacker and make cool stuffs.
+> Practice to hack.
 
 ![编程语言思维导图](编程语言导图.svg)
 

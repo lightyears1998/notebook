@@ -1,4 +1,4 @@
-# C++笔记：基础
+# C++基础
 
 ## 命名规范
 
@@ -11,6 +11,16 @@
 ## 基本数据类型
 
 - 在`climits`和`cfloat`头文件中定义了整型和浮点型的值域信息。
+
+### `sizeof()`
+
+1. `sizeof()`以字节为单位给出类型的内存大小。
+2. `sizeof()`的返回值是一个`size_t`类型，它可能是`unsigned int`或`unsigned long`的同义词
+3. 使用`printf()`打印`sizeof()`运算结果时，可以使用`%zd`或`%zx`等说明符。
+
+```cpp
+printf("Long类型的占用%zd字节。", sizeof(long));
+```
 
 ### 整型 `short`, `int`(`long`), `long long`
 
@@ -109,7 +119,7 @@ struct torgle_register
 };
 ```
 
-### Union 共用体/联合
+### 共用体/联合 `Union`
 
 匿名共用体：
 
