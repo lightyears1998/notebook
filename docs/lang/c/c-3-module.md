@@ -10,6 +10,11 @@
 
 「C语言特性」函数可以声明为无参数（`void`）或不确定参数（参数列表为空）。
 
+### 内联函数`inline`
+
+1. 选择两者其一即可：在函数声明前附加`inline`，在函数定义前附加`inline`；
+2. 可将内联函数放置于头文件中；同一个函数的所有内联定义都必须相同。
+
 ### 函数原型
 
 ```c
@@ -17,6 +22,20 @@ retrunType functionName(paremeterType parameter);
 ```
 
 函数原型中函数的参数可以省略变量名。
+
+## 头文件与实现文件
+
+头文件与实现文件分离时，遵循**自给自足原则**和**包含防护原则**。
+
+### 包含防护（guarding）
+
+```cpp
+#ifndef THIS_HEADER_H_
+#define THIS_HEADER_H_
+// 类的定义
+
+#endif  // THIS_HEADER_H_
+```
 
 ## 储存类、链接和内存管理
 
