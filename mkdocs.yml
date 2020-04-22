@@ -12,6 +12,9 @@ theme:
   font:
     text: 'Noto Sans SC'
     code: 'Source Code Pro'
+  features:
+    - instant
+    - tabs
 
 markdown_extensions:
   - admonition
