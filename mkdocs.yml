@@ -43,3 +43,7 @@ plugins:
   - git-revision-date-localized
   - minify:
       minify_html: true
+
+google_analytics:
+  - UA-150736604-2
+  - auto
