@@ -1,5 +1,7 @@
 # Flex布局
 
+对于一个Flex Container而言，Item是Row或Column，Content是Row或Column的内容。
+
 * flex-direction: `row`(default) | `row-reverse` | `column` | `column-reverse`
 * justify-content: `center` | `flex-start`(default) | `flex-end` | `space-between` | `space-around` | `space-evenly`(两侧留白与元素间留白等大)
 * align-content: `center` | `flex-start` | `flex-end`
