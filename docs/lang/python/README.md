@@ -14,7 +14,7 @@ SoftwareName/
    LICENSE.txt
    README.txt
    setup.py
-   softwarename/
+   software_name/
       __init__.py
       script.py
       another_script.py
