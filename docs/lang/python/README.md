@@ -29,6 +29,8 @@ SoftwareName/
 
 ## `pip`
 
+Pip跟随`$HTTP_PROXY`环境变量。
+
 ```sh
 pip install [--upgrade] <package-name>
 ```
