@@ -13,7 +13,6 @@
 - [Mozilla JavaSript参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Wangdoc.com](https://wangdoc.com/javascript/)
 
-
 ## 重要的编程风格
 
 1. Javascript中区块起首的大括号紧跟在关键字后面，避免[难以察觉的错误](https://wangdoc.com/javascript/features/style.html#区块)。

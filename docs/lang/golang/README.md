@@ -31,6 +31,8 @@ func main() {
 }
 ```
 
+---
+
 ## 命令行工具 `go`
 
 ### 包管理工具 `go get`
@@ -56,12 +58,6 @@ set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 ```
 
 ---
-
-## 运行环境
-
-### 在Linux上安装Go
-
-<https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-centos-7>
 
 ## 开发工具
 

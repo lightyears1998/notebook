@@ -7,4 +7,4 @@ PHP（HyperText Preprocessor）：
 
 ## 安装和配置
 
-在Windows下安装PHP时，特别注意取消`extension_dir`部分的注释；否则将在尝试加载拓展时报错。
+- 在Windows下安装PHP时，特别注意取消`extension_dir`部分的注释；否则将在尝试加载拓展时报错。

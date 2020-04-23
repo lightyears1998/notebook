@@ -53,8 +53,15 @@ sudo apt install ibus-rime
 ibus-setup
 ```
 
-## util
+## 工具
 
 ```sh
 apt install screenfetch
+```
+
+## 常用软件
+
+```sh
+apt install python python-pip
+apt install python3 python3-pip
 ```
