@@ -4,6 +4,7 @@
 - 系统安装时推荐进行最小安装，并在安装时一并安装上第三方驱动。
 
 ```sh
+sudo apt install vim  # 修正现代键盘兼容问题。
 sudo apt install gnome-tweaks
 sudo apt install kleopatra
 
@@ -52,8 +53,15 @@ sudo apt install ibus-rime
 ibus-setup
 ```
 
-## util
+## 工具
 
 ```sh
 apt install screenfetch
+```
+
+## 常用软件
+
+```sh
+apt install python python-pip
+apt install python3 python3-pip
 ```

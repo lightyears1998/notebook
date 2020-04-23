@@ -1,18 +1,10 @@
-# Go语言笔记
+# Go语言常识
 
 [![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
 
-<https://golang.org>
-
-<https://play.golang.org>
-
-<https://blog.golang.org>
-
-## 运行环境
-
-### 在Linux上安装Go
-
-<https://www.digitalocean.com/community/tutorials/how-to-install-go-1-7-on-centos-7>
+- <https://golang.org>
+- <https://play.golang.org>
+- <https://blog.golang.org>
 
 ## 代码组织
 
@@ -39,6 +31,8 @@ func main() {
 }
 ```
 
+---
+
 ## 命令行工具 `go`
 
 ### 包管理工具 `go get`
@@ -52,7 +46,7 @@ go get -flags <package>  # 远程包导入
 - `-u` update
 - `-v` verbose
 
-HTTP代理
+#### 为`go get`设置HTTP代理
 
 ```bash
 http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt
@@ -62,6 +56,8 @@ http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt
 set http_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 ```
+
+---
 
 ## 开发工具
 
