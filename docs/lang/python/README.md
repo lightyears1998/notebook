@@ -24,7 +24,7 @@ SoftwareName/
 
 ## 包、包管理工具和虚拟环境
 
-- 使用[清华大学Pypi镜像](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)。
+- 使用[清华大学Pypi镜像](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)。`https://pypi.tuna.tsinghua.edu.cn/simple`
 - 使用`pipenv`作为主力虚拟环境工具。
 
 ## `pip`
@@ -57,7 +57,7 @@ pipenv install
 pipenv sync
 ```
 
-注：`pipenv`的Mutiple sources意图并不是实现Mirror功能；Mirror可使用`--pypi-mirror <mirror_url>`参数。
+注：`pipenv`的[Mutiple sources](https://github.com/pypa/pipenv/issues/716)意图并不是实现Mirror功能；Mirror可使用`--pypi-mirror <mirror_url>`参数。
 
 ### Pipfile
 
