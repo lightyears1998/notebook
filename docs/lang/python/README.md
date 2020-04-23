@@ -52,10 +52,12 @@ pipenv --venv        # 显示虚拟环境信息
 pipenv --py          # 显示Python解释器信息
 
 # 包管理
-pipenv install <package-name>
+pipenv install <package-name> [--pypi-mirror <mirror_url>]
 pipenv install
 pipenv sync
 ```
+
+注：`pipenv`的Mutiple sources意图并不是实现Mirror功能；Mirror可使用`--pypi-mirror <mirror_url>`参数。
 
 ### Pipfile
 
