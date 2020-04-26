@@ -8,7 +8,7 @@
 
 ## 使用层叠样式表CSS
 
-详见[css.md](css)
+详见[css.md](css/README.md)
 
 ## 使用JavaScript
 
