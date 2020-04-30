@@ -14,3 +14,9 @@
 ## `javac`编译选项
 
 - 可以使用source开关来指定目标JRE版本：`-source 1.4`
+
+---
+
+## 参考
+
+- [阿里巴巴Java开发手册](https://github.com/alibaba/p3c)
