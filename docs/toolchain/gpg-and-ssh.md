@@ -25,36 +25,50 @@
 
 ## SSH
 
-1. 密钥对的生成 `ssh-keygen`
-2. 默认位置 `~/.ssh/`
-3. 使用密钥对登陆。
+默认位置 `~/.ssh/`，使用`ssh-keygen`生成密钥对。
 
-    允许用户使用密钥对登录。
+### 客户端连接设置
 
-    ```conf
-    # /etc/ssh/sshd_config
-    RSAAuthentication yes
-    PubkeyAuthentication yes
-    AuthorizedKeysFile .ssh/authorized_keys
-    ```
+```conf
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
 
-    将公钥复制到服务器上。
+ServerAliveInterval 60
 
-    ```sh
-    ssh-copy-id user@host
+Host qfstudio
+    HostName qfstudio.net
+    User username
 
-    # 亦可手动将公钥复制到`~/.ssh/authorized_keys`。
-    scp ~/.ssh/id_rsa.pub user@host:~/.ssh/uploaded_key.pub
-    ssh user@host
-    cat ~/.ssh/uploaded_key.pub >> ~/.ssh/authorized_keys
-    ```
+Host node0.qfstudio
+    HostName node0.qfstudio.net
+    User lightyears
 
-    确保目录权限正确
+```
 
-    ```sh
-    chmod 700 ~/.ssh
-    chmod 600 ~/.ssh/authorized_keys
-    ```
+### 使用密钥对登陆
+
+允许用户使用密钥对登录。
+
+```conf
+# /etc/ssh/sshd_config
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+```
+
+将公钥复制到服务器上。
+
+```sh
+ssh-copy-id user@host
+
+# 亦可手动将公钥复制到`~/.ssh/authorized_keys`。
+scp ~/.ssh/id_rsa.pub user@host:~/.ssh/uploaded_key.pub
+ssh user@host
+cat ~/.ssh/uploaded_key.pub >> ~/.ssh/authorized_keys
+
+# 确保目录权限正确。
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+```
 
 ---
 

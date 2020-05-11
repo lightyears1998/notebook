@@ -5,7 +5,15 @@
 ```sh
 $ uname -r [-h]
 3.10.0-957.27.2.el7.x86_64
+
+vi /etc/motd
+/etc/update-motd.d
 ```
+
+## Locale
+
+- 在`/etc/locale.gen`中取消`zh_CN UTF8`的注释；`locale-gen`；`locale -a`。
+- `localectl set-locale LANG=zh_CN.utf8`
 
 ## 在系统/终端启动时运行脚本
 
@@ -73,7 +81,35 @@ du [filename] [-sh] # Disk Usage
 
 ### 创建Swap文件
 
-<https://linuxize.com/post/create-a-linux-swap-file/>
+```sh
+# 创建 Swapfile
+
+sudo fallocate -l 2GiB /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+# 在 `/etc/fstab` 中可固化设置。
+# `/swapfile swap swap defaults 0 0`
+```
+
+```sh
+# swappiness 值在 [0, 100] 之间；值越高，系统越乐于使用交换分区。
+# 默认值是 60，在现代硬件环境下使用 10 便足够。
+cat /proc/sys/vm/swappiness
+
+sudo sysctl vm.swappiness=10 # 临时修改
+# 在 `/etc/sysctl.conf` 中可固化设置。
+# `vm.swappiness=10`
+```
+
+```sh
+# 移除 Swapfile 步骤
+
+sudo swapoff -v /swapfile
+# 从 `/etc/fstab` 中删除 `/swapfile swap swap defaults 0 0`。
+sudo rm /swapfile
+```
 
 ## 网络
 

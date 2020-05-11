@@ -2,6 +2,7 @@
 
 - 务必使用LTS版本。（还是LTS最不折腾了。）
 - 系统安装时推荐进行最小安装，并在安装时一并安装上第三方驱动。
+- 发行版版本 `lsb_release -a` `uname -r` `do-release-upgrade`
 
 ```sh
 sudo apt install vim  # 修正现代键盘兼容问题。
@@ -19,11 +20,11 @@ sudo snap install libreoffice
 > to be backward compatible like `apt-get(8)`.
 
 - 镜像 <https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/>
-- 发行版版本 `lsb_release -a` `uname -r` `do-release-upgrade`
-- `apt update`, `apt upgrade`, `apt search`, `apt list upgradable`
-
+- `apt update`, `apt upgrade`
+- `apt search`
+- `apt list --upgradable`, `apt list --installed`
 - `apt install <package> --reinstall`
-- `apt remove "packagename-*"`
+- `apt remove [--purge] "packagename-*"`
 
 ```conf
 # /etc/apt/apt.conf
