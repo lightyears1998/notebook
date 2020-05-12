@@ -15,9 +15,15 @@ vi /etc/motd
 - 在`/etc/locale.gen`中取消`zh_CN UTF8`的注释；`locale-gen`；`locale -a`。
 - `localectl set-locale LANG=zh_CN.utf8`
 
+## Date and Time
+
+``` sh
+timedatectl
+```
+
 ## 在系统/终端启动时运行脚本
 
-- `~/.bash_profile`
+- `~/.bash_profile`, `~/.zshrc`
 - `/etc/profile`或`/etc/profile.d/*.sh`
 
 ## Systemctl
