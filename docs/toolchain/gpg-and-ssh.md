@@ -85,6 +85,8 @@ Windows的OpenSSH版本太旧。<https://github.com/PowerShell/Win32-OpenSSH/iss
 解决方案：<https://gpgtools.tenderapp.com/kb/faq/enter-passphrase-with-pinentry-in-terminal-via-ssh-connection>
 
 ```sh
+# ~/.profile
+
 export GPG_TTY=$(tty)
 if [[ -n "$SSH_CONNECTION" ]] ;then
     export PINENTRY_USER_DATA="USE_CURSES=1"
