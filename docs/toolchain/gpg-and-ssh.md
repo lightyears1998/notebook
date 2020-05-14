@@ -78,14 +78,15 @@ chmod 600 ~/.ssh/authorized_keys
 
 Windows的OpenSSH版本太旧。<https://github.com/PowerShell/Win32-OpenSSH/issues/1263>
 
-### SSH连接：GPG-Agent不提示输入密码
+### SSH 连接：GPG-Agent 不提示输入密码
 
-原因：GPG-Agent不明确应在哪个TTY要求用户输入密码。
+原因：GPG-Agent 不明确应在哪个 TTY 要求用户输入密码。
 
 解决方案：<https://gpgtools.tenderapp.com/kb/faq/enter-passphrase-with-pinentry-in-terminal-via-ssh-connection>
 
 ```sh
-# ~/.profile
+# ~/.zshrc
+# For zsh, the following script should be placed in ~/.zshrc rather than ./zprofile
 
 export GPG_TTY=$(tty)
 if [[ -n "$SSH_CONNECTION" ]] ;then
