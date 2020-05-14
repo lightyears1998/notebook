@@ -55,6 +55,8 @@
 
 `GRANT OPTION`使得获取的权限可以传递。
 
+- 删除用户 `DROP USER 'user';`
+
 ## DDL
 
 - 单行注释 `//`
@@ -458,6 +460,13 @@ mysqladmin -u root -p version
     ```
 
 - 查看支持的引擎 `SHOW ENGINES`, `SHOW VARIABLES LIKE 'storage_engine'`
+
+### 常用维护语句
+
+``` sql
+select user, host, password from mysql.user;
+show grants;
+```
 
 ---
 
