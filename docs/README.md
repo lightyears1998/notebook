@@ -2,7 +2,7 @@
 
 立志成为全栈开发者。Programming is a lifelong practice.
 
-- 万灵药是不存在的。避免过度工程和过度设计。
+- **避免过度设计和过度工程** There is no such thing as a Panacea.
 
 ## 同行参考
 
