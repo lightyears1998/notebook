@@ -24,6 +24,7 @@ sudo snap install libreoffice
 - `apt search`
 - `apt list --upgradable`, `apt list --installed`
 - `apt install <package> --reinstall`
+- `apt-mark auto <package>`
 - `apt remove [--purge] "packagename-*"`
 
 ```conf
