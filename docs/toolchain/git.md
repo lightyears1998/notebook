@@ -118,3 +118,7 @@ git push <remote> --tags
 ```sh
 git log --show-signature -1
 ```
+
+---
+
+- [Git/Github 中文术语表](https://mp.weixin.qq.com/s/5EvrlCVc7g0LX7DMhI-ZnQ)
