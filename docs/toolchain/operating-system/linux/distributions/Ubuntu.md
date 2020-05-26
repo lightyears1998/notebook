@@ -63,7 +63,10 @@ apt install screenfetch
 
 ## 常用软件
 
-```sh
-apt install python python-pip
-apt install python3 python3-pip
+``` txt
+linux-source
+linux-headers
+
+python python-pip
+python3 python3-pip
 ```
