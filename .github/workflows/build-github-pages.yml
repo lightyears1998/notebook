@@ -26,6 +26,7 @@ jobs:
         pip install mkdocs mkdocs-material
         pip install pygments pymdown-extensions
         pip install mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin
+        pip install mdx_truly_sane_lists
     - name: Build Site
       run: mkdocs build
     - name: Deploy to GitHub Pages
