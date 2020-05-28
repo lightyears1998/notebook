@@ -1,9 +1,7 @@
 # Java常识
 
-Java的[授权](https://www.snowsoftware.com/int/blog/2019/03/07/can-java-still-be-free-after-january-2019)是个很大的问题。
-
 - JavaFX未被包含在OpenJDK中。
-- 预编译的二进制文件可选用AdoptOpenJDK。
+- 自 2019 年 Oracle 更改 JDK 的授权后，预编译的二进制文件可选用[AdoptOpenJDK](https://adoptopenjdk.net/)。
 
 ## 基本概念
 
