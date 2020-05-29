@@ -5,7 +5,7 @@
 python -c "import this"
 ```
 
-- 不要使用Windows应用商店版本的Python。
+- 不要使用 Windows 应用商店的 Python 版本。（该版本的 Python 存在[一些限制](https://docs.python.org/3/using/windows.html#known-issues)。）
 
 ## 代码组织
 
