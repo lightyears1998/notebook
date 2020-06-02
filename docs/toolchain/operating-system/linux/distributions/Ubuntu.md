@@ -64,8 +64,8 @@ apt install screenfetch
 ## 常用软件
 
 ``` txt
+linux-generic (depends on linux-image-generic and linux-headers-generic)
 linux-source
-linux-headers
 
 python python-pip
 python3 python3-pip
