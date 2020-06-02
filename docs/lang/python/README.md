@@ -26,6 +26,7 @@ SoftwareName/
 
 - 使用[清华大学Pypi镜像](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)。`https://pypi.tuna.tsinghua.edu.cn/simple`
 - 使用`pipenv`作为主力虚拟环境工具。
+- 尝试使用 [`poetry`](https://github.com/python-poetry/poetry) 代替 `pipenv`。
 
 ## `pip`
 
