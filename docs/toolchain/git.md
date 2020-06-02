@@ -84,8 +84,6 @@ git config --global http.proxy "socks5://127.0.0.1:1080"
 git config --global https.proxy "http://127.0.0.1:1080"
 ```
 
-SHH代理可参见。
-
 ## 常用指令
 
 ### 分支操作
