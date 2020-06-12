@@ -4,7 +4,7 @@
 
 ```json
 {
-    "editor.fontFamily": "'Source Code Pro', 'Noto Sans Mono CJK SC'"
+    "editor.fontFamily": "'Source Code Pro', 'Noto Sans Mono CJK SC', 'Source Han Sans', Consolas, 'Courier New', monospace",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
