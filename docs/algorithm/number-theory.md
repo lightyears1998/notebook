@@ -14,7 +14,7 @@
 ## 魔幻
 
 1. 单变元模线性方程
-2. 素数判定Miller-Robin
+2. 素数判定 Miller-Robin
 3. 欧拉筛
 4. 拓展欧几里得
-5. 因数分解Pollard's-Rho
+5. 因数分解 Pollard's-Rho
