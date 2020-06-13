@@ -44,6 +44,11 @@ cout.flags(fmt);
 
 ## 数据结构
 
-### `Vector`, `Array`
+### `std::vector`, `std::array`
 
 中括号语法不检查下标越界，成员函数`at()`检查下标越界
+
+### `std::map`, `std::unordered_map`
+
+- `find()`
+- `count()`, `contains()`

@@ -27,10 +27,6 @@ formatter.format(number)
 
 ## 常用类
 
-### `java.util.Arrays`
-
-- `Arrays.toString()` 打印数组
-
 ### `java.util.Random`
 
 ```java
@@ -80,3 +76,17 @@ for (File file : files) {
 ```
 
 ### `java.util.StringTokenizer`
+
+## 数据结构
+
+### `java.util.Arrays`
+
+- `Arrays.toString()` 打印数组
+
+## `java.util.HashMap`
+
+- `HashMap<String, Integer>`
+- `size()`, `isEmpty()`
+- `containsKey()`, `get()`
+- `put()`
+- `remove()`

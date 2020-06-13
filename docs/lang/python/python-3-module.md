@@ -108,7 +108,7 @@ print((lambda x: x**2 + 5*x + 4) (-4))
 class Cat:
   eyes = 'blue'
 
-  __init__(self, color, legs):
+  def __init__(self, color, legs):
     self.color = color
     self.legs  = legs
 ```

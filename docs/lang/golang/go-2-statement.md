@@ -23,7 +23,23 @@
 
 ### `if`
 
-可在`if`的条件表达式前执行一个简单语句（就像`for`语句中的第一部分），简单语句中声明的变量的作用域在`if-else`语句块中可用。
+``` go
+if 7%2 == 0 {
+    fmt.Println("7 is even")
+} else {
+    fmt.Println("7 is odd")
+}
+
+// 可在 `if` 的条件表达式前执行一个简单语句，
+// 简单语句中声明的变量的作用域在整个 `if-else` 语句块中可用。
+if num := 9; num < 0 {
+    fmt.Println(num, "is negative")
+} else if num < 10 {
+    fmt.Println(num, "has 1 digit")
+} else {
+    fmt.Println(num, "has multiple digits")
+}
+```
 
 ### `switch`
 

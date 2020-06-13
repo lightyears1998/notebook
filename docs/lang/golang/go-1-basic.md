@@ -74,7 +74,7 @@ for i, v range pow {
 映射将键映射到值。
 
 ```go
-m map[string]Vertex := make(map[string]Vertex)
+m := make(map[string]Vertex)
 
 var m = map[string]Vertex{
     "Bell Labs": Vertex{
