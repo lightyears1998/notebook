@@ -126,7 +126,7 @@ echo $str;  // 输出test并附加换行符
 
 数组：有序映射
 
-- 定义数组 `array{"a"=>"apple", "b"=>"banana"};` 短定义语法 `['a'=>1, 'b'=>2]`
+- 定义数组 `array({"a"=>"apple", "b"=>"banana"});` 短定义语法 `['a'=>1, 'b'=>2]`
 - 访问数组元素 `array[key]`, `array{key}`
 - 打印数组 `var_dump()`, `print_r()`
 

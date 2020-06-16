@@ -78,4 +78,18 @@ $myfunction = function() {
 
 ## 面向对象编程
 
-<http://php.net/manual/zh/language.oop5.php>
+``` php
+class SimpleClass
+{
+    public $var = 'a default value';
+    public $dp
+
+    public function __construct() {
+        $dp = array{1 => 1, 2 => 2}
+    }
+
+    public function displayVar() {
+        echo $this->var;
+    }
+}
+```
