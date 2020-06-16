@@ -197,6 +197,17 @@ Array.isArray();
 14. `indexOf()`, `lastIndexOf()` 给出给定元素在数组中出现的位置，如果没有出现则返回`-1`。第二个参数表示开始搜索的位置。
     注意此方法不能用于搜索`NaN`的位置，因为`NaN`是唯一自身不等于自身的值。
 
+### `Map`
+
+``` js
+let kv = [
+    ['k1', 'v1'], ['k2', 'v2'], ['k3', 'v3']
+]
+let map = new Map(kv);
+map.get('k4')  // undefined
+map.set('k4', 'v4')
+```
+
 ### 包装对象
 
 数值、字符串和布尔值有对应的包装对象`Number`, `String`和`Boolean`。
