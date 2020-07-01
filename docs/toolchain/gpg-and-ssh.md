@@ -70,6 +70,17 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
+禁用密码登录。
+
+``` shell
+# Forbid users in group `forbidpasswdlogin` from logging in with password
+Match User lightyears
+    PasswordAuthentication no
+
+Match Group forbidpasswdlogin
+    PasswordAuthentication no
+```
+
 ---
 
 ## Troble shooting
