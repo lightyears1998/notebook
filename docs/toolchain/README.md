@@ -14,6 +14,7 @@
 ## 浏览
 
 - 开发文档 Zeal, DevDocs
+- DB Browser for SQLite, SqliteStudio
 
 ## 文本和图形编辑工具
 
