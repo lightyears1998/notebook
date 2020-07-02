@@ -58,7 +58,11 @@ set smtp-auth=login
 *min *hour *day *month *weekday0to6 /path/to/script >> /path/to/script.log 2>&1
 ```
 
-## 自定义SSH欢迎文本
+## SSH管理
+
+见[SSH笔记](../../gpg-and-ssh.md)。
+
+## 自定义欢迎文本
 
 - tty `/etc/issue` `man issue` `man getty`
 - Message of Today `etc/motd`

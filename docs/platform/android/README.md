@@ -33,6 +33,6 @@
 
 ---
 
-- [Android Studio使用笔记](../toolchain/editors-and-ides/android-studio.md)
+- [Android Studio使用笔记](../../toolchain/editors-and-ides/android-studio.md)
 - [API Reference](https://developer.android.com/reference)
 - [Manifest API Level](https://developer.android.com/guide/topics/manifest/uses-sdk-element)
