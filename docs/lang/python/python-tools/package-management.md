@@ -8,6 +8,12 @@ Pip跟随`$HTTP_PROXY`环境变量。
 pip install [--upgrade] <package-name>
 ```
 
+## `poetry`
+
+``` sh
+pip install poetry # 或使用独立的 get-poetry.py 安装方式，详见 poetry 官网。
+```
+
 ## `pipenv`
 
 ```sh
