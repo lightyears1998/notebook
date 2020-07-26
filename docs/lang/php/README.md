@@ -1,4 +1,4 @@
-# PHP常识
+# PHP 常识
 
 - PHP（HyperText Preprocessor）：语法上与C语言相近，用于网页服务器的脚本语言。
 - 通常需要与 Nginx 或 Apache 配合使用。
