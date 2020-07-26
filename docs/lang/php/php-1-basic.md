@@ -1,4 +1,4 @@
-# PHP基础
+# PHP 基础
 
 ## 输出标签
 
@@ -250,6 +250,12 @@ $food[] = "瓜子";  // 设置键名为 3
 
 `current()`, `each()`以数字索引数组和关联索引数组形式返回键名和键值，并移动, `end()`, `next()`, `prev()`
 
+#### 数组运算符
+
+- `+` 把右边的数组元素附加到左边的数组后面，两个数组中都有的键名，则只用左边数组中的，右边的被忽略；
+- `==` 如果 $a 和 $b 具有相同的键／值对则为 TRUE；
+- `===` 如果 $a 和 $b 具有相同的键／值对并且顺序和类型都相同则为 TRUE。
+
 #### 数组类型的工具函数
 
 - `count(array [, mode])` 计算数组中元素的个数，mode=1时递归统计多维数组的元素
@@ -272,7 +278,21 @@ $food[] = "瓜子";  // 设置键名为 3
 
 ### 对象
 
-`new`
+`new`, `get_class()`
+
+#### `instanceof` 操作符
+
+确定一个变量是否为某个类或接口的实例。子类是继承父类的实例。
+
+``` php
+class SomeClass {}
+$a = new SomeClass;
+$b = new SomeClass;
+
+var_dump($a instanceof SomeClass);    // true
+var_dump($a instanceof "SomeClass");  // true
+var_dump($a instanceof $b);           // true
+```
 
 ## 特殊类型
 
