@@ -14,3 +14,4 @@
 
 - `composer show --platform`
 - `composer update [vendor/packagename]`
+- `composer install`
