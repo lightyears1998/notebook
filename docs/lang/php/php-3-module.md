@@ -533,3 +533,5 @@ $obj2 = new MyClass2();
 ```
 
 ### 后期静态绑定
+
+难以理解的内容，需要学习 PHP 解释器源码，使用时必须参考[手册](https://www.php.net/manual/zh/language.oop5.late-static-bindings.php)。
