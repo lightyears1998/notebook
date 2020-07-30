@@ -11,7 +11,7 @@ yarn install --check-files
 yarn add [--dev] <package> [--registry https://r.npm.taobao.org]
 
 yarn outdated
-yarn upgrade
+yarn upgrade [--latest] # `lastest` 会更新 package.json 中的版本
 ```
 
 ---
