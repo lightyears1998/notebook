@@ -2,6 +2,12 @@
 
 ## GPG - GnuPG
 
+### 密钥对生成
+
+``` sh
+gpg gen-keys
+```
+
 ### 密钥对导入导出
 
 1. 将全部密钥对导出到远程机器
@@ -88,6 +94,10 @@ Match Group forbidpasswdlogin
 ### Windows: `warning: agent returned different signature type ssh-rsa (expected rsa-sha2-512)`
 
 Windows的OpenSSH版本太旧。<https://github.com/PowerShell/Win32-OpenSSH/issues/1263>
+
+### macOS：无法签名
+
+可参照[这里提到的方案](https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0)解决。
 
 ### SSH 连接：GPG-Agent 不提示输入密码
 
