@@ -1,9 +1,11 @@
 # TypeScript常识
 
-## 安装编译器`tsc`
+## 安装和初始化
 
 ```sh
 yarn global add typescript
+
+tsc --init
 ```
 
 ## 编译
