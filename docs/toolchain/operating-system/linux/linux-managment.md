@@ -39,6 +39,34 @@ journalctl -u [service-name]
 
 ## Mailing
 
+### `MSMTP`
+
+推荐使用 msmtp。
+
+``` conf
+# ~/.msmtprc
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile        ~/.msmtp.log
+
+# Aliyun
+account        aliyun
+host           smtp.qiye.aliyun.com
+port           465
+tls_starttls   off
+from           account@domain.com
+user           account@domain.com
+password       pa$$w0rd
+
+account default : aliyun
+```
+
+注意到部分服务器不支持 START TLS，需要指定 `tls_starttls off`。
+
+### 默认 MTA
+
 以下设置可以连接到第三方服务器。编辑`/etc/mail.rc`，并授予需要发送邮件的用户以读权限。
 
 ```conf
