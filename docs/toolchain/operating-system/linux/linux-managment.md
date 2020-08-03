@@ -39,9 +39,13 @@ journalctl -u [service-name]
 
 ## Mailing
 
+### `mutt`
+
+不兼容 `sendmail`，但是支持附件。
+
 ### `MSMTP`
 
-推荐使用 msmtp。
+msmtp 是一个兼容 `sendmail` 的客户端。
 
 ``` conf
 # ~/.msmtprc
