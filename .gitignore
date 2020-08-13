@@ -3,3 +3,6 @@
 
 # Mkdocs构建结果
 site
+
+# 缓存
+.DS_Store
