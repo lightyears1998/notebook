@@ -32,6 +32,7 @@ parser: '@typescript-eslint/parser'
 parserOptions:
   project: ./tsconfig.json
 plugins:
+  - '@typescript-eslint'
   - import
 extends:
   # react-app
@@ -40,9 +41,12 @@ extends:
   - plugin:import/warnings
   - plugin:import/typescript
   - "@lightyears1998/lightyears-style"
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
 rules:
-  import/order:
-    - warn
+  no-console:
+    - off
 ```
 
 ## VS Code拓展全局设置
