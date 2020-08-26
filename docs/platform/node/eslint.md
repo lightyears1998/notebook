@@ -12,6 +12,7 @@ yarn add eslint-plugin-import --dev
 ```
 
 ``` sh
+# 已包含 TypeScript 支持
 eslint --init
 ```
 
