@@ -89,7 +89,7 @@ Match Group forbidpasswdlogin
 
 ---
 
-## Troble shooting
+## Trouble shooting
 
 ### Windows: `warning: agent returned different signature type ssh-rsa (expected rsa-sha2-512)`
 

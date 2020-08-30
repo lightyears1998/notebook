@@ -6,6 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 ```
 
+## Favcion
+
+<https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website>
+
 ## 使用层叠样式表CSS
 
 详见[css.md](css/README.md)
