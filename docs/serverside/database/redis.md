@@ -37,4 +37,41 @@ PERSIST ns:key  # 移除过期时间限制
 
 ## 列表操作
 
-从这里继续：<https://try.redis.io/>
+``` sh
+lpush
+rpush
+lpop
+rpop
+llen
+lrange
+```
+
+## 集合操作
+
+``` ssh
+sadd
+srem
+sismember
+smembers
+sunion
+spop
+```
+
+
+## 有序集合的操作
+
+``` sh
+zadd
+zrange
+```
+
+## 哈希集合
+
+``` sh
+hset
+hmset
+hget
+hgetall
+```
+
+哈希集合若存有数字，还可以在其中进行数字的原子操作。
