@@ -168,4 +168,10 @@ export https_proxy=127.0.0.1:1080
 
 ``` sh
 iptables -L
+
+iptables -A INPUT -s 0.0.0.0/0 -p tcp -m state --state NEW --dport 3306 -j ACCEPT
+iptables -A INPUT -s 0.0.0.0/0 -p tcp -m state --state NEW --dport 6379 -j ACCEPT
+
+# RHEL/CentOS
+iptables-save > /etc/sysconfig/iptables
 ```

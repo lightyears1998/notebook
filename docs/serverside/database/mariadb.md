@@ -50,10 +50,10 @@
 
 ## 用户管理
 
-- 创建用户 `CREATE USER 'user' IDENTIFIED BY 'password';`
+- 创建用户 `CREATE USER 'user' IDENTIFIED BY 'password';` 这里可以使用 `'%'` 作为域名通配符。
 - 赋予权限 `GRANT ALL PRIVILEGES ON dbname.* TO uesr;`, `GRANT SELCET, INSERT, UPDATE, DELETE, GRANT OPTION on dbname TO user;`
 
-`GRANT OPTION`使得获取的权限可以传递。
+`WITH GRANT OPTION` 使得获取的权限可以传递。
 
 - 删除用户 `DROP USER 'user';`
 
