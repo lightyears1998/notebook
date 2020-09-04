@@ -155,7 +155,17 @@ sudo rm /swapfile
 
 ## 网络
 
+常用：`nmtui` `netstat` `ifconfig` (`ipconfig`)
+
+代理的设置：
+
 ```sh
 export http_proxy=127.0.0.1:1080
 export https_proxy=127.0.0.1:1080
+```
+
+### `iptables`
+
+``` sh
+iptables -L
 ```
