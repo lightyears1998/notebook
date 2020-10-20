@@ -9,3 +9,4 @@
 | tar | | `tar` | `@types/tar` |
 | LZMA-JS | LZMA2的原生js实现 | `lzma` | 无 | |
 | lzma-native | LZMA2的API绑定 | `lzma-native` | `@types/lzma-native` |
+| ts-closure-library | TS 版本的 Google Closure Library，包含常用的数据结构和算法等 | `ts-closure-library` | <https://www.npmjs.com/package/ts-closure-library> |
