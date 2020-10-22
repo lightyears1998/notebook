@@ -13,3 +13,7 @@ yarn add --dev babel-cli
 
 1. watch
 2. cross-env
+
+---
+
+- [兼容性查询](https://kangax.github.io/compat-table/es2016plus/)
