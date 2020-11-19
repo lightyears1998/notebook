@@ -10,3 +10,7 @@
 ## LibreOffice
 
 支持Open Document Type，但有严重的效率问题。
+
+## EPUB
+
+- [Standard Ebooks](https://standardebooks.org)
