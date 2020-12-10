@@ -50,12 +50,16 @@ rules:
     - off
 ```
 
-## VS Code拓展全局设置
+## VS Code 设置 `settings.json`
 
-```json
+``` json
 {
-    "eslint.experimental.incrementalSync": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.lintTask.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSaveMode": "modifications",
+  "javascript.format.enable": false,
+  "typescript.format.enable": false
 }
+
 ```
