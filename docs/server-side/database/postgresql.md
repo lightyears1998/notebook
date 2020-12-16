@@ -65,6 +65,15 @@ host    all             all             ::1/128                 md5
 
 如有必要，为`postgres`用户设置密码。
 
+### 管理拓展
+
+已安装“uuid-ossp”拓展为例。
+
+``` sql
+-- 必须以 SuperUser 身份执行
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA public;
+```
+
 ## 客户端
 
 - pgAdmin4 跨平台图形界面客户端。
