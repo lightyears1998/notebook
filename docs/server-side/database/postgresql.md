@@ -33,6 +33,7 @@ psql -U username -d dbname -h localhost -p 5432
 \?  # 控制台指令帮助
 \l  # 显示所有数据库
 \dt # 显示所有表
+\c DB_NAME # 连接到数据库
 ```
 
 ---
