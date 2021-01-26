@@ -22,6 +22,26 @@
 - **家国情怀** 遵守主流道德，行使社会权利，并贡献自己的力量。
 - **实效为上** 根据实际情况选择实效最好的方案，而不是理论角度上最好的方案；介入现实情况因素，避免对原则、理论和工具的迷信。
 
+## 人格
+
+人格指导方针：[Advocate Type](https://www.16personalities.com/infj-personality)
+
+优势：
+
+- Creative
+- Insightful
+- Principled
+- Passionate
+- Altruistic
+
+劣势：
+
+- Sensitive to Criticism
+- Reluctant to Open Up
+- Perfectionistic
+- Avoiding the Ordinary
+- Prone to Burnout
+
 ## 人生规划
 
 - **奉献一生的事业** 在计算机领域内达到并保持前沿地位，并致力于使用技术为人类的普遍生活水平带来革命性的提升。
