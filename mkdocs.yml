@@ -13,7 +13,6 @@ theme:
     text: 'Noto Sans SC'
     code: 'Source Code Pro'
   features:
-    - navigation.instant
     - navigation.tabs
 
 markdown_extensions:
