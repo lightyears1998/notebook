@@ -13,8 +13,7 @@ theme:
     text: 'Noto Sans SC'
     code: 'Source Code Pro'
   features:
-    - instant
-    - tabs
+    - navigation.tabs
 
 markdown_extensions:
   - admonition
@@ -23,7 +22,8 @@ markdown_extensions:
       permalink: true
       slugify: !!python/name:pymdownx.slugs.uslugify
   - mdx_truly_sane_lists
-  - pymdownx.arithmatex
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -49,3 +49,8 @@ plugins:
 google_analytics:
   - UA-150736604-2
   - auto
+
+extra_javascript:
+  - extra-js-config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

@@ -36,6 +36,7 @@ gpg gen-keys
 ### 客户端连接设置
 
 ```conf
+# ~/.ssh/config
 # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
 
 ServerAliveInterval 60
