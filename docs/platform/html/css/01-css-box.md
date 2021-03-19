@@ -7,6 +7,11 @@ margin, boarder, padding
 - padding
 - width, height
 
+## `box-sizing`
+
+- content-box width 和 height 只计算 content 的。
+- border-box  width 和 height 算 content + border。
+
 **外边框塌陷** 两个框彼此接触时，间距取两个相邻外边界的最大值而非两者之和。
 
 ## 相关属性
