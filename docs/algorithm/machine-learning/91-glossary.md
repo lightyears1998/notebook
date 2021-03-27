@@ -8,3 +8,7 @@
 - 模型 模型定义了特征与标签之间的关系
   - 回归模型可预测连续值
   - 分类模型可预测离散值
+
+---
+
+另可参考 [Google 机器学习术语表](https://developers.google.com/machine-learning/glossary)。

@@ -1,10 +1,14 @@
 # TensorFlow
 
-直到现在的版本 tensorflow==2.4 时，使用和安装 tf 仍然是一件麻烦的事情。
+通常会配合 `numpy` 以及 `pandas` 一起使用。
+
+---
+
+直到现在的版本 `tensorflow==2.4` 时，使用和安装 tf （的原生 GPU 支持）仍然是一件麻烦的事情。
 
 ## 安装
 
-使用 docker 或典型安装。最好设置 GPU 支持。
+使用 docker 或原生安装。最好设置原生 GPU 支持。
 
 在[使用 GPU](https://www.tensorflow.org/guide/gpu) 时，通常需要设定 Memory Growth 选项，以免出现内存问题。
 
@@ -45,7 +49,7 @@ sudo apt-mark unhold <package-name>
 
 ### 测试安装
 
-如果下面三个代码都能运行，那么 tensorflow 的安装基本没有问题。
+如果下面三个测试代码都能运行，那么 TensorFlow 的安装基本没有问题。
 
 ``` py
 import tensorflow as tf
