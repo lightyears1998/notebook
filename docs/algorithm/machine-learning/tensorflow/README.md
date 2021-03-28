@@ -1,6 +1,15 @@
 # TensorFlow
 
-通常会配合 `numpy` 以及 `pandas` 一起使用。
+通常会配合 `numpy` 以及 `pandas` 还有 `matplotlib` 一起使用。
+
+``` py
+import pandas as pd
+import numpy as np
+import tensorflow as tf
+from matplotlib import pyplot as plt
+```
+
+关于 TensorFlow 层级结构的[直观的理解](https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit)。
 
 ---
 
