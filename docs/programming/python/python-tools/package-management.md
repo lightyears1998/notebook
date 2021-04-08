@@ -64,3 +64,13 @@ pylint = "pylint ./__main__.py ./packagedir"
 ## Virtualenv
 
 - 在指定目录创建虚拟环境 `virtualenv "venv"`，`--no-site-packages`参数是默认的。
+
+``` sh
+pip install virtualenv
+```
+
+``` sh
+# 创建一个名为 venv 的虚拟环境
+virtualenv venv
+source venv/bin/activate
+```
