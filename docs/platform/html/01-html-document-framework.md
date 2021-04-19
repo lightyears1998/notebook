@@ -1,4 +1,4 @@
-# HTML基本操作
+# HTML 文档框架
 
 ## 视口
 
@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 ```
 
-## Favcion
+## Favicon
 
 <https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website>
 

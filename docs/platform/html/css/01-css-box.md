@@ -36,8 +36,8 @@ margin, boarder, padding
 
 ```css
 h2 {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 } /* 将h2从原本文档流中的盒模型的top位置移远10px。注意视觉上h2是向着bottom移动。 */
 ```
 
@@ -45,7 +45,7 @@ h2 {
 
 相对于父元素的定位，left, top, right, bottom的含义同上。
 
-## `positiom: fixed`
+## `position: fixed`
 
 相对于浏览器窗口的绝对定位，left, top, right, bottom的含义同上。
 
