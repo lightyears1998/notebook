@@ -1,4 +1,4 @@
-# JavaScript笔记
+# JavaScript 基础
 
 ## 标识符
 
