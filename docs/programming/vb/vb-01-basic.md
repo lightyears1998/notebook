@@ -1,6 +1,6 @@
-# Visual Basic笔记：基础
+# Visual Basic 基础
 
-[CSDN博客上的使用指南](https://blog.csdn.net/u011054333/article/details/78984118)
+[CSDN 博客上的使用指南](https://blog.csdn.net/u011054333/article/details/78984118)
 
 ## 命名规范
 

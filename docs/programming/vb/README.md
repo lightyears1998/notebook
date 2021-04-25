@@ -1,6 +1,6 @@
-# Visual Basic
+# Visual Basic 常识
 
-## VBA
+## VBA: Visual Basic for Application
 
 [微软文档](https://docs.microsoft.com/en-us/office/vba/api/overview/)
 

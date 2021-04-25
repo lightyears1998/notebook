@@ -1,4 +1,4 @@
-# Visual Basic笔记：语句
+# Visual Basic 语句
 
 ## 顺序语句
 
