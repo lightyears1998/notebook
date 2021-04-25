@@ -3,7 +3,8 @@
         "data": {
             "id": "bwys8eu65340",
             "created": 1568368501163,
-            "text": "编程语言导图"
+            "text": "编程语言导图",
+            "expandState": "expand"
         },
         "children": [
             {
@@ -20,17 +21,65 @@
                             "id": "bwys90yu2000",
                             "created": 1568368549334,
                             "text": "设计模式",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "bwys9492yxs0",
-                                    "created": 1568368556484,
-                                    "text": "开放闭合原则",
-                                    "layout": null
+                                    "id": "cawpd8tnyo80",
+                                    "created": 1619343514811,
+                                    "text": "SOLID 原则",
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cawpcynrozs0",
+                                            "created": 1619343492686,
+                                            "text": "单一职责原则 Single-responsibility Principle",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bwys9492yxs0",
+                                            "created": 1568368556484,
+                                            "text": "开放闭合原则 Open-closed Principle",
+                                            "layout": null,
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpd4g7os80",
+                                            "created": 1619343505290,
+                                            "text": "里氏替换原则 Liskov Substitution Principle",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpk0f86940",
+                                            "created": 1619344045072,
+                                            "text": "接口隔离原则 Interface Segregation Principle",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpe6dpx2o0",
+                                            "created": 1619343587857,
+                                            "text": "依赖倒置原则 Dependency Inversion Principle",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -38,15 +87,256 @@
                         "data": {
                             "id": "cawp3dmu0q00",
                             "created": 1619342741640,
-                            "text": "编码原则"
+                            "text": "编码原则",
+                            "expandState": "expand"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cawpkg4yhig0",
+                                    "created": 1619344079280,
+                                    "text": "构建型模式",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cawpkpbpv6g0",
+                                            "created": 1619344099280,
+                                            "text": "工厂模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cawpkuo361s0",
+                                                    "created": 1619344110912,
+                                                    "text": "抽象工厂模式",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpksjtwzk0",
+                                            "created": 1619344106301,
+                                            "text": "单例模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpkxgv1wo0",
+                                            "created": 1619344117005,
+                                            "text": "建造者模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpl3151e00",
+                                            "created": 1619344129115,
+                                            "text": "原型模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cawpkhi69jc0",
+                                    "created": 1619344082256,
+                                    "text": "结构型模式",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cawpl5oae8w0",
+                                            "created": 1619344134868,
+                                            "text": "适配器模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpl98h02o0",
+                                            "created": 1619344142619,
+                                            "text": "桥接模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawplavev9c0",
+                                            "created": 1619344146183,
+                                            "text": "组合模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpldwmf1k0",
+                                            "created": 1619344152787,
+                                            "text": "装饰模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawplhwrjvs0",
+                                            "created": 1619344161502,
+                                            "text": "外观模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawplkb6bo00",
+                                            "created": 1619344166727,
+                                            "text": "享元模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawplugaizc0",
+                                            "created": 1619344188804,
+                                            "text": "代理模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cawpkjwxt6g0",
+                                    "created": 1619344087502,
+                                    "text": "行为型模式",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cawpm0ijhio0",
+                                            "created": 1619344202001,
+                                            "text": "责任链模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpm4qwz1c0",
+                                            "created": 1619344211215,
+                                            "text": "命令模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpm67iiao0",
+                                            "created": 1619344214395,
+                                            "text": "解释器模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmcx3fw00",
+                                            "created": 1619344229003,
+                                            "text": "迭代器模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmhx1zwg0",
+                                            "created": 1619344239884,
+                                            "text": "观察者模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmn5g21k0",
+                                            "created": 1619344251275,
+                                            "text": "备忘录模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmjh197k0",
+                                            "created": 1619344243269,
+                                            "text": "终结者模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmsbtug00",
+                                            "created": 1619344262545,
+                                            "text": "状态模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpmw1kew00",
+                                            "created": 1619344270632,
+                                            "text": "策略模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpn0nfwhk0",
+                                            "created": 1619344280662,
+                                            "text": "模板方法模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cawpn4vuheo0",
+                                            "created": 1619344289877,
+                                            "text": "访问者模式",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
                             "id": "cawp3goyvq00",
                             "created": 1619342748299,
-                            "text": "编程经验"
+                            "text": "编程经验",
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -66,7 +356,8 @@
                             "id": "bwys9ghdsp40",
                             "created": 1568368583108,
                             "text": "命名规范",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -75,7 +366,8 @@
                             "id": "bxmqwt95vm00",
                             "created": 1570802210025,
                             "text": "注释",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -93,7 +385,8 @@
                                     "id": "bwys9hz3iqw0",
                                     "created": 1568368586356,
                                     "text": "字面值",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -102,7 +395,8 @@
                                     "id": "bwys9qj95j40",
                                     "created": 1568368604989,
                                     "text": "值域",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -111,7 +405,8 @@
                                     "id": "bxm05mwx7ps0",
                                     "created": 1570726731534,
                                     "text": "类型转换",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -119,7 +414,8 @@
                                             "id": "bxmogla5l3k0",
                                             "created": 1570795296624,
                                             "text": "自动类型转换",
-                                            "layout": null
+                                            "layout": null,
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -128,7 +424,8 @@
                                             "id": "bxmognhfqsg0",
                                             "created": 1570795301418,
                                             "text": "强制类型转换",
-                                            "layout": null
+                                            "layout": null,
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -141,7 +438,8 @@
                             "id": "bxlz94b940w0",
                             "created": 1570724183388,
                             "text": "复合数据类型",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -149,7 +447,8 @@
                                     "id": "bxlz9cr7wfc0",
                                     "created": 1570724201768,
                                     "text": "数组",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -158,7 +457,8 @@
                                     "id": "bxlz9dmh08o0",
                                     "created": 1570724203658,
                                     "text": "枚举",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -167,7 +467,8 @@
                                     "id": "bxlz9ejy1w00",
                                     "created": 1570724205682,
                                     "text": "元组",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -197,7 +498,8 @@
                                     "id": "bxlz9ooqzmw0",
                                     "created": 1570724227740,
                                     "text": "声明",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -206,7 +508,8 @@
                                     "id": "bwys9z1k7aw0",
                                     "created": 1568368623510,
                                     "text": "计算",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -215,7 +518,8 @@
                                     "id": "bxlz9qvfoxs0",
                                     "created": 1570724232498,
                                     "text": "赋值",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -225,7 +529,8 @@
                         "data": {
                             "id": "c27qycsn9r40",
                             "created": 1587559723776,
-                            "text": "顺序语句"
+                            "text": "顺序语句",
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -234,7 +539,8 @@
                             "id": "bwysa169gds0",
                             "created": 1568368628148,
                             "text": "分支语句",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -243,7 +549,8 @@
                             "id": "bwysa4auwgo0",
                             "created": 1568368634956,
                             "text": "循环语句",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -252,7 +559,8 @@
                             "id": "bxlz9nd94k80",
                             "created": 1570724224868,
                             "text": "异常控制",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -272,7 +580,8 @@
                             "id": "bwysa8l00gw0",
                             "created": 1568368644276,
                             "text": "命名空间",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -280,7 +589,8 @@
                                     "id": "bxlz9uexyd40",
                                     "created": 1570724240208,
                                     "text": "组织模块",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -289,7 +599,8 @@
                                     "id": "bwysacp2sy00",
                                     "created": 1568368653230,
                                     "text": "导入名称",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -298,7 +609,8 @@
                                     "id": "bwysadpfmwo0",
                                     "created": 1568368655428,
                                     "text": "导出名称",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -309,7 +621,8 @@
                             "id": "bwysak07bj40",
                             "created": 1568368669140,
                             "text": "函数",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -318,7 +631,8 @@
                             "id": "bwysamv04eg0",
                             "created": 1568368675356,
                             "text": "类",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -329,7 +643,8 @@
                     "id": "bwysaqafx200",
                     "created": 1568368682820,
                     "text": "工具",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -337,7 +652,8 @@
                             "id": "bxlza22znns0",
                             "created": 1570724256899,
                             "text": "输入输出工具",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -346,7 +662,8 @@
                             "id": "bwysar4qi740",
                             "created": 1568368684652,
                             "text": "字符串工具",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -355,7 +672,8 @@
                             "id": "bwysat85pmo0",
                             "created": 1568368689212,
                             "text": "数据结构",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -366,7 +684,8 @@
                     "id": "bwysauy6ots0",
                     "created": 1568368692963,
                     "text": "类库",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -374,7 +693,8 @@
                             "id": "bwysaxbb7cg0",
                             "created": 1568368698110,
                             "text": "数学",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -382,7 +702,8 @@
                                     "id": "bwysb2jups80",
                                     "created": 1568368709510,
                                     "text": "高精度运算",
-                                    "layout": null
+                                    "layout": null,
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -393,7 +714,8 @@
                             "id": "bwysayz75gg0",
                             "created": 1568368701731,
                             "text": "日期和时间",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -402,7 +724,8 @@
                             "id": "bxmo067mb4w0",
                             "created": 1570794009992,
                             "text": "文件",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -411,7 +734,8 @@
                             "id": "bwysb684bmg0",
                             "created": 1568368717508,
                             "text": "网络",
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": []
                     }
@@ -419,7 +743,7 @@
             }
         ]
     },
-    "template": "right",
+    "template": "default",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
