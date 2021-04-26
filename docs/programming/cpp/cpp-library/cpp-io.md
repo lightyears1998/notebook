@@ -1,4 +1,4 @@
-# C/C++ IO工具
+# C++ IO工具
 
 ## `printf()`和`scanf()`
 
