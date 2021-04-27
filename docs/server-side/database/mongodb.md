@@ -10,7 +10,7 @@
 ## 编程工具
 
 - _JavaScript_ mongoose
-- _TypeScript_ TypeORM 或 Typegoose
+- _TypeScript_ TypeORM 或 TypeGoose
 
 ## 可视化工具
 
@@ -21,3 +21,9 @@
 ## 安装
 
 按[官网](https://docs.mongodb.com/manual/installation/)指导进行。
+
+### Ubuntu
+
+``` sh
+sudo apt install mongo
+```
