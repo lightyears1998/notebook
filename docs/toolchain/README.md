@@ -6,10 +6,11 @@
 
 ## 实用工具
 
+- 网站缓存 HTTrack `wget`
 - 电子书管理 Calibre
 - 音乐管理 MusicBee
 - FTP工具 FileZilla
-- 截图工具 Snipaste、Shutter
+- 截图工具 SniPaste、Shutter
 
 ## 浏览
 
