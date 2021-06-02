@@ -32,7 +32,7 @@ bcdedit
 
 ## UWP选项
 
-- loopback exempt <https://stackoverflow.com/questions/33259763/uwp-enable-local-network-loopback> or fiddler
+- 解除 UWP 本地环回限制 <https://stackoverflow.com/questions/33259763/uwp-enable-local-network-loopback> or [Loopback Manager](https://github.com/tiagonmas/Windows-Loopback-Exemption-Manager)
 
 ## 常量
 
