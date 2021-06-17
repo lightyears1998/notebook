@@ -34,11 +34,11 @@ yarn config set https-proxy http://host:port
 ```conf
 # .npmrc
 package-lock=false
-registry=https://registry.nlark.com
+registry=https://r.npm.taobao.org
 
 
 # .yarnrc
-registry "https://registry.nlark.com"
+registry "https://r.npm.taobao.org"
 ```
 
 可以用`yarn config list`来检查这些设置是否生效。
