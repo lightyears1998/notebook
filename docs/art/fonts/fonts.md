@@ -56,3 +56,4 @@
 ---
 
 - [再也不用找字体了！15款最新免费可商用字体，一次性打包送送送！](https://mp.weixin.qq.com/s/Nhu8r62lpKse6AY7d2_fWA) by 秋叶PPT
+- [DDLC 模板使用的免费商用中文字体](https://github.com/imgradeone/DDLCModTemplate-Chinese-next#%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E5%8C%85%E5%AE%89%E8%A3%85)
