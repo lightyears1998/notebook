@@ -131,3 +131,7 @@ func _on_shoot():
     var bullet = preload("res://bullet.tscn").instance()
     add_child(bullet)
 ```
+
+## SceneTree
+
+`get_tree` `change_scene`
