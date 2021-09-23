@@ -2,8 +2,6 @@
 
 立志成为全栈开发者。
 
-![Introduction of Me](lightyears1998.svg)
-
 ## 观点
 
 - **“自然王国与必然王国中的人”** Programing is an essential skill which needs lifelong practice. It is a *part* of life.
