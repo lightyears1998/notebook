@@ -48,6 +48,7 @@
 
 ## 爬虫
 
+- 2021.09 **lofter-memory** *8hr* Lofter 喜欢的博文缓存工具
 - 2021.04 **wenku8-collector**
 - 2020.01 **dm5-collector**
 
