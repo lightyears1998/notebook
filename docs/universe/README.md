@@ -94,3 +94,5 @@
 ## 未分类
 
 - 2020.04 **akane0** The path to the truth is tortuous.
+
+Curriculum vitae of lightyears1998
