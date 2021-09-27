@@ -1,6 +1,6 @@
 # lightyears1998 的个人履历
 
-- **技术博客** <hacks.qfstudio.net >
+- **技术博客** <hacks.qfstudio.net>
 - **笔记本** notebook WizNote
 - **短期行动计划** chronicle
 - **竞赛习题集** polymorphism
@@ -42,13 +42,13 @@
 - 2020.07 **hitokoto-shell** 「一言」Shell 在 Shell 中浏览每日一句～
 - 2020.07 **typestore** TypeStore aims to make storing key-value pairs even easier.
 - 2020.04 **cross-eastward** Python 记单词
-- 2020.03 **Tick** Count the days.
+- 2020.03 **Tick** *React Native* 精确到小数点后若干位的年龄计算器
 - 2020.02 **ts-rotate-backup** Crude way to get workspace files backup in TS manner
-- 2019.09 **aliyun-ddns**
+- 2019.09 **aliyun-ddns** *Python* 适用于阿里云云解析的DDNS脚本
 
 ## 爬虫
 
-- 2021.09 **lofter-memory** *8hr* Lofter 喜欢的博文缓存工具
+- 2021.09 **lofter-memory** *8hr* 将 Lofter 乐乎上喜欢的博文缓存到本地的小工具
 - 2021.04 **wenku8-collector**
 - 2020.01 **dm5-collector**
 
