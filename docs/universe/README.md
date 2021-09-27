@@ -12,7 +12,7 @@
 
 | 时间 | 项目 | 投入 | 备注 |
 | --- | --- | --- | --- |
-| 2017-2021 | **a-gzhu-coder** | | 大学本科生涯记录 |
+| 2017 - 2021 | **a-gzhu-coder** | | 大学本科生涯记录 |
 | 2020 | **gzhu-esit-course-record** **gzhu-esit-course-armds5-workspace** | | ESiT课程记录 |
 | 2020 | **gzhu-networking-course-record** | | 组网技术课程记录 |
 
@@ -26,7 +26,7 @@
 | 2020.07 | **questionnaire** 问卷系统 |
 | 2020.06 | **qnote-backend** 轻日记 QNote |
 | 2020.04 | **cool-corpus** 外刊语料库 | |  |
-| 2019.06-2019.07 | [**DataBase Course Design**](https://github.com/dangoyears/Database-CourseDesign-ServerSide) 数据库课程设计 | | *Oracle DB 与 GoLang 实验项目* 代码质量一言难尽，功能有限，整体上说算是糟糕透顶的作品。 |
+| 2019.06 - 2019.07 | [**DataBase Course Design**](https://github.com/dangoyears/Database-CourseDesign-ServerSide) 数据库课程设计 | | *Oracle DB 与 GoLang 实验项目* 代码质量一言难尽，功能有限，整体上说算是糟糕透顶的作品。 |
 
 ## 实用软件
 
