@@ -1,17 +1,17 @@
 # lightyears1998 的个人履历
 
-- **技术博客** <hacks.qfstudio.net>
-- **笔记本** notebook WizNote
-- **短期行动计划** chronicle
-- **竞赛习题集** polymorphism
-- **甜点级代码** dessert-code
-- **实验沙盒** code-sandbox
-- **生活博客** <blog.qfstudio.net>
+- [**技术博客**](https://hacks.qfstudio.net)
+- **笔记本** [notebook](https://lightyears1998.github.io/notebook/) WizNote
+- **短期行动计划** [chronicle](https://lightyears1998.github.io/chronicle/)
+- **竞赛习题集** [polymorphism](https://github.com/lightyears1998/polymorphism)
+- **甜点级代码** [dessert-code](https://github.com/lightyears1998/dessert-code)
+- **实验沙盒** [code-sandbox](https://github.com/lightyears1998/code-sandbox)
+- [**生活博客**](https://blog.qfstudio.net/)
 
 ## 前后端应用
 
 - 2021.04 **snippet-flow**
-- 2020.10 **ledgermoment**
+- 2020.10 **ledger-moment**
 - 2020.08 **birdsong** 聊天室
 - 2020.07 **questionnaire** 问卷系统
 - 2020.06 **qnote-backend** 轻日记 QNote
@@ -44,7 +44,7 @@
 - 2020.04 **cross-eastward** Python 记单词
 - 2020.03 **Tick** *React Native* 精确到小数点后若干位的年龄计算器
 - 2020.02 **ts-rotate-backup** Crude way to get workspace files backup in TS manner
-- 2019.09 **aliyun-ddns** *Python* 适用于阿里云云解析的DDNS脚本
+- 2019.09 **aliyun-ddns** *Python* 适用于阿里云云解析的 DDNS 脚本
 
 ## 爬虫
 
