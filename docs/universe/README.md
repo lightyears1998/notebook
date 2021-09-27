@@ -1,4 +1,4 @@
-# lightyears1998 的个人履历
+# lightyears1998 个人履历
 
 - [**技术博客**](https://hacks.qfstudio.net)
 - **笔记本** [notebook](https://lightyears1998.github.io/notebook/) WizNote
@@ -25,6 +25,8 @@
 | 2020.08 | **birdsong** 聊天室 |
 | 2020.07 | **questionnaire** 问卷系统 |
 | 2020.06 | **qnote-backend** 轻日记 QNote |
+| 2020.04 | **cool-corpus** 外刊语料库 | |  |
+| 2019.06-2019.07 | [**DataBase Course Design**](https://github.com/dangoyears/Database-CourseDesign-ServerSide) 数据库课程设计 | | *Oracle DB 与 GoLang 实验项目* 代码质量一言难尽，功能有限，整体上说算是糟糕透顶的作品。 |
 
 ## 实用软件
 
@@ -101,6 +103,13 @@
 | 2018.11 | **kana-anki** | | 日语假名记忆工具，广州大学2018年App Inventor移动应用开发秋季选修班课程设计作品 |
 | 2018.02 | **geometry-sketchpad**  | | 广州大学2018年VC++课程设计作业：几何图形绘制管理 |
 
+## 基础设施
+
+| 时间 | 项目 | 投入 | 备注 |
+| --- | --- | --- | --- |
+| 2018 | **Carrier9-mod-monit** | |  寝室路由器Carrier9的状态节点  |
+| 2018 | **Carrier9-info** | |  寝室路由器Carrier9的相关信息  |
+
 ---
 
 ## WordPress 主题
@@ -116,3 +125,5 @@
 | 2020.04 | **akane0** | | 未完成。*The path to the truth is tortuous.* |
 
 Curriculum vitae of lightyears1998
+
+> 经历过的事情是不会忘记的，只是想不起来而已。
