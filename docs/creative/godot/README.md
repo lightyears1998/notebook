@@ -5,7 +5,7 @@ Godot 的特色是灵活与小巧。
 - 组合与聚合
 - 继承
 
-![Godot's Architecture Illustration from https://docs.godotengine.org/en/stable/development/cpp/introduction_to_godot_development.html](./.assets/architecture.jpg)
+![Godot's Architecture Illustration from https://docs.godotengine.org/en/stable/development/cpp/introduction_to_godot_development.html](./assets/architecture.jpg)
 
 ## `.gitignore`
 
