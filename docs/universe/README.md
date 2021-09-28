@@ -57,11 +57,12 @@
 
 | 时间 | 项目 | 投入 | 备注 |
 | --- | --- | --- | --- |
+| 2021.09 | **vocabulary** | | 词汇工具。*立项后就没动过了。* |
 | 2020.11 | **experimental-branch-flow-chart** |
 | 2020.08 | **leetcode-cn-mutual-login** | | 跨设备登录 LeetCodeCN |
 | 2020.07 | **hitokoto-shell** | | 「一言」Shell 在 Shell 中浏览每日一句～ |
 | 2020.07 | **typestore** | | TypeStore aims to make storing key-value pairs even easier. |
-| 2020.04 | **cross-eastward** | | Python 记单词 |
+| 2020.04 | **cross-eastward** | | *Python* 记单词 |
 | 2020.03 | **Tick** | | *React Native* 精确到小数点后若干位的年龄计算器 |
 | 2020.02 | **ts-rotate-backup** | | Crude way to get workspace files backup in TS manner |
 | 2019.09 | **aliyun-ddns** | | *Python* 适用于阿里云云解析的 DDNS 脚本 |
