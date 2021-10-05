@@ -4,7 +4,7 @@
             "id": "celb21n6nq00",
             "created": 1632810615874,
             "text": "Godot 源码",
-            "note": "v3.x dbe0e4613a96387140c43e4b74ea34aebe3d0f91\n\nhttps://github.com/godotengine/godot/tree/dbe0e4613a96387140c43e4b74ea34aebe3d0f91"
+            "note": "v3.x dbe0e4613a96387140c43e4b74ea34aebe3d0f91\n\nhttps://github.com/godotengine/godot/tree/dbe0e4613a96387140c43e4b74ea34aebe3d0f91\n\n4.0 的代码在 core 部分已经有很大变化。"
         },
         "children": [
             {
@@ -297,49 +297,9 @@
                     },
                     {
                         "data": {
-                            "id": "cele0w3nugg0",
-                            "created": 1632818988775,
-                            "text": "cofig"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
                             "id": "cele1146g1k0",
                             "created": 1632818999690,
                             "text": "crypto"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele12um2p40",
-                            "created": 1632819003465,
-                            "text": "debugger"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele143zmuw0",
-                            "created": 1632819006209,
-                            "text": "error"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele15krhg80",
-                            "created": 1632819009400,
-                            "text": "extension"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele1fvngk00",
-                            "created": 1632819031826,
-                            "text": "input"
                         },
                         "children": []
                     },
@@ -361,49 +321,9 @@
                     },
                     {
                         "data": {
-                            "id": "cele1mbpeq00",
-                            "created": 1632819045858,
-                            "text": "multiplayer"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele1ovxjd40",
-                            "created": 1632819051434,
-                            "text": "object"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
                             "id": "cele1z1lvqo0",
                             "created": 1632819073545,
                             "text": "os"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele1zmj2w80",
-                            "created": 1632819074810,
-                            "text": "string"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele20lpxm80",
-                            "created": 1632819076938,
-                            "text": "templates"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cele23p8pdc0",
-                            "created": 1632819083681,
-                            "text": "variant"
                         },
                         "children": []
                     }
@@ -659,7 +579,16 @@
                     "created": 1632812727234,
                     "text": "modules"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "celf2b673c80",
+                            "created": 1632821921054,
+                            "text": "gdscript"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {

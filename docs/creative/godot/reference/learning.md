@@ -4,6 +4,7 @@
 
 - 官方[文档](https://docs.godotengine.org/en/stable/)以及[中文文档](https://docs.godotengine.org/zh_CN/latest/index.html)
 - 百度贴吧精品贴
+- [Godot 中文增强版官网](http://godot.pro/wp/)
 
 ## 资源
 
