@@ -57,6 +57,7 @@
 
 | 时间 | 项目 | 投入 | 备注 |
 | --- | --- | --- | --- |
+| 2021.10 | **chunibyo** | 0hr | 中二病词典 |
 | 2021.09 | **vocabulary** | | 词汇工具。*立项后就没动过了。* |
 | 2020.11 | **experimental-branch-flow-chart** |
 | 2020.08 | **leetcode-cn-mutual-login** | | 跨设备登录 LeetCodeCN |
