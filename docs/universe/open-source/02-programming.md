@@ -6,6 +6,7 @@
 | wecatch / china_regions | 最全最新中国省，市，地区json及sql数据 |
 | yuyang2016 / Chinese-Free-API | 持续收集国内免费优质API。 |
 | justinamiller / SoftwareArchitect | Path to a Software Architect |
+| 狮子的魂 / ip2region @gitee | 准确率99.9%的离线IP地址定位库，0.0x毫秒级查询，数据库文件大小只有1.5M，提供了java,php,c,python,nodejs,golang,c#等查询绑定和Binary,B树,内存三种查询算法 |
 
 ## 算法
 
@@ -18,6 +19,7 @@
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
+| GuaikOrg / go-snowflake @gitee | Go 语言实现的 Snowflake 算法，为分布式系统生成唯一ID，单机测试1秒可生成20万ID。 |
 | hajimehoshi / ebiten | A dead simple 2D game library for Go |
 | TruthHun / BookStack | BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。 |
 
@@ -51,6 +53,7 @@
 | --- | --- | --- |
 | zhujiang521 / PlayAndroid | 🔥🔥🔥 Kotlin + MVVM + LCE版玩安卓，暗黑模式、横竖屏、无网、弱网、无数据、加载失败等等各种情况，协程、Room、Hilt、DataStore、LiveData、Retrofit、屏幕适配、本地缓存、多语言切换、多 lib，你想要的我都有！！！ |
 | zskingking / Jetpack-Mvvm | 使用Jetpack全家桶+Kotlin实现的Android社区App加音乐播放器。不写晦涩难懂的代码，尽量标清每一行注释，严格遵守六大基本原则，大量运用设计模式，此项目可快速帮你入手Kotlin、Jetpack。如果觉得对你有帮助，右上角点个star，事先谢过🍉🍉🍉 |
+| Barry / QtScrcpy @gitee | Android实时投屏软件，此应用程序提供USB(或通过TCP/IP)连接的Android设备的显示和控制。它不需要任何root访问权限 |
 
 ## Java
 

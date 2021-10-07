@@ -11,6 +11,7 @@
 | theniceboy / learn-japanese | |
 | DangoSky / puzzle-game | Vue 实现一个拼图游戏 |
 | nbarkhina / MarioHTML | My take on an iconic game written in TypeScript |
+| situdesign / 劫掠轩辕剑 @gitee | 《劫掠轩辕剑》是一部经典的RPG游戏作品，第一次发布于2002年11月7日。由于年代久远，以及当时的网络安全环境比较差，导致最初的发布版已经被破坏。本发布版不仅完善了游戏引擎，修正了故事情节，也同时开放开发工具链的源码。本软件使用VS2012编译。|
 
 ## Lansiny
 
