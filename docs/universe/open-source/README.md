@@ -16,6 +16,7 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | DeSireFire / animeTrackerList |
+| ngosang / trackerslist |
 
 ## 实用软件
 
@@ -25,8 +26,11 @@
 | NightFurySL2001 / CJK-character-count | Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards 字体汉字计数软件 |
 | xiaofengShi / CHINESE-OCR | [python3.6] 运用tf实现自然场景文字检测,keras/pytorch实现ctpn+crnn+ctc实现不定长场景文字OCR识别 |
 | xroche / httrack | HTTrack Website Copier, copy websites to your computer (Official repository) |
-| ZhenShaw / tesseract-ocr | 简单的tesseract验证码识别封装，基于rpc提供服务 |
+| ZhenShaw / tesseract-ocr | 简单的 tesseract 验证码识别封装，基于rpc提供服务 |
 | deanmalmgren / textract | extract text from any document. no muss. no fuss. |
+| X0rg / CPU-X | CPU-X is a Free software that gathers information on CPU, motherboard and more |
+| plantuml / plantuml | Generate UML diagram from textual description |
+| fex-team / kityminder-core | 强大的脑图可视化工具 |
 
 ### Booting
 
@@ -41,6 +45,8 @@
 | --- | --- | --- |
 | openhardwaremonitor / openhardwaremonitor  | |
 | tiagonmas / Windows-Loopback-Exemption-Manager |
+| kirillkovalenko / nssm |
+| processhacker / processhacker | A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.  |
 
 ## 输入法
 
@@ -61,3 +67,5 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | beancount | Beancount: Double-Entry Accounting from Text Files. |
+| NickeManarin / ScreenToGif | 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. |
+| ankitects / anki | Anki for desktop computers |

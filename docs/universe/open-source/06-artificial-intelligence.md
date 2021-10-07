@@ -10,6 +10,8 @@
 | --- | --- | --- |
 | microsoft / muzic | Understanding and Generation with Artificial Intelligence |
 | babysor / MockingBird | 5秒内克隆您的声音并生成任意语音内容 |
+| nagadomi / waifu2x | Image Super-Resolution for Anime-Style Art |
+| wangshub / RL-Stock | 📈 如何用深度强化学习自动炒股 |
 
 ## NLP
 

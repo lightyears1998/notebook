@@ -3,13 +3,23 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | public-apis / public-apis | A collective list of free APIs |
+| wecatch / china_regions | 最全最新中国省，市，地区json及sql数据 |
+| yuyang2016 / Chinese-Free-API | 持续收集国内免费优质API。 |
 | justinamiller / SoftwareArchitect | Path to a Software Architect |
+
+## 算法
+
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
+| labuladong / fucking-algorithm |
+| OI-wiki / OI-wiki | 🌟 Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法） |
 
 ## Golang
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | hajimehoshi / ebiten | A dead simple 2D game library for Go |
+| TruthHun / BookStack | BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。 |
 
 ## Python
 
@@ -30,7 +40,10 @@
 
 ## TypeScript
 
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
 | type-challenges / type-challenges | Collection of TypeScript type challenges with online judge |
+| wenyan-lang / wenyan | 文言文編程語言 A programming language for the ancient Chinese. |
 
 ## Android
 
@@ -44,6 +57,14 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | bytedeco / javacv | Java interface to OpenCV, FFmpeg, and more |
+| MonreeStudio / TimeAwareness | 异时：时间管理系列——倒计时App。|
+| notedeveloper / PersonalNoteApp | 个人特色笔记本App开发 |
+
+## Kotlin
+
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
+| mamoe / mirai | 高效率 QQ 机器人支持库 |
 
 ## C/C++
 
@@ -51,6 +72,16 @@
 | --- | --- | --- |
 | WizTeam / WizQTClient |
 | WizTeam / WizNoteLite |
+| mariusbancila / stduuid | A C++17 cross-platform implementation for UUIDs |
+| luncliff / coroutine | C++ 20 Coroutines in Action (Helpers + Test Code Examples) |
+| jbeder / yaml-cpp | A YAML parser and emitter in C++ |
+| pocoproject / poco | The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems. |
+
+## PHP
+
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
+| LUNAD3v / areaload | AreaLoad 是一个用 PHP 编写的轻量级的作业上传框架，可被用于作业提交，实验操作考试等，具有简单部署，易用等特点。 |
 
 ---
 
@@ -71,3 +102,5 @@
 | zxch3n / PomodoroLogger | Pomodoro Logger 🕤 -- When a time tracker meets Pomodoro and Kanban board |
 | taniarascia / takenote | 📝 ‎ A web-based notes app for developers. |
 | JX-Master / Luna-Engine-0.6 | The Luna Engine v0.6 Source Code. |
+| itorr / nbnhhsh | 😩「能不能好好说话？」 拼音首字母缩写翻译工具 |
+| sfyc23 / EverydayWechat | 微信助手：1.每日定时给好友（女友）发送定制消息。2.机器人自动回复好友。3.群助手功能（例如：查询垃圾分类、天气、日历、电影实时票房、快递物流、PM2.5等）|
