@@ -46,9 +46,10 @@ plugins:
   - minify:
       minify_html: true
 
-google_analytics:
-  - UA-150736604-2
-  - auto
+extra:
+  analytics:
+    provider: google
+    property: UA-150736604-2
 
 extra_javascript:
   - extra-js-config.js
