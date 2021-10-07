@@ -18,19 +18,16 @@
 | DeSireFire / animeTrackerList |
 | ngosang / trackerslist |
 
-## 实用软件
+## 系统软件
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
-| rosuH / EasyWatermark | 🔒 🖼 Securely, easily add a watermark to your sensitive photos. 安全、简单地为你的敏感照片添加水印，防止被小人泄露、利用 |
 | NightFurySL2001 / CJK-character-count | Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards 字体汉字计数软件 |
 | xiaofengShi / CHINESE-OCR | [python3.6] 运用tf实现自然场景文字检测,keras/pytorch实现ctpn+crnn+ctc实现不定长场景文字OCR识别 |
 | xroche / httrack | HTTrack Website Copier, copy websites to your computer (Official repository) |
 | ZhenShaw / tesseract-ocr | 简单的 tesseract 验证码识别封装，基于rpc提供服务 |
 | deanmalmgren / textract | extract text from any document. no muss. no fuss. |
 | X0rg / CPU-X | CPU-X is a Free software that gathers information on CPU, motherboard and more |
-| plantuml / plantuml | Generate UML diagram from textual description |
-| fex-team / kityminder-core | 强大的脑图可视化工具 |
 
 ### Booting
 
@@ -61,11 +58,14 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | WerWolv / ImHex | A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. |
+| plantuml / plantuml | Generate UML diagram from textual description |
+| fex-team / kityminder-core | 强大的脑图可视化工具 |
 
 ## 应用
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
+| rosuH / EasyWatermark | 🔒 🖼 Securely, easily add a watermark to your sensitive photos. 安全、简单地为你的敏感照片添加水印，防止被小人泄露、利用 |
 | beancount | Beancount: Double-Entry Accounting from Text Files. |
 | NickeManarin / ScreenToGif | 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. |
 | ankitects / anki | Anki for desktop computers |

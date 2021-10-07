@@ -11,6 +11,12 @@
 | --- | --- | --- |
 | 0xDkd / auxpi | 🍭 集合多家 API 的新一代图床 |
 
+## 科研
+
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
+| JabRef | Graphical Java application for managing BibTeX and biblatex (.bib) databases |
+
 ## Lansiny
 
 | 项目 | 简介 | 备注 |
