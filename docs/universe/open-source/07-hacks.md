@@ -34,3 +34,4 @@
 | YunYouJun / baidu-image-spider |
 | airingursb / bilibili-user | 🍥 Bilibili 用户爬虫 |
 | Kr1s77 / awesome-python-login-model | 😮python模拟登陆一些大型网站，还有一些简单的爬虫，希望对你们有所帮助❤️，如果喜欢记得给个star哦🌟 |
+| Chaney1024 / YQTB | 广州大学健康打卡 |
