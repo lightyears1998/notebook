@@ -86,6 +86,7 @@
 | YunYouJun / hexo-theme-yun |
 | nameoverflow / hexo-theme-icalm |
 | ZEROKISEKI / hexo-theme-gal | 忧郁的弟弟网站主题移植 |
+| amehime / hexo-theme-shoka | 由 @sakurafisch 推荐 |
 
 ---
 
