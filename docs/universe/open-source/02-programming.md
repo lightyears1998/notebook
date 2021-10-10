@@ -1,5 +1,7 @@
 # 编程
 
+- [热爱编程的同学应该更有雄心壮志](https://mp.weixin.qq.com/s/MgD4p7ESu7-2qUW1HR7_eQ)
+
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | public-apis / public-apis | A collective list of free APIs |
@@ -19,6 +21,7 @@
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
+| peterq/pan-light | 百度网盘不限速客户端, golang + qt5, 跨平台图形界面  |
 | GuaikOrg / go-snowflake @gitee | Go 语言实现的 Snowflake 算法，为分布式系统生成唯一ID，单机测试1秒可生成20万ID。 |
 | hajimehoshi / ebiten | A dead simple 2D game library for Go |
 | TruthHun / BookStack | BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。 |
@@ -46,11 +49,13 @@
 | --- | --- | --- |
 | type-challenges / type-challenges | Collection of TypeScript type challenges with online judge |
 | wenyan-lang / wenyan | 文言文編程語言 A programming language for the ancient Chinese. |
+| thiagobustamante/typescript-ioc | A Lightweight annotation-based dependency injection container for typescript. |
 
 ## Android
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
+| sakurafisch/Words | 帮助你记单词！ |
 | zhujiang521 / PlayAndroid | 🔥🔥🔥 Kotlin + MVVM + LCE版玩安卓，暗黑模式、横竖屏、无网、弱网、无数据、加载失败等等各种情况，协程、Room、Hilt、DataStore、LiveData、Retrofit、屏幕适配、本地缓存、多语言切换、多 lib，你想要的我都有！！！ |
 | zskingking / Jetpack-Mvvm | 使用Jetpack全家桶+Kotlin实现的Android社区App加音乐播放器。不写晦涩难懂的代码，尽量标清每一行注释，严格遵守六大基本原则，大量运用设计模式，此项目可快速帮你入手Kotlin、Jetpack。如果觉得对你有帮助，右上角点个star，事先谢过🍉🍉🍉 |
 | Barry / QtScrcpy @gitee | Android实时投屏软件，此应用程序提供USB(或通过TCP/IP)连接的Android设备的显示和控制。它不需要任何root访问权限 |
@@ -85,6 +90,7 @@
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
 | LUNAD3v / areaload | AreaLoad 是一个用 PHP 编写的轻量级的作业上传框架，可被用于作业提交，实验操作考试等，具有简单部署，易用等特点。 |
+| epii/admin-center | 通用后台管理中心，一件安装，全界面可定制！ |
 
 ---
 

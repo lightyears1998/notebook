@@ -8,6 +8,7 @@
 | cognitom / paper-css | Paper CSS for happy printing |
 | notatestuser / treeify | Pretty-print a javascript object as a tree |
 | airingursb / canvas | 🖌《Canvas：Draw on the Web》 |
+| [FreeCodeCamp: CSS Grid](https://www.freecodecamp.org/learn/responsive-web-design/css-grid) |
 
 ## Application Programming Interface
 
@@ -94,5 +95,6 @@
 
 | 项目 | 简介 | 备注 |
 | --- | --- | --- |
+| damoqiongqiu/NiceFish | NiceFish（美人鱼） 是一个系列项目，目标是示范前后端分离的开发模式:前端浏览器、移动端、Electron 环境中的各种开发模式；后端有两个版本：SpringBoot 版本和 SpringCloud 版本。 |
 | yihong0618 / running_page | 个人跑步数据记录 Make your own running home page |
 | trazyn / weweChat | 💬 Unofficial WeChat client built with React, MobX and Electron. |
