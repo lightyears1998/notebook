@@ -1,0 +1,378 @@
+{
+    "root": {
+        "data": {
+            "id": "cf3z1i8z8340",
+            "created": 1634706359514,
+            "text": "TCL"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cf3z4u002400",
+                    "created": 1634706620185,
+                    "text": "基础"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3z4z85l600",
+                            "created": 1634706631562,
+                            "text": "注释"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3z50m0va80",
+                                    "created": 1634706634577,
+                                    "text": "以＃为行首的整行注释"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3zf80f5u80",
+                                    "created": 1634707434327,
+                                    "text": "顺序语句分号后以 # 起首的行内注释"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z4vxjxjc0",
+                            "created": 1634706624390,
+                            "text": "变量"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3z85mxwvk0",
+                                    "created": 1634706880609,
+                                    "text": "set varName value"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3z8a3t7xk0",
+                                    "created": 1634706890336,
+                                    "text": "以 $varName 引用变量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3z6j1ze280",
+                                    "created": 1634706753088,
+                                    "text": "作用域",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf3z6wjozko0",
+                                            "created": 1634706782457,
+                                            "text": "global"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf3z6n6bg9s0",
+                                            "created": 1634706762057,
+                                            "text": "upvar"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z5iv7f3c0",
+                            "created": 1634706674314,
+                            "text": "基本数据类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3z8ja3exs0",
+                                    "created": 1634706910307,
+                                    "text": "字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf3ziwuuujk0",
+                                            "created": 1634707723502,
+                                            "text": "字面值",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cf3zic0ocn40",
+                                                    "created": 1634707678142,
+                                                    "text": "single_word"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf3zhxh8xt40",
+                                                    "created": 1634707646492,
+                                                    "text": "\"quoted string\"",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf3zi76z1b40",
+                                                    "created": 1634707667638,
+                                                    "text": "{braced string}"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf3zj0zyic80",
+                                            "created": 1634707732518,
+                                            "text": "字符跳脱"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z5lk5yy80",
+                            "created": 1634706680177,
+                            "text": "复合数据类型"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3z5v2b1c00",
+                    "created": 1634706700865,
+                    "text": "语句"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3z5yeajrs0",
+                            "created": 1634706708120,
+                            "text": "表达式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3z5zz6gtc0",
+                                    "created": 1634706711560,
+                                    "text": "数值计算"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf3za3fe7zc0",
+                                            "created": 1634707032527,
+                                            "text": "expr"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3z61r3j2g0",
+                                    "created": 1634706715425,
+                                    "text": "返回值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf3z9wy3frs0",
+                                            "created": 1634707018421,
+                                            "text": "中括号语法 [ ]"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z65g2hdk0",
+                            "created": 1634706723465,
+                            "text": "顺序语句"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3zgd2wtns0",
+                                    "created": 1634707523725,
+                                    "text": "以 分号; 结尾，若一行中没有多个语句或不需要后接注释则分号不是必须的"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z67a7ubc0",
+                            "created": 1634706727465,
+                            "text": "分支语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z68cbgns0",
+                            "created": 1634706729769,
+                            "text": "循环语句"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z69j2frs0",
+                            "created": 1634706732353,
+                            "text": "异常控制"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3z6d85pm80",
+                    "created": 1634706740401,
+                    "text": "模块"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3z6f3ci5s0",
+                            "created": 1634706744464,
+                            "text": "函数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z6gx425k0",
+                            "created": 1634706748440,
+                            "text": "类"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3z761a7gg0",
+                    "created": 1634706803112,
+                    "text": "工具"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3z77udmqw0",
+                            "created": 1634706807048,
+                            "text": "输入输出工具"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3z7dzg0iw0",
+                                    "created": 1634706820415,
+                                    "text": "puts"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7a1x9080",
+                            "created": 1634706811858,
+                            "text": "字符串工具"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7bcv2l40",
+                            "created": 1634706814696,
+                            "text": "进阶数据结构"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3z7i9zntk0",
+                    "created": 1634706829760,
+                    "text": "类库"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3z7jkosuo0",
+                            "created": 1634706832583,
+                            "text": "数学"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7m00qm80",
+                            "created": 1634706837864,
+                            "text": "日期和时间"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7od3vj40",
+                            "created": 1634706843009,
+                            "text": "文件"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7p2831c0",
+                            "created": 1634706844528,
+                            "text": "网络"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7pufdvs0",
+                            "created": 1634706846233,
+                            "text": "解释器元信息"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

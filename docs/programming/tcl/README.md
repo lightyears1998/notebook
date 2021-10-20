@@ -2,10 +2,8 @@
 
 Tool Command Language
 
-``` sh
-tclsh
-```
+- `tclsh`
+- `% puts $tcl_version`
+- `% info commands`
 
-``` tcl
-% puts $tcl_version
-```
+![TCL 编程语言导图](general.svg)
