@@ -1,6 +1,6 @@
 # Kotlin 工具
 
-## 数据结构
+## 进阶数据结构
 
 ### `Map`, `MutableMap`
 

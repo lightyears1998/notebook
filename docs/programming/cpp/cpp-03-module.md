@@ -93,21 +93,21 @@ decltype(xx)   u; // dooble
 - 文件作用域
 - 函数原型作用域
 
-### register
+### `register`
 
 显式地指明变量的储存性是自动的。
 
-### extern
+### `extern`
 
 单定义规则 在多个文件中使用到外部变量的情况下，只需在一个文件中包含该变量的定义，但在其他文件中要使用extern关键字来声明它。
 
-### static
+### `static`
 
 修饰变量时，在文件作用域中表示内部链接性，在局部声明中表示静态储存持续性。
 
 修饰函数时，可将函数的链接性设置为内部；静态函数将覆盖外部定义。
 
-### const
+### `const`
 
 在全局变量中，用const修饰，等同于用const static进行修饰，表示内部连续性。
 
@@ -148,100 +148,6 @@ C++语言链接性
 ```cpp
 extern void spaff(int);
 extern "C++" void spaff(int);
-```
-
-### 名称空间
-
-区分声明区域，潜在作用域和作用域。
-
-命名空间可以是全局的，也可以从属于另一个命名空间。
-
-命名空间是开放的。任何人都可以往名称空间中加入新的内容。
-
-区分未限定的名称和限定的名称。
-
-#### using
-
-```cpp
-using Jill::fetch;     // using声明
-using namespace std;   // using编译指令
-```
-
-若使用using声明，局部名称将隐藏全局名称，但仍可使用作用域解析操作符。
-
-using编译指令是可传递的。
-
-可以**通过使用未命名的名称空间**来实现链接性为内部的静态变量。未命名的名称空间于全局变量类似，但不能使用using声明或using编译指令使它在其他位置可用。
-
-例如，
-
-```cpp
-static int counts;
-int other();
-
-int main() {};
-int other() {};
-```
-
-它采用命名空间的实现如下
-
-```cpp
-namespace
-{
-    int counts;
-}
-int other();
-
-int main() {};
-int other() {};
-```
-
-### 内联名称空间
-
-自动将内层的标识符放至外层作用域
-
-```cpp
-namespace X
-{
-    inline namespace Y
-    {
-        void foo();
-    }  // namespace Y
-}  // namespace X
-```
-
-一个利用内联名称空间实现的实用的功能如下
-
-```cpp
-// V98.h
-namespace V98
-{
-    void f();  // 实现基本功能
-}
-
-// V99.h
-inline namespace V99
-{
-    void f();  // 改良实现
-}
-
-// Mine.h
-namespace Mine
-{
-#include "V98.h"
-#include "V99.h"
-}
-
-// main.cpp
-#include "Mine.h"
-using namespace Mine;
-
-int main()
-{
-    f();  // 默认版本，V99版
-    V98::f();  // V98版
-    V99::f();  // 可以通过完整方式访问
-}
 ```
 
 ## 类
@@ -409,7 +315,7 @@ net = force1 + force2;
 force1 + force2 = net;
 ```
 
-### 定位new运算符
+### 定位`new`运算符
 
 定位new运算符不能与常规delete运算符配合使用，
 从而删除对象时需要显式调用对象的析构函数。
@@ -588,7 +494,6 @@ template <class T>
 Stack<T>::function(int arg1) {  // 在类外需要使用完整的类型声明
     // details omitted
 }
-
 ```
 
 注意模板必须与特定的模板实例化请求一起使用，
@@ -635,8 +540,96 @@ T& Array<T,n>::function() {
 2. **显式实例化**
 3. **显式具体化**
 
----
+## 名称空间
 
-## 参阅
+区分声明区域，潜在作用域和作用域。
 
-另参见[C语言模块](../c/c-3-module.md)。
+命名空间可以是全局的，也可以从属于另一个命名空间。
+
+命名空间是开放的。任何人都可以往名称空间中加入新的内容。
+
+区分未限定的名称和限定的名称。
+
+### `using`
+
+```cpp
+using Jill::fetch;     // using声明
+using namespace std;   // using编译指令
+```
+
+若使用using声明，局部名称将隐藏全局名称，但仍可使用作用域解析操作符。
+
+using编译指令是可传递的。
+
+可以**通过使用未命名的名称空间**来实现链接性为内部的静态变量。未命名的名称空间于全局变量类似，但不能使用using声明或using编译指令使它在其他位置可用。
+
+例如，
+
+```cpp
+static int counts;
+int other();
+
+int main() {};
+int other() {};
+```
+
+它采用命名空间的实现如下
+
+```cpp
+namespace
+{
+    int counts;
+}
+int other();
+
+int main() {};
+int other() {};
+```
+
+### 内联名称空间
+
+自动将内层的标识符放至外层作用域
+
+```cpp
+namespace X
+{
+    inline namespace Y
+    {
+        void foo();
+    }  // namespace Y
+}  // namespace X
+```
+
+一个利用内联名称空间实现的实用的功能如下
+
+```cpp
+// V98.h
+namespace V98
+{
+    void f();  // 实现基本功能
+}
+
+// V99.h
+inline namespace V99
+{
+    void f();  // 改良实现
+}
+
+// Mine.h
+namespace Mine
+{
+#include "V98.h"
+#include "V99.h"
+}
+
+// main.cpp
+#include "Mine.h"
+using namespace Mine;
+
+int main()
+{
+    f();  // 默认版本，V99版
+    V98::f();  // V98版
+    V99::f();  // 可以通过完整方式访问
+}
+```

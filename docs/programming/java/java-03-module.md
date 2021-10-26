@@ -1,16 +1,5 @@
 # Java 模块
 
-## 包`package`
-
-Java使用包来组织类。
-
-运行有包名的主类时必须使用完全限定名称。
-
-```sh
-javac package/name/*.java
-java package.name.MainClass
-```
-
 ## 类
 
 ### 初始化
@@ -166,3 +155,14 @@ abstract class SomethingAbstract {
 ### final类
 
 - 禁止继承
+
+## 包`package`
+
+Java使用包来组织类。
+
+运行有包名的主类时必须使用完全限定名称。
+
+```sh
+javac package/name/*.java
+java package.name.MainClass
+```

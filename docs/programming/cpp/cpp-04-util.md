@@ -42,7 +42,7 @@ fmtflags fmt = cout.flags();
 cout.flags(fmt);
 ```
 
-## 数据结构
+## 进阶数据结构
 
 ### `std::vector`, `std::array`
 

@@ -28,7 +28,7 @@ do {
 } while (controllingExpression);
 ```
 
-## 异常处理
+## 异常控制
 
 形如Java
 

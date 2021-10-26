@@ -5,7 +5,7 @@
 - `Console.WriteLine()`
 - `Int.Parse()`
 
-## 数据结构
+## 进阶数据结构
 
 ### `Dictionary`
 
