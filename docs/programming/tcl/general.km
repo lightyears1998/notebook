@@ -49,7 +49,7 @@
                                 "data": {
                                     "id": "cf3z85mxwvk0",
                                     "created": 1634706880609,
-                                    "text": "set varName value"
+                                    "text": "set varName ?value?"
                                 },
                                 "children": []
                             },
@@ -124,7 +124,7 @@
                                                 "data": {
                                                     "id": "cf3zhxh8xt40",
                                                     "created": 1634707646492,
-                                                    "text": "\"quoted string\"",
+                                                    "text": "\"quoted string\" 允许变量替换",
                                                     "expandState": "expand"
                                                 },
                                                 "children": []
@@ -133,7 +133,7 @@
                                                 "data": {
                                                     "id": "cf3zi76z1b40",
                                                     "created": 1634707667638,
-                                                    "text": "{braced string}"
+                                                    "text": "{braced string} 禁止变量替换"
                                                 },
                                                 "children": []
                                             }
@@ -148,6 +148,55 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cf99111fidk0",
+                                    "created": 1635242332934,
+                                    "text": "整数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf991bp2apc0",
+                                            "created": 1635242356131,
+                                            "text": "int"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf991cmhla00",
+                                            "created": 1635242358152,
+                                            "text": "wide"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf991em4tk00",
+                                            "created": 1635242362484,
+                                            "text": "entier"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cf9914h45iw0",
+                                    "created": 1635242340413,
+                                    "text": "浮点数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf9f9mu9rh40",
+                                    "created": 1635259933963,
+                                    "text": "类型转换"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -155,9 +204,118 @@
                         "data": {
                             "id": "cf3z5lk5yy80",
                             "created": 1634706680177,
-                            "text": "复合数据类型"
+                            "text": "复合数据类型",
+                            "expandState": "expand"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf9xqyojywg0",
+                                    "created": 1635312071908,
+                                    "text": "list"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf9xr9ypqmg0",
+                                            "created": 1635312096467,
+                                            "text": "list"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xrb7g27k0",
+                                            "created": 1635312099172,
+                                            "text": "concat"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xrcucrv40",
+                                            "created": 1635312102734,
+                                            "text": "元素操纵命令"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrlr85hs0",
+                                                    "created": 1635312122136,
+                                                    "text": "lappend"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrogvjlc0",
+                                                    "created": 1635312128040,
+                                                    "text": "linsert"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrph1gm80",
+                                                    "created": 1635312130227,
+                                                    "text": "lreplace"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrrhkxo80",
+                                                    "created": 1635312134613,
+                                                    "text": "lset"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrs2mvts0",
+                                                    "created": 1635312135886,
+                                                    "text": "lassign"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xrg5pr8g0",
+                                            "created": 1635312109951,
+                                            "text": "搜索和区间命令"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrxl6yk00",
+                                                    "created": 1635312147892,
+                                                    "text": "lsearch"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xrzub9wo0",
+                                                    "created": 1635312152797,
+                                                    "text": "lsort"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cf9xs0kltz40",
+                                                    "created": 1635312154387,
+                                                    "text": "lrange"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -187,6 +345,14 @@
                                             "id": "cf3za3fe7zc0",
                                             "created": 1634707032527,
                                             "text": "expr"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9tzjo13b40",
+                                            "created": 1635301460063,
+                                            "text": "incr"
                                         },
                                         "children": []
                                     }
@@ -283,7 +449,8 @@
                 "data": {
                     "id": "cf3z761a7gg0",
                     "created": 1634706803112,
-                    "text": "工具"
+                    "text": "工具",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -297,7 +464,7 @@
                                 "data": {
                                     "id": "cf3z7dzg0iw0",
                                     "created": 1634706820415,
-                                    "text": "puts"
+                                    "text": "puts ?-nonewline? string"
                                 },
                                 "children": []
                             }
@@ -309,6 +476,56 @@
                             "created": 1634706811858,
                             "text": "字符串工具"
                         },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf9xr2auk940",
+                                    "created": 1635312079787,
+                                    "text": "string"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cfa1uj6aseo0",
+                                            "created": 1635323636049,
+                                            "text": "match"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xr3quhm00",
+                                            "created": 1635312082931,
+                                            "text": "string length"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xr5chiqg0",
+                                            "created": 1635312086416,
+                                            "text": "string index"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cf9xr6hjt340",
+                                            "created": 1635312088899,
+                                            "text": "string range"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf9y7981jqo0",
+                            "created": 1635313348681,
+                            "text": "正则表达式"
+                        },
                         "children": []
                     },
                     {
@@ -316,6 +533,14 @@
                             "id": "cf3z7bcv2l40",
                             "created": 1634706814696,
                             "text": "进阶数据结构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cf3z7pufdvs0",
+                            "created": 1634706846233,
+                            "text": "解释器元信息"
                         },
                         "children": []
                     }
@@ -357,14 +582,6 @@
                             "id": "cf3z7p2831c0",
                             "created": 1634706844528,
                             "text": "网络"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "cf3z7pufdvs0",
-                            "created": 1634706846233,
-                            "text": "解释器元信息"
                         },
                         "children": []
                     }
