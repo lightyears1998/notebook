@@ -133,6 +133,21 @@ foreach a $listOfA b $listOfB {
 - `lsort ?options? list` 异地排序
 - `lrange list first last` 取闭区间 [first, last]
 
+``` tcl
+# 自定义命令的搜索
+proc sort {a b} {
+    return [expr {[lindex $a 0] - [lindex $b 0]}]
+}
+
+for {gets stdin T} {$T} {incr T -1} {
+    lassign [gets stdin] S_A S_B S_C
+    set questions "{{$S_A} Draw} {{$S_B} Bob} {{$S_C} Alice}"
+    set questions [lsort -command sort $questions]
+    puts [lindex $questions 0 1]
+}
+
+```
+
 ### 关联数组
 
 关联数组实质是一个哈希表。

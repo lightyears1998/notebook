@@ -130,6 +130,11 @@ puts "Number of words: [regexp -all {[^ ]+} $sample]"
 
 ## 进阶数据结构
 
+## 操作系统接口
+
+- `open`
+- `exec`
+
 ## 解释器元信息
 
 ``` tcl

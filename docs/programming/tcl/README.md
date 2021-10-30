@@ -6,6 +6,7 @@
 指令
 
 - `tclsh`
+- `wish` 图形化 Shell
 - `% puts $tcl_version`
 - `% info commands`
 
@@ -29,3 +30,7 @@
 - [TCL Wiki](https://wiki.tcl-lang.org/welcome)
 - [TCL Wiki 教程](https://wiki.tcl-lang.org/page/Tcl+Tutorial+Lesson+0)
 - [在官方网站的上的 TCL 教程（同 TCL Wiki 教程）](https://www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html)
+
+## 练习
+
+- 在学习 TCL 基础时，不妨在 CodeChef 上进行一些编程练习。[School 难度](https://www.codechef.com/problems/school/)的题目非常适合用于练习 TCL 基础。
