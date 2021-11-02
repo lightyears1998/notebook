@@ -1,4 +1,4 @@
-# Go语言常识
+# Go 语言常识
 
 [![code-sandbox](https://img.shields.io/badge/code--sandbox-29b7cb.svg)](https://github.com/lightyears1998/code-sandbox/blob/master/lang/go)
 
@@ -47,6 +47,8 @@ go get -flags <package>  # 远程包导入
 - `-v` verbose
 
 #### 为`go get`设置HTTP代理
+
+`go` 服从 `http_proxy` 和 `https_proxy`。
 
 ```bash
 http_proxy=127.0.0.1:8080 go get code.google.com/p/go.crypto/bcrypt
