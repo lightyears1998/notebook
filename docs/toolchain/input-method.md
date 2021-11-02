@@ -1,8 +1,8 @@
 # 输入法
 
-## Rime
+## 高度可定制输入法 Rime
 
-使用Rime输入法。
+- Windows 上使用小狼毫，<rime.im> 或官方 GitHub 仓库上的版本或未必是最新的（最好的），记得在 GitHub 上看看 PR 和 Issue。
 
 ## 微软日语输入法
 
