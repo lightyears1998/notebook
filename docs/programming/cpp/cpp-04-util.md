@@ -18,15 +18,10 @@ get(), getline()输入行的字符比指定容量多时，将设置失效位
 cin.get(name, ArSize).get();
 ```
 
-### 宽字符输出 `cout`, `wcout`
+### `cout`, `wcout`
 
 - `put()`
 - `setf(ios_base::fixed, ios_base::floatfield);`
-
-### IO符号 `flags`
-
-- `setioflags(ios_base::fixed|ios::showpoint)`
-- `setprecision(2)`
 
 ### 文件IO `fstream`
 
@@ -35,12 +30,17 @@ ofstream fout = open(name);
 fout.close();
 ```
 
-### IO格式更改与恢复
+### 输出格式
+
+格式备份与恢复
 
 ```cpp
 fmtflags fmt = cout.flags();
 cout.flags(fmt);
 ```
+
+- `setioflags(ios_base::fixed | ios::showpoint)`
+- `setprecision(2)`
 
 ## 进阶数据结构
 
