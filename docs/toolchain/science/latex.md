@@ -98,9 +98,11 @@ Tex Live是跨平台的Tex发行包。
 
 `xeCJK`是为Tex添加中文支持的轮子，日常一般使用高层的`ctex`宏包。
 
-## 链接
+## 参考链接
 
 - LaTeX简介 <https://liam.page/2014/09/08/latex-introduction/>
+- Overleaf Latex 教程 <https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes>
+- CTex 宏包手册 <http://mirrors.ibiblio.org/CTAN/language/chinese/ctex/ctex.pdf>
 
 ---
 
