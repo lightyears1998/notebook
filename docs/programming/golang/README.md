@@ -64,15 +64,17 @@ set https_proxy=http://[user]:[pass]@[proxy_ip]:[proxy_port]/
 ## 开发工具
 
 ```sh
-go get -u github.com/mdempsky/gocode
-go get -u github.com/uudashr/gopkgs/cmd/gopkgs
-go get -u github.com/ramya-rao-a/go-outline
-go get -u github.com/acroca/go-symbols
-go get -u golang.org/x/tools/cmd/guru
-go get -u golang.org/x/tools/cmd/gorename
-go get -u github.com/go-delve/delve/cmd/dlv
-go get -u github.com/stamblerre/gocode
-go get -u github.com/rogpeppe/godef
-go get -u github.com/sqs/goreturns
-go get -u golang.org/x/lint/golint
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.io,direct
+go install github.com/mdempsky/gocode@latest
+go install github.com/uudashr/gopkgs/cmd/gopkgs@latest
+go install github.com/ramya-rao-a/go-outline@latest
+go install github.com/acroca/go-symbols@latest
+go install golang.org/x/tools/cmd/guru@latest
+go install golang.org/x/tools/cmd/gorename@latest
+go install github.com/go-delve/delve/cmd/dlv@latest
+go install github.com/stamblerre/gocode@latest
+go install github.com/rogpeppe/godef@latest
+go install github.com/sqs/goreturns@latest
+go install golang.org/x/lint/golint@latest
 ```
