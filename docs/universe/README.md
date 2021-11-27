@@ -57,6 +57,7 @@
 
 | 时间 | 项目 | 投入 | 备注 |
 | --- | --- | --- | --- |
+| 2021.11 | **music-transcript** | 7.75hr | 歌词词频分析工具 |
 | 2021.10 | **chunibyo** | 0hr | 中二病词典 |
 | 2021.09 | **vocabulary** | | 词汇工具。*立项后就没动过了。* |
 | 2020.11 | **experimental-branch-flow-chart** |
