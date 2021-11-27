@@ -16,6 +16,12 @@
 | hitokoto-osc / sentences-bundle | 一言开源社区官方提供的语句库，系 hitokoto.cn 数据库打包集合。语句接口默认使用此库。 |
 | zhaoolee / ChineseBQB | 🇨🇳 Chinese sticker pack, More joy / 表情包的博物馆, Github最有毒的仓库, 中国表情包大集合, 聚欢乐~ |
 
+## 自然语言处理
+
+| 项目 | 简介 | 备注 |
+| --- | --- | --- |
+| taishi-i / nagisa | A Japanese tokenizer based on recurrent neural networks  |
+
 ### Latex
 
 | 项目 | 简介 | 备注 |
