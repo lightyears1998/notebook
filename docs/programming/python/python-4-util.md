@@ -13,7 +13,7 @@ with open(filename) as f:
 - `range(i, j)` 生成`[i, j)`的列表
 - `range(i, j, k)` 生成`[i, j)`的等差列表，公差为k
 
-## 谓词`all()`, `any()`
+## 谓词 `all()`, `any()`
 
 ```py
 nums = [55, 44, 33, 22, 11]
@@ -37,6 +37,7 @@ for v in enumerate(nums):
 1. `count(value)` 从value开始向无穷计数
 2. `cycle(iterable)` 开始iterable的无穷循环
 3. `repeat()` 无限或有限次的重复
+4. `chain(a, b, c)` 将 a, b, c 连接成一个列表 `[...a, ...b, ...c]`
 
 ```py
 from itertools import count;
@@ -68,6 +69,12 @@ from itertools import product, permutations
 letters = ("A", "B")
 print(list(product(letters, range(2))))  # [('A', 0), ('A', 1), ('B', 0), ('B', 1)]
 print(list(permutations(letters)))       # [('A', 'B'), ('B', 'A')]
+```
+
+## `random`
+
+``` py
+random.shuffle(listVar)
 ```
 
 ## 文件操作
