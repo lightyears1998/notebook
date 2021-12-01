@@ -5,9 +5,8 @@ on:
     branches:
     - master
 
-# https://github.blog/changelog/2021-04-19-github-actions-limit-workflow-run-or-job-concurrency/
 concurrency: 
-  group: exclusive
+  group: exclusively-build-github-pages
   cancel-in-progress: true
 
 jobs:
