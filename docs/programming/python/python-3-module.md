@@ -88,6 +88,42 @@ def print_text():
   print("Hello world!")
 ```
 
+计时函数
+
+``` py
+import time
+
+def timed(func):
+  def wrap(*args, **kwargs):
+    begin = time.time()
+    func(*args, **kwargs)
+    end = time.time()
+  return wrap()
+```
+
+自动提升 Python 的 `__name__` 和 `__doc__` 变量
+
+``` py
+import functools
+
+def decor(func):
+  @functools.wrap(func)
+  def wrap():
+    # ...
+    func()
+  return wrap
+
+def func():
+  """ doc
+  """
+  pass
+
+d = decor(func)
+
+# d.__name__ == func.__name__
+# d.__doc == func.__doc__
+```
+
 ## Lambda表达式
 
 ```py
