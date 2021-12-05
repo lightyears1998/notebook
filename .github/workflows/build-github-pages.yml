@@ -5,8 +5,8 @@ on:
     branches:
     - master
 
-concurrency: 
-  group: exclusively-build-github-pages
+concurrency:
+  group: build-github-pages
   cancel-in-progress: true
 
 jobs:
