@@ -25,7 +25,7 @@
 | 2020.08 | **birdsong** 聊天室 |
 | 2020.07 | **questionnaire** 问卷系统 |
 | 2020.06 | **qnote-backend** 轻日记 QNote |
-| 2020.04 | **cool-corpus** 外刊语料库 | |  |
+| 2020.04 | **cool-corpus** 外刊语料库 | |
 | 2019.06 - 2019.07 | [**DataBase Course Design**](https://github.com/dangoyears/Database-CourseDesign-ServerSide) 数据库课程设计 | | *Oracle DB 与 GoLang 实验项目* 代码质量一言难尽，功能有限，整体上说算是糟糕透顶的作品。 |
 
 ## 实用软件
@@ -53,10 +53,11 @@
 | 2020.08 | **ltk** 尝试做一个三国杀吧。 |
 | 2018.08 | **hello-tank-battle** |
 
-## 实用工具
+## 实用小工具
 
 | 时间 | 项目 | 投入 | 备注 |
 | --- | --- | --- | --- |
+| 2021.12 | **polymorphism-clerk** | | 算法训练统筹工具 |
 | 2021.11 | **music-transcript** | 7.75hr | 歌词词频分析工具 |
 | 2021.10 | **chunibyo** | 0hr | 中二病词典 |
 | 2021.09 | **vocabulary** | | 词汇工具。*立项后就没动过了。* |
