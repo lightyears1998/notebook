@@ -1,0 +1,156 @@
+{
+    "root": {
+        "data": {
+            "id": "cgc3hy6oamw0",
+            "created": 1639187570562,
+            "text": "sqlite3"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cgc4vewse8w0",
+                    "created": 1639191446814,
+                    "text": "connect(): Connection"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4vjn5nts0",
+                            "created": 1639191457116,
+                            "text": "<file_path>"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4vkzqemw0",
+                            "created": 1639191460053,
+                            "text": "\":memory:\""
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4vwv1trk0",
+                    "created": 1639191485891,
+                    "text": "Connection"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4w7w480w0",
+                            "created": 1639191509900,
+                            "text": "cursor(): Cursor"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc5orlzkaw0",
+                            "created": 1639193747020,
+                            "text": "commit()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4wm6j8gw0",
+                            "created": 1639191541005,
+                            "text": "close()"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4wgzplyo0",
+                    "created": 1639191529708,
+                    "text": "Cursor"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4whz586o0",
+                            "created": 1639191531851,
+                            "text": "execute(): Iterator"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgc5x3d9z4o0",
+                                    "created": 1639194399528,
+                                    "text": "占位符",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgc5wjl23qo0",
+                                            "created": 1639194356463,
+                                            "text": "?, ()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgc5wo8m9n40",
+                                            "created": 1639194366594,
+                                            "text": ":param, {\"param\": value}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgc54t20tg00",
+                            "created": 1639192182883,
+                            "text": "executeMany()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc5qr403nk0",
+                            "created": 1639193902661,
+                            "text": "fetchone()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc5qyboxu80",
+                            "created": 1639193918363,
+                            "text": "fetchall()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4wjehno00",
+                            "created": 1639191534956,
+                            "text": "commit()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc5r80zag80",
+                            "created": 1639193939483,
+                            "text": "rollback()"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

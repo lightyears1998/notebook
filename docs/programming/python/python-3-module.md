@@ -262,7 +262,7 @@ print(s.__egg)           # AttributeError: 'Spam' object has no attribute '__egg
 
 以字段的形式访问方法，从而使特定的字段只读或能通过方法自动生成。
 
-支持Setter语法
+通过 `@property` 支持 `Setter` 语法：
 
 ```py
 class Pizza:
