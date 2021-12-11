@@ -75,14 +75,14 @@
                         "data": {
                             "id": "cgc4whz586o0",
                             "created": 1639191531851,
-                            "text": "execute(): Iterator"
+                            "text": "execute(stmt, args): Iterator"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "cgc5x3d9z4o0",
                                     "created": 1639194399528,
-                                    "text": "占位符",
+                                    "text": "变量替换",
                                     "expandState": "expand"
                                 },
                                 "children": [
@@ -90,7 +90,7 @@
                                         "data": {
                                             "id": "cgc5wjl23qo0",
                                             "created": 1639194356463,
-                                            "text": "?, ()"
+                                            "text": "\"column=?\", ()"
                                         },
                                         "children": []
                                     },
@@ -98,7 +98,7 @@
                                         "data": {
                                             "id": "cgc5wo8m9n40",
                                             "created": 1639194366594,
-                                            "text": ":param, {\"param\": value}"
+                                            "text": "\"column=:arg1\", {\"arg1\": value}"
                                         },
                                         "children": []
                                     }
@@ -110,7 +110,7 @@
                         "data": {
                             "id": "cgc54t20tg00",
                             "created": 1639192182883,
-                            "text": "executeMany()"
+                            "text": "executeMany(stmt, [...])"
                         },
                         "children": []
                     },
@@ -118,7 +118,7 @@
                         "data": {
                             "id": "cgc5qr403nk0",
                             "created": 1639193902661,
-                            "text": "fetchone()"
+                            "text": "fetchone(): Row"
                         },
                         "children": []
                     },
@@ -126,7 +126,7 @@
                         "data": {
                             "id": "cgc5qyboxu80",
                             "created": 1639193918363,
-                            "text": "fetchall()"
+                            "text": "fetchall(): [Row]"
                         },
                         "children": []
                     },
@@ -145,6 +145,80 @@
                             "text": "rollback()"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc8t33euxc0",
+                    "created": 1639202548804,
+                    "text": "Row"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cgc8t6ec7mo0",
+                    "created": 1639202555995,
+                    "text": "Exceptions"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc8tn6kwug0",
+                            "created": 1639202592532,
+                            "text": "Warning(Exception)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc8toe85pk0",
+                            "created": 1639202595171,
+                            "text": "Error(Exception)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgc8u0fjskg0",
+                                    "created": 1639202621372,
+                                    "text": "DatabaseError"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgc8u38vrkw0",
+                                    "created": 1639202627499,
+                                    "text": "IntegrityError"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgc8u5hgzhs0",
+                                    "created": 1639202632372,
+                                    "text": "ProgrammingError"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgc8ua036v40",
+                                    "created": 1639202642205,
+                                    "text": "OperationalError"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgc8uc01f6o0",
+                                    "created": 1639202646556,
+                                    "text": "NotSupportedError"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }

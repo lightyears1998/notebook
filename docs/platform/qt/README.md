@@ -9,3 +9,7 @@
 - QApplication
 - QWidget
 - QLayout
+
+## 拓展
+
+- QT Database 数据库拓展 支持 MySQL Sqlite Postgres 等。

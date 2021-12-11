@@ -8,9 +8,5 @@ import sqlite3
 
 ![sqlite3.km](./sqlite3.svg)
 
-- 参见[sqlite3语言标准](https://www.sqlite.org/lang.html)
+- 与 SQLite 的 SQL 语法相关的内容，应当参见[sqlite3笔记](../../../../platform/sqlite/README.md)
 - Python sqlite3 库[文档](https://docs.python.org/3/library/sqlite3.html)
-
-杂项：
-
-1. 用双引号逃脱特殊的标识符（标准 SQL）；同时也支持使用反引号（MySQL 转义符）和中括号（SQL Server 转义符）。
