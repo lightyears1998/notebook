@@ -58,6 +58,7 @@
 | mashirozx / arknights-ui | H5 复刻版明日方舟游戏主界面 |
 | kagurazakayashi / EvergardenConverter | 📜 将英文字符转换为『紫罗兰永恒花园』（『ヴァイオレット・エヴァーガーデン』）中的文字。 |
 | thomaspark / gridgarden | A game for learning CSS grid layout 🥕 |
+| jquense/react-big-calendar | gcal/outlook like calendar component |
 
 ## Hacks
 
@@ -71,7 +72,7 @@
 | --- | --- | --- |
 | typecho / typecho | A PHP Blogging Platform. Simple and Powerful. |
 | electerious / Lychee | A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. |
-| WordPress / WordPress | WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-devel… |
+| WordPress / WordPress | WordPress, Git-ified. |
 
 ## Static Site Generator Themes
 
