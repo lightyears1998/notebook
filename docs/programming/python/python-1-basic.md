@@ -2,7 +2,12 @@
 
 ## 命名规范
 
-<http://google.github.io/styleguide/pyguide.html#3164-guidelines-derived-from-guidos-recommendations>
+- 可参考[谷歌风格](http://google.github.io/styleguide/pyguide.html#3164-guidelines-derived-from-guidos-recommendations)
+
+两句话总结：
+
+1. 除了 Class 和 Exception 使用 `CapWords` 形式，其余所有标识符使用 `name_with_underscore` 形式。
+2. 内部标识符在公共标识符的命名规范的基础上，在标识符前添加一条下划线。
 
 ## 注释
 
