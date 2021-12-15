@@ -7,6 +7,8 @@ Godot 的特色是灵活与小巧。
 
 ![Godot's Architecture Illustration from https://docs.godotengine.org/en/stable/development/cpp/introduction_to_godot_development.html](./assets/architecture.jpg)
 
+![Application Interface](./API.svg)
+
 ## `.gitignore`
 
 ``` gitignore
