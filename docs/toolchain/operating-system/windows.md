@@ -97,3 +97,7 @@ choco upgrade <software-name>
   - `Ctrl + ALT + BREAK`可在远程桌面连接的全屏/窗口化之间切换。
 - 远程命令 [Powershell Remoting](https://docs.microsoft.com/zh-cn/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-6)
 - 若需要进行大规模文件传输，可使用远程桌面挂载磁盘或使用FileZilla Server等建立FTP服务器。
+
+## 激活
+
+- HEU_KMS_Activator <https://github.com/zbezj/HEU_KMS_Activator>
