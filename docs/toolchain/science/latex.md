@@ -116,3 +116,7 @@ Tex Live是跨平台的Tex发行包。
 # 存在风险，操作前需要备份。
 tlmgr option repository ftp://tug.org/historic/systems/texlive/2010/tlnet-final
 ```
+
+## Tex IDE: TeXStudio
+
+跨平台可用。
