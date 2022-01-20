@@ -46,6 +46,10 @@ globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 rules:
+  indent:
+    - warn
+    - 2
+    - SwitchCase: 1
   no-console:
     - off
 ```
