@@ -14,6 +14,9 @@
 
 - DSK Music <https://www.dskmusic.com/>
 
-钢琴
+音源
 
 - Piano One <https://magicsound.live/>
+- Monastery Grand ~4GiB `操作复杂`
+- The Sonatina Symphonic Orchestra
+- [Spitfire LABS](labs.spitfireaudio.com)
