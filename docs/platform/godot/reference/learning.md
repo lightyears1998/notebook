@@ -12,6 +12,7 @@
 
 ## 开源项目
 
-- 看看 Fantasy Map Generator
+- Fantasy Map Generator
+- 关键词 baidu Godot P社
 - <https://itch.io/games/made-with-godot/tag-open-source>
 - <https://www.reddit.com/r/godot/comments/agk9xv/open_source_games_made_by_godot/>
