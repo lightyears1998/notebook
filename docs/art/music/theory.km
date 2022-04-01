@@ -1,0 +1,93 @@
+{
+    "root": {
+        "data": {
+            "id": "ciyqugxfqjc0",
+            "created": 1648800073187,
+            "text": "Music Theory"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ciyquhmu93k0",
+                    "created": 1648800074723,
+                    "text": "Chord"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ciyquorg4rc0",
+                            "created": 1648800090240,
+                            "text": "三和弦 Triad",
+                            "note": "按三度叠置关系形成的和弦。"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ciyqyj4006w0",
+                                    "created": 1648800391394,
+                                    "text": "第一转位 六和弦",
+                                    "note": "低音到最高音根音是六度"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ciyqyqcodvc0",
+                                    "created": 1648800407157,
+                                    "text": "第二转位 四六和弦",
+                                    "note": "低音到根音是四度，到最高音是六度。"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ciyquqxdm340",
+                            "created": 1648800094952,
+                            "text": "七和弦 Seventh Chord",
+                            "note": "最高音与和弦的根音形成七度关系。"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ciyr0983aeg0",
+                                    "created": 1648800526602,
+                                    "text": "第一转位 五六和弦"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ciyr0amh4vc0",
+                                    "created": 1648800529649,
+                                    "text": "第二转位 三四和弦"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ciyr0bpv14o0",
+                                    "created": 1648800532030,
+                                    "text": "第三转位 二和弦"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ciyquu626z40",
+                            "created": 1648800102007,
+                            "text": "九和弦 Nineth Chord"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
