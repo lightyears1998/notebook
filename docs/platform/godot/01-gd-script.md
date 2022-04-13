@@ -29,7 +29,7 @@ var typed_var: int = 3
 
 var inferred_type := 4
 
-enum { UNIT_ONE, UNIT_TWO, UNIT_THREE}
+enum { UNIT_ONE, UNIT_TWO, UNIT_THREE }
 enum Named { ONE, TWO, THREE }
 ```
 
@@ -325,7 +325,8 @@ yield(get_tree().create_timer(5.0), "timeout")
 ``` gd
 func my_func():
     yield(button_func(), "completed")
-    print("嗯 ，终 于 按 下 了 所 有 按 钮 !")
+    print("嗯 ，终 于 按 下 了 所 有 按 钮!")
+
 func button_func():
     yield($Button0, "pressed")
     yield($Button1, "pressed")
