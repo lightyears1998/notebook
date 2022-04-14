@@ -1,0 +1,33 @@
+{
+    "root": {
+        "data": {
+            "id": "cj9svfa8fd40",
+            "created": 1649922949715,
+            "text": "工团主义",
+            "note": "无政府-工团主义 anarcho-syndicalism\naka. 辛迪加主义 syndicalism\n\n\n## 注意与工联主义（工会主义）区分\n\n> 所谓工团，在当时（一战前的欧洲）常常就是工会的意思，但工团主义并不等于“工会主义”；前者是一种政治主张，要以工会为基础代替国家机器来管理社会（同时反对建立工人阶级的国家机器），又叫无政府工团主义；后者通常是指以工会当作劳动力市场的调节工具（或说资产阶级国家的劳动力出售者利益游说集团）这么一种不涉及政治斗争的经济改良主义立场。\n> <https://www.marxists.org/chinese/trotsky/marxist.org-chinese-trotsky-19291014.htm>"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj9syg3xrog0",
+                    "created": 1649923186604,
+                    "text": "托洛茨基《共产主义与工团主义》",
+                    "note": "所谓工团，在当时（一战前的欧洲）常常就是工会的意思，但工团主义并不等于“工会主义”；前者是一种政治主张，要以工会为基础代替国家机器来管理社会（同时反对建立工人阶级的国家机器），又叫无政府工团主义；后者通常是指以工会当作劳动力市场的调节工具（或说资产阶级国家的劳动力出售者利益游说集团）这么一种不涉及政治斗争的经济改良主义立场。"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cj9t7tkmwwo0",
+                    "created": 1649923921189,
+                    "text": "梅丽等《工联主义与工团主义考辨——西方生态文化理论勘误一则》",
+                    "note": "https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=DYLC202112012&uniplatform=NZKPT&v=HcUQklI2GdTPK409-Bj8kEj0XQhG2dIHfS7YeVk_vNkBpB3JUOLUxK1emgWLyKFD"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
