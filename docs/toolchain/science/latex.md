@@ -83,6 +83,13 @@ Hello, world~
 \end{enumerate}
 ```
 
+## 幻灯片 Slides
+
+``` tex
+\usetheme{Boadilla}
+\usecolortheme{whale}
+```
+
 ---
 
 ## 安装
