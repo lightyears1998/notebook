@@ -40,7 +40,7 @@ cout.flags(fmt);
 ```
 
 - `setioflags(ios_base::fixed | ios::showpoint)`
-- `setprecision(2)`
+- `precision(...)` `setprecision(2)`
 
 ## 进阶数据结构
 
