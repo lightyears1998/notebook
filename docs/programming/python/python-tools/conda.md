@@ -4,6 +4,8 @@ Anaconda 或 Miniconda 几乎是必不可少的包管理器。
 
 我对 conda 印象最初停留在 Python 的包管理器，但似乎该刻板印象需要更新。时至今日，<anaconda.org> 上已经积累了不计其数的科研工具包。
 
+遗憾的是，conda 在安装包的时候慢到令人发指（尤其是当你项目里有大量的包需要安装或更新的时候）；好在 `mamba` 可以加速 conda 包安装的过程。
+
 ## Compilers Toolchain
 
 Conda 甚至附带有 C/C++ 编译器包。这点在我们没有环境中的 root 用户权限时，使用 conda 安装包极为方便。
