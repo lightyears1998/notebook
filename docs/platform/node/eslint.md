@@ -25,6 +25,7 @@ eslint src --ext .ts --fix
 - [eslint-config-lightyears-style](https://github.com/lightyears1998/eslint-config-lightyears-style)
 
 ``` yml
+root: true
 env:
   es6: true
   # node: true
