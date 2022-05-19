@@ -22,6 +22,12 @@ eslint src --ext .ts --fix
 
 ## 常用 `.eslintrc.yml`
 
+虽然 ESLint 也可以作为代码格式化工具使用，但格式化的工作还是交给 prettier 吧。
+
+理由：
+
+- typescript-eslint 的 indent 规则由于[缺乏维护者](https://github.com/typescript-eslint/typescript-eslint/issues/1824)而不可使用。
+
 - [eslint-config-lightyears-style](https://github.com/lightyears1998/eslint-config-lightyears-style)
 
 ``` yml
@@ -54,6 +60,10 @@ rules:
   no-console:
     - off
 ```
+
+在使用 TypeScript ESLint 时[需要](https://github.com/typescript-eslint/typescript-eslint/issues/1824)关闭原生 indent 规则。
+
+不过，由于 TypeScript ESLint 的 indent 实现亦由于缺乏维护者而存在问题（例如无法正确处理 Decorators 的 indent。）Indent 应当交给 prettier。
 
 ## VS Code 设置 `settings.json`
 
