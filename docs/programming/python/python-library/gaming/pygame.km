@@ -1,0 +1,170 @@
+{
+    "root": {
+        "data": {
+            "id": "ckacl83qe4g0",
+            "created": 1653634731081,
+            "text": "PyGame",
+            "note": "PyGame 模块入门"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ckacla9vbj40",
+                    "created": 1653634735806,
+                    "text": "模块"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckaclszr16g0",
+                            "created": 1653634776553,
+                            "text": "输入",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckaclcpeqz40",
+                                    "created": 1653634741099,
+                                    "text": "mouse",
+                                    "note": "鼠标相关"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckaclewgc200",
+                                    "created": 1653634745878,
+                                    "text": "key",
+                                    "note": "键盘相关"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacnqrpyf40",
+                                    "created": 1653634928442,
+                                    "text": "joystick",
+                                    "note": "控制器相关"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckaclntdhoo0",
+                            "created": 1653634765283,
+                            "text": "渲染",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckacme1qf1k0",
+                                    "created": 1653634822385,
+                                    "text": "display",
+                                    "note": "控制屏幕显示"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacmkj4zg00",
+                                    "created": 1653634836498,
+                                    "text": "draw",
+                                    "note": "在 Surface 上绘制形状"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckaclk9he7s0",
+                                    "created": 1653634757550,
+                                    "text": "cursors",
+                                    "note": "自定义光标样式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacn7c1i5s0",
+                                    "created": 1653634886135,
+                                    "text": "font",
+                                    "note": "创建和渲染字体"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckacmyst5s00",
+                            "created": 1653634867558,
+                            "text": "处理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckacn06kwuo0",
+                                    "created": 1653634870567,
+                                    "text": "event",
+                                    "note": "事件和事件队列"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacpq4gy280",
+                                    "created": 1653635083764,
+                                    "text": "time",
+                                    "note": "时间控制相关"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacnkddizk0",
+                                    "created": 1653634914514,
+                                    "text": "image",
+                                    "note": "保存与加载图像"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacp4twla00",
+                                    "created": 1653635037413,
+                                    "text": "transform",
+                                    "note": "缩放、旋转和反转图像\n\n大概是 surfarray 的快捷方式吧"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacoe2v8oo0",
+                                    "created": 1653634979182,
+                                    "text": "sndarray",
+                                    "note": "Sound Arrray\n通过 Numpy 处理声音"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckacol8zn340",
+                                    "created": 1653634994789,
+                                    "text": "surfarray",
+                                    "note": "Surface Array\n通过 Numpy 处理图像"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
