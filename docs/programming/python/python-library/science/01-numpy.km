@@ -1,0 +1,499 @@
+{
+    "root": {
+        "data": {
+            "id": "ckc21c7e7h40",
+            "created": 1653808081540,
+            "text": "Numpy"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ckc26k9upsg0",
+                    "created": 1653808490924,
+                    "text": "创建"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc26n3olzk0",
+                            "created": 1653808497082,
+                            "text": "arrange"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc29kr5wf40",
+                            "created": 1653808727063,
+                            "text": "linespace(from, to, count)",
+                            "note": "类似与 `arrange`，生成 [from, to] 上间隔均匀的指定数量 count 个的数字。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc28cx53og0",
+                            "created": 1653808631646,
+                            "text": "array",
+                            "note": "- dtype 参数 complex np.int32 np.float64 等"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc26qevz6w0",
+                            "created": 1653808504289,
+                            "text": "zeros / ones"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2ax2jyzs0",
+                            "created": 1653808832238,
+                            "text": "zeros_like / ones_like"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2n919ijs0",
+                            "created": 1653809798651,
+                            "text": "fromfunction"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckc2byoy9b40",
+                    "created": 1653808914133,
+                    "text": "打印"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc2c0u85c80",
+                            "created": 1653808918805,
+                            "text": "np.set_printoptions(threshold=sys.maxisize)",
+                            "note": "不省略打印输出中的字符"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckc26rru2u80",
+                    "created": 1653808507249,
+                    "text": "修改",
+                    "expandState": "expand",
+                    "note": "修改操作默认不是 inplace 的。"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc26up08o80",
+                            "created": 1653808513608,
+                            "text": "reshape",
+                            "note": "在参数中使用 -1 来表示自动调整"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2uzf6l4g0",
+                                    "created": 1653810404638,
+                                    "text": "resize 就地改变 shape"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2tol9zvk0",
+                            "created": 1653810302698,
+                            "text": "arr.T 转置"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2tvt885k0",
+                            "created": 1653810318416,
+                            "text": "arr.ravel 展开为1维",
+                            "note": "arr.flat 返回迭代器"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2cr07teo0",
+                            "created": 1653808975764,
+                            "text": "ndarray 间的 element-wise 操作",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2dd4ozmo0",
+                                    "created": 1653809023924,
+                                    "text": "+ - * /",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2d1w9ww80",
+                            "created": 1653808999470,
+                            "text": "矩阵乘法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2d3qxaj40",
+                                    "created": 1653809003500,
+                                    "text": "dot 或 @"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2eng0ynk0",
+                            "created": 1653809124741,
+                            "text": "aggregation 操作",
+                            "note": "- 指定 `axis` 参数可以使得聚合操作沿着指定的轴进行\n  ``` python\n  arr = np.arrange(12).reshape(3, 4)\n  arr.sum(axis=0) # 列之和\n  arr.min(axis=1) # 每行的最小值\n  arr.cumsum(axis=1) # 每行的积累和\n  ```\n  \n  `axis` 参数其实是指定 collapsed 的维度。对于 `arr.sum(axis=k)` 第 `k` 维 collapesd 掉了，因此结果的 shape 是 (0, 1, ..., k-1, k+1, ...)。"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2ewwa8rk0",
+                                    "created": 1653809145315,
+                                    "text": "sum"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2ext7weg0",
+                                    "created": 1653809147307,
+                                    "text": "min"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2ez2quh40",
+                                    "created": 1653809150060,
+                                    "text": "cumsum 积累和"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2krdyg1k0",
+                            "created": 1653809603508,
+                            "text": "Element-wise Universal Function `ufunc`"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2sukgh540",
+                                    "created": 1653810237345,
+                                    "text": "floor, ceil, round"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2kzvzggg0",
+                                    "created": 1653809622012,
+                                    "text": "exp"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2l0p6v6o0",
+                                    "created": 1653809623778,
+                                    "text": "sqrt"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2m3jjy600",
+                                    "created": 1653809708332,
+                                    "text": "argmin"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2vjhvl8w0",
+                            "created": 1653810448337,
+                            "text": "statcking"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2wrgh92g0",
+                                    "created": 1653810544031,
+                                    "text": "vstack / hstack"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2xuo2ee80",
+                            "created": 1653810629384,
+                            "text": "spliting"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2xwmtxnc0",
+                                    "created": 1653810633663,
+                                    "text": "hsplit / vsplit"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2y3f7p7c0",
+                                    "created": 1653810648440,
+                                    "text": "array_split"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2zt7ng000",
+                            "created": 1653810782943,
+                            "text": "view",
+                            "note": "方便地用于创建 array 的视图。\n\n- 视图可以 reshape 但原 array 的 shape 将保持不变。\n- 通过索引修改视图会引起原 array 的改变。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2z1nha1c0",
+                            "created": 1653810722950,
+                            "text": "复制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc356lkqmw0",
+                                    "created": 1653811203904,
+                                    "text": "copy 递归调用的深复制"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckc2mbcaab40",
+                    "created": 1653809725307,
+                    "text": "索引"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc2mf8s6mg0",
+                            "created": 1653809733802,
+                            "text": "一维索引 中括号语法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2mgxwsk00",
+                                    "created": 1653809737498,
+                                    "text": "arr[idx]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2mji9mcw0",
+                                    "created": 1653809743083,
+                                    "text": "arr[start : end] 左闭右开区间"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2o00wcdc0",
+                                    "created": 1653809857402,
+                                    "text": "arr[start : end : step]"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ckc2o2suaxs0",
+                                            "created": 1653809863445,
+                                            "text": "[::-1] 逆序"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2p9p6x2g0",
+                            "created": 1653809956826,
+                            "text": "高维索引 在一维索引的基础上使用逗号隔开"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2qwbxuwg0",
+                                    "created": 1653810084455,
+                                    "text": "... 自动补全进行完整索引所需的维度"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc2rnk3mqo0",
+                            "created": 1653810143722,
+                            "text": "迭代",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc2rs18da80",
+                                    "created": 1653810153465,
+                                    "text": "直接 for 迭代会展开第0维",
+                                    "note": " `for element in arr:` 等价 `for row in arr:`"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc2rq9kyi00",
+                                    "created": 1653810149616,
+                                    "text": "arr.flat",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckc279y31nk0",
+                    "created": 1653808546809,
+                    "text": "对象"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc27cts63s0",
+                            "created": 1653808553079,
+                            "text": "ndarray"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc27doposg0",
+                                    "created": 1653808554949,
+                                    "text": "ndim"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc27g7n7cg0",
+                                    "created": 1653808560448,
+                                    "text": "shape"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc27hoxyeg0",
+                                    "created": 1653808563670,
+                                    "text": "size",
+                                    "note": "总数量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc27n7xnr40",
+                                    "created": 1653808575703,
+                                    "text": "itemsize",
+                                    "note": "aka. ndarray.dtype.itemsize"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ckc27urjp3c0",
+                                    "created": 1653808592126,
+                                    "text": "data",
+                                    "note": "实际数据的 buffer"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckc32oqf0nc0",
+                    "created": 1653811008286,
+                    "text": "转换格式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc33b84pl40",
+                            "created": 1653811057246,
+                            "text": "list(arr)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ckc339225uo0",
+                            "created": 1653811052526,
+                            "text": "tolist",
+                            "note": "- 对于一维数组 arr.tolist() 几乎等价于 list(arr)，但是 tolist 会将 dypte 从 numpy 类型转换为 Python 类型。\n- 对于多维数组, `tolist` 是递归调用的。"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

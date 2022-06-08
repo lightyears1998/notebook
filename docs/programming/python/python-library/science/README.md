@@ -1,4 +1,4 @@
-# 科研
+# Python 科研工具
 
 - NumPy 多维数组
 - SciPy 拓展Numpy
