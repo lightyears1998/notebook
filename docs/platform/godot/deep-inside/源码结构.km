@@ -4,7 +4,7 @@
             "id": "celb21n6nq00",
             "created": 1632810615874,
             "text": "Godot 源码",
-            "note": "v3.x dbe0e4613a96387140c43e4b74ea34aebe3d0f91\n\nhttps://github.com/godotengine/godot/tree/dbe0e4613a96387140c43e4b74ea34aebe3d0f91\n\n4.0 的代码在 core 部分已经有很大变化。"
+            "note": "master branch"
         },
         "children": [
             {
