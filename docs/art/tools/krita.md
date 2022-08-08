@@ -10,6 +10,9 @@
 - Ctrl Z / Ctrl Shift Z
 - x and d
 - Slash key (/) to preserve alpha
+- m to mirror
+- (Ctrl +) PageUp / PageDown to (move / switch) layer
+- i / o to increase / decrease opacity
 
 ## Layers
 
@@ -17,7 +20,7 @@
 - Ctrl E to merge
 - add (convert) > transparency mask
   hold Alt and Click on mask layer's thumbnail to view actual paintings on the mask layer.
-- Clipping mask (alpha inheritance)
+- (Ctrl + Shift + G) Clipping group (alpha inheritance)
   the layer won't have its own alpha channel but use other layer's alpha in the same group or the document.
 - Create Clone Array
     when the origin one is modified, the clone is also updated.
