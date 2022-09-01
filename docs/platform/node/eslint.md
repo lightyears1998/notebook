@@ -33,32 +33,40 @@ eslint src --ext .ts --fix
 ``` yml
 root: true
 env:
-  es6: true
-  # node: true
-  # browser: true
+  node: true
 parser: '@typescript-eslint/parser'
 parserOptions:
   project: ./tsconfig.json
 plugins:
   - '@typescript-eslint'
   - import
+  - prettier
 extends:
-  # react-app
-  # plugin:@typescript-eslint/recommended
+  - plugin:@typescript-eslint/recommended
   - plugin:import/errors
   - plugin:import/warnings
   - plugin:import/typescript
-  - "@lightyears1998/lightyears-style"
+  # "@lightyears1998/lightyears-style"
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 rules:
-  indent:
+  "prettier/prettier":
     - warn
-    - 2
-    - SwitchCase: 1
+  # Since we are using prettier to format our code,
+  # both eslint and @typescript-eslint indent rules should be disabled.
+  indent:
+    - off
+  "@typescript-eslint/indent":
+    - off
   no-console:
     - off
+  "@typescript-eslint/no-explicit-any":
+    - off
+  "@typescript-eslint/no-unused-vars":
+    - warn
+    - argsIgnorePattern: "^_"
+      destructuredArrayIgnorePattern": "^_"
 ```
 
 在使用 TypeScript ESLint 时[需要](https://github.com/typescript-eslint/typescript-eslint/issues/1824)关闭原生 indent 规则。
