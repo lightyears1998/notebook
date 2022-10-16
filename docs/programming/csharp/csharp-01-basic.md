@@ -16,8 +16,8 @@
 
 在C#中使用以下类型同义词：
 
-- `obejct`关键字等价于`System.Object`
-- `string`等价于`String`
+- `object` 关键字等价于 `System.Object`
+- `string` 等价于 `String`
 
 ### 字符串插值
 
