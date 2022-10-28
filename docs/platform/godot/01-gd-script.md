@@ -331,3 +331,9 @@ func button_func():
     yield($Button0, "pressed")
     yield($Button1, "pressed")
 ```
+
+---
+
+## 与其他语言的差异
+
+- 空字典为 false。与 JS 的空对象不同。

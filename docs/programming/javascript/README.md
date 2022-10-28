@@ -1,5 +1,7 @@
 # JavaScript常识
 
+- 能解释清楚 JS 理论的 [The JavaScript language on JavaScript.info](https://javascript.info/js)
+
 ## 概述
 
 - ECMAScript 是 JavaScript 的语言标准，JavaScript 是 ECMAScript 的一种实现。

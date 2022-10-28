@@ -112,6 +112,15 @@
                     },
                     {
                         "data": {
+                            "id": "ckdto9686nk0",
+                            "created": 1653987607239,
+                            "text": "arr.copy",
+                            "note": "注意与 numpy.copy 进行区别。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "ckc2tol9zvk0",
                             "created": 1653810302698,
                             "text": "arr.T 转置"
@@ -240,6 +249,14 @@
                     },
                     {
                         "data": {
+                            "id": "ckcu4k5j5fc0",
+                            "created": 1653887325012,
+                            "text": "rot90"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
                             "id": "ckc2vjhvl8w0",
                             "created": 1653810448337,
                             "text": "statcking"
@@ -363,16 +380,7 @@
                             "created": 1653809956826,
                             "text": "高维索引 在一维索引的基础上使用逗号隔开"
                         },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "ckc2qwbxuwg0",
-                                    "created": 1653810084455,
-                                    "text": "... 自动补全进行完整索引所需的维度"
-                                },
-                                "children": []
-                            }
-                        ]
+                        "children": []
                     },
                     {
                         "data": {
@@ -486,6 +494,24 @@
                             "created": 1653811052526,
                             "text": "tolist",
                             "note": "- 对于一维数组 arr.tolist() 几乎等价于 list(arr)，但是 tolist 会将 dypte 从 numpy 类型转换为 Python 类型。\n- 对于多维数组, `tolist` 是递归调用的。"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckdxaoja8b40",
+                    "created": 1653997828022,
+                    "text": "Tricks",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckc2qwbxuwg0",
+                            "created": 1653810084455,
+                            "text": "使用 `...` 来自动补全进行完整索引所需的维度"
                         },
                         "children": []
                     }

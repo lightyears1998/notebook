@@ -159,6 +159,42 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "ckc3ku8nud40",
+                            "created": 1653812430828,
+                            "text": "高级"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ckc3kxf129k0",
+                                    "created": 1653812437744,
+                                    "text": "sprite",
+                                    "note": "以 sprite 的模块化的方式管理代码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ckbwionf00w0",
+                    "created": 1653792514162,
+                    "text": "概念"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ckbwiq1jzqw0",
+                            "created": 1653792517194,
+                            "text": "屏幕坐标",
+                            "note": "在 PyGame 的屏幕坐标系统是左手系，并且以右方向为 x 轴正方向。\n\n- `(0, 0)` 表示屏幕左上角\n- `(10, 0)` 表示屏幕左上角往右 10 像素\n- `(0, 10)` 表示屏幕左上角往下 10 像素\n\n"
+                        },
+                        "children": []
                     }
                 ]
             }
