@@ -288,3 +288,8 @@ print(pizza.pineapple_allowed)
 pizza.pineapple_allowed = True
 print(pizza.pineapple_allowed)
 ```
+
+### 类型的 Covariance、Contra-variance 和 Invariant
+
+- [With Example](https://stackoverflow.com/a/61737894/8762529)
+- [PEP-484](https://peps.python.org/pep-0484/#covariance-and-contravariance)
