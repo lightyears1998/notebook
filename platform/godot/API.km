@@ -1,0 +1,1655 @@
+{
+    "root": {
+        "data": {
+            "id": "cgesj1k3o6w0",
+            "created": 1639461303930,
+            "text": "Godot API",
+            "note": "https://docs.godotengine.org/en/stable/classes/"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cgesj9en22g0",
+                    "created": 1639461321014,
+                    "text": "@GDScript",
+                    "note": "Built-in Godot functions.\n\nhttps://docs.godotengine.org/en/stable/classes/class_%2540gdscript.html",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgess66m2bk0",
+                            "created": 1639462019276,
+                            "text": "Color",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfhudrlbyg0",
+                                    "created": 1639532720258,
+                                    "text": "Color8",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfhu9twim80",
+                                    "created": 1639532711690,
+                                    "text": "ColorN",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgess7jz0oo0",
+                            "created": 1639462022260,
+                            "text": "数学",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfhuipj6vs0",
+                                    "created": 1639532731017,
+                                    "text": "三角函数",
+                                    "note": "默认弧度制。",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhulmn9p40",
+                                            "created": 1639532737373,
+                                            "text": "sin",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfhuvxl9u80",
+                                                    "created": 1639532759802,
+                                                    "text": "asin",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfhumxug280",
+                                            "created": 1639532740227,
+                                            "text": "cos",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfhv129jrc0",
+                                                    "created": 1639532770969,
+                                                    "text": "acos",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfhytjbe280",
+                                                    "created": 1639533068042,
+                                                    "text": "cosh",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfhvc5yrpc0",
+                                            "created": 1639532795137,
+                                            "text": "tan",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfhve8ud0w0",
+                                                    "created": 1639532799665,
+                                                    "text": "atan",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfhvf0s8h40",
+                                                    "created": 1639532801354,
+                                                    "text": "atan2",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfhziwlqe80",
+                                            "created": 1639533123265,
+                                            "text": "deg2rad",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfhzluxjlc0",
+                                                    "created": 1639533129695,
+                                                    "text": "rad2deg",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfhw9sgehs0",
+                                    "created": 1639532868331,
+                                    "text": "实数",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhuqxsh9k0",
+                                            "created": 1639532748931,
+                                            "text": "abs",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfhy19qw9s0",
+                                            "created": 1639533006514,
+                                            "text": "clamp",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfi1qho2xs0",
+                                                    "created": 1639533296505,
+                                                    "text": "floor",
+                                                    "layout": null,
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfhwolvycg0",
+                                                            "created": 1639532900586,
+                                                            "text": "ceil",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfidwp1mw80",
+                                                    "created": 1639534250382,
+                                                    "text": "max",
+                                                    "expandState": "expand",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfidyohjqw0",
+                                                            "created": 1639534254701,
+                                                            "text": "min",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfil0j36zc0",
+                                            "created": 1639534807278,
+                                            "text": "round",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfil2e5ltk0",
+                                                    "created": 1639534811333,
+                                                    "text": "stepify ",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfi7hz7dvk0",
+                                            "created": 1639533748159,
+                                            "text": "lerp",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfi7ith3xc0",
+                                                    "created": 1639533749991,
+                                                    "text": "inverse_lerp",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfici0tmw00",
+                                                    "created": 1639534140078,
+                                                    "text": "lerp_angle",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfiiuzpriw0",
+                                                    "created": 1639534638494,
+                                                    "text": "range_lerp",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfiegw2kgg0",
+                                            "created": 1639534294342,
+                                            "text": "move_toward",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfihu1mjyw0",
+                                            "created": 1639534558069,
+                                            "text": "range",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfinelxq540",
+                                            "created": 1639534994653,
+                                            "text": "wrapi",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfingonw280",
+                                                    "created": 1639534999172,
+                                                    "text": "wrapf",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfi1p15f000",
+                                            "created": 1639533293329,
+                                            "text": "exp",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfiem6bfyg0",
+                                                    "created": 1639534305846,
+                                                    "text": "nearest_po2 ",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfiju5bt8g0",
+                                                    "created": 1639534715021,
+                                                    "text": "sqrt",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfidq81xtc0",
+                                            "created": 1639534236294,
+                                            "text": "log",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfi1xx1uzs0",
+                                            "created": 1639533312673,
+                                            "text": "mod",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfi2718bdc0",
+                                                    "created": 1639533332516,
+                                                    "text": "posmod",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfi1z9vleo0",
+                                                    "created": 1639533315625,
+                                                    "text": "fmod",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfi292ul400",
+                                                    "created": 1639533336968,
+                                                    "text": "fposmod",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfib4npvf40",
+                                            "created": 1639534032623,
+                                            "text": "is_equal_approx",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfibblhstc0",
+                                                    "created": 1639534047726,
+                                                    "text": "is_zero_approx",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfiai0bf280",
+                                            "created": 1639533983319,
+                                            "text": "is_inf",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfiaxydgo80",
+                                            "created": 1639534018030,
+                                            "text": "is_nan",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfik6mr6hs0",
+                                            "created": 1639534742196,
+                                            "text": "step_decimals ",
+                                            "note": "``` godot\nn = step_decimals(5)           # n is 0\nn = step_decimals(1.0005)      # n is 4\nn = step_decimals(0.000000005) # n is 9\n```",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfhwfuloww0",
+                                    "created": 1639532881522,
+                                    "text": "坐标系",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhwhmruf40",
+                                            "created": 1639532885402,
+                                            "text": "cartesian2polar ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfigoq9zts0",
+                                    "created": 1639534468134,
+                                    "text": "随机数",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfih0yk7vc0",
+                                            "created": 1639534494757,
+                                            "text": "randomize",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfihcw5b080",
+                                                    "created": 1639534520732,
+                                                    "text": "rand_seed",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfigpq3vo00",
+                                            "created": 1639534470301,
+                                            "text": "rand_range",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfigqsqajk0",
+                                            "created": 1639534472636,
+                                            "text": "randi",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfigu2lvqw0",
+                                                    "created": 1639534479764,
+                                                    "text": "randf",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgess83f8l40",
+                            "created": 1639462023436,
+                            "text": "调试",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgesscas92o0",
+                                    "created": 1639462032589,
+                                    "text": "assert",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfi5uo6wzk0",
+                                    "created": 1639533619063,
+                                    "text": "get_stack",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfifg7snds0",
+                                    "created": 1639534371238,
+                                    "text": "print",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfifi65mig0",
+                                            "created": 1639534375493,
+                                            "text": "print_debug",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfifm13b2g0",
+                                            "created": 1639534383894,
+                                            "text": "print_stack",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfifqxbf5s0",
+                                            "created": 1639534394549,
+                                            "text": "print_err",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfifz1tzyg0",
+                                            "created": 1639534412237,
+                                            "text": "print_raw",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfig2ygwt40",
+                                            "created": 1639534420741,
+                                            "text": "prints",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfig4qwils0",
+                                                    "created": 1639534424637,
+                                                    "text": "printt",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfigc7qfs80",
+                                    "created": 1639534440892,
+                                    "text": "push_error",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfigelmtc80",
+                                            "created": 1639534446086,
+                                            "text": "push_warning",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfhz4d2gf40",
+                            "created": 1639533091609,
+                            "text": "音频",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfhz5mkosg0",
+                                    "created": 1639533094361,
+                                    "text": "db2linear",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgficr2aw740",
+                                            "created": 1639534159758,
+                                            "text": "linear2db",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfi0o3le000",
+                            "created": 1639533212936,
+                            "text": "几何",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfi0pmxjb40",
+                                    "created": 1639533216282,
+                                    "text": "ease",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfijp9vauw0",
+                                    "created": 1639534704412,
+                                    "text": "smoothstep ",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfhvkssb1s0",
+                            "created": 1639532813931,
+                            "text": "Variant",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfhy709hjk0",
+                                    "created": 1639533019001,
+                                    "text": "convert",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfil6xya4w0",
+                                    "created": 1639534821237,
+                                    "text": "str",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfimrnsyiw0",
+                                            "created": 1639534944700,
+                                            "text": "var2str",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfil9ka89k0",
+                                                    "created": 1639534826941,
+                                                    "text": "str2var",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfiblewg9s0",
+                                    "created": 1639534069095,
+                                    "text": "len",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfhwu59xuw0",
+                                    "created": 1639532912642,
+                                    "text": "char",
+                                    "note": "unicode2char",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhxaeusio0",
+                                            "created": 1639532948050,
+                                            "text": "ord",
+                                            "note": "char2unicode",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfi6j7cjmg0",
+                                    "created": 1639533672464,
+                                    "text": "var2bytes",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhvlw6zx40",
+                                            "created": 1639532816314,
+                                            "text": "bytes2var",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfi6cb8c4o0",
+                                    "created": 1639533657462,
+                                    "text": "inst2dict",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfhzv6sa2o0",
+                                            "created": 1639533150002,
+                                            "text": "dict2inst",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfileq4syo0",
+                                    "created": 1639534838179,
+                                    "text": "to_json",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfimjrw3400",
+                                            "created": 1639534927533,
+                                            "text": "validate_json ",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfietavi400",
+                                            "created": 1639534321359,
+                                            "text": "parse_json ",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfim1yc4ww0",
+                            "created": 1639534888741,
+                            "text": "Type",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfim3zre340",
+                                    "created": 1639534893180,
+                                    "text": "type_exists",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfim8cgcvc0",
+                                    "created": 1639534902655,
+                                    "text": "typeof ",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgessk3nr600",
+                            "created": 1639462049572,
+                            "text": "Reference",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfi2ojgpc00",
+                                    "created": 1639533370624,
+                                    "text": "funcref",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfi6xsbd6g0",
+                                    "created": 1639533704207,
+                                    "text": "get_instance_id",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfi71xy0zc0",
+                                            "created": 1639533713255,
+                                            "text": "instance_from_id",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfiasshoj40",
+                                    "created": 1639534006790,
+                                    "text": "is_instance_valid",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfid0y2lls0",
+                            "created": 1639534181270,
+                            "text": "Resource",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfid28df340",
+                                    "created": 1639534184070,
+                                    "text": "load",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfidh9wtv40",
+                                            "created": 1639534216815,
+                                            "text": "preload",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgessvs4ymo0",
+                            "created": 1639462074997,
+                            "text": "函数执行",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgessx5divc0",
+                                    "created": 1639462077974,
+                                    "text": "yield",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfi66bqufk0",
+                            "created": 1639533644432,
+                            "text": "hash",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgfipa6c0dc0",
+                    "created": 1639535141731,
+                    "text": "Built-in Keywords",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgfir6j6ths0",
+                            "created": 1639535290530,
+                            "text": "built-in types",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfiqnuypy00",
+                                    "created": 1639535249883,
+                                    "text": "int",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfippuyh3k0",
+                                    "created": 1639535175872,
+                                    "text": "float",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfiy3ihoc00",
+                                    "created": 1639535832506,
+                                    "text": "bool",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfipzcwraw0",
+                                    "created": 1639535196548,
+                                    "text": "Variant",
+                                    "note": "A Variant takes up only 20 bytes and can store almost any engine datatype inside of it. ",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfiq3h7k0o0",
+                                    "created": 1639535205515,
+                                    "text": "String",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfirrlysvk0",
+                                    "created": 1639535336410,
+                                    "text": "Array",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfixrn8hao0",
+                                    "created": 1639535806672,
+                                    "text": "Dictionary",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfj4ggef340",
+                                    "created": 1639536330863,
+                                    "text": "PoolByteArray",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgfirjwtrug0",
+                            "created": 1639535319652,
+                            "text": "non-built-in types",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfirmrlq200",
+                                    "created": 1639535325867,
+                                    "text": "Object",
+                                    "layout": null,
+                                    "note": "https://docs.godotengine.org/en/stable/classes/class_object.html#class-object\n\n- 不会自动管理内存。`free()`",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgfixh820080",
+                                            "created": 1639535783986,
+                                            "text": "Reference",
+                                            "layout": null,
+                                            "note": "https://docs.godotengine.org/en/stable/classes/class_reference.html#class-reference\n\nBase class for reference-counted objects.\n\n- 自动管理内存。"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfj06xipuo0",
+                                                    "created": 1639535996673,
+                                                    "text": "Resource",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfk9a9xg7c0",
+                                                            "created": 1639539530342,
+                                                            "text": "InputEvent"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfixkodcyo0",
+                                                    "created": 1639535791503,
+                                                    "text": "FuncRef",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfj55igqe80",
+                                                    "created": 1639536385407,
+                                                    "text": "WeakRef",
+                                                    "layout": null
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfj57bp1ew0",
+                                                            "created": 1639536389351,
+                                                            "text": "get_ref",
+                                                            "layout": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfj77c83nk0",
+                                                    "created": 1639536546112,
+                                                    "text": "GDScriptFunctionState",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfjqguz2680",
+                                            "created": 1639538055756,
+                                            "text": "Node",
+                                            "note": "https://docs.godotengine.org/en/stable/classes/class_node.html#class-node\n\nBase class for all scene objects.\n\nNodes are Godot's building blocks. They can be assigned as the child of another node, resulting in a tree arrangement. A given node can contain any number of nodes as children with the requirement that all siblings (direct children of a node) should have unique names."
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfjqubbyqo0",
+                                                    "created": 1639538085043,
+                                                    "text": "CanvasItem",
+                                                    "note": "https://docs.godotengine.org/en/stable/classes/class_canvasitem.html#class-canvasitem\n\nBase class of anything 2D."
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfm6zf2zu00",
+                                                            "created": 1639544992200,
+                                                            "text": "Control"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfm70vj12o0",
+                                                            "created": 1639544995371,
+                                                            "text": "Node2D"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfmg6wqwk80",
+                                                    "created": 1639545713783,
+                                                    "text": "CanvasLayer"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfmgzxnf3s0",
+                                                    "created": 1639545776964,
+                                                    "text": "HTTPRequets"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfmh6lrxlk0",
+                                                    "created": 1639545791484,
+                                                    "text": "Viewport"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfmh98nuag0",
+                                                    "created": 1639545797221,
+                                                    "text": "WorldEnvironment"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgfnzt56e340",
+                                                    "created": 1639550072211,
+                                                    "text": "[...]"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfnzvnskyg0",
+                                                            "created": 1639550077690,
+                                                            "text": "print_tree"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cgfnzzo9j9c0",
+                                                                    "created": 1639550086426,
+                                                                    "text": "print_tree_pretty"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cgfo07787mo0",
+                                                            "created": 1639550102810,
+                                                            "text": "print_stray_nodes",
+                                                            "note": "打印场景外的节点"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfjs4kxasw0",
+                                            "created": 1639538185755,
+                                            "text": "MainLoop"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfjs7tzmtk0",
+                                                    "created": 1639538192833,
+                                                    "text": "SceneTree",
+                                                    "note": "https://docs.godotengine.org/en/stable/classes/class_scenetree.html#class-scenetree\n\nDefault game loop implementation\n\nUsing SceneTree\nhttps://docs.godotengine.org/en/stable/getting_started/step_by_step/scene_tree.html"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgfo7o6w12o0",
+                                            "created": 1639550688344,
+                                            "text": "[...]"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgfo7pq6xyo0",
+                                                    "created": 1639550691688,
+                                                    "text": "has_method"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgfjcgheg5c0",
+                    "created": 1639536957837,
+                    "text": "@GlobalScope",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgfjlw3q26w0",
+                            "created": 1639537697116,
+                            "text": "ARVRServer",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjlzd7ai00",
+                            "created": 1639537704219,
+                            "text": "AudioServer",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjm2tamxk0",
+                            "created": 1639537711723,
+                            "text": "CameraServer",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjm60a8g80",
+                            "created": 1639537718675,
+                            "text": "ClassDB",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjm9xghwg0",
+                            "created": 1639537727212,
+                            "text": "Engine",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmd52pd40",
+                            "created": 1639537734203,
+                            "text": "Geometry",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmfr9yyo0",
+                            "created": 1639537739899,
+                            "text": "IP",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmj6bn4w0",
+                            "created": 1639537747339,
+                            "text": "Input",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmlqs79s0",
+                            "created": 1639537752931,
+                            "text": "InputMap",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmvlif680",
+                            "created": 1639537774379,
+                            "text": "JSON"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjmx6349s0",
+                            "created": 1639537777799,
+                            "text": "JavaClassWrapper"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjn3qkrrk0",
+                            "created": 1639537792099,
+                            "text": "JavaScript"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjn7d9q200",
+                            "created": 1639537800002,
+                            "text": "Marshalls"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnco87q00",
+                            "created": 1639537811548,
+                            "text": "EditorNavigationMeshGenerator"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnep3yvk0",
+                            "created": 1639537815955,
+                            "text": "OS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjngm66ts0",
+                            "created": 1639537820131,
+                            "text": "Performance"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnj6i1yo0",
+                            "created": 1639537825714,
+                            "text": "Physics2DServer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnlfd9kw0",
+                            "created": 1639537830603,
+                            "text": "PhysicsServer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnnz7pgg0",
+                            "created": 1639537836157,
+                            "text": "ProjectSettings"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnr33wyo0",
+                            "created": 1639537842923,
+                            "text": "ResourceLoader"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnsykxuw0",
+                            "created": 1639537847003,
+                            "text": "ResourceSaver"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnuzrciw0",
+                            "created": 1639537851427,
+                            "text": "TranslationServer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjnx62i880",
+                            "created": 1639537856163,
+                            "text": "VisualScriptEditor"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjny9wl7k0",
+                            "created": 1639537858571,
+                            "text": "VisualServer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgfjo46n3gw0",
+                            "created": 1639537871435,
+                            "text": "Enumerations"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgfjo7s5g1k0",
+                                    "created": 1639537879266,
+                                    "text": "Magin"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjo8pf2bc0",
+                                    "created": 1639537881277,
+                                    "text": "Corner"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjo9x6bs80",
+                                    "created": 1639537883923,
+                                    "text": "Orientation"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjoffd0tk0",
+                                    "created": 1639537895907,
+                                    "text": "HAlign"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjoi7t88w0",
+                                    "created": 1639537901980,
+                                    "text": "VAlign"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjok3x80w0",
+                                    "created": 1639537906099,
+                                    "text": "KeyList"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjoqq2n880",
+                                    "created": 1639537920499,
+                                    "text": "KeyModifierMask"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjosujlgw0",
+                                    "created": 1639537925123,
+                                    "text": "ButtonList"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjouvkozc0",
+                                    "created": 1639537929539,
+                                    "text": "JoystickList"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjoysm2aw0",
+                                    "created": 1639537938067,
+                                    "text": "MidiMessageList"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjp2j0rc00",
+                                    "created": 1639537946194,
+                                    "text": "Error"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjpav48co0",
+                                    "created": 1639537964339,
+                                    "text": "PropertyHint"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjpgmf6tk0",
+                                    "created": 1639537976874,
+                                    "text": "PropertyUsageFlags"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjpjgyme00",
+                                    "created": 1639537983075,
+                                    "text": "MethodFlags"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjpo1io200",
+                                    "created": 1639537993025,
+                                    "text": "Variant.Type"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgfjps32rog0",
+                                    "created": 1639538001826,
+                                    "text": "Variant.Operator"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

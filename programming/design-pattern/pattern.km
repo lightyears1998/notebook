@@ -1,0 +1,302 @@
+{
+    "root": {
+        "data": {
+            "id": "cf3yp02slhs0",
+            "created": 1634705379588,
+            "text": "程序设计",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cf3yrfz1hi80",
+                    "created": 1634705570917,
+                    "text": "基本原则"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3yrfz12i00",
+                            "created": 1634705570917,
+                            "text": "SOLID 原则"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3yrfz1gf40",
+                                    "created": 1634705570917,
+                                    "text": "单一职责原则 Single-responsibility Principle"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz1h0g0",
+                                    "created": 1634705570917,
+                                    "text": "开放闭合原则 Open-closed Principle"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz0xdk0",
+                                    "created": 1634705570917,
+                                    "text": "里氏替换原则 Liskov Substitution Principle"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz1nl40",
+                                    "created": 1634705570918,
+                                    "text": "接口隔离原则 Interface Segregation Principle"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz1nyo0",
+                                    "created": 1634705570918,
+                                    "text": "依赖倒置原则 Dependency Inversion Principle"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3yrfz2j4g0",
+                    "created": 1634705570919,
+                    "text": "设计模式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cf3yrfz2i2g0",
+                            "created": 1634705570919,
+                            "text": "构建型模式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3yrfz2gu00",
+                                    "created": 1634705570919,
+                                    "text": "工厂模式"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cf3yrfz238g0",
+                                            "created": 1634705570919,
+                                            "text": "抽象工厂模式"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz263k0",
+                                    "created": 1634705570919,
+                                    "text": "单例模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz28e80",
+                                    "created": 1634705570919,
+                                    "text": "建造者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz35ew0",
+                                    "created": 1634705570920,
+                                    "text": "原型模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3yrfz36g00",
+                            "created": 1634705570920,
+                            "text": "结构型模式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3yrfz31dk0",
+                                    "created": 1634705570920,
+                                    "text": "适配器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz2r800",
+                                    "created": 1634705570920,
+                                    "text": "桥接模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz2xr40",
+                                    "created": 1634705570920,
+                                    "text": "组合模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz2qg00",
+                                    "created": 1634705570920,
+                                    "text": "装饰模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz2vs80",
+                                    "created": 1634705570920,
+                                    "text": "外观模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz3e1c0",
+                                    "created": 1634705570921,
+                                    "text": "享元模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz3esg0",
+                                    "created": 1634705570921,
+                                    "text": "代理模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cf3yrfz3t880",
+                            "created": 1634705570921,
+                            "text": "行为型模式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cf3yrfz3i1k0",
+                                    "created": 1634705570921,
+                                    "text": "责任链模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz4b480",
+                                    "created": 1634705570922,
+                                    "text": "命令模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz3z5s0",
+                                    "created": 1634705570922,
+                                    "text": "解释器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz4fd40",
+                                    "created": 1634705570922,
+                                    "text": "迭代器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz44ig0",
+                                    "created": 1634705570922,
+                                    "text": "观察者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz41480",
+                                    "created": 1634705570922,
+                                    "text": "备忘录模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz495k0",
+                                    "created": 1634705570922,
+                                    "text": "终结者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz43qw0",
+                                    "created": 1634705570922,
+                                    "text": "状态模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz3z280",
+                                    "created": 1634705570922,
+                                    "text": "策略模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz4g8o0",
+                                    "created": 1634705570922,
+                                    "text": "模板方法模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cf3yrfz505c0",
+                                    "created": 1634705570923,
+                                    "text": "访问者模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cf3yrfz576o0",
+                    "created": 1634705570924,
+                    "text": "编程经验"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

@@ -1,0 +1,71 @@
+{
+    "root": {
+        "data": {
+            "id": "ciym978jwps0",
+            "created": 1648787122005,
+            "text": "HTML"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ciym9b4z99k0",
+                    "created": 1648787130496,
+                    "text": "viewport"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ciym9e790tc0",
+                            "created": 1648787137163,
+                            "text": "视口"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "ciym9guae140",
+                    "created": 1648787142910,
+                    "text": "Favicon"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciymamq46k00",
+                    "created": 1648787234083,
+                    "text": "转义字符"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciymasqpriw0",
+                    "created": 1648787247179,
+                    "text": "超链接"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciymb14v3y80",
+                    "created": 1648787265449,
+                    "text": "语义化标签"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ciymbf8yu9c0",
+                    "created": 1648787296172,
+                    "text": "表单"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

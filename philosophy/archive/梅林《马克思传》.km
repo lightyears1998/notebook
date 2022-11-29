@@ -1,0 +1,92 @@
+{
+    "root": {
+        "data": {
+            "id": "cj9sddw2ats0",
+            "created": 1649921536126,
+            "text": "马克思传",
+            "note": "@author: Franz Mehring"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cj9sdgdhkmg0",
+                    "created": 1649921541534,
+                    "text": "青年时代"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj9sednqerk0",
+                            "created": 1649921613987,
+                            "text": "家庭与学校",
+                            "note": "马克思的父母\n\n马克思的律师出身"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj9sei8c5gg0",
+                            "created": 1649921623940,
+                            "text": "燕妮·冯·威斯特华伦",
+                            "note": "燕妮的家是\n\n出落大方的绝世美人"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cj9sdiprjeg0",
+                    "created": 1649921546629,
+                    "text": "大学时代：黑格尔的弟子"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cj9sqiup4bk0",
+                            "created": 1649922565662,
+                            "text": "柏林的第一年",
+                            "note": "b"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj9sqnevtv40",
+                            "created": 1649922575590,
+                            "text": "青年黑格尔派"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj9sqtqi6xs0",
+                            "created": 1649922589353,
+                            "text": "自我意识的哲学"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj9sr2uwqts0",
+                            "created": 1649922609210,
+                            "text": "博士论文"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cj9sr3podq80",
+                            "created": 1649922611071,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

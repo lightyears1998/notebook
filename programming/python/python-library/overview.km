@@ -1,0 +1,2398 @@
+{
+    "root": {
+        "data": {
+            "id": "cgc40a3b0xk0",
+            "created": 1639189007035,
+            "text": "Python 标准库"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cgc40zmzen40",
+                    "created": 1639189062644,
+                    "text": "Built-in "
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc41evlyzc0",
+                            "created": 1639189095818,
+                            "text": "Functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc41g9459c0",
+                            "created": 1639189098811,
+                            "text": "Contants"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc41i70qig0",
+                            "created": 1639189103038,
+                            "text": "Types"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc41ivq6u80",
+                            "created": 1639189104532,
+                            "text": "Exceptions"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc41pzqac00",
+                    "created": 1639189120012,
+                    "text": "Text Processing"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc41vvu13s0",
+                            "created": 1639189132837,
+                            "text": "string"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc41wivys00",
+                            "created": 1639189134231,
+                            "text": "re"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc41ybjxgo0",
+                            "created": 1639189138141,
+                            "text": "difflib"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc422xpvew0",
+                            "created": 1639189148188,
+                            "text": "textwrap"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc42avx2rs0",
+                            "created": 1639189165494,
+                            "text": "unicodedata"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc42gh0jxs0",
+                            "created": 1639189177653,
+                            "text": "stringrep"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc42o4vs6g0",
+                            "created": 1639189194334,
+                            "text": "readline"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc42q426000",
+                            "created": 1639189198638,
+                            "text": "rlcompleter"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc42x3fuxs0",
+                    "created": 1639189213838,
+                    "text": "Binary Data Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc431h5i9k0",
+                            "created": 1639189223374,
+                            "text": "struct"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4329lhqo0",
+                            "created": 1639189225094,
+                            "text": "codec"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc43552f280",
+                    "created": 1639189231350,
+                    "text": "Data Types",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc43bon5200",
+                            "created": 1639189245595,
+                            "text": "datetime — Basic date and time types"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43bond7k0",
+                            "created": 1639189245595,
+                            "text": "zoneinfo — IANA time zone support"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo7m80",
+                            "created": 1639189245596,
+                            "text": "calendar — General calendar-related functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo4jc0",
+                            "created": 1639189245596,
+                            "text": "collections — Container datatypes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43bonuug0",
+                            "created": 1639189245596,
+                            "text": "collections.abc — Abstract Base Classes for Containers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo0so0",
+                            "created": 1639189245596,
+                            "text": "heapq — Heap queue algorithm"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo6fs0",
+                            "created": 1639189245596,
+                            "text": "bisect — Array bisection algorithm"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43bont4g0",
+                            "created": 1639189245596,
+                            "text": "array — Efficient arrays of numeric values"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43booa340",
+                            "created": 1639189245596,
+                            "text": "weakref — Weak references"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43bonqso0",
+                            "created": 1639189245596,
+                            "text": "types — Dynamic type creation and names for built-in types"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo0s80",
+                            "created": 1639189245596,
+                            "text": "copy — Shallow and deep copy operations"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo83c0",
+                            "created": 1639189245596,
+                            "text": "pprint — Data pretty printer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo7pc0",
+                            "created": 1639189245596,
+                            "text": "reprlib — Alternate repr() implementation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boo0yo0",
+                            "created": 1639189245596,
+                            "text": "enum — Support for enumerations"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc43boor8w0",
+                            "created": 1639189245597,
+                            "text": "graphlib — Functionality to operate with graph-like structures"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448b1nk0",
+                    "created": 1639189307733,
+                    "text": "Numeric and Mathematical Modules"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448aw200",
+                            "created": 1639189307733,
+                            "text": "numbers — Numeric abstract base classes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448armg0",
+                            "created": 1639189307733,
+                            "text": "math — Mathematical functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b1r40",
+                            "created": 1639189307733,
+                            "text": "cmath — Mathematical functions for complex numbers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448auzc0",
+                            "created": 1639189307733,
+                            "text": "decimal — Decimal fixed point and floating point arithmetic"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448aoh40",
+                            "created": 1639189307733,
+                            "text": "fractions — Rational numbers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b8g80",
+                            "created": 1639189307734,
+                            "text": "random — Generate pseudo-random numbers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ba000",
+                            "created": 1639189307734,
+                            "text": "statistics — Mathematical statistics functions"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448bi9s0",
+                    "created": 1639189307734,
+                    "text": "Functional Programming Modules"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448b8880",
+                            "created": 1639189307734,
+                            "text": "itertools — Functions creating iterators for efficient looping"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b5eo0",
+                            "created": 1639189307734,
+                            "text": "functools — Higher-order functions and operations on callable objects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b53c0",
+                            "created": 1639189307734,
+                            "text": "operator — Standard operators as functions"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448ba540",
+                    "created": 1639189307734,
+                    "text": "File and Directory Access"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448b71c0",
+                            "created": 1639189307734,
+                            "text": "pathlib — Object-oriented filesystem paths"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b4ww0",
+                            "created": 1639189307734,
+                            "text": "os.path — Common pathname manipulations"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bgw00",
+                            "created": 1639189307734,
+                            "text": "fileinput — Iterate over lines from multiple input streams"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bb1s0",
+                            "created": 1639189307734,
+                            "text": "stat — Interpreting stat() results"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448b8i80",
+                            "created": 1639189307734,
+                            "text": "filecmp — File and Directory Comparisons"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bbrk0",
+                            "created": 1639189307734,
+                            "text": "tempfile — Generate temporary files and directories"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bwxk0",
+                            "created": 1639189307735,
+                            "text": "glob — Unix style pathname pattern expansion"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bvkw0",
+                            "created": 1639189307735,
+                            "text": "fnmatch — Unix filename pattern matching"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c9m80",
+                            "created": 1639189307735,
+                            "text": "linecache — Random access to text lines"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c1nc0",
+                            "created": 1639189307735,
+                            "text": "shutil — High-level file operations"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448bzrk0",
+                    "created": 1639189307735,
+                    "text": "Data Persistence"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448c05c0",
+                            "created": 1639189307735,
+                            "text": "pickle — Python object serialization"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c45c0",
+                            "created": 1639189307735,
+                            "text": "copyreg — Register pickle support functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c9r40",
+                            "created": 1639189307735,
+                            "text": "shelve — Python object persistence"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c7rk0",
+                            "created": 1639189307735,
+                            "text": "marshal — Internal Python object serialization"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448c0d40",
+                            "created": 1639189307735,
+                            "text": "dbm — Interfaces to Unix “databases”"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448bxug0",
+                            "created": 1639189307735,
+                            "text": "sqlite3 — DB-API 2.0 interface for SQLite databases"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448c6ns0",
+                    "created": 1639189307735,
+                    "text": "Data Compression and Archiving"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448c8go0",
+                            "created": 1639189307735,
+                            "text": "zlib — Compression compatible with gzip"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ckhc0",
+                            "created": 1639189307736,
+                            "text": "gzip — Support for gzip files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cq0w0",
+                            "created": 1639189307736,
+                            "text": "bz2 — Support for bzip2 compression"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cg7c0",
+                            "created": 1639189307736,
+                            "text": "lzma — Compression using the LZMA algorithm"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cd4g0",
+                            "created": 1639189307736,
+                            "text": "zipfile — Work with ZIP archives"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cihs0",
+                            "created": 1639189307736,
+                            "text": "tarfile — Read and write tar archive files"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448ctzc0",
+                    "created": 1639189307736,
+                    "text": "File Formats"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448coa00",
+                            "created": 1639189307736,
+                            "text": "csv — CSV File Reading and Writing"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cce00",
+                            "created": 1639189307736,
+                            "text": "configparser — Configuration file parser"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ccb40",
+                            "created": 1639189307736,
+                            "text": "netrc — netrc file processing"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cemo0",
+                            "created": 1639189307736,
+                            "text": "xdrlib — Encode and decode XDR data"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cukg0",
+                            "created": 1639189307736,
+                            "text": "plistlib — Generate and parse Apple .plist files"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448clkw0",
+                    "created": 1639189307736,
+                    "text": "Cryptographic Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448dfw80",
+                            "created": 1639189307737,
+                            "text": "hashlib — Secure hashes and message digests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cvmo0",
+                            "created": 1639189307737,
+                            "text": "hmac — Keyed-Hashing for Message Authentication"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cvhc0",
+                            "created": 1639189307737,
+                            "text": "secrets — Generate secure random numbers for managing secrets"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448d4xk0",
+                    "created": 1639189307737,
+                    "text": "Generic Operating System Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448d4400",
+                            "created": 1639189307737,
+                            "text": "os — Miscellaneous operating system interfaces"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448d82w0",
+                            "created": 1639189307737,
+                            "text": "io — Core tools for working with streams"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cy3s0",
+                            "created": 1639189307737,
+                            "text": "time — Time access and conversions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448d2xc0",
+                            "created": 1639189307737,
+                            "text": "argparse — Parser for command-line options, arguments and sub-commands"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448cvfk0",
+                            "created": 1639189307737,
+                            "text": "getopt — C-style parser for command line options"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448da740",
+                            "created": 1639189307737,
+                            "text": "logging — Logging facility for Python"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dlsw0",
+                            "created": 1639189307738,
+                            "text": "logging.config — Logging configuration"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dv480",
+                            "created": 1639189307738,
+                            "text": "logging.handlers — Logging handlers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448drso0",
+                            "created": 1639189307738,
+                            "text": "getpass — Portable password input"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448do600",
+                            "created": 1639189307738,
+                            "text": "curses — Terminal handling for character-cell displays"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dq9s0",
+                            "created": 1639189307738,
+                            "text": "curses.textpad — Text input widget for curses programs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448djpk0",
+                            "created": 1639189307738,
+                            "text": "curses.ascii — Utilities for ASCII characters"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448e13s0",
+                            "created": 1639189307738,
+                            "text": "curses.panel — A panel stack extension for curses"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dye00",
+                            "created": 1639189307738,
+                            "text": "platform — Access to underlying platform’s identifying data"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448e0dc0",
+                            "created": 1639189307738,
+                            "text": "errno — Standard errno system symbols"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dps00",
+                            "created": 1639189307738,
+                            "text": "ctypes — A foreign function library for Python"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448dl280",
+                    "created": 1639189307738,
+                    "text": "Concurrent Execution"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448dzcw0",
+                            "created": 1639189307738,
+                            "text": "threading — Thread-based parallelism"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448dwi80",
+                            "created": 1639189307738,
+                            "text": "multiprocessing — Process-based parallelism"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448elo80",
+                            "created": 1639189307739,
+                            "text": "multiprocessing.shared_memory — Provides shared memory for direct access across processes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448edtk0",
+                            "created": 1639189307739,
+                            "text": "The concurrent package"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448e2fc0",
+                            "created": 1639189307739,
+                            "text": "concurrent.futures — Launching parallel tasks"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448eja00",
+                            "created": 1639189307739,
+                            "text": "subprocess — Subprocess management"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ei2w0",
+                            "created": 1639189307739,
+                            "text": "sched — Event scheduler"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ejls0",
+                            "created": 1639189307739,
+                            "text": "queue — A synchronized queue class"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ed1s0",
+                            "created": 1639189307739,
+                            "text": "contextvars — Context Variables"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448e53k0",
+                            "created": 1639189307739,
+                            "text": "_thread — Low-level threading API"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448eaiw0",
+                    "created": 1639189307739,
+                    "text": "Networking and Interprocess Communication"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448e9q80",
+                            "created": 1639189307739,
+                            "text": "asyncio — Asynchronous I/O"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ehm00",
+                            "created": 1639189307739,
+                            "text": "socket — Low-level networking interface"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448eahk0",
+                            "created": 1639189307739,
+                            "text": "ssl — TLS/SSL wrapper for socket objects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ellk0",
+                            "created": 1639189307739,
+                            "text": "select — Waiting for I/O completion"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f4ds0",
+                            "created": 1639189307740,
+                            "text": "selectors — High-level I/O multiplexing"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448eyww0",
+                            "created": 1639189307740,
+                            "text": "asyncore — Asynchronous socket handler"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f7zs0",
+                            "created": 1639189307740,
+                            "text": "asynchat — Asynchronous socket command/response handler"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448evfk0",
+                            "created": 1639189307740,
+                            "text": "signal — Set handlers for asynchronous events"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f03k0",
+                            "created": 1639189307740,
+                            "text": "mmap — Memory-mapped file support"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448eods0",
+                    "created": 1639189307740,
+                    "text": "Internet Data Handling"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448f5fk0",
+                            "created": 1639189307740,
+                            "text": "email — An email and MIME handling package"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448erbk0",
+                            "created": 1639189307740,
+                            "text": "json — JSON encoder and decoder"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f2bs0",
+                            "created": 1639189307740,
+                            "text": "mailcap — Mailcap file handling"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448evu80",
+                            "created": 1639189307740,
+                            "text": "mailbox — Manipulate mailboxes in various formats"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f4c80",
+                            "created": 1639189307740,
+                            "text": "mimetypes — Map filenames to MIME types"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f2dc0",
+                            "created": 1639189307740,
+                            "text": "base64 — Base16, Base32, Base64, Base85 Data Encodings"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ep4g0",
+                            "created": 1639189307740,
+                            "text": "binhex — Encode and decode binhex4 files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448eyj40",
+                            "created": 1639189307740,
+                            "text": "binascii — Convert between binary and ASCII"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fku00",
+                            "created": 1639189307741,
+                            "text": "quopri — Encode and decode MIME quoted-printable data"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fsnc0",
+                            "created": 1639189307741,
+                            "text": "uu — Encode and decode uuencode files"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448fbxc0",
+                    "created": 1639189307741,
+                    "text": "Structured Markup Processing Tools"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448fhwg0",
+                            "created": 1639189307741,
+                            "text": "html — HyperText Markup Language support"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fbns0",
+                            "created": 1639189307741,
+                            "text": "html.parser — Simple HTML and XHTML parser"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fja80",
+                            "created": 1639189307741,
+                            "text": "html.entities — Definitions of HTML general entities"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fi4g0",
+                            "created": 1639189307741,
+                            "text": "XML Processing Modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fr200",
+                            "created": 1639189307741,
+                            "text": "xml.etree.ElementTree — The ElementTree XML API"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fa7c0",
+                            "created": 1639189307741,
+                            "text": "xml.dom — The Document Object Model API"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ft680",
+                            "created": 1639189307741,
+                            "text": "xml.dom.minidom — Minimal DOM implementation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fhvc0",
+                            "created": 1639189307741,
+                            "text": "xml.dom.pulldom — Support for building partial DOM trees"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448f9880",
+                            "created": 1639189307741,
+                            "text": "xml.sax — Support for SAX2 parsers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fjt40",
+                            "created": 1639189307741,
+                            "text": "xml.sax.handler — Base classes for SAX handlers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448g6g00",
+                            "created": 1639189307742,
+                            "text": "xml.sax.saxutils — SAX Utilities"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fya80",
+                            "created": 1639189307742,
+                            "text": "xml.sax.xmlreader — Interface for XML parsers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gffk0",
+                            "created": 1639189307742,
+                            "text": "xml.parsers.expat — Fast XML parsing using Expat"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448gdso0",
+                    "created": 1639189307742,
+                    "text": "Internet Protocols and Support"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448g2g00",
+                            "created": 1639189307742,
+                            "text": "webbrowser — Convenient web-browser controller"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448fy140",
+                            "created": 1639189307742,
+                            "text": "cgi — Common Gateway Interface support"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448h03s0",
+                            "created": 1639189307743,
+                            "text": "cgitb — Traceback manager for CGI scripts"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448h0pk0",
+                            "created": 1639189307743,
+                            "text": "wsgiref — WSGI Utilities and Reference Implementation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gh0g0",
+                            "created": 1639189307743,
+                            "text": "urllib — URL handling modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gx8o0",
+                            "created": 1639189307743,
+                            "text": "urllib.request — Extensible library for opening URLs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ghps0",
+                            "created": 1639189307743,
+                            "text": "urllib.response — Response classes used by urllib"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gnag0",
+                            "created": 1639189307743,
+                            "text": "urllib.parse — Parse URLs into components"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gyb40",
+                            "created": 1639189307743,
+                            "text": "urllib.error — Exception classes raised by urllib.request"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ggco0",
+                            "created": 1639189307743,
+                            "text": "urllib.robotparser — Parser for robots.txt"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gkkw0",
+                            "created": 1639189307743,
+                            "text": "http — HTTP modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gmzk0",
+                            "created": 1639189307743,
+                            "text": "http.client — HTTP protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gvjs0",
+                            "created": 1639189307743,
+                            "text": "ftplib — FTP protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gy7c0",
+                            "created": 1639189307743,
+                            "text": "poplib — POP3 protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gwtc0",
+                            "created": 1639189307743,
+                            "text": "imaplib — IMAP4 protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448gtn40",
+                            "created": 1639189307743,
+                            "text": "nntplib — NNTP protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448h3mg0",
+                            "created": 1639189307744,
+                            "text": "smtplib — SMTP protocol client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hcmg0",
+                            "created": 1639189307744,
+                            "text": "smtpd — SMTP Server"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hfj40",
+                            "created": 1639189307744,
+                            "text": "telnetlib — Telnet client"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hj340",
+                            "created": 1639189307744,
+                            "text": "uuid — UUID objects according to RFC 4122"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hasw0",
+                            "created": 1639189307744,
+                            "text": "socketserver — A framework for network servers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448h8rk0",
+                            "created": 1639189307744,
+                            "text": "http.server — HTTP servers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hbb40",
+                            "created": 1639189307744,
+                            "text": "http.cookies — HTTP state management"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hfhk0",
+                            "created": 1639189307744,
+                            "text": "http.cookiejar — Cookie handling for HTTP clients"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hbts0",
+                            "created": 1639189307744,
+                            "text": "xmlrpc — XMLRPC server and client modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hens0",
+                            "created": 1639189307744,
+                            "text": "xmlrpc.client — XML-RPC client access"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hjp40",
+                            "created": 1639189307744,
+                            "text": "xmlrpc.server — Basic XML-RPC servers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448h8340",
+                            "created": 1639189307744,
+                            "text": "ipaddress — IPv4/IPv6 manipulation library"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448hkfk0",
+                    "created": 1639189307744,
+                    "text": "Multimedia Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448h8tc0",
+                            "created": 1639189307744,
+                            "text": "audioop — Manipulate raw audio data"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448i1340",
+                            "created": 1639189307745,
+                            "text": "aifc — Read and write AIFF and AIFC files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448i2680",
+                            "created": 1639189307745,
+                            "text": "sunau — Read and write Sun AU files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hntk0",
+                            "created": 1639189307745,
+                            "text": "wave — Read and write WAV files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448i6sg0",
+                            "created": 1639189307745,
+                            "text": "chunk — Read IFF chunked data"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hq200",
+                            "created": 1639189307745,
+                            "text": "colorsys — Conversions between color systems"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448i29k0",
+                            "created": 1639189307745,
+                            "text": "imghdr — Determine the type of an image"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hpp40",
+                            "created": 1639189307745,
+                            "text": "sndhdr — Determine type of sound file"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hywg0",
+                            "created": 1639189307745,
+                            "text": "ossaudiodev — Access to OSS-compatible audio devices"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448hqqg0",
+                    "created": 1639189307745,
+                    "text": "Internationalization"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448hp1s0",
+                            "created": 1639189307745,
+                            "text": "gettext — Multilingual internationalization services"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448hxoo0",
+                            "created": 1639189307745,
+                            "text": "locale — Internationalization services"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448hzzk0",
+                    "created": 1639189307745,
+                    "text": "Program Frameworks"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448iqig0",
+                            "created": 1639189307746,
+                            "text": "turtle — Turtle graphics"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448iqhk0",
+                            "created": 1639189307746,
+                            "text": "cmd — Support for line-oriented command interpreters"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448iqh40",
+                            "created": 1639189307746,
+                            "text": "shlex — Simple lexical analysis"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448ira80",
+                    "created": 1639189307746,
+                    "text": "Graphical User Interfaces with Tk"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448inhc0",
+                            "created": 1639189307746,
+                            "text": "tkinter — Python interface to Tcl/Tk"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448iiwg0",
+                            "created": 1639189307746,
+                            "text": "tkinter.colorchooser — Color choosing dialog"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448idao0",
+                            "created": 1639189307746,
+                            "text": "tkinter.font — Tkinter font wrapper"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ipog0",
+                            "created": 1639189307746,
+                            "text": "Tkinter Dialogs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448iow00",
+                            "created": 1639189307746,
+                            "text": "tkinter.messagebox — Tkinter message prompts"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448iqcg0",
+                            "created": 1639189307746,
+                            "text": "tkinter.scrolledtext — Scrolled Text Widget"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ievk0",
+                            "created": 1639189307746,
+                            "text": "tkinter.dnd — Drag and drop support"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448inzs0",
+                            "created": 1639189307746,
+                            "text": "tkinter.ttk — Tk themed widgets"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ii3s0",
+                            "created": 1639189307746,
+                            "text": "tkinter.tix — Extension widgets for Tk"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jecg0",
+                            "created": 1639189307747,
+                            "text": "IDLE"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448j9vc0",
+                    "created": 1639189307747,
+                    "text": "Development Tools"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448jdnk0",
+                            "created": 1639189307747,
+                            "text": "typing — Support for type hints"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j0eg0",
+                            "created": 1639189307747,
+                            "text": "pydoc — Documentation generator and online help system"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j04g0",
+                            "created": 1639189307747,
+                            "text": "Python Development Mode"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jbaw0",
+                            "created": 1639189307747,
+                            "text": "Effects of the Python Development Mode"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j6680",
+                            "created": 1639189307747,
+                            "text": "ResourceWarning Example"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j6aw0",
+                            "created": 1639189307747,
+                            "text": "Bad file descriptor error example"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ixts0",
+                            "created": 1639189307747,
+                            "text": "doctest — Test interactive Python examples"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j12w0",
+                            "created": 1639189307747,
+                            "text": "unittest — Unit testing framework"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jaxs0",
+                            "created": 1639189307747,
+                            "text": "unittest.mock — mock object library"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jdk80",
+                            "created": 1639189307747,
+                            "text": "unittest.mock — getting started"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ja3k0",
+                            "created": 1639189307747,
+                            "text": "2to3 - Automated Python 2 to 3 code translation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448j0a80",
+                            "created": 1639189307747,
+                            "text": "test — Regression tests package for Python"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jzio0",
+                            "created": 1639189307748,
+                            "text": "test.support — Utilities for the Python test suite"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jg280",
+                            "created": 1639189307748,
+                            "text": "test.support.socket_helper — Utilities for socket tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jp540",
+                            "created": 1639189307748,
+                            "text": "test.support.script_helper — Utilities for the Python execution tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jhqg0",
+                            "created": 1639189307748,
+                            "text": "test.support.bytecode_helper — Support tools for testing correct bytecode generation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jy800",
+                            "created": 1639189307748,
+                            "text": "test.support.threading_helper — Utilities for threading tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jv2g0",
+                            "created": 1639189307748,
+                            "text": "test.support.os_helper — Utilities for os tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jr340",
+                            "created": 1639189307748,
+                            "text": "test.support.import_helper — Utilities for import tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jomg0",
+                            "created": 1639189307748,
+                            "text": "test.support.warnings_helper — Utilities for warnings tests"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448jzew0",
+                    "created": 1639189307748,
+                    "text": "Debugging and Profiling"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448jf9k0",
+                            "created": 1639189307748,
+                            "text": "Audit events table"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jp7c0",
+                            "created": 1639189307748,
+                            "text": "bdb — Debugger framework"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jm5k0",
+                            "created": 1639189307748,
+                            "text": "faulthandler — Dump the Python traceback"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jg4o0",
+                            "created": 1639189307748,
+                            "text": "pdb — The Python Debugger"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448jnbk0",
+                            "created": 1639189307748,
+                            "text": "The Python Profilers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448k2hc0",
+                            "created": 1639189307749,
+                            "text": "timeit — Measure execution time of small code snippets"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ke1c0",
+                            "created": 1639189307749,
+                            "text": "trace — Trace or track Python statement execution"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kg6g0",
+                            "created": 1639189307749,
+                            "text": "tracemalloc — Trace memory allocations"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448kh7c0",
+                    "created": 1639189307749,
+                    "text": "Software Packaging and Distribution"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448k37s0",
+                            "created": 1639189307749,
+                            "text": "distutils — Building and installing Python modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448k8k00",
+                            "created": 1639189307749,
+                            "text": "ensurepip — Bootstrapping the pip installer"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448k35s0",
+                            "created": 1639189307749,
+                            "text": "venv — Creation of virtual environments"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kkwo0",
+                            "created": 1639189307749,
+                            "text": "zipapp — Manage executable Python zip archives"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448k26o0",
+                    "created": 1639189307749,
+                    "text": "Python Runtime Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448khe00",
+                            "created": 1639189307749,
+                            "text": "sys — System-specific parameters and functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448k6680",
+                            "created": 1639189307749,
+                            "text": "sysconfig — Provide access to Python’s configuration information"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kkag0",
+                            "created": 1639189307749,
+                            "text": "builtins — Built-in objects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ke000",
+                            "created": 1639189307749,
+                            "text": "__main__ — Top-level code environment"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448klk80",
+                            "created": 1639189307749,
+                            "text": "warnings — Warning control"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ktow0",
+                            "created": 1639189307750,
+                            "text": "dataclasses — Data Classes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448l4u00",
+                            "created": 1639189307750,
+                            "text": "contextlib — Utilities for with-statement contexts"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448l0340",
+                            "created": 1639189307750,
+                            "text": "abc — Abstract Base Classes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kt1c0",
+                            "created": 1639189307750,
+                            "text": "atexit — Exit handlers"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ktwo0",
+                            "created": 1639189307750,
+                            "text": "traceback — Print or retrieve a stack traceback"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448l3k80",
+                            "created": 1639189307750,
+                            "text": "__future__ — Future statement definitions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kr340",
+                            "created": 1639189307750,
+                            "text": "gc — Garbage Collector interface"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448kmrs0",
+                            "created": 1639189307750,
+                            "text": "inspect — Inspect live objects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448l49s0",
+                            "created": 1639189307750,
+                            "text": "site — Site-specific configuration hook"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448l4io0",
+                    "created": 1639189307750,
+                    "text": "Custom Python Interpreters"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448kvvc0",
+                            "created": 1639189307750,
+                            "text": "code — Interpreter base classes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448krfc0",
+                            "created": 1639189307750,
+                            "text": "codeop — Compile Python code"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448kz4o0",
+                    "created": 1639189307750,
+                    "text": "Importing Modules"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448lcls0",
+                            "created": 1639189307751,
+                            "text": "zipimport — Import modules from Zip archives"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lsao0",
+                            "created": 1639189307751,
+                            "text": "pkgutil — Package extension utility"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lbig0",
+                            "created": 1639189307751,
+                            "text": "modulefinder — Find modules used by a script"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lhfs0",
+                            "created": 1639189307751,
+                            "text": "runpy — Locating and executing Python modules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448l8gg0",
+                            "created": 1639189307751,
+                            "text": "importlib — The implementation of import"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lbu00",
+                            "created": 1639189307751,
+                            "text": "Using importlib.metadata"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448lr5c0",
+                    "created": 1639189307751,
+                    "text": "Python Language Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448lokg0",
+                            "created": 1639189307751,
+                            "text": "ast — Abstract Syntax Trees"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lisg0",
+                            "created": 1639189307751,
+                            "text": "symtable — Access to the compiler’s symbol tables"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lpmw0",
+                            "created": 1639189307751,
+                            "text": "token — Constants used with Python parse trees"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448laq00",
+                            "created": 1639189307751,
+                            "text": "keyword — Testing for Python keywords"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lzt40",
+                            "created": 1639189307752,
+                            "text": "tokenize — Tokenizer for Python source"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448m7q80",
+                            "created": 1639189307752,
+                            "text": "tabnanny — Detection of ambiguous indentation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lxw00",
+                            "created": 1639189307752,
+                            "text": "pyclbr — Python module browser support"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448lyww0",
+                            "created": 1639189307752,
+                            "text": "py_compile — Compile Python source files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mfk80",
+                            "created": 1639189307753,
+                            "text": "compileall — Byte-compile Python libraries"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mun40",
+                            "created": 1639189307753,
+                            "text": "dis — Disassembler for Python bytecode"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448msew0",
+                            "created": 1639189307753,
+                            "text": "pickletools — Tools for pickle developers"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448mtig0",
+                    "created": 1639189307753,
+                    "text": "MS Windows Specific Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448my9k0",
+                            "created": 1639189307753,
+                            "text": "msilib — Read and write Microsoft Installer files"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mnrk0",
+                            "created": 1639189307753,
+                            "text": "msvcrt — Useful routines from the MS VC++ runtime"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448myb40",
+                            "created": 1639189307753,
+                            "text": "winreg — Windows registry access"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mmao0",
+                            "created": 1639189307753,
+                            "text": "winsound — Sound-playing interface for Windows"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448mqxs0",
+                    "created": 1639189307753,
+                    "text": "Unix Specific Services"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448mwag0",
+                            "created": 1639189307753,
+                            "text": "posix — The most common POSIX system calls"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mv8g0",
+                            "created": 1639189307753,
+                            "text": "pwd — The password database"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mq540",
+                            "created": 1639189307753,
+                            "text": "spwd — The shadow password database"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n3s80",
+                            "created": 1639189307754,
+                            "text": "grp — The group database"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n3a80",
+                            "created": 1639189307754,
+                            "text": "crypt — Function to check Unix passwords"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n4kw0",
+                            "created": 1639189307754,
+                            "text": "termios — POSIX style tty control"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ncjs0",
+                            "created": 1639189307754,
+                            "text": "tty — Terminal control functions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n3hs0",
+                            "created": 1639189307754,
+                            "text": "pty — Pseudo-terminal utilities"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448ngf40",
+                            "created": 1639189307754,
+                            "text": "fcntl — The fcntl and ioctl system calls"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448njvc0",
+                            "created": 1639189307754,
+                            "text": "pipes — Interface to shell pipelines"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n99k0",
+                            "created": 1639189307754,
+                            "text": "resource — Resource usage information"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448nbdc0",
+                            "created": 1639189307754,
+                            "text": "nis — Interface to Sun’s NIS (Yellow Pages)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448mzyo0",
+                            "created": 1639189307754,
+                            "text": "syslog — Unix syslog library routines"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc4448nhpk0",
+                    "created": 1639189307754,
+                    "text": "Superseded Modules"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgc4448n0d40",
+                            "created": 1639189307754,
+                            "text": "optparse — Parser for command line options"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgc4448n8v40",
+                            "created": 1639189307754,
+                            "text": "imp — Access the import internals"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
