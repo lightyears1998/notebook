@@ -1,6 +1,6 @@
 # Git
 
-- 在Windows环境下可与Kleopatra配合使用以取得GPG支持。
+- 在 Windows 环境下可与 Kleopatra 配合使用以取得 GPG 支持。
 
 ## 起飞操作
 
@@ -111,12 +111,28 @@ git tag -a "标签信息" [-m "message"] [commit-sha1]
 git push <remote> --tags
 ```
 
-### 检查签名
+### 签名相关
+
+查看签名
 
 ```sh
 git log --show-signature -1
 ```
 
+重新签名（修改历史）
+
+``` sh
+# 对 <commit-hash> 之后的 commit 补充签名
+git rebase --exec 'git commit --amend --no-edit -n -S' -i <commit-hash>
+
+# 对历史上的所有 commit 补充签名
+git rebase --exec 'git commit --amend --no-edit -n -S' -i --root
+```
+
 ---
 
 - [Git/Github 中文术语表](https://mp.weixin.qq.com/s/5EvrlCVc7g0LX7DMhI-ZnQ)
+
+### 历史编辑工具
+
+- `git-filter-repo` 可通过 pip 安装。
