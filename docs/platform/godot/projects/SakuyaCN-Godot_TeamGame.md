@@ -15,6 +15,5 @@ SakuyaCN 在 GodoterCN 上还有一些其他的教程，简单列出如下：
 
 虽说本篇的重点是学习秘境森林探险队，但我决定拿实现战棋网格小教程和MMKV作为练手的小项目。
 
-https://github.com/Tencent/MMKV
-https://github.com/SakuyaCN/Godot-MMKV/blob/main/addons/godot-mmkv/mmkv.gd
-https://godoter.cn/d/96-2dtilemap
+- 战棋网格小教程 借这个教程稍微练习了新版的 Tween。
+- [Godot-MMKV](https://github.com/SakuyaCN/Godot-MMKV/) 这个项目不简单。它使用 Godot Native，背靠腾讯开源的 MMKV 项目，能实现一个高性能的 KV 储存框架（微信同款）。Godot 这一侧是做了库的绑定。MMKV 的核心是 `mmap`，多线程还需要根据操作系统的实现加锁。日后有时间应该仔细学习一下 MMKV 的原理。
