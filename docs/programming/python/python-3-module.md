@@ -258,7 +258,7 @@ print(s._Spam__egg)      # 7
 print(s.__egg)           # AttributeError: 'Spam' object has no attribute '__egg'
 ```
 
-### 属性
+### 属性 `@property` 修饰符
 
 以字段的形式访问方法，从而使特定的字段只读或能通过方法自动生成。
 
