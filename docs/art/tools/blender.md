@@ -1,6 +1,6 @@
 # Blender
 
-## 3D 视口
+## Object Mode
 
 ### 物体基本操作
 
@@ -13,8 +13,11 @@
 - `右击` 取消操作
 - `X`, `Y`, `Z` 或 `鼠标中键` 沿着指定的轴向移动
 
+- `Ctrl` + `A`pply 应用（例如缩放等）
+
 - `SHIFT + D` 复制物体
 - `X` 或 `Delete` 删除物体
+- `H` (`Alt` + `H`) 隐藏物体
 
 ### 视口基本操作
 
@@ -32,14 +35,64 @@
 - `Tab` 在当前模式和下一个模式（编辑模式）之间切换
 - `Ctrl + Tab` 显示模式饼状选单
 
-## 着火的猴子头
+### 添加物体
 
 - `SHIFT + A` 添加物体
 - `F3` 召唤搜索框 搜索使用 Quick Smoke 快速烟雾
+- 设置 Segment 的技巧：保持一个面是正方形会比较好。
 
-使用播放键开始播放效果。
+### 添加修改器
 
-选中猴子头的物理面板，将流体类型改为“Fire + Smoke”。
+扳手工具
+
+- Subdivision Surface
+- Solidify
+- Shrinkwrap
+
+## Edit View
+
+- `Alt + Click` Select edge loop
+- `Alt` + `S` Shrink/Fatten 沿法线缩放
+
+- Toggle X-Ray
+- Select Linked `L`
+- Separate `P`
+- Extrude `E`
+
+### Snapping
+
+- Project individual elements
+
+## Sculpting
+
+Remember to apply modifiers in its order before starting sculpting.
+
+`Ctrl` to reverse effects, `F` to set pen size and `Shift + F` to set strength.
+
+- **Grab** `G`
+- **Smooth** press `Shift` to temporary change to this tool
+- **Inflate**
+
+## Rendering
+
+- 注意 Preferences > System 中的 Cycles Rendering Method 是否有硬件加速。
+- Camera to View Or `Ctrl + Alt + NumPad 0` 将相机定位到当前视角。
+
+## Shading
+
+`Ctrl + RMB` to cut connections. Use Node Wrangler plugin and `Ctrl Shift LMB` to preview the output of a node.
+`Ctrl + X` to delete node between keep the lines flow from left to right.
+
+- Texture Coordinate
+- Noise Texture
+- ColorRamp
+- Bump
+- Image Texture
+- Mix
+
+## Texture Painting
+
+
 
 ---
 
