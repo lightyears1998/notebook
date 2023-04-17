@@ -3,20 +3,30 @@
 Under a viewport, press `N` to bring up property panel.
 Hit `Ctrl + Space` to full screen on a panel.
 
+- `~` or `z` to bring up pie menu.
+
 ## Object Mode
 
 ### 物体基本操作
 
 - `左键` 选择；`右键` 上下文菜单
+- `C` 滚动选择
+- `Ctrl + Plus` 拓展选择
+- `Ctrl + L` 选择与当前选中项目相连的部分
 
 - 移动选中物体 `G`
 - 旋转选中物体 `R`
 - 缩放选中物体 `S`
+- 按住 `Alt` + `G`, `R`, `S` 启用备用的移动、选择或缩放模式
+  - `Alt` + `S` Shrink/Fatten 沿法线缩放
+- 连按快捷键两次亦有其他编辑模式
 
 - `右击` 取消操作
 - `X`, `Y`, `Z` 或 `鼠标中键` 沿着指定的轴向移动
 
 - `Ctrl` + `A`pply 应用（例如缩放等）
+
+- `Shift + S` 操作 Cursor （例如将 Cursor 放置到世界原点）
 
 - `SHIFT + D` 复制物体
 - `X` 或 `Delete` 删除物体
@@ -60,14 +70,17 @@ Hit `Ctrl + Space` to full screen on a panel.
 ## Edit View
 
 - `Alt + Click` Select edge loop
-- `Alt` + `S` Shrink/Fatten 沿法线缩放
 
-- Toggle X-Ray
+- `Alt + N` 法线相关操作
+
+- Toggle X-Ray `Alt + Z`
 - Select Linked `L`
 - Separate `P`
 - Extrude `E`
+- Add Face `F`
 
 - `Ctrl + R` Loop cut
+- `Ctrl + B` Add bevel
 
 ### Snapping
 
@@ -168,9 +181,11 @@ In Scene > ViewLayers > Passes, one can include more information for Compositor.
 ## 控制杂项
 
 - 模拟鼠标中键 开启 Preferences => Emulate 3 Button Mouse，按下 `ALT + 鼠标左键`模拟鼠标中键。
+- 模拟 NumPad
 
 ---
 
 ## 参考资料
 
 - [Guru制作 游戏叉叉兵翻译 的 blender 2.8 视频教程](https://www.bilibili.com/video/BV1az4y1X7Tr)
+- [Tutorial: Blender MODELLING For Absolute Beginners - Simple Human](https://www.youtube.com/watch?v=9xAumJRKV6A)
