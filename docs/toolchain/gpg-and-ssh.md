@@ -88,6 +88,12 @@ Match Group forbidpasswdlogin
     PasswordAuthentication no
 ```
 
+### `ForwardAgent`
+
+在 ssh config 中设置 `ForwardAgent yes` 可以让 ssh 转发密钥对，以便于在远程电脑上进行需要密钥对的操作，例如，`git clone`。
+
+需要检查 SSH Agent 是否启动。在 Windows 上这是一个服务。
+
 ---
 
 ## Trouble shooting
