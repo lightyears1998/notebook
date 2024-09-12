@@ -6,7 +6,15 @@
 - <https://play.golang.org>
 - <https://blog.golang.org>
 
-## 代码组织
+## Module 模式代码组织
+
+阅读以下文档：
+
+- 现代 Go 代码组织 <https://go.dev/doc/code>
+- `GOPATH` 的历史 <https://go.dev/wiki/GOPATH>
+- Go Module <https://go.dev/blog/using-go-modules>
+
+## `GOPATH` 模式代码组织（废弃）
 
 所有的Go代码被组织在一个工作空间`GOPATH`中（由环境变量`GOPATH`指定）。
 
