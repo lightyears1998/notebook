@@ -306,6 +306,12 @@ III 是调式特性音级。
 
 ---
 
+## 配器法 Orchestration
+
+TODO
+
+---
+
 ## 参考链接
 
 1. [doyoudo.com 上的音乐制作教程](https://space.bilibili.com/20503549/channel/detail?cid=3846)
